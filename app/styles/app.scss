@@ -1,0 +1,159 @@
+@import "custom";
+@import "ember-cli-bootstrap-4/bootstrap";
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $orbitron-font-stack;
+}
+
+a {
+  font-weight: $semi-bold-weight;
+}
+
+body {
+  font-family: $open-san-font-stack;
+  font-weight: 100;
+  font-style: normal;
+  font-variant: normal;
+}
+
+main {
+  background-color: #fff;
+  margin-bottom: 16em;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: -1000;
+}
+
+.bg-gray {
+  background-color: $gray-200;
+}
+
+#highlightAccordion {
+  .item {
+    border-bottom: 1px solid $gray-400;
+    padding: 1em;
+
+    &:last-child {
+      border-bottom: 0px;
+    }
+  }
+}
+
+.jumbotron {
+  background-image: url("images/banner.jpg");
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-bottom: 1em;
+
+  .jumbotron-content {
+    margin-top: 2em;
+    min-height: 10em;
+  }
+}
+
+.logo {
+  &.netlab { max-height: 40px; }
+  &.caltech { max-height: 100px; }
+  &.eas { max-height: 1em; }
+}
+
+.logos > a { vertical-align: middle; }
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  .navbar-nav {
+    .nav-item {
+      text-transform: uppercase;
+
+      a { font-weight: $light-weight; }
+    }
+  }
+}
+.navbar.bg-dark {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.navbar-brand .logo {
+  height: 2em !important;
+}
+
+.navbar-margin {
+  margin-top: 5em;
+}
+#publications, #highlights {
+  font-size: 0.8em;
+}
+.researches{
+  .research {
+    overflow: hidden;
+    height: 20rem;
+
+    & > div { width: 100%; height: 100%; position: relative; }
+
+    .bg-psss {
+      background: url('http://placehold.it/500x400');
+      background-size: cover;
+      background-position: center;
+    }
+
+    h3 {
+      position: absolute;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, .75);
+      color: #fff;
+      padding: 1rem;
+      padding-right: 1.5em;
+      margin: 0;
+      width: 100%;
+      height: 4.3rem;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  }
+}
+
+
+ul.custom {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding-left: 1.3em;
+
+    &:before {
+      color: #008aff;
+      font-family: FontAwesome;
+      display: inline-block;
+      margin-left: -1.3em;
+      width: 1.3em;
+    }
+
+    &.check:before {
+      content: "\f00c";
+    }
+    &.file:before {
+      content: "\f0f6";
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  #highlights {
+    border-left: 1px solid $gray-500;
+  }
+}

@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('research');
+  this.route('people');
+  this.route('publications');
+  this.route('resources');
 });
 
 export default Router;

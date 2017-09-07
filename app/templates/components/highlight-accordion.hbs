@@ -1,0 +1,7 @@
+<div id="highlightAccordion" data-children=".item" class="my-3">
+  {{#each model as |item index|}}
+    <div class="item">
+      {{highlight-item model=item index=index parent='#highlightAccordion'}}
+    </div>
+  {{/each}}
+</div>
