@@ -18,7 +18,7 @@ body {
 
 main {
   background-color: #fff;
-  margin-bottom: 16em;
+  margin-bottom: 18em;
 }
 
 footer {
@@ -107,9 +107,26 @@ footer {
 
     .bg-psss {
       background: url('http://placehold.it/500x400');
+    }
+
+    .bg-communications-network {
+      background: url('/assets/images/research-areas/communications-network.png');
+    }
+
+    .bg-power-systems-dynamics {
+      background: url('/assets/images/research-areas/power-systems-dynamics.jpg');
+    }
+
+    .bg-electric-vehicles {
+      background: url('/assets/images/research-areas/electric-vehicles.png');
+    }
+
+    .bg-psss, .bg-communications-network, .bg-electric-vehicles, .bg-power-systems-dynamics {
       background-size: cover;
       background-position: center;
     }
+
+
 
     h3 {
       position: absolute;
