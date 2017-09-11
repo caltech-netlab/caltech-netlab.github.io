@@ -51,27 +51,11 @@
   <div class="row">
     <div id="publications" class="col-lg-6">
       <h2 class="text-lg-center">Recent Publications</h2>
-      <ul class="custom my-3">
-        <li class="file">
-          Tang, Yujie and Low, Steven H. (2017) <a href="#">Optimal Placement of Energy Storage in Distribution Networks</a>. IEEE Transactions on Smart Grid . ISSN 1949-3053. (In Press) <a href="http://resolver.caltech.edu/CaltechAUTHORS:20170613-162646711">http://resolver.caltech.edu/CaltechAUTHORS:20170613-162646711</a>
-        </li>
-        <li class="file">
-          Tang, Yujie and Dvijotham, Krishnamurthy and Low, Steven (2017) <a href="#">Real-time Optimal Power Flow</a>. IEEE Transactions on Smart Grid . ISSN 1949-3053. (In Press) <a href="http://resolver.caltech.edu/CaltechAUTHORS:20170517-150114536">http://resolver.caltech.edu/CaltechAUTHORS:20170517-150114536</a>
-        </li>
-        <li class="file">
-          Nakahira, Yorie and Chen, Niangjun and Chen, Lijun et al. (2017) <a href="#">Smoothed Least-laxity-first Algorithm for EV Charging</a>. In: e-Energy '17 Proceedings of the Eighth International Conference on Future Energy Systems. ACM , New York, NY, pp. 242-251. ISBN 978-1-4503-5036-5 <a href="http://resolver.caltech.edu/CaltechAUTHORS:20170515-140123828">http://resolver.caltech.edu/CaltechAUTHORS:20170515-140123828</a>
-        </li>
-        <li class="file">
-          Tang, Yujie and Dvijotham, Krishnamurthy and Low, Steven (2017) <a href="#">Real-time OPF based on quasi-Newton methods</a>. In: 51st Annual Conference on Information Sciences and Systems (CISS). IEEE , Piscatway, NJ. ISBN 978-1-5090-4780-2 <a href="http://resolver.caltech.edu/CaltechAUTHORS:20170517-151532951">http://resolver.caltech.edu/CaltechAUTHORS:20170517-151532951</a>
-        </li>
-        <li class="file">
-          Xu, Yunjian and Low, Steven H. (2017) <a href="#">An Efficient and Incentive Compatible Mechanism for Wholesale Electricity Markets</a>. IEEE Transactions on Smart Grid, 8 (1). pp. 128-138. ISSN 1949-3053.
-        </li>
-      </ul>
+      {{component 'publication-list' model=model.publications}}
     </div>
     <div id="highlights" class="col-lg-6">
       <h2 class="text-lg-center">Highlights</h2>
-      {{component 'highlight-accordion' model=model}}
+      {{component 'highlight-accordion' model=model.highlights}}
     </div>
   </div>
 </div>

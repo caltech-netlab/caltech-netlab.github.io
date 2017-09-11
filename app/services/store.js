@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import Highlight from 'netlab/models/highlight'
+import Publication from 'netlab/models/publication'
 
 const highlights = [];
 
@@ -38,8 +39,27 @@ highlight = Highlight.create({
 });
 highlights.pushObject(highlight);
 
+const publications = [];
+
 export default Ember.Service.extend({
   getHighlights() {
     return highlights;
+  },
+
+  fetchPublicationsInLibrary() {
+    return Ember.$.getJSON("http://authors.library.caltech.edu/cgi/exportview/person-az/Low-S-H/JSON/Low-S-H.js", function(data) {
+      let arr = data.slice(0, 5);
+      publications.clear();
+
+      Ember.$(arr).each(function() {
+        publications.pushObject(this);
+      });
+
+      // console.log(publications);
+    });
+  },
+
+  getPublications() {
+    return publications;
   }
 });

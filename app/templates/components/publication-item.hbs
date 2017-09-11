@@ -1,0 +1,33 @@
+{{#each model.creators as |creator|}}
+  {{creator.name.family}}, {{creator.name.given}} {{#unless
+  (eq creator model.creators.lastObject)}}and {{/unless}}
+{{/each}}
+({{string-slice model.date 0 4}})
+<a href="{{model.official_url}}"><em>{{model.title}}.</em></a>
+{{#if model.event_title}}
+  In: {{#if model.book_title}} {{model.book_title}}{{else}}{{model.publication}}{{/if}}.
+  {{model.publisher}}, {{model.place_of_pub}}{{#if model.pagerange}}, pp. {{model.pagerange}}{{/if}}.
+  ISBN {{model.isbn}}.
+{{else if model.isbn}}
+  {{#if model.book_title}} {{model.book_title}}{{else}}{{model.publication}}{{/if}}.
+  {{#if model.number}} No. {{model.number}}.{{/if}}
+  {{model.publisher}}, {{model.place_of_pub}}{{#if model.pagerange}}, pp. {{model.pagerange}}{{/if}}.
+  ISBN {{model.isbn}}.
+{{else if model.issn}}
+  {{model.publication}}{{#if model.volume}}, {{model.volume}} {{#if model.number}}({{model.number}}){{/if}}{{/if}}.
+  {{#if model.pagerange}}pp. {{model.pagerange}}.{{/if}}
+  ISSN {{model.issn}}.
+{{/if}}
+
+{{#if model.ispublished}}
+  {{#if (eq model.ispublished 'inpress')}}
+    (In Press)
+  {{else if (eq model.ispublished 'pub')}}
+    {{!-- Do nothing --}}
+  {{else if (eq model.ispublished 'unpub')}}
+    {{#if model.publisher}}{{model.publisher}}, {{/if}}{{model.place_of_pub}}.
+    (Unpublished)
+  {{/if}}
+{{/if}}
+
+<a href="{{model.official_url}}">{{model.official_url}}</a>

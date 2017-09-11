@@ -2,6 +2,11 @@
   <div class="row">
     <div class="col-12">
       <h1>Publications</h1>
+      {{#if model.publications}}
+        {{component 'publication-list' model=model.publications}}
+      {{else}}
+        <p>No publications available.</p>
+      {{/if}}
     </div>
   </div>
 </div>
