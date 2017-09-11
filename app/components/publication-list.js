@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  publications: [],
+
   hasPublications: false,
 
   showPublication: Ember.on('didInsertElement', function() {

@@ -4,7 +4,7 @@ export default Ember.Route.extend({
   model: function() {
     return Ember.RSVP.hash({
       highlights: this.get('store').getHighlights(),
-      publications: this.get('store').getPublications()
+      publications: this.get('store').getRecentPublications()
     });
   },
 
