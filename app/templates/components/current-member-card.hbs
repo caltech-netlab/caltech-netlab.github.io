@@ -1,0 +1,29 @@
+<div class="profile card mb-3">
+  <div class="profile d-flex flex-row card border-0">
+    <div class="image {{profile-image-class model.imageClass}}"></div>
+    <div class="card-body">
+      <h4>
+        {{model.name}}
+        {{#if model.shared}}
+          <small>(with {{model.shared}})</small>
+        {{/if}}
+      </h4>
+      <p class="card-text">
+        {{model.position}}<br>
+        {{#if model.duration}}
+          {{model.duration}}<br>
+        {{/if}}
+        {{#if model.link}}
+          <a class="card-link" href="{{model.link}}">Website</a>
+        {{/if}}
+      </p>
+    </div>
+  </div>
+  {{#if model.research}}
+    <div class="research card-body">
+      {{#each model.research as |p|}}
+        <p class="card-text">{{p}}</p>
+      {{/each}}
+    </div>
+  {{/if}}
+</div>

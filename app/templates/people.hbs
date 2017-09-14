@@ -2,6 +2,103 @@
   <div class="row">
     <div class="col-12">
       <h1>People</h1>
+
+      <section id="faculty" class="my-3">
+        <h2 class="my-3">Faculty</h2>
+
+        <div class="profile d-flex flex-row card mb-3">
+          <div class="image steven-low"></div>
+          <div class="card-body">
+            <h4>Steven H. Low</h4>
+            Professor of Computer Science and Electrical Engineering
+            <br>
+            <small><em>B.S., Cornell University, 1987; M.S., University of California, 1989; Ph.D., 1992. Associate Professor, Caltech, 2000-06; Professor, 2006-.</em></small>
+            <br>
+            <small>CEO, <a href="http://www.fastsoft.com/">FastSoft Inc</a>, 2006-08</small>
+          </div>
+        </div>
+
+        <h3 class="my-3">Caltech Collaborators</h3>
+
+        {{#each model.facultyCollaborators as |person|}}
+          {{component "current-member-card" model=person}}
+        {{/each}}
+
+      </section>
+
+      <section class="my-3">
+        <h2>Admin</h2>
+
+        {{#each model.admin as |person|}}
+          {{component "current-member-card" model=person}}
+        {{/each}}
+
+      </section>
+
+      <section id="current-memebers" class="my-3">
+        <h2>Current Members</h2>
+
+        <h4>Research Staff</h4>
+
+        {{#each model.staff as |person|}}
+          {{component "current-member-card" model=person}}
+        {{/each}}
+
+        <h4>Postdoctoral Researchers</h4>
+
+        {{#each model.postdocs as |person|}}
+          {{component "current-member-card" model=person}}
+        {{/each}}
+
+        <h4>Graduate Students</h4>
+
+        {{#each model.graduates as |person|}}
+          {{component "current-member-card" model=person}}
+        {{/each}}
+
+        <h4>Visiting Ph.D. Students</h4>
+
+        {{#each model.visitingPhDStudents as |person|}}
+          {{component "current-member-card" model=person}}
+        {{/each}}
+
+      </section>
+
+      <section class="my-3">
+        <h2 class="my-3">Previous Members</h2>
+
+        <h4 class="my-3">Postdoctoral Researchers</h4>
+        <div class="card-columns flex-lg-wrap visitors">
+          {{#each model.pastPostdocs as |person|}}
+            {{component "previous-member-card" model=person}}
+          {{/each}}
+        </div>
+
+        <h4 class="my-3">Graduate Students</h4>
+        <div class="card-columns flex-lg-wrap visitors">
+          {{#each model.pastGraduateStudents as |person|}}
+            {{component "previous-member-card" model=person}}
+          {{/each}}
+        </div>
+
+        <h4 class="my-3">Visitors</h4>
+
+        <h5 class="my-2">Faculty</h5>
+        <div class="card-columns flex-lg-wrap visitors">
+          {{#each model.pastVisitingFaculty as |person|}}
+            {{component "previous-member-card" model=person}}
+          {{/each}}
+        </div>
+
+        <h5 class="my-2">Ph.D. Students</h5>
+
+        <div class="card-columns flex-lg-wrap visitors">
+          {{#each model.pastPhDStudents as |person|}}
+            {{component "previous-member-card" model=person}}
+          {{/each}}
+        </div>
+      </section>
+
     </div>
   </div>
 </div>

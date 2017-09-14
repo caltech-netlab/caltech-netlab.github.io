@@ -1,0 +1,35 @@
+<div class="card">
+  <div class="card-body">
+    <strong>
+      {{model.name}}
+      {{#if model.shared}}
+        <small>(with {{model.shared}})</small>
+      {{/if}}
+    </strong>
+    {{#if model.duration}}
+      <span class="float-right">{{model.duration}}</span>
+    {{/if}}
+    <p class="card-text">
+      {{#if model.degree}}
+        <small>
+          {{model.degree}}
+          {{#if model.degree_university}}
+            ({{model.degree_university}})
+          {{/if}}
+        </small><br>
+      {{/if}}
+      {{#if model.department}}
+        <small>{{model.department}}</small><br>
+      {{/if}}
+      {{#if model.university}}
+        <small>{{model.university}}</small><br>
+      {{/if}}
+      {{#if model.current}}
+        <small>{{model.current}}</small><br>
+      {{/if}}
+      {{#if model.link}}
+        <small><a href="{{model.link}}">Profile</a></small>
+      {{/if}}
+    </p>
+  </div>
+</div>

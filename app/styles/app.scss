@@ -95,6 +95,89 @@ footer {
 .navbar-margin {
   margin-top: 5em;
 }
+
+.profile {
+  min-width: 15rem;
+
+  .research.card-body {
+    border-top: 1px solid $gray-200;
+  }
+  .card-image { overflow: hidden;}
+  .image {
+    min-width: 10rem;
+    min-height: 10rem;
+    background-size: cover;
+    background-position: center;
+
+    &.no-face {
+      background-image: url('http://placehold.it/400x600');
+    }
+
+    // faculty
+    &.steven-low {
+      background-image: url('images/people/faculty/steven-low-2.jpg');
+    }
+    &.adam-wierman {
+      background-image: url('images/people/faculty/adam-wierman.jpg');
+    }
+    &.john-doyle {
+      background-image: url('images/people/faculty/john-doyle.jpg');
+    }
+    &.mani-chandy {
+      background-image: url('images/people/faculty/mani-chandy.jpg');
+    }
+
+
+    // research staff
+    &.ted-lee {
+      background-image: url('images/people/research-staff/ted-lee.png');
+    }
+
+    // postdocs
+    &.james-anderson {
+      background-image: url('images/people/postdocs/james-anderson.png');
+    }
+
+    // graduates
+    &.niangjun-chen {
+      background-image: url('images/people/graduates/niangjun-chen.png');
+    }
+    &.yujie-tang {
+      background-image: url('images/people/graduates/yujie-tang.png');
+    }
+    &.daniel-guo {
+      background-image: url('images/people/graduates/daniel-guo.png');
+    }
+    &.john-pang {
+      background-image: url('images/people/graduates/john-pang.png');
+    }
+    &.zach-lee {
+      background-image: url('images/people/graduates/zach-lee.png');
+    }
+    &.chen-liang {
+      background-image: url('images/people/graduates/chen-liang.png');
+    }
+    &.fengyu-zhou {
+      background-image: url('images/people/graduates/fengyu-zhou.png');
+    }
+    &.lucien-werner {
+      background-image: url('images/people/graduates/lucien-werner.png');
+    }
+    &.tongxin-li {
+      background-image: url('images/people/graduates/tongxin-li.png');
+    }
+
+    // visiting phd
+    &.zhaojian-wang {
+      background-image: url('images/people/visiting-graduates/zhaojian-wang.png');
+    }
+    &.pengcheng-you {
+      background-image: url('images/people/visiting-graduates/pengcheng-you.png');
+    }
+  }
+}
+
+
 #publications, #highlights {
   font-size: 0.8em;
 }
@@ -169,8 +252,38 @@ ul.custom {
   }
 }
 
+.card-columns {
+  @include media-breakpoint-only(sm) {
+    column-count: 1;
+  }
+  @include media-breakpoint-only(md) {
+    column-count: 2;
+  }
+  @include media-breakpoint-only(lg) {
+    column-count: 3;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 4;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+
+  #current-members .image {
+    min-width: 20rem !important;
+    min-height: 20rem !important;
+  }
+}
+@include media-breakpoint-down(md) {
+
+
+}
 @include media-breakpoint-up(lg) {
   #highlights {
     border-left: 1px solid $gray-500;
+  }
+
+  .profile-spacer {
+    display: none !important;
   }
 }
