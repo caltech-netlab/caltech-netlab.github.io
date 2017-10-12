@@ -61,3 +61,10 @@ Specify what it takes to deploy your app.
 #### Research Images
 
 * Preferably 600x800 or larger.
+
+## Notes
+
+### Publications
+Resources used:
+* [pagination](https://ember-twiddle.com/e26ab2cf0ee1df839cfbea5877c4fa62)
+* [params passing](https://ember-twiddle.com/b9f5b807b87f9f2a592351012b6f14cf?openFiles=services.task-pager.js%2Ctemplates.components.display-qp.hbs&route=%2Ftasks%3Fpage%3D1)

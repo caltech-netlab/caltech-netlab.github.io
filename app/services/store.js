@@ -248,8 +248,9 @@ export default Ember.Service.extend({
     return people;
   },
 
+  // Need to use JSONP inorder to get pass the cross-origin error
   fetchPublicationsInLibrary() {
-    return Ember.$.getJSON("http://authors.library.caltech.edu/cgi/exportview/person-az/Low-S-H/JSON/Low-S-H.js", function(data) {
+    return Ember.$.getJSON("http://authors.library.caltech.edu/cgi/exportview/person-az/Low-S-H/JSON/Low-S-H.js?callback=?", function(data) {
       // let arr = data.slice(0, 10);
       publications.clear();
       let recentLimit = 5;
@@ -284,6 +285,10 @@ export default Ember.Service.extend({
       });
 
       // console.log(publications);
+    }).done(function() {
+      // console.log("done!");
+    }).fail(function() {
+      // console.log("help!");
     });
   },
 
