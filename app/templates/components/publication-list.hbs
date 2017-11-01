@@ -1,3 +1,7 @@
-{{#each model as |publication| }}
-  {{component 'publication-item' model=publication class='file'}}
-{{/each}}
+{{#if hasPublications}}
+  {{#each model as |publication| }}
+    {{component 'publication-item' model=publication class='file'}}
+  {{/each}}
+{{else}}
+  <p>Loading..{{fa-icon 'circle-o-notch' spin=true}}</p>
+{{/if}}

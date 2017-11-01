@@ -46,7 +46,6 @@ footer {
 }
 
 .jumbotron {
-  background-image: url("images/banner.jpg");
   -webkit-background-position: center;
   -moz-background-position: center;
   -o-background-position: center;
@@ -61,6 +60,30 @@ footer {
     margin-top: 2em;
     min-height: 10em;
   }
+}
+
+.jumbotron-home-banner {
+  background-image: url("images/banners/banner-1.jpg");
+}
+
+.jumbotron-people-banner {
+  background-image: url("images/banners/banner-2.jpg");
+  -webkit-background-position: top;
+  -moz-background-position: top;
+  -o-background-position: top;
+  background-position: top;
+}
+
+.jumbotron-publications-banner {
+  background-image: url("images/banners/banner-5.jpg");
+}
+
+.jumbotron-research-banner {
+  background-image: url("images/banners/banner-3.jpg");
+}
+
+.jumbotron-resources-banner {
+  background-image: url("images/banners/banner-4.jpg");
 }
 
 .logo {
@@ -181,6 +204,28 @@ footer {
 #publications, #highlights {
   font-size: 0.8em;
 }
+
+.bg-psss {
+  background: url('http://placehold.it/500x400');
+}
+
+.bg-communications-network {
+  background: url('/assets/images/research-areas/communications-network.png');
+}
+
+.bg-power-systems-dynamics {
+  background: url('/assets/images/research-areas/power-systems-dynamics.jpg');
+}
+
+.bg-electric-vehicles {
+  background: url('/assets/images/research-areas/electric-vehicles.png');
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
+
 .researches{
   .research {
     overflow: hidden;
@@ -188,28 +233,10 @@ footer {
 
     & > div { width: 100%; height: 100%; position: relative; }
 
-    .bg-psss {
-      background: url('http://placehold.it/500x400');
-    }
-
-    .bg-communications-network {
-      background: url('/assets/images/research-areas/communications-network.png');
-    }
-
-    .bg-power-systems-dynamics {
-      background: url('/assets/images/research-areas/power-systems-dynamics.jpg');
-    }
-
-    .bg-electric-vehicles {
-      background: url('/assets/images/research-areas/electric-vehicles.png');
-    }
-
     .bg-psss, .bg-communications-network, .bg-electric-vehicles, .bg-power-systems-dynamics {
       background-size: cover;
       background-position: center;
     }
-
-
 
     h3 {
       position: absolute;
@@ -224,6 +251,12 @@ footer {
       font-size: 1.2rem;
       text-align: center;
     }
+  }
+}
+
+.research {
+  .bg-cover {
+    min-height: 300px;
   }
 }
 

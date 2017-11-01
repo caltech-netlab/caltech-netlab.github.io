@@ -253,6 +253,7 @@ export default Ember.Service.extend({
     return Ember.$.getJSON("http://authors.library.caltech.edu/cgi/exportview/person-az/Low-S-H/JSON/Low-S-H.js?callback=?", function(data) {
       // let arr = data.slice(0, 10);
       publications.clear();
+      recentPublications.clear();
       let recentLimit = 5;
       let recentCount = 0;
       Ember.$(data).each(function() {
