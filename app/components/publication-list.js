@@ -10,10 +10,16 @@ export default Ember.Component.extend({
     let publications = this
     if (this.get('store').getPublications().length == 0) {
       this.get('store').fetchPublicationsInLibrary().done(function() {
+        if (publications.isDestroyed) {
+          return;
+        }
         publications.set('hasPublications', true);
       });
     }
     else {
+      if (publications.isDestroyed) {
+        return;
+      }
       publications.set('hasPublications', true);
     }
   }),

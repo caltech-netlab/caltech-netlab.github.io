@@ -110,7 +110,7 @@ const people = {
     {
       name: "John Pang",
       shared: "Wierman",
-      position: "Graduate Student",
+      position: "Graduate Student in Computing and Mathematical Sciences",
       imageClass: "john-pang",
       research: [
         "John works in the union of power systems and economics, and aims to learn more about electricity markets and how we can truthfully elicit participation from (controllable load, controllable generation and renewable generation) participants to promote a more efficient and robust power system. He has worked on platforms on networked markets and also implementing frequency control under a limited control coverage. Previously, John also worked on data analysis and machine learning while he was at A*STAR, Singapore."
@@ -126,8 +126,16 @@ const people = {
       ]
     },
     {
+      name: "Chen Liang",
+      position: "Graduate Student in Computing and Mathematical Sciences",
+      imageClass: "chen-liang",
+      research: [
+        "My research interests include network science, graph theory, and power system analysis. Currently, I'm working on cascading failures in power systems."
+      ]
+    },
+    {
       name: "Fengyu Zhou",
-      position: "Graduate Student",
+      position: "Graduate Student in Electrical Engineering",
       imageClass: "fengyu-zhou",
       link: "https://scholar.google.com/citations?hl=en&user=i-oBMbYAAAAJ&view_op=list_works&gmla=AJsN-F750ajwJtiVfwwVEcPKbsi9QeYae3weVYD28AV8FCNsuryOGtodjf2dIA_nULOZCD5dMnjy_9jUqkO4CffF9yAkq6U7ts7Yd1RITjBfaggTor2Gf_8",
       research: [
@@ -136,16 +144,15 @@ const people = {
     },
     {
       name: "Lucien Werner",
-      position: "Graduate Student",
+      position: "Graduate Student in Computing and Mathematical Sciences",
       imageClass: "lucien-werner",
-      link: "https://scholar.google.com/citations?hl=en&user=i-oBMbYAAAAJ&view_op=list_works&gmla=AJsN-F750ajwJtiVfwwVEcPKbsi9QeYae3weVYD28AV8FCNsuryOGtodjf2dIA_nULOZCD5dMnjy_9jUqkO4CffF9yAkq6U7ts7Yd1RITjBfaggTor2Gf_8",
       research: [
         "I am a first-year graduate student interested in cyber-physical systems, in particular stability analysis and control of power networks. In the past I have researched pattern formation in dynamical systems. Outside of mathematics, I have a career as a cellist and continue to perform around the world--often with my three sisters who are all also musicians and mathematicians. Prior to joining Caltech, I received degrees in mathematics, music, and politics from Northwestern University, Harvard University, and Montana State University."
       ]
     },
     {
       name: "Tongxin Li",
-      position: "Graduate Student",
+      position: "Graduate Student in Computing and Mathematical Sciences",
       imageClass: "tongxin-li",
       research: [
         "My research interests have been mainly focused on problems arising in applications of communication. I have been thinking about issues in various topics including group testing, compressed sensing, deletion channels and adversarial channels, etc. Most of the concerned issues are highly related to mathematical problems in combinatorics, probability theory and optimization.",

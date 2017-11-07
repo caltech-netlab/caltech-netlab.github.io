@@ -200,6 +200,13 @@ footer {
   }
 }
 
+.page-link {
+  cursor: pointer;
+}
+
+.page-item.active .page-link {
+  pointer-events: none;
+}
 
 #publications, #highlights {
   font-size: 0.8em;
