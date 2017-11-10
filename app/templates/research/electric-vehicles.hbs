@@ -1,0 +1,178 @@
+<h1 class="display-4 mt-3">Research</h1>
+<h2 class="mt-3">Electric Vehicles</h2>
+
+<p class="lead">Vehicles consumed more than a quarter of energy and emitted more than a quarter of energy-related carbon dioxide in the US in 2014. Electrification of our transportation system will be an important component of future power systems because an electric vehicle (EV) is a huge load: an EV can add 50% energy consumption (4,000 kWh annually) to an average CA household and demand 2 to 20 times more power (3 – 20 kW) than an average CA household. It is however also an extremely flexible load hence invaluable for integrating renewable sources, such as wind and solar power, into our electric grid. We have worked on optimal scheduling of EV charging, and algorithms for EV battery swapping. We have also built an state-of-the-art EV charging system and transferred the technology through a startup.</p>
+
+<ol>
+  <li><a href="#algorithm-design">Algorithm Design</a></li>
+  <li><a href="#entrepreneurship">Entrepreneurship</a></li>
+</ol>
+
+<h3 id="algorithm-design">
+  Algorithm Design
+  <small><a href="#top" class="float-right">&uarr; top</a></small>
+</h3>
+
+<p>
+  <strong>Optimal EV charging.</strong>
+  We design a distributed iterative scheduling algorithm for EV charging in:
+</p>
+
+<ul>
+  <li>L. Gan, U. Topcu and S. H. Low. <a href="https://authors.library.caltech.edu/41651/" target="_blank">Optimal decentralized protocol for electric vehicle charging</a>, <em>IEEE Trans. on
+Power Systems</em>, 228(2):940–951, May 2013</li>
+</ul>
+
+<p>where, in each iteration, EVs update their charging profiles according to the control signal broadcast by an aggregator, and the aggregator adjusts the control signal to guide their updates. The algorithm converges to optimal charging profiles even when EVs can plug in at different times, update their charging profiles at different times with different frequencies, and may use outdated control signals when they update.</p>
+
+<h3 id="entrepreneurship">
+  Entrepreneurship
+  <small><a href="#top" class="float-right">&uarr; top</a></small>
+</h3>
+
+<p>California has committed to have 1.5 million zero- emission vehicles on the road by 2025. The Chinese city Shenzhen plans to have 100% of its taxi’s be electric by 2020. The growth of EV depends on, and will drive, the growth of charging infrastructure. Working with Netlab alumni and Caltech Facilities, we have built an Adaptive Charging Network (ACN), consisting of 63 level-2 chargers and 1 DC fast charger, served by two 150 kVA transformers, 20,000 feet of conduits and cables, a local controller as well as communication equipment. ACN is capable of real-time measurement, communication, computing and control, and adapts EV charging rates to the driver needs as well as capacity limits of the electric system. It has been charging EVs since February 2016 and has delivered over 800 thousand miles and avoided 270 metric tons of greenhouse gases by October 2017 (http://caltech.powerflexsystems.com). The Caltech ACN testbed is described in:</p>
+
+<ul>
+  <li>G. Lee, T. Lee, Z. Low, S. H Low and C. Ortega. <a href="https://authors.library.caltech.edu/80290/" target="_blank">Adaptive charging network for electric vehicles</a>, <em>Proc. of the IEEE Global Conference on Signal and Information Processing (GlobalSIP)</em>, Washington, DC, December 2016</li>
+</ul>
+
+<div class="row">
+  <div class="col-md-8 col-12 mx-auto">
+    <figure>
+      <a href="/assets/images/research-areas/ev/ev-charging-profile-QP.png" target="_blank">
+        <img src="/assets/images/research-areas/ev/ev-charging-profile-QP.png" alt="Optimal charging rates" class="img-fluid">
+      </a>
+      <figcaption class="text-center">QP for EV charging (Sept 13, 2017)</figcaption>
+    </figure>
+  </div>
+</div>
+
+<p>In its simplest form, optimal charging can be formulated as a linear program (LP). An offline LP assumes all future EV arrivals, departures, and energy demands are known and computes the charging profiles of all EVs as an optimal solution of a single LP. An online LP is an iterative algorithm in a model-predictive control fashion, and, in each iteration, computes the charging profiles of existing EVs assuming there will not be any future EV arrival. Offline LP is impractical but serves as a lower bound on the cost of online LP which can be implemented in ACN. Extensive simulations using datasets from Caltech ACN and Google’s charging facilities show that the performance of online LP is extremely close to that of offline LP. It is proved in:</p>
+
+<ul>
+  <li class="text-danger">L. Guo, K. F. Erliksson and S. H. Low. <a href="" target="_blank">Optimal online adaptive electric vehicle charging</a>. <em>Proc. of the IEEE Power and Energy Society General Meeting</em>, Chicago, IL, July 2017</li>
+</ul>
+
+<p>that, under appropriate assumptions, when online LP is feasible it indeed attains offline optimal.</p>
+
+<h5>Optimal Power Savings (Offline LP)</h5>
+<table class="table table-bordered">
+  <caption><em>s</em> = sample std</caption>
+  <thead>
+    <tr>
+      <th colspan="2"></th>
+      <th>Daily ACN peak (peak-rate charging)</th>
+      <th>Daily ACN peak (OPT)</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2"> CA Garage</th>
+      <td>Max</td>
+      <td>85.3 kW</td>
+      <td>33.8 kW</td>
+      <td rowspan="2">60%</td>
+    </tr>
+    <tr>
+      <td>Average</td>
+      <td>40.0 kW</td>
+      <td>15.6 kW</td>
+    </tr>
+
+    <tr>
+      <th rowspan="2">Mountain View (average)</th>
+      <td>Max</td>
+      <td>46.2 kW (<em>s</em> = 45.6 kW)</td>
+      <td>28.4 kW (<em>s</em> = 27.2 kW)</td>
+      <td rowspan="2">34%</td>
+    </tr>
+    <tr>
+      <td>Average</td>
+      <td>28.0 kW (<em>s</em> = 27.1 kW)</td>
+      <td>17.0 kW (<em>s</em> = 15.9 kW)</td>
+    </tr>
+
+    <tr>
+      <th rowspan="2">Sunnyvale (average)</th>
+      <td>Max</td>
+      <td>94.0 kW (<em>s</em> = 109.8 kW)</td>
+      <td>56.2 kW (<em>s</em> = 62.4 kW)</td>
+      <td rowspan="2">29%</td>
+    </tr>
+    <tr>
+      <td>Average</td>
+      <td>54.5 kW (<em>s</em> = 61.0 kW)</td>
+      <td>33.1 kW (<em>s</em> = 35.3 kW)</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<div class="row">
+
+  <div class="col-12 mx-auto">
+    <figure>
+      <a href="/assets/images/research-areas/ev/daily-savings-dist-mountain-view.png" target="_blank">
+        <img src="/assets/images/research-areas/ev/daily-savings-dist-mountain-view.png" alt="Mountain View daily savings distribution" class="img-fluid">
+      </a>
+      <figcaption class="text-center">Mountain View daily savings distribution</figcaption>
+    </figure>
+  </div>
+</div>
+
+<p>A popular class of scheduling algorithms is the least-laxity first (LLF) algorithm that prioritizes EVs that have
+lower laxity. Laxity can be defined in various ways and all capture the slack in providing the requested energy
+over available time subject to maximum charging rate. We propose an LLF algorithm that turns out to match the
+performance of online LP in:</p>
+
+<ul class="text-danger">
+  <li>paper to be added later.</li>
+</ul>
+
+<p>This is surprising because online LP matches well offline optimal by solving for entire charging profiles, taking into account of charging rates at future times, while LLF algorithms are myopic. It turns out that, under our laxity definition, the algorithm (of valley-filling type) equivalently solves a convex optimization problem that implicitly takes into account of charging behavior in the next iteration.</p>
+
+<figure role="group" class="row align-items-end">
+
+  <div class="col-md-6 col-12">
+    <figure>
+      <a href="/assets/images/research-areas/ev/ev-charging-real-time-adaptation.jpg" target="_blank">
+        <img src="/assets/images/research-areas/ev/ev-charging-real-time-adaptation.jpg" alt="EV Charging - real-time adaptation" class="img-fluid">
+      </a>
+      <figcaption class="text-center">Real-time adaptation</figcaption>
+    </figure>
+  </div>
+
+  <div class="col-md-6 col-12">
+    <figure>
+      <a href="/assets/images/research-areas/ev/ev-charging-real-time-tracking-of-PV-generation.jpg" target="_blank">
+        <img src="/assets/images/research-areas/ev/ev-charging-real-time-tracking-of-PV-generation.jpg" alt="EV charging - real-time tracking of PV generation" class="img-fluid">
+      </a>
+      <figcaption class="text-center">Real-time tracking of PV generation</figcaption>
+    </figure>
+  </div>
+</figure>
+
+<p>We are pursuing tech transfer through a startup PowerFlex Systems that can provide a target charging capacity at 30%-60% lower capital and operating costs. It may also provide demand response to utility companies or ISO markets.</p>
+
+<figure role="group" class="row">
+
+  <div class="col-md-6 col-12">
+    <figure>
+      <a href="/assets/images/research-areas/ev/ev-tech-transfer.png" target="_blank">
+        <img src="/assets/images/research-areas/ev/ev-tech-transfer.png" alt="EV tech transfer" class="img-fluid">
+      </a>
+    </figure>
+  </div>
+
+  <div class="col-md-6 col-12">
+    <figure>
+      <a href="/assets/images/research-areas/ev/ev-deployments.jpg" target="_blank">
+        <img src="/assets/images/research-areas/ev/ev-deployments.jpg" alt="PF deployments" class="img-fluid">
+      </a>
+    </figure>
+  </div>
+  <div class="col-12">
+    <figcaption class="text-center">From Caltech research to commercialization.</figcaption>
+  </div>
+</figure>
