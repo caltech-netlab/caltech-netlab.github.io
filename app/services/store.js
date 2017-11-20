@@ -85,9 +85,9 @@ const people = {
       shared: "Wierman",
       position: "Graduate student in Computer Science",
       imageClass: "niangjun-chen",
-      link: "http://users.cms.caltech.edu/~ncchen/",
+      link: "https://niangjunchen.github.io",
       research: [
-        "My research interests lie in online algorithms, optimization and mechanism design and their applications to the future energy systems."
+        "Niangjun's research interests include online algorithms, optimization, and game theory and their applications to distributed control and mechanism design for power systems, data centers, and electricity markets."
       ]
     },
     {
@@ -155,9 +155,7 @@ const people = {
       position: "Graduate Student in Computing and Mathematical Sciences",
       imageClass: "tongxin-li",
       research: [
-        "My research interests have been mainly focused on problems arising in applications of communication. I have been thinking about issues in various topics including group testing, compressed sensing, deletion channels and adversarial channels, etc. Most of the concerned issues are highly related to mathematical problems in combinatorics, probability theory and optimization.",
-        "During my undergraduate time, I have studied probabilistic group testing and the communication complexity of a compressed sensing decoder. My master thesis is about finding the capacities of channels with quadratic constraints and causal adversaries. Apart from above, I have considered some open problems related to deletion channels.",
-        "I will be a fresh doctoral student since September 2017. I am looking forward exploring more fields during my graduate study. In the future, my focuses will likely be changed. Solving problems in communication/power networks will be the central part of my research."
+        "Tongxin’s research interest focuses on problems arising in power networks. He has been thinking about issues related to stochastic optimal power flow. He became a PhD student in Caltech since 2017. Prior to this, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received a master degree in information engineering and bachelor degrees in both engineering and mathematics from CUHK."
       ]
     },
   ],
