@@ -8,8 +8,8 @@ export default Ember.Component.extend({
   showPublication: Ember.on('didInsertElement', function() {
     const store = this.get('store')
     let publications = this
-    if (this.get('store').getPublications().length == 0) {
-      this.get('store').fetchPublicationsInLibrary().done(function() {
+    if (store.getPublications().length == 0) {
+      store.fetchPublicationsInLibrary().done(function() {
         if (publications.isDestroyed) {
           return;
         }
