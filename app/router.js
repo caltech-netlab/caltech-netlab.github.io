@@ -22,6 +22,7 @@ Router.map(function() {
   this.route('people');
   this.route('publications');
   this.route('resources');
+  this.route('acknowledgement');
 });
 
 export default Router;
