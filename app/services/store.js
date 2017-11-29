@@ -253,7 +253,7 @@ const sponsors = {
     },
     {
       name: "ARPA-E",
-      year: "2017",
+      year: "2018",
       imageFileName: "arpae-logo.jpg",
       imageClass: "w-100",
       link: "https://arpa-e.energy.gov/"
