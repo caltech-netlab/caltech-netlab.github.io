@@ -1,4 +1,4 @@
-<div class="jumbotron jumbotron-resources-banner jumbotron-fluid">
+<div class="jumbotron jumbotron-acknowledgement-banner jumbotron-fluid">
   <div class="container">
     <div class="jumbotron-content text-light">
       <h1 class="display-3"></h1>
@@ -14,123 +14,18 @@
 
       <p class="lead">Thank you to all who supported us!</p>
 
-      {{!-- Just change the class to either w-100 or h-10  --}}
-      <div id="logo-gallery" class="d-flex flex-wrap justify-content-around">
+      {{!-- <h3 my-3>Active Sponsors</h3> --}}
+      <div class="d-flex flex-wrap justify-content-around">
+        {{#each model.recent as |sponsor| }}
+          {{component 'sponsor-thumbnail' model=sponsor}}
+        {{/each}}
+      </div>
 
-        {{!-- Intel--}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank">
-          <img src="assets/images/logos/sponsors/Intel-logo.svg" class="w-100" alt="Intel" />
-        </a>
-
-        {{!-- Microsoft --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.microsoft.com/en-us/" target="_blank">
-          <img src="assets/images/logos/sponsors/Microsoft-logo.svg" class="w-100" alt="Microsoft" />
-        </a>
-
-        {{!-- NSF --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.nsf.gov/" target="_blank">
-          <img src="assets/images/logos/sponsors/NSF-logo.png" class="w-100" alt="NSF" />
-        </a>
-
-        {{!-- SUN --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.oracle.com/index.html" target="_blank">
-          <img src="assets/images/logos/sponsors/Sun-logo.svg" class="w-100" alt="SUN" />
-        </a>
-
-        {{!-- Cisco --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.cisco.com/" target="_blank">
-          <img src="assets/images/logos/sponsors/Cisco-logo.svg" class="w-100" alt="Cisco" />
-        </a>
-
-        {{!-- ARO --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://www.arl.army.mil/www/default.cfm?page=29" target="_blank">
-          <img src="assets/images/logos/sponsors/ARO-logo.png" class="w-100" alt="ARO" />
-        </a>
-
-        {{!-- AFOSR --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://www.wpafb.af.mil/afrl/afosr/" target="_blank">
-          <img src="assets/images/logos/sponsors/AFOSR-logo.jpg" class="w-100" alt="AFOSR" />
-        </a>
-
-        {{!-- Juniper --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.juniper.net/us/en/" target="_blank">
-          <img src="assets/images/logos/sponsors/juniper-networks-logo.svg" class="w-100" alt="Juniper" />
-        </a>
-
-        {{!-- Level(3) --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://www.level3.com/en/" target="_blank">
-          <img src="assets/images/logos/sponsors/Level3-logo.svg" class="w-100" alt="Level(3)" />
-        </a>
-
-        {{!-- Corning --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.corning.com/worldwide/en.html" target="_blank">
-          <img src="assets/images/logos/sponsors/corning-logo.svg" class="w-100" alt="Corning" />
-        </a>
-
-        {{!-- SCE --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.sce.com" target="_blank">
-          <img src="assets/images/logos/sponsors/SCE-logo.jpg" class="w-100" alt="Southern California Edison (SCE)" />
-        </a>
-
-        {{!-- DOE --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://energy.gov/" target="_blank">
-          <img src="assets/images/logos/sponsors/DOE-logo.png" class="w-100" alt="Department of Energy" />
-        </a>
-
-        {{!-- Bell Labs --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.bell-labs.com/" target="_blank">
-          <img src="assets/images/logos/sponsors/NOKIA-Bell-Labs-logo.png" class="w-100" alt="NOKIA Bell Labs" />
-        </a>
-
-        {{!-- Alcatel Lucent Enterprise --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.al-enterprise.com/en" target="_blank">
-          <img src="assets/images/logos/sponsors/Alcatel-Lucent-Enterprise-logo.svg" class="w-100" alt="Alcatel-Lucent Enterprise" />
-        </a>
-
-        {{!-- Okawa Foundation--}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://www.okawa-foundation.or.jp/" target="_blank">
-          <img src="assets/images/logos/sponsors/Okawa-Foundation-title.png" class="w-100" alt="Okawa Foundation" />
-        </a>
-
-        {{!-- ARPA-E --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://arpa-e.energy.gov/" target="_blank">
-          <img src="assets/images/logos/sponsors/arpae-logo.jpg" class="w-100" alt="ARPA-E" />
-        </a>
-
-        {{!-- Taiwan National Science Council --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.most.gov.tw/?l=en" target="_blank">
-          <img src="assets/images/logos/sponsors/MOST-logo.png" class="w-100" alt="Taiwan National Science Council" />
-        </a>
-
-        {{!-- Los Alamos National Laboratory --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://www.lanl.gov/index.php" target="_blank">
-          <img src="assets/images/logos/sponsors/Los-Alamos-logo.png" class="w-100" alt="Los Alamos National Laboratory" />
-        </a>
-
-        {{!-- Resnick --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://resnick.caltech.edu/" target="_blank">
-          <img src="assets/images/logos/sponsors/resnick-logo.jpg" class="w-100" alt="Resnick" />
-        </a>
-
-        {{!-- Defense Threat Reduction Agency --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://www.dtra.mil/" target="_blank">
-          <img src="assets/images/logos/sponsors/DTRA-logo.png" class="w-100" alt="Defense Threat Reduction Agency" />
-        </a>
-
-        {{!-- Skoltech --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://www.skoltech.ru/en/" target="_blank">
-          <img src="assets/images/logos/sponsors/skoltech-logo.png" class="w-100" alt="Skoltech" />
-        </a>
-
-        {{!-- FLOW --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="http://flow.caltech.edu/" target="_blank">
-          <img src="assets/images/logos/sponsors/FLOW-logo-color.png" class="w-100" alt="FLOW" />
-        </a>
-
-        {{!-- NREL --}}
-        <a class="logo-link img-thumbnail d-flex align-items-center justify-content-center mb-3" href="https://www.nrel.gov/" target="_blank">
-          <img src="assets/images/logos/sponsors/NREL-logo-blue.png" class="w-100" alt="NREL" />
-        </a>
+      {{!-- <h3 class="my-3">Past Sponsors</h3> --}}
+      <div class="d-flex flex-wrap justify-content-around">
+        {{#each model.past as |sponsor| }}
+          {{component 'sponsor-thumbnail' model=sponsor}}
+        {{/each}}
       </div>
     </div>
   </div>

@@ -66,6 +66,14 @@ footer {
   }
 }
 
+.jumbotron-acknowledgement-banner {
+  background-image: url("images/banners/banner-6.jpg");
+  -webkit-background-position: top;
+  -moz-background-position: top;
+  -o-background-position: top;
+  background-position: top;
+}
+
 .jumbotron-home-banner {
   background-image: url("images/banners/banner-1.jpg");
 }
@@ -101,6 +109,11 @@ footer {
 .logo-link {
   height: 200px;
   width: 200px;
+
+  &.small {
+    height: 100px;
+    width: 100px;
+  }
 }
 
 .navbar {
