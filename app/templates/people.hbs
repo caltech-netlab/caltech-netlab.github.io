@@ -68,13 +68,15 @@
           {{/each}}
         </section>
 
-        <section class="py-3">
-          <h4>Visiting Ph.D. Students</h4>
+        {{#if (gt model.visitingPhDStudents.length 0)}}
+          <section class="py-3">
+            <h4>Visiting Ph.D. Students</h4>
 
-          {{#each model.visitingPhDStudents as |person|}}
-            {{component "current-member-card" model=person}}
-          {{/each}}
+            {{#each model.visitingPhDStudents as |person|}}
+              {{component "current-member-card" model=person}}
+            {{/each}}
         </section>
+        {{/if}}
 
       </section>
 
