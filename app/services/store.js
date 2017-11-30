@@ -81,16 +81,6 @@ const people = {
   ],
   graduates : [
     {
-      name: "Niangjun Chen",
-      shared: "Wierman",
-      position: "Graduate student in Computer Science",
-      imageClass: "niangjun-chen",
-      link: "https://niangjunchen.github.io",
-      research: [
-        "Niangjun's research interests include online algorithms, optimization, and game theory and their applications to distributed control and mechanism design for power systems, data centers, and electricity markets."
-      ]
-    },
-    {
       name: "Yujie Tang",
       position: "Graduate Student in Electrical Engineering",
       imageClass: "yujie-tang",
@@ -159,25 +149,7 @@ const people = {
       ]
     },
   ],
-  visitingPhDStudents: [
-    {
-      name: "Zhaojian Wang",
-      position: "Electrical Engineering, Tsinghua University, China",
-      imageClass: "zhaojian-wang",
-      duration: "2016 - 2017",
-      link: "https://scholar.google.com/citations?hl=en&user=4eq1UVYAAAAJ&view_op=list_works"
-    },
-    {
-      name: "Pengcheng You",
-      position: "Control Department, Zhejiang University, China",
-      imageClass: "pengcheng-you",
-      duration: "2016 - 2017",
-      link: "http://www.sensornet.cn/pcyou/index.html",
-      research: [
-        "My research is directed towards the design and application of advanced optimization and machine learning algorithms in power and energy related fields, with the current emphasis on electric vehicles and power markets."
-      ]
-    }
-  ],
+  visitingPhDStudents: [],
   pastPostdocs: [
     { name: "Ki-Baek Kim", duration: "2001 - 2003" },
     { name: "Cheng Jin", duration: "2002 - 2005", current: "Akamai",
@@ -213,6 +185,8 @@ link: "https://www.linkedin.com/in/sachin-adlakha-682aa061/" },
     { name: "Desmond Cai", shared: "Wierman", degree: "PhD 2016", current: "Singapore A*STAR", link: "https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx" },
     { name: "Qiuyu Peng", degree: "PhD 2016", current: "DeepMind (Google)", link: "https://www.linkedin.com/in/qiuyu-gavin-peng-2815a427" },
     { name: "Changhong Zhao", degree: "PhD 2016", current: "NREL", link: "https://sites.google.com/site/changhongzhao19/" },
+    { name: "Niangjun Chen", shared: "Wierman", degree: "Phd 2017", current: "Singapore A*STAR", link: "https://niangjunchen.github.io"
+    },
     { name: "Youngmi Ohk", degree: "MS 1998", degree_university: "Melbourne University", current: "Dawson Consulting Pty Ltd", link: "https://www.linkedin.com/in/youngmi-ohk-08b56/" },
     { name: "Sanjeewa Athuraliya", degree: "MS 2000", current: "Ergon Energy", link: "https://www.linkedin.com/in/sanjeewa-athuraliya-71b31a5/" },
     { name: "Craig Cameron", degree: "MS 2002", current: "Finisa", link: "https://www.linkedin.com/in/craigcameron/" },
@@ -238,7 +212,9 @@ link: "https://www.linkedin.com/in/sachin-adlakha-682aa061/" },
     { name: "Chengdi Lai", duration: "2012 - 2013", department: "Fulbright Scholar, EEE", university: "Hong Kong University, Hong Kong" },
     { name: "Daniela Meola", duration: "2013 - 2014", department: "Control Department", university: "Università del Sannio, Italy" },
     { name: "Yongmin Zhang", duration: "2013 - 2014", department: "Control Department", university: "Zhejiang University, China" },
-    { name: "Junhao Lin", duration: "2015 - 2016", department: "EEE", university: "Hong Kong University, Hong Kong" }
+    { name: "Junhao Lin", duration: "2015 - 2016", department: "EEE", university: "Hong Kong University, Hong Kong" },
+    { name: "Zhaojian Wang", duration: "2016-2017", department: "EE", university: "Tsinghua University, China" },
+    { name: "Pengcheng You", duration: "2016-2017", department: "Control Department", university: "Zhejiang University, China" }
   ]
 };
 
