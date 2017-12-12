@@ -221,6 +221,13 @@ link: "https://www.linkedin.com/in/sachin-adlakha-682aa061/" },
 const sponsors = {
   recent: [
     {
+      name: "PowerFlex Systems",
+      year: "2018",
+      imageFileName: "PowerFlex-Systems-Logo.svg",
+      imageClass: "w-100",
+      link: "http://powerflexsystems.com.s3-website-us-west-1.amazonaws.com/"
+    },
+    {
       name: "National Science Foundation",
       year: "2020",
       imageFileName: "NSF-logo.png",
