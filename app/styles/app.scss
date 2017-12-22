@@ -325,6 +325,10 @@ ul.custom {
   @include media-breakpoint-only(xl) {
     column-count: 4;
   }
+
+  .card {
+    height: 140px;
+  }
 }
 
 @include media-breakpoint-down(sm) {
