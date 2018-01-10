@@ -25,6 +25,19 @@ Power Systems</em>, 228(2):940–951, May 2013</li>
 
 <p>where, in each iteration, EVs update their charging profiles according to the control signal broadcast by an aggregator, and the aggregator adjusts the control signal to guide their updates. The algorithm converges to optimal charging profiles even when EVs can plug in at different times, update their charging profiles at different times with different frequencies, and may use outdated control signals when they update.</p>
 
+<div class="row">
+  <div class="col-md-8 col-12 mx-auto">
+    <figure>
+      <a href="/assets/images/research-areas/ev/ev-cumulative-station-current.jpg" target="_blank">
+        <img src="/assets/images/research-areas/ev/ev-cumulative-station-current.jpg" alt="EV charging - Cummulative Station Current (Jan 2018)" class="img-fluid">
+      </a>
+      <figcaption class="text-center">
+        Cumulative Station Current across All Plugged-in EVs (Jan 2018)<br> <small>Each color in the figure represents the charging rate of an EV.</small>
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
 <h3 id="entrepreneurship">
   Entrepreneurship
   <small><a href="#top" class="float-right">&uarr; top</a></small>
@@ -55,7 +68,19 @@ Power Systems</em>, 228(2):940–951, May 2013</li>
 
 <p>that, under appropriate assumptions, when online LP is feasible it indeed attains offline optimal.</p>
 
-<h5>Optimal Power Savings (Offline LP)</h5>
+<div class="row">
+  <div class="col-md-8 col-12 mx-auto">
+    <figure>
+      <a href="/assets/images/research-areas/ev/ev-allocated-and-actual-current.jpg" target="_blank">
+        <img src="/assets/images/research-areas/ev/ev-allocated-and-actual-current.jpg" alt="EV Charging - Allocated and Actual Current (Jan 2018)" class="img-fluid">
+      </a>
+      <figcaption class="text-center">Actual Current Drawn by EV vs Allocated Rate from Pilot Signal (Jan 2018)</figcaption>
+    </figure>
+  </div>
+</div>
+
+
+<h5 class="mt-3">Optimal Power Savings (Offline LP)</h5>
 <table class="table table-bordered">
   <caption><em>s</em> = sample std</caption>
   <thead>
@@ -132,12 +157,12 @@ performance of online LP in:</p>
 
 <p>This is surprising because online LP matches well offline optimal by solving for entire charging profiles, taking into account of charging rates at future times, while LLF algorithms are myopic. It turns out that, under our laxity definition, the algorithm (of valley-filling type) equivalently solves a convex optimization problem that implicitly takes into account of charging behavior in the next iteration.</p>
 
-<figure role="group" class="row align-items-end">
+<figure role="group" class="row align-items-lg-start">
 
   <div class="col-md-6 col-12">
     <figure>
       <a href="/assets/images/research-areas/ev/ev-charging-real-time-adaptation.jpg" target="_blank">
-        <img src="/assets/images/research-areas/ev/ev-charging-real-time-adaptation.jpg" alt="EV Charging - real-time adaptation" class="img-fluid">
+        <img src="/assets/images/research-areas/ev/ev-charging-real-time-adaptation-sm.jpg" alt="EV Charging - real-time adaptation" class="img-fluid">
       </a>
       <figcaption class="text-center">Real-time adaptation</figcaption>
     </figure>
@@ -146,7 +171,7 @@ performance of online LP in:</p>
   <div class="col-md-6 col-12">
     <figure>
       <a href="/assets/images/research-areas/ev/ev-charging-real-time-tracking-of-PV-generation.jpg" target="_blank">
-        <img src="/assets/images/research-areas/ev/ev-charging-real-time-tracking-of-PV-generation.jpg" alt="EV charging - real-time tracking of PV generation" class="img-fluid">
+        <img src="/assets/images/research-areas/ev/ev-charging-real-time-tracking-of-PV-generation-sm.jpg" alt="EV charging - real-time tracking of PV generation" class="img-fluid">
       </a>
       <figcaption class="text-center">Real-time tracking of PV generation</figcaption>
     </figure>
