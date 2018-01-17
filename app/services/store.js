@@ -225,7 +225,7 @@ const sponsors = {
       year: "2018",
       imageFileName: "PowerFlex-Systems-Logo.svg",
       imageClass: "w-100",
-      link: "http://powerflexsystems.com.s3-website-us-west-1.amazonaws.com/"
+      link: "http://powerflexsystems.com/"
     },
     {
       name: "National Science Foundation",
