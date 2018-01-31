@@ -230,7 +230,7 @@ const sponsors = {
     {
       name: "National Science Foundation",
       year: "2020",
-      imageFileName: "NSF-logo.png",
+      imageFileName: "NSF-logo.svg",
       imageClass: "w-100",
       link: "https://www.nsf.gov/"
     },
