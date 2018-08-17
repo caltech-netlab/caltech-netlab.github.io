@@ -1,21 +1,20 @@
-import Ember from 'ember';
+import { alias } from '@ember/object/computed';
+import { inject as service } from '@ember/service';
+import Controller from '@ember/controller';
 
-export default Ember.Controller.extend({
+export default Controller.extend({
+  publicationPager: service(),
 
- publicationPager: Ember.inject.service(),
+  queryParams: ['page'],
 
- queryParams:['page', 'limit'],
+  page: alias('publicationPager.page'),
 
- page: Ember.computed.alias('publicationPager.page'),
-
- limit: Ember.computed.alias('publicationPager.limit'),
-
- actions: {
-   nextPage: function() {
-     this.get('publicationPager').nextPage();
-   },
-   previousPage: function() {
-     this.get('publicationPager').previousPage();
-   }
- }
+  actions: {
+    nextPage() {
+      this.get('publicationPager').nextPage();
+    },
+    previousPage() {
+      this.get('publicationPager').previousPage();
+    }
+  }
 });

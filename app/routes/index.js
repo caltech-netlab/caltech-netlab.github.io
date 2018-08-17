@@ -1,15 +1,18 @@
-import Ember from 'ember';
+import { inject as service } from '@ember/service';
+import { hash } from 'rsvp';
+import Route from '@ember/routing/route';
 
-export default Ember.Route.extend({
+export default Route.extend({
   model: function() {
-    if (this.get('store').getPublications().length == 0) {
+    if (this.get('store').getPublications().length === 0) {
       this.get('store').fetchPublicationsInLibrary();
     }
-    return Ember.RSVP.hash({
+
+    return hash({
       highlights: this.get('store').getHighlights(),
       publications: this.get('store').getRecentPublications()
     });
   },
 
-  store: Ember.inject.service()
+  store: service()
 });

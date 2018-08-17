@@ -1,13 +1,10 @@
-import Ember from 'ember';
+import { inject as service } from '@ember/service';
+import Route from '@ember/routing/route';
 
-export default Ember.Route.extend({
+export default Route.extend({
   model() {
-    // return Ember.RSVP.hash({
-    //   activeSponsors: this.get('store').getHighlights(),
-    //   publications: this.get('store').getRecentPublications()
-    // });
     return this.get('store').getSponsors();
   },
 
-  store: Ember.inject.service()
+  store: service()
 });

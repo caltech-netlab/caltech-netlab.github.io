@@ -5,10 +5,13 @@ const Router = EmberRouter.extend({
   location: config.locationType,
   rootURL: config.rootURL,
 
-  // https://romulomachado.github.io/2016/12/20/resetting-scroll-on-route-changes.html
-  didTransition() {
+  init() {
+    // Different from didTransistion hook so that sub-routes
+    // do not have to always bubble their didTransition event
+    this.on("didTransition", () => {
+      window.scrollTo(0, 0);
+    });
     this._super(...arguments);
-    window.scrollTo(0, 0);
   }
 });
 
@@ -21,7 +24,6 @@ Router.map(function() {
   });
   this.route('people');
   this.route('publications');
-  this.route('resources');
   this.route('acknowledgement');
 });
 

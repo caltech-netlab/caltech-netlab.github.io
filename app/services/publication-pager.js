@@ -1,12 +1,18 @@
-import Ember from 'ember';
+import Service from '@ember/service';
 
-export default Ember.Service.extend({
-    page: 1,
-    limit: 4,
-    nextPage: function() {
-        this.incrementProperty('page');
-    },
-    previousPage: function() {
-        this.decrementProperty('page');
-    }
+export default Service.extend({
+  page: 1,
+  limit: 4,
+
+  nextPage() {
+    this.incrementProperty('page');
+  },
+
+  previousPage() {
+    this.decrementProperty('page');
+  },
+
+  goToPage(page) {
+    this.set("page", page);
+  }
 });

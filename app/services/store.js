@@ -1,4 +1,6 @@
-import Ember from 'ember';
+import $ from 'jquery';
+import Service from '@ember/service';
+import { htmlSafe } from '@ember/string';
 import Highlight from 'netlab/models/highlight'
 import Publication from 'netlab/models/publication'
 
@@ -7,35 +9,36 @@ const highlights = [];
 let highlight = Highlight.create({
   id: '1',
   title: 'A network of intelligent DER',
-  content: Ember.String.htmlSafe('<ul><li>2014-09-18 - <a href="https://rigorandrelevance.wordpress.com/2014/09/18/a-network-of-intelligent-der/">rigor+relevance</a></li></ul>')
+  content: htmlSafe('<ul><li>2014-09-18 - <a href="https://rigorandrelevance.wordpress.com/2014/09/18/a-network-of-intelligent-der/">rigor+relevance</a></li></ul>')
 });
+
 highlights.pushObject(highlight);
 
 highlight = Highlight.create({
   id: '2',
   title: 'Communication and power networks: Architecture',
-  content: Ember.String.htmlSafe('<ul><li>2013-11-26 - <a href="https://rigorandrelevance.wordpress.com/2013/11/26/power-network-and-internet-i-architecture/">Part I</a></li><li>2013-12-02 - <a href="https://rigorandrelevance.wordpress.com/2013/12/02/communication-and-power-networks-architecture-part-ii/">Part II</a></li></ul>')
+  content: htmlSafe('<ul><li>2013-11-26 - <a href="https://rigorandrelevance.wordpress.com/2013/11/26/power-network-and-internet-i-architecture/">Part I</a></li><li>2013-12-02 - <a href="https://rigorandrelevance.wordpress.com/2013/12/02/communication-and-power-networks-architecture-part-ii/">Part II</a></li></ul>')
 });
 highlights.pushObject(highlight);
 
 highlight = Highlight.create({
   id: '3',
   title: 'Communication and power networks: Flow optimization',
-  content: Ember.String.htmlSafe('<ul><li>2014-05-05 - <a href=""https://rigorandrelevance.wordpress.com/2014/05/05/communication-and-power-networks-flow-optimization-part-i/">Part I</a></li><li>2014-05-19 - <a href="https://rigorandrelevance.wordpress.com/2014/05/19/communication-and-power-networks-flow-optimization-part-ii/">Part II</a></li></ul>')
+  content: htmlSafe('<ul><li>2014-05-05 - <a href=""https://rigorandrelevance.wordpress.com/2014/05/05/communication-and-power-networks-flow-optimization-part-i/">Part I</a></li><li>2014-05-19 - <a href="https://rigorandrelevance.wordpress.com/2014/05/19/communication-and-power-networks-flow-optimization-part-ii/">Part II</a></li></ul>')
 });
 highlights.pushObject(highlight);
 
 highlight = Highlight.create({
   id: '4',
   title: 'Communication and power networks: Forward engineering',
-  content: Ember.String.htmlSafe('<ul><li>2014-07-08 - <a href="https://rigorandrelevance.wordpress.com/2014/07/08/communication-and-power-networks-reverse-and-forward-engineering-part-i/">Part I</a></li><li>2014-07-15 - <a href="https://rigorandrelevance.wordpress.com/2014/07/15/communication-and-power-networks-reverse-and-forward-engineering-part-ii/">Part II</a></li></ul>')
+  content: htmlSafe('<ul><li>2014-07-08 - <a href="https://rigorandrelevance.wordpress.com/2014/07/08/communication-and-power-networks-reverse-and-forward-engineering-part-i/">Part I</a></li><li>2014-07-15 - <a href="https://rigorandrelevance.wordpress.com/2014/07/15/communication-and-power-networks-reverse-and-forward-engineering-part-ii/">Part II</a></li></ul>')
 });
 highlights.pushObject(highlight);
 
 highlight = Highlight.create({
   id: '4',
   title: 'Business case of DER and utility',
-  content: Ember.String.htmlSafe('<ul><li>2014-12-02 - <a href="https://rigorandrelevance.wordpress.com/2014/12/02/business-case-for-der-and-utility/">rigor+relevance</a></li></ul>')
+  content: htmlSafe('<ul><li>2014-12-02 - <a href="https://rigorandrelevance.wordpress.com/2014/12/02/business-case-for-der-and-utility/">rigor+relevance</a></li></ul>')
 });
 highlights.pushObject(highlight);
 
@@ -61,12 +64,7 @@ const people = {
     }
   ],
   admin: [
-    { name: "Christine Ortega" }
-  ],
-  staff: [
-    { name: "Ted Lee", position: "Software Developer", imageClass: "ted-lee" },
-    { name: "Rand Lee", position: "Software Developer" },
-    { name: "Daniel Chang", position: "Software Developer"}
+    { name: "Christine Ortega", imageClass: "christine" }
   ],
   postdocs: [
     {
@@ -79,7 +77,7 @@ const people = {
       ]
     }
   ],
-  graduates : [
+  graduates: [
     {
       name: "Yujie Tang",
       position: "Graduate Student in Electrical Engineering",
@@ -133,14 +131,6 @@ const people = {
       ]
     },
     {
-      name: "Lucien Werner",
-      position: "Graduate Student in Computing and Mathematical Sciences",
-      imageClass: "lucien-werner",
-      research: [
-        "I am a first-year graduate student interested in cyber-physical systems, in particular stability analysis and control of power networks. In the past I have researched pattern formation in dynamical systems. Outside of mathematics, I have a career as a cellist and continue to perform around the world--often with my three sisters who are all also musicians and mathematicians. Prior to joining Caltech, I received degrees in mathematics, music, and politics from Northwestern University, Harvard University, and Montana State University."
-      ]
-    },
-    {
       name: "Tongxin Li",
       position: "Graduate Student in Computing and Mathematical Sciences",
       imageClass: "tongxin-li",
@@ -148,21 +138,35 @@ const people = {
         "Tongxin’s research interest focuses on problems arising in power networks. He has been thinking about issues related to stochastic optimal power flow. He became a PhD student in Caltech since 2017. Prior to this, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received a master degree in information engineering and bachelor degrees in both engineering and mathematics from CUHK."
       ]
     },
+    {
+      name: "Lucien Werner",
+      position: "Graduate Student in Computing and Mathematical Sciences",
+      imageClass: "lucien-werner",
+      research: [
+        "I am a first-year graduate student interested in cyber-physical systems, in particular stability analysis and control of power networks. In the past I have researched pattern formation in dynamical systems. Outside of mathematics, I have a career as a cellist and continue to perform around the world--often with my three sisters who are all also musicians and mathematicians. Prior to joining Caltech, I received degrees in mathematics, music, and politics from Northwestern University, Harvard University, and Montana State University."
+      ]
+    }
   ],
   visitingPhDStudents: [],
   pastPostdocs: [
     { name: "Ki-Baek Kim", duration: "2001 - 2003" },
-    { name: "Cheng Jin", duration: "2002 - 2005", current: "Akamai",
+    { name: "Cheng Jin",
+      duration: "2002 - 2005",
+      current: "Akamai",
       link: "https://www.linkedin.com/in/cheng-jin-8532141/" },
     { name: "Werner Almsberger", duration: "2002 - 2003" },
     { name: "Joon-Young Choi", duration: "2004 - 2005" },
     { name: "Bartek Wydrowski", duration: "2004 - 2005", current: "Google", link: "https://www.linkedin.com/in/bartek-wydrowski-2164a4b/" },
     { name: "Lachlan Andrew", duration: "2005 - 2008", current: "Monash University", link: "http://monash.edu/research/explore/en/persons/lachlan-andrew(fe94bb6c-9fab-4b23-ada5-d47c0d39729b).html" },
     { name: "Chee-Wei Tan", duration: "2008 - 2009", current: "City University of Hong Kong", link: "http://www.cs.cityu.edu.hk/~cheewtan/" },
-    { name: "Sachin Adlakha", duration: "2010 - 2013", current: "NMLStream",
-link: "https://www.linkedin.com/in/sachin-adlakha-682aa061/" },
+    { name: "Sachin Adlakha",
+      duration: "2010 - 2013",
+      current: "NMLStream",
+      link: "https://www.linkedin.com/in/sachin-adlakha-682aa061/" },
     { name: "Libin Jiang", duration: "2010 - 2012", current: "Qualcomm", link: "https://www.linkedin.com/in/libin-jiang-45176b14/" },
-    { name: "Dennice Gayme", duration: "2011 - 2012", current: "Johns Hopkins",
+    { name: "Dennice Gayme",
+      duration: "2011 - 2012",
+      current: "Johns Hopkins",
       link: "https://engineering.jhu.edu/gayme/" },
     { name: "Eilyan Bitar", duration: "2011 - 2012", current: "Cornell", link: "https://bitar.engineering.cornell.edu/" },
     { name: "Yunjian Xu", duration: "2012 - 2013", current: "Singapore University of Technology and Design", link: "https://esd.sutd.edu.sg/people/faculty/yunjian-xu" },
@@ -171,7 +175,7 @@ link: "https://www.linkedin.com/in/sachin-adlakha-682aa061/" },
   ],
   pastGraduateStudents: [
     { name: "David Lapsley", degree: "PhD 1999", degree_university: "Melbourne University", current: "Cisco", link: "https://www.linkedin.com/in/davidlapsley" },
-    { name: "Jiantao Wang", shared: "Doyle", degree: "PhD 2005", current: "Goldman Sachs", link: "https://www.linkedin.com/in/jiantao-wang-2127333"},
+    { name: "Jiantao Wang", shared: "Doyle", degree: "PhD 2005", current: "Goldman Sachs", link: "https://www.linkedin.com/in/jiantao-wang-2127333" },
     { name: "Lijun Chen", shared: "Doyle", degree: "PhD 2006", current: "U Colorado, Boulder", link: "http://spot.colorado.edu/~lich1539/" },
     { name: "Lun Li", shared: "Doyle", degree: "PhD 2006", current: "OpenX, Pasadena", link: "https://www.linkedin.com/in/lunli/" },
     { name: "Mortada Meyhar", degree: "PhD 2006", current: "Tesla", link: "https://www.linkedin.com/in/mortada" },
@@ -193,8 +197,8 @@ link: "https://www.linkedin.com/in/sachin-adlakha-682aa061/" },
     { name: "John Pongsajapan", degree: "MS, 2006", current: "Square", link: "https://www.linkedin.com/in/johnpongsajapan/" },
     { name: "Cheng Hu", degree: "MS 2006" },
     { name: "Kevin Phan", degree: "MS 2009" },
-    { name: "Masoud Farivar", degree: "MS 2010", current: "Google", link: "https://www.linkedin.com/in/mfarivar/"},
-    { name: "George Lee", degree: "MS 2011", current: "Akamai", link: "https://www.linkedin.com/in/george-lee-17b3596/"}
+    { name: "Masoud Farivar", degree: "MS 2010", current: "Google", link: "https://www.linkedin.com/in/mfarivar/" },
+    { name: "George Lee", degree: "MS 2011", current: "Akamai", link: "https://www.linkedin.com/in/george-lee-17b3596/" }
   ],
   pastVisitingFaculty: [
     { name: "Jin S Lee", duration: "2012", department: "EE", university: "Postech, Korea" },
@@ -393,7 +397,7 @@ const sponsors = {
   ]
 };
 
-export default Ember.Service.extend({
+export default Service.extend({
 
   getHighlights() {
     return highlights;
@@ -405,13 +409,14 @@ export default Ember.Service.extend({
 
   // Need to use JSONP inorder to get pass the cross-origin error
   fetchPublicationsInLibrary() {
-    return Ember.$.getJSON("http://authors.library.caltech.edu/cgi/exportview/person-az/Low-S-H/JSON/Low-S-H.js?callback=?", function(data) {
+    return $.getJSON("http://authors.library.caltech.edu/cgi/exportview/person-az/Low-S-H/JSON/Low-S-H.js?callback=?", function(data) {
       // let arr = data.slice(0, 10);
       publications.clear();
       recentPublications.clear();
       let recentLimit = 5;
       let recentCount = 0;
-      Ember.$(data).each(function() {
+
+      $(data).each(function() {
         // console.log(this);
         // publications.pushObject(this);
         let pub = Publication.create({
@@ -433,6 +438,7 @@ export default Ember.Service.extend({
           volume: this.volume,
           number: this.number
         });
+
         if (recentCount < recentLimit) {
           recentPublications.pushObject(pub);
           recentCount = recentCount + 1;

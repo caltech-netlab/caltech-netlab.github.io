@@ -9,9 +9,11 @@
         {{/if}}
       </h4>
       <p class="card-text">
-        {{model.position}}<br>
+        {{model.position}}
+        <br>
         {{#if model.duration}}
-          {{model.duration}}<br>
+          {{model.duration}}
+          <br>
         {{/if}}
         {{#if model.link}}
           <a class="card-link" href="{{model.link}}">Website</a>
@@ -21,8 +23,8 @@
   </div>
   {{#if model.research}}
     <div class="research card-body">
-      {{#each model.research as |p|}}
-        <p class="card-text">{{p}}</p>
+      {{#each model.research as |paragraph|}}
+        <p class="card-text">{{paragraph}}</p>
       {{/each}}
     </div>
   {{/if}}

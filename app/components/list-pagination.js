@@ -1,62 +1,68 @@
-import Ember from 'ember';
+import { computed } from '@ember/object';
+import { alias } from "@ember/object/computed";
+import { inject as service } from '@ember/service';
+import Component from '@ember/component';
 
-export default Ember.Component.extend({
-  params: Ember.inject.service('publication-pager'),
+const PAGINATION_SIZE = 45;
+
+export default Component.extend({
+  params: service('publication-pager'),
+
   tagName: "section",
-  page: Ember.computed(function() {
-    return this.get('params.page');
-  }),
-  paginateBy: 10,
-  paginatedItems: Ember.computed('amenities', 'page', function(){
-    var i = (parseInt(this.get('page')) - 1) * parseInt(this.get('paginateBy'));
-    var j = i + parseInt(this.get('paginateBy'));
+
+  page: alias("params.page"),
+
+  paginatedItems: computed('page', function() {
+    let i = (+this.get('page') - 1) * PAGINATION_SIZE;
+    let j = i + PAGINATION_SIZE;
+
     return this.get('items').slice(i, j);
   }),
-  numberOfPages: Ember.computed('page', function(){
-    var n = this.get('items.length');
-    var c = parseInt(this.get('paginateBy'));
-    var r = Math.floor(n/c);
-    if(n % c > 0) {
-      r += 1;
-    }
+
+  numberOfPages: computed('page', function() {
+    let n = this.get('items.length');
+    let r = Math.ceil(n / PAGINATION_SIZE);
+
     return r;
   }),
-  pageNumbers: Ember.computed('numberOfPages', function(){
-    var n = Array(this.get('numberOfPages'));
-    for(var i = 0;i < n.length;i++) {
+
+  pageNumbers: computed('numberOfPages', function() {
+    let n = Array(this.get('numberOfPages'));
+
+    for (let i = 0; i < n.length; i++) {
       n[i] = i + 1;
     }
+
     return n;
   }),
-  showNext: Ember.computed('page', function(){
+
+  showNext: computed('page', 'numberOfPages', function() {
     return (this.get('page') < this.get('numberOfPages'));
   }),
-  showPrevious: Ember.computed('page', function(){
+
+  showPrevious: computed('page', function() {
     return (this.get('page') > 1);
   }),
+
   nextText: 'Next',
+
   previousText: 'Previous',
+
   actions: {
     nextClicked() {
-      if(this.get('page') + 1 <= this.get('numberOfPages')) {
-        this.set('page', this.get('page') + 1);
+      if (this.get('page') + 1 <= this.get('numberOfPages')) {
+        this.get('params').nextPage();
       }
-      this.get('params').nextPage();
-      // console.log('component: '+this.get('params.page'));
     },
+
     previousClicked() {
-      if(this.get('page') > 0) {
-        this.set('page', this.get('page') - 1);
+      if (this.get('page') > 0) {
+        this.get('params').previousPage();
       }
-      this.get('params').previousPage();
-      // console.log('component: '+this.get('params.page'));
     },
-    pageClicked(pageNumber){
-      this.set('page', pageNumber);
-      this.set('params.page', pageNumber);
-    },
-    checkPageNumber() {
-      return this.get('page');
+
+    pageClicked(pageNumber) {
+      this.get("params").goToPage(pageNumber);
     }
   }
 });

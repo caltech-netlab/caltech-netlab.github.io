@@ -1,13 +1,14 @@
-import Ember from 'ember';
+import { helper } from '@ember/component/helper';
+import { isPresent } from '@ember/utils';
 
-export function profileImageClass(params/*, hash*/) {
+export function profileImageClass(params/* , hash*/) {
   let profileClass = params[0];
-  if (profileClass != undefined || profileClass != null) {
+
+  if (isPresent(profileClass)) {
     return profileClass;
-  }
-  else {
+  } else {
     return 'no-face';
   }
 }
 
-export default Ember.Helper.helper(profileImageClass);
+export default helper(profileImageClass);

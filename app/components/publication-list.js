@@ -1,28 +1,34 @@
-import Ember from 'ember';
+import { inject as service } from '@ember/service';
+import Component from '@ember/component';
 
-export default Ember.Component.extend({
+export default Component.extend({
   tagName: 'ul',
   classNames: ['custom', 'my-3'],
   hasPublications: false,
 
-  showPublication: Ember.on('didInsertElement', function() {
+  didInsertElement() {
+    this.showPublication();
+    this._super(...arguments);
+  },
+
+  showPublication() {
     const store = this.get('store')
     let publications = this
-    if (store.getPublications().length == 0) {
+
+    if (store.getPublications().length === 0) {
       store.fetchPublicationsInLibrary().done(function() {
         if (publications.isDestroyed) {
           return;
         }
         publications.set('hasPublications', true);
       });
-    }
-    else {
+    } else {
       if (publications.isDestroyed) {
         return;
       }
       publications.set('hasPublications', true);
     }
-  }),
+  },
 
-  store: Ember.inject.service()
+  store: service()
 });

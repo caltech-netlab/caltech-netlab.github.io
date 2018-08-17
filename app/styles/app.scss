@@ -159,7 +159,7 @@ footer {
 
     // faculty
     &.steven-low {
-      background-image: url('images/people/faculty/steven-low-2.jpg');
+      background-image: url('images/people/faculty/steven-low-canonical.jpg');
     }
     &.adam-wierman {
       background-image: url('images/people/faculty/adam-wierman.jpg');
@@ -171,10 +171,9 @@ footer {
       background-image: url('images/people/faculty/mani-chandy.jpg');
     }
 
-
-    // research staff
-    &.ted-lee {
-      background-image: url('images/people/research-staff/ted-lee.png');
+    // admin
+    &.christine {
+      background-image: url('images/people/admin/christine.jpg');
     }
 
     // postdocs
@@ -183,9 +182,6 @@ footer {
     }
 
     // graduates
-    &.niangjun-chen {
-      background-image: url('images/people/graduates/niangjun-chen.png');
-    }
     &.yujie-tang {
       background-image: url('images/people/graduates/yujie-tang.png');
     }
@@ -209,14 +205,6 @@ footer {
     }
     &.tongxin-li {
       background-image: url('images/people/graduates/tongxin-li.png');
-    }
-
-    // visiting phd
-    &.zhaojian-wang {
-      background-image: url('images/people/visiting-graduates/zhaojian-wang.png');
-    }
-    &.pengcheng-you {
-      background-image: url('images/people/visiting-graduates/pengcheng-you.png');
     }
   }
 }
