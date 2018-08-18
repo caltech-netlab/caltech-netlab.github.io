@@ -1,0 +1,77 @@
+<div class="jumbotron jumbotron-home-banner jumbotron-fluid">
+  <div class="container">
+    <div class="jumbotron-content text-light">
+      <h1 class="display-3"></h1>
+      <p class="lead"></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <p class="lead text-center">&nbsp;</p>
+    </div>
+  </div>
+</div>
+
+<div class="bg-gray mb-3">
+  <div class="container py-3">
+    <div class="row">
+      <div class="col-12 my-3">
+        <h2 class="sr-only">Research</h2>
+        <div class="researches row">
+          <div class="research col-md-6 col-lg-3 my-3">
+            {{#link-to "research.power-systems-steady-state"}}
+              <div class="research-content-container">
+                <div class="bg-psss clickable">
+                  <h3>Power Systems: Steady State</h3>
+                </div>
+              </div>
+            {{/link-to}}
+          </div>
+          <div class="research col-md-6 col-lg-3 my-3">
+            {{#link-to "research.power-systems-dynamics"}}
+              <div class="research-content-container">
+                <div class="bg-power-systems-dynamics clickable">
+                  <h3>Power Systems: Dynamics</h3>
+                </div>
+              </div>
+            {{/link-to}}
+          </div>
+          <div class="research col-md-6 col-lg-3 my-3">
+            {{#link-to "research.electric-vehicles"}}
+              <div class="research-content-container">
+                <div class="bg-electric-vehicles clickable">
+                  <h3>Electric Vehicles (EV)</h3>
+                </div>
+              </div>
+            {{/link-to}}
+          </div>
+          <div class="research col-md-6 col-lg-3 my-3">
+            {{#link-to "research.communication-networks"}}
+              <div class="research-content-container">
+                <div class="bg-communication-networks clickable">
+                  <h3>Communication Networks</h3>
+                </div>
+              </div>
+            {{/link-to}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-3 py-3">
+  <div class="row">
+    <div id="publications" class="col-lg-6">
+      <h2 class="text-lg-center">Recent Publications</h2>
+      {{publication-list model=recent}}
+    </div>
+    <div id="highlights" class="col-lg-6">
+      <h2 class="text-lg-center">Highlights</h2>
+      {{highlight-accordion model=highlights}}
+    </div>
+  </div>
+</div>

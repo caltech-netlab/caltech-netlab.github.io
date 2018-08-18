@@ -54,6 +54,7 @@ module.exports = {
         "arrow-spacing": ["error"],
         "no-confusing-arrow": ["error"],
         "no-useless-rename": ["error"],
+        "no-console": ["off"],
         "no-var": ["error"]
     },
     overrides: [

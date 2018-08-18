@@ -16,6 +16,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('home');
   this.route('research', function() {
     this.route('power-systems-steady-state');
     this.route('power-systems-dynamics');
@@ -25,6 +26,7 @@ Router.map(function() {
   this.route('people');
   this.route('publications');
   this.route('acknowledgement');
+  this.route('not-found', { path: "*" });
 });
 
 export default Router;

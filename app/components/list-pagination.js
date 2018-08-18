@@ -3,25 +3,17 @@ import { alias } from "@ember/object/computed";
 import { inject as service } from '@ember/service';
 import Component from '@ember/component';
 
-const PAGINATION_SIZE = 45;
-
 export default Component.extend({
-  params: service('publication-pager'),
+  publications: service('publications'),
 
   tagName: "section",
 
-  page: alias("params.page"),
+  page: alias("publications.page"),
+  paginateBy: 10,
 
-  paginatedItems: computed('page', function() {
-    let i = (+this.get('page') - 1) * PAGINATION_SIZE;
-    let j = i + PAGINATION_SIZE;
-
-    return this.get('items').slice(i, j);
-  }),
-
-  numberOfPages: computed('page', function() {
-    let n = this.get('items.length');
-    let r = Math.ceil(n / PAGINATION_SIZE);
+  numberOfPages: computed('page', 'total', function() {
+    let n = this.get('total');
+    let r = Math.ceil(n / this.get("paginateBy"));
 
     return r;
   }),
@@ -51,18 +43,18 @@ export default Component.extend({
   actions: {
     nextClicked() {
       if (this.get('page') + 1 <= this.get('numberOfPages')) {
-        this.get('params').nextPage();
+        this.get('publications').nextPage();
       }
     },
 
     previousClicked() {
       if (this.get('page') > 0) {
-        this.get('params').previousPage();
+        this.get('publications').previousPage();
       }
     },
 
     pageClicked(pageNumber) {
-      this.get("params").goToPage(pageNumber);
+      this.get("publications").goToPage(pageNumber);
     }
   }
 });

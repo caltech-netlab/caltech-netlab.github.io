@@ -7,39 +7,10 @@
     {{/if}}
 
     {{#each pageNumbers as |pageNumber|}}
-      <li class="page-item {{if (eq pageNumber params.page) "active" ""}}">
+      <li class="page-item {{if (eq pageNumber currentPage) "active" ""}}">
         <a class="page-link" {{action "pageClicked" pageNumber}}>
           {{pageNumber}}
-          {{#if (eq pageNumber params.page)}}
-            <span class="sr-only">(current)</span>
-          {{/if}}
-        </a>
-      </li>
-    {{/each}}
-
-    {{#if showNext}}
-      <li class="page-item"><a class="page-link" {{action "nextClicked"}}>{{nextText}}</a></li>
-    {{else}}
-      <li class="page-item disabled"><a class="page-link" href="#">{{nextText}}</a></li>
-    {{/if}}
-  </ul>
-</nav>
-
-{{component 'publication-list' model=paginatedItems}}
-
-<nav aria-label="publication pagination">
-  <ul class="pagination justify-content-center">
-    {{#if showPrevious}}
-      <li class="page-item"><a class="page-link" {{action "previousClicked"}}>{{previousText}}</a></li>
-    {{else}}
-      <li class="page-item disabled"><a class="page-link" href="#">{{previousText}}</a></li>
-    {{/if}}
-
-    {{#each pageNumbers as |pageNumber|}}
-      <li class="page-item {{if (eq pageNumber params.page) "active" ""}}">
-        <a class="page-link" {{action "pageClicked" pageNumber}}>
-          {{pageNumber}}
-          {{#if (eq pageNumber params.page)}}
+          {{#if (eq pageNumber currentPage)}}
             <span class="sr-only">(current)</span>
           {{/if}}
         </a>

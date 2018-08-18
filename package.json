@@ -36,6 +36,7 @@
     "ember-export-application-global": "^2.0.0",
     "ember-font-awesome": "^4.0.0-rc.4",
     "ember-load-initializers": "^1.1.0",
+    "ember-local-storage": "^1.4.1",
     "ember-resolver": "^5.0.1",
     "ember-source": "~3.3.1",
     "ember-truth-helpers": "^2.0.0",

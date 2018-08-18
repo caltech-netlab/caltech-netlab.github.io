@@ -25,7 +25,7 @@
 
         <section class="py-3">
           <h3 class="mt-3">Caltech Collaborators</h3>
-          {{#each model.facultyCollaborators as |person|}}
+          {{#each people.facultyCollaborators as |person|}}
             {{current-member-card model=person}}
           {{/each}}
         </section>
@@ -35,7 +35,7 @@
       <section class="py-3">
         <h2>Admin</h2>
 
-        {{#each model.admin as |person|}}
+        {{#each people.admin as |person|}}
           {{current-member-card model=person}}
         {{/each}}
 
@@ -47,7 +47,7 @@
         <section class="py-3">
           <h4>Postdoctoral Researchers</h4>
 
-          {{#each model.postdocs as |person|}}
+          {{#each people.postdocs as |person|}}
             {{current-member-card model=person}}
           {{/each}}
         </section>
@@ -55,16 +55,16 @@
         <section class="py-3">
           <h4>Graduate Students</h4>
 
-          {{#each model.graduates as |person|}}
+          {{#each people.graduates as |person|}}
             {{current-member-card model=person}}
           {{/each}}
         </section>
 
-        {{#if (gt model.visitingPhDStudents.length 0)}}
+        {{#if (gt people.visitingPhDStudents.length 0)}}
           <section class="py-3">
             <h4>Visiting Ph.D. Students</h4>
 
-            {{#each model.visitingPhDStudents as |person|}}
+            {{#each people.visitingPhDStudents as |person|}}
               {{current-member-card model=person}}
             {{/each}}
         </section>
@@ -79,7 +79,7 @@
           <h4>Postdoctoral Researchers</h4>
 
           <div class="card-columns flex-lg-wrap visitors">
-            {{#each model.pastPostdocs as |person|}}
+            {{#each people.pastPostdocs as |person|}}
               {{previous-member-card model=person}}
             {{/each}}
           </div>
@@ -89,7 +89,7 @@
           <h4>Graduate Students</h4>
 
           <div class="card-columns flex-lg-wrap visitors">
-            {{#each model.pastGraduateStudents as |person|}}
+            {{#each people.pastGraduateStudents as |person|}}
               {{previous-member-card model=person}}
             {{/each}}
           </div>
@@ -101,7 +101,7 @@
           <h5>Faculty</h5>
 
           <div class="card-columns flex-lg-wrap visitors">
-            {{#each model.pastVisitingFaculty as |person|}}
+            {{#each people.pastVisitingFaculty as |person|}}
               {{previous-member-card model=person}}
             {{/each}}
           </div>
@@ -111,7 +111,7 @@
           <h5>Ph.D. Students</h5>
 
           <div class="card-columns flex-lg-wrap visitors">
-            {{#each model.pastPhDStudents as |person|}}
+            {{#each people.pastVisitingPhDStudents as |person|}}
               {{previous-member-card model=person}}
             {{/each}}
           </div>
