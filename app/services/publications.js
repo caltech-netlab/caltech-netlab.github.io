@@ -1,11 +1,8 @@
-import { computed } from '@ember/object';
 import { bind } from '@ember/runloop';
 import { isPresent } from '@ember/utils';
 import $ from 'jquery';
 import Service from '@ember/service';
 import { storageFor } from 'ember-local-storage';
-
-const RECENT_LIMIT = 5;
 
 export default Service.extend({
   init() {
@@ -38,10 +35,6 @@ export default Service.extend({
 
   publications: null,
   loaded: false,
-
-  recentPublications: computed("publications.[]", function() {
-    return this.get("publications").slice(0, RECENT_LIMIT);
-  }),
 
   persistToLocalStorage() {
     this.set("cachedPubs.cache", this.get("publications"));

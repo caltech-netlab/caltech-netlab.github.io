@@ -1,6 +1,6 @@
 import { inject as service } from '@ember/service';
 import { htmlSafe } from '@ember/string';
-import { alias } from '@ember/object/computed';
+import { computed } from '@ember/object';
 import Controller from '@ember/controller';
 
 const highlights = [{
@@ -21,8 +21,12 @@ const highlights = [{
   content: htmlSafe('<ul><li>2014-12-02 - <a href="https://rigorandrelevance.wordpress.com/2014/12/02/business-case-for-der-and-utility/">rigor+relevance</a></li></ul>')
 }];
 
+const RECENT_LIMIT = 4;
+
 export default Controller.extend({
   publications: service(),
-  recent: alias("publications.recentPublications"),
+  recent: computed("publications.publications.[]", function() {
+    return this.get("publications.publications").slice(0, RECENT_LIMIT);
+  }),
   highlights: highlights
 });

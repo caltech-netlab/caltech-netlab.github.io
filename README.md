@@ -1,7 +1,6 @@
-# netlab
+# netlab-website
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repository contains the Ember source code for [netlab website](http://netlab.caltech.edu).
 
 ## Prerequisites
 
@@ -10,7 +9,6 @@ You will need the following things properly installed on your computer.
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with NPM)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
 ## Installation
 
@@ -23,23 +21,16 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
+To ensure best practice in coding style, you should always run the following command before pushing to the repository:
+
 * `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+To build and deploy the website, use the `deploy/deploy-to-cms.sh` script. You should make sure `USERNAME` and `PASSWORD` are defined in your environment variables, where `USERNAME` is the user name you use to log into `login.cms.caltech.edu`, and `PASSWORD` is the associated password. Also make sure [sshpass](https://sourceforge.net/projects/sshpass/) is installed in your machine before running the script.
 
 ## Further Reading / Useful Links
 
@@ -61,16 +52,3 @@ Specify what it takes to deploy your app.
 #### Research Images
 
 * Preferably 600x800 or larger.
-
-## Notes
-
-### Publications
-Resources used:
-* [pagination](https://ember-twiddle.com/e26ab2cf0ee1df839cfbea5877c4fa62)
-* [params passing](https://ember-twiddle.com/b9f5b807b87f9f2a592351012b6f14cf?openFiles=services.task-pager.js%2Ctemplates.components.display-qp.hbs&route=%2Ftasks%3Fpage%3D1)
-
-### Updating the app
-
-Add-ons to reinstall after `ember init`:
-* [bootstrap 4](https://www.npmjs.com/package/ember-cli-bootstrap-4) - `ember install ember-cli-bootstrap-4`
-* [FontAwesome](https://www.npmjs.com/package/ember-font-awesome) - `ember install ember-font-awesome`

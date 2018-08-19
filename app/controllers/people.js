@@ -5,17 +5,20 @@ const people = {
     {
       name: "Adam Wierman",
       position: "Professor of Computing and Mathematical Sciences; Executive Officer for Computing and Mathematical Sciences; Director, Information Science and Technology",
-      imageClass: "adam-wierman"
+      imageClass: "adam-wierman",
+      link: "http://users.cms.caltech.edu/~adamw/"
     },
     {
       name: "John Doyle",
       position: "Jean-Lou Chameau Professor of Control and Dynamical Systems, Electrical Engineering, and Bioengineering",
-      imageClass: "john-doyle"
+      imageClass: "john-doyle",
+      link: "http://www.cds.caltech.edu/~doyle/wiki/index.php?title=Main_Page"
     },
     {
       name: "Mani Chandy",
       position: "Simon Ramo Professor of Computer Science, Emeritus",
-      imageClass: "mani-chandy"
+      imageClass: "mani-chandy",
+      link: "http://www.cms.caltech.edu/people/mani"
     }
   ],
   admin: [

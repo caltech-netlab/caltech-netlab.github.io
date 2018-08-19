@@ -16,7 +16,6 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
-  this.route('home');
   this.route('research', function() {
     this.route('power-systems-steady-state');
     this.route('power-systems-dynamics');

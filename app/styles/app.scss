@@ -46,6 +46,16 @@ footer {
   top: -80px;
 }
 
+.add-hero-padding {
+  padding-top: 66px;
+}
+
+.small-icon-container {
+  img {
+    padding: 20%;
+  }
+}
+
 #highlightAccordion {
   .item {
     border-bottom: 1px solid $gray-400;
@@ -55,6 +65,10 @@ footer {
       border-bottom: 0px;
     }
   }
+}
+
+.text-center {
+  text-align: center;
 }
 
 .jumbotron {
@@ -75,7 +89,7 @@ footer {
 }
 
 .jumbotron-acknowledgement-banner {
-  background-image: url("images/banners/banner-6.jpg");
+  background-image: url(images/banners/banner-6.jpg);
   -webkit-background-position: top;
   -moz-background-position: top;
   -o-background-position: top;
@@ -83,11 +97,11 @@ footer {
 }
 
 .jumbotron-home-banner {
-  background-image: url("images/banners/banner-1.jpg");
+  background-image: url(images/banners/banner-1.jpg);
 }
 
 .jumbotron-people-banner {
-  background-image: url("images/banners/banner-2.jpg");
+  background-image: url(images/banners/banner-2.jpg);
   -webkit-background-position: top;
   -moz-background-position: top;
   -o-background-position: top;
@@ -95,15 +109,15 @@ footer {
 }
 
 .jumbotron-publications-banner {
-  background-image: url("images/banners/banner-5.jpg");
+  background-image: url(images/banners/banner-5.jpg);
 }
 
 .jumbotron-research-banner {
-  background-image: url("images/banners/banner-3.jpg");
+  background-image: url(images/banners/banner-3.jpg);
 }
 
 .jumbotron-resources-banner {
-  background-image: url("images/banners/banner-4.jpg");
+  background-image: url(images/banners/banner-4.jpg);
 }
 
 .logo {
@@ -122,6 +136,110 @@ footer {
     height: 100px;
     width: 100px;
   }
+
+  .image-container {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .powerflex-logo {
+    background-image: url(images/logos/sponsors/PowerFlex-Systems-Logo.svg);
+  }
+
+  .nsf-logo {
+    background-image: url(images/logos/sponsors/NSF-logo.svg);
+  }
+
+  .arpae-logo {
+    background-image: url(images/logos/sponsors/arpae-logo.jpg);
+  }
+
+  .skoltech-logo {
+    background-image: url(images/logos/sponsors/skoltech-logo.png);
+  }
+
+  .dtra-logo {
+    background-image: url(images/logos/sponsors/DTRA-logo.png);
+  }
+
+  .nrel-logo {
+    background-image: url(images/logos/sponsors/NREL-logo-blue.png);
+  }
+
+  .flow-logo {
+    background-image: url(images/logos/sponsors/FLOW-logo-color.png);
+  }
+
+  .los-alamos-logo {
+    background-image: url(images/logos/sponsors/Los-Alamos-logo.png);
+  }
+
+  .most-logo {
+    background-image: url(images/logos/sponsors/MOST-logo.png);
+  }
+
+  .sce-logo {
+    background-image: url(images/logos/sponsors/SCE-logo.jpg);
+  }
+
+  .aro-logo {
+    background-image: url(images/logos/sponsors/ARO-logo.png);
+  }
+
+  .bell-labs-logo {
+    background-image: url(images/logos/sponsors/NOKIA-Bell-Labs-logo.png);
+  }
+
+  .resnick-logo {
+    background-image: url(images/logos/sponsors/resnick-logo.jpg);
+  }
+
+  .lucent-logo {
+    background-image: url(images/logos/sponsors/Alcatel-Lucent-Enterprise-logo.svg);
+  }
+
+  .cisco-logo {
+    background-image: url(images/logos/sponsors/Cisco-logo.svg);
+  }
+
+  .doe-logo {
+    background-image: url(images/logos/sponsors/DOE-logo.png);
+  }
+
+  .okawa-logo {
+    background-image: url(images/logos/sponsors/Okawa-Foundation-title.png);
+  }
+
+  .afosr-logo {
+    background-image: url(images/logos/sponsors/AFOSR-logo.jpg);
+  }
+
+  .corning-logo {
+    background-image: url(images/logos/sponsors/corning-logo.svg);
+  }
+
+  .level-3-logo {
+    background-image: url(images/logos/sponsors/Level3-logo.svg);
+  }
+
+  .juniper-logo {
+    background-image: url(images/logos/sponsors/juniper-networks-logo.svg);
+  }
+
+  .sun-logo {
+    background-image: url(images/logos/sponsors/Sun-logo.svg);
+  }
+
+  .microsoft-logo {
+    background-image: url(images/logos/sponsors/Microsoft-logo.svg);
+  }
+
+  .intel-logo {
+    background-image: url(images/logos/sponsors/Intel-logo.svg);
+  }
 }
 
 .navbar {
@@ -130,15 +248,18 @@ footer {
 
   .navbar-nav {
     .nav-item {
+      position: relative;
       text-transform: uppercase;
 
       a { font-weight: $light-weight; }
     }
   }
+
+  &.bg-dark {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+  }
 }
-.navbar.bg-dark {
-  background-color: rgba(0, 0, 0, 0.8) !important;
-}
+
 .navbar-brand .logo {
   height: 2em !important;
 }
@@ -161,57 +282,57 @@ footer {
     background-position: center;
 
     &.no-face {
-      background-image: url('http://placehold.it/400x600');
+      background-image: url(http://placehold.it/400x600);
     }
 
     // faculty
     &.steven-low {
-      background-image: url('images/people/faculty/steven-low-canonical.jpg');
+      background-image: url(images/people/faculty/steven-low-canonical.jpg);
     }
     &.adam-wierman {
-      background-image: url('images/people/faculty/adam-wierman.jpg');
+      background-image: url(images/people/faculty/adam-wierman.jpg);
     }
     &.john-doyle {
-      background-image: url('images/people/faculty/john-doyle.jpg');
+      background-image: url(images/people/faculty/john-doyle.jpg);
     }
     &.mani-chandy {
-      background-image: url('images/people/faculty/mani-chandy.jpg');
+      background-image: url(images/people/faculty/mani-chandy.jpg);
     }
 
     // admin
     &.christine {
-      background-image: url('images/people/admin/christine.jpg');
+      background-image: url(images/people/admin/christine.jpg);
     }
 
     // postdocs
     &.james-anderson {
-      background-image: url('images/people/postdocs/james-anderson.png');
+      background-image: url(images/people/postdocs/james-anderson.png);
     }
 
     // graduates
     &.yujie-tang {
-      background-image: url('images/people/graduates/yujie-tang.png');
+      background-image: url(images/people/graduates/yujie-tang.png);
     }
     &.daniel-guo {
-      background-image: url('images/people/graduates/daniel-guo.png');
+      background-image: url(images/people/graduates/daniel-guo.png);
     }
     &.john-pang {
-      background-image: url('images/people/graduates/john-pang.png');
+      background-image: url(images/people/graduates/john-pang.png);
     }
     &.zach-lee {
-      background-image: url('images/people/graduates/zach-lee.png');
+      background-image: url(images/people/graduates/zach-lee.png);
     }
     &.chen-liang {
-      background-image: url('images/people/graduates/chen-liang.png');
+      background-image: url(images/people/graduates/chen-liang.png);
     }
     &.fengyu-zhou {
-      background-image: url('images/people/graduates/fengyu-zhou.png');
+      background-image: url(images/people/graduates/fengyu-zhou.png);
     }
     &.lucien-werner {
-      background-image: url('images/people/graduates/lucien-werner.png');
+      background-image: url(images/people/graduates/lucien-werner.png);
     }
     &.tongxin-li {
-      background-image: url('images/people/graduates/tongxin-li.png');
+      background-image: url(images/people/graduates/tongxin-li.png);
     }
   }
 }
@@ -237,25 +358,25 @@ footer {
 .bg-psss {
   width: 100%;
   height: 100%;
-  background: url('/assets/images/research-areas/power-systems-steady-state/smart-grid.svg');
+  background: url(images/research-areas/power-systems-steady-state/smart-grid.svg);
 }
 
 .bg-communication-networks {
   width: 100%;
   height: 100%;
-  background: url('/assets/images/research-areas/communication-networks/communication-networks.png');
+  background: url(images/research-areas/communication-networks/communication-networks.png);
 }
 
 .bg-power-systems-dynamics {
   width: 100%;
   height: 100%;
-  background: url('/assets/images/research-areas/power-systems-dynamics/power-systems-dynamics.jpg');
+  background: url(images/research-areas/power-systems-dynamics/power-systems-dynamics.jpg);
 }
 
 .bg-electric-vehicles {
   width: 100%;
   height: 100%;
-  background: url('/assets/images/research-areas/ev/electric-vehicles.png');
+  background: url(images/research-areas/ev/electric-vehicles.png);
 }
 
 .bg-cover {
@@ -273,7 +394,7 @@ footer {
 .researches {
   .research {
     overflow: hidden;
-    height: 20rem;
+    height: 15rem;
 
     & > div { width: 100%; height: 100%; position: relative; }
 
@@ -282,28 +403,66 @@ footer {
       background-position: center;
     }
 
-    h3 {
+    h3, h4 {
       position: absolute;
       bottom: 0;
       background-color: rgba(0, 0, 0, .75);
       color: #fff;
       padding: 1rem;
-      // padding-right: 1.5em;
       margin: 0;
       width: 100%;
-      height: 4.3rem;
-      font-size: 1.2rem;
+      height: 3.5rem;
       text-align: center;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    h4 {
+      font-size: 0.8rem;
     }
   }
 }
 
 .research {
   .bg-cover {
-    min-height: 300px;
+    min-height: 150px;
   }
 }
 
+.sub-nav {
+  position: relative;
+  top: 0;
+  padding-left: 5%;
+  width: 100%;
+  background: transparent !important;
+
+  .sub-nav-item {
+    font-size: 14px;
+    list-style: none;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .sub-nav {
+    position: absolute;
+    top: 35px;
+    width: 240px;
+    padding-left: 15%;
+    visibility: hidden;
+
+    &.bg-dark {
+      background-color: rgba(0, 0, 0, 0.8) !important;
+    }
+  }
+}
+
+.nav-item:hover {
+  .sub-nav {
+    visibility: visible;
+  }
+}
 
 ul.custom {
   list-style: none;
@@ -349,16 +508,15 @@ ul.custom {
 }
 
 @include media-breakpoint-down(sm) {
-
   #current-members .image {
     min-width: 20rem !important;
     min-height: 20rem !important;
   }
 }
+
 @include media-breakpoint-down(md) {
-
-
 }
+
 @include media-breakpoint-up(lg) {
   #highlights {
     border-left: 1px solid $gray-500;
