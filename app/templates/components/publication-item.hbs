@@ -3,7 +3,7 @@
   (eq creator model.creators.lastObject)}}and {{/unless}}
 {{/each}}
 ({{string-slice model.date 0 4}})
-<a href="{{model.official_url}}" target="_blank"><em>{{model.title}}.</em></a>
+<a href="{{uri}}" target="_blank"><em>{{model.title}}.</em></a>
 {{#if model.event_title}}
   In: {{#if model.book_title}} {{model.book_title}}{{else}}{{model.publication}}{{/if}}.
   {{model.publisher}}, {{model.place_of_pub}}{{#if model.pagerange}}, pp. {{model.pagerange}}{{/if}}.

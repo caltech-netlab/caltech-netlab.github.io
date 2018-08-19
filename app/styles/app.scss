@@ -39,6 +39,13 @@ footer {
   cursor: pointer;
 }
 
+.offset-anchor {
+  display: block;
+  visibility: hidden;
+  position: relative;
+  top: -80px;
+}
+
 #highlightAccordion {
   .item {
     border-bottom: 1px solid $gray-400;

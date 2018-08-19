@@ -62,6 +62,8 @@ export default Service.extend({
         let pub = {
           id: entry.eprintid,
           title: entry.title,
+          documents: entry.documents,
+          related_url: entry.related_url,
           book_title: entry.book_title,
           event_title: entry.event_title,
           creators: entry.creators,
