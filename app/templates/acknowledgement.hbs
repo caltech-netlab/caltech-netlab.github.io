@@ -16,15 +16,15 @@
 
       {{!-- <h3 my-3>Active Sponsors</h3> --}}
       <div class="d-flex flex-wrap justify-content-around">
-        {{#each model.recent as |sponsor| }}
-          {{component 'sponsor-thumbnail' model=sponsor}}
+        {{#each sponsors.recent as |sponsor| }}
+          {{sponsor-thumbnail model=sponsor}}
         {{/each}}
       </div>
 
       {{!-- <h3 class="my-3">Past Sponsors</h3> --}}
       <div class="d-flex flex-wrap justify-content-around">
-        {{#each model.past as |sponsor| }}
-          {{component 'sponsor-thumbnail' model=sponsor}}
+        {{#each sponsors.past as |sponsor| }}
+          {{sponsor-thumbnail model=sponsor}}
         {{/each}}
       </div>
     </div>

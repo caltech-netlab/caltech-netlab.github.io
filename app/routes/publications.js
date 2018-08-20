@@ -1,15 +1,12 @@
-import Ember from 'ember';
+import Route from '@ember/routing/route';
 
-export default Ember.Route.extend({
+export default Route.extend({
   queryParams: {
     page: {
       refreshModel: true
+    },
+    limit: {
+      refreshModel: true
     }
-  },
-
-  model() {
-    return this.get('store').getPublications();
-  },
-
-  store: Ember.inject.service()
+  }
 });

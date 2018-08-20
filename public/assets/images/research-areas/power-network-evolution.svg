@@ -27,10 +27,10 @@
 </style>
 <g>
 	<defs>
-		<rect id="SVGID_1_" width="720" height="540"/>
+            <rect id="SVGID_1_" width="720" height="540"/>
 	</defs>
 	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+            <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
 	</clipPath>
 	<rect y="0" class="st0" width="720" height="540"/>
 	<g class="st1">
@@ -50,13 +50,15 @@
 		<text transform="matrix(1 0 0 1 19.1989 362.5172)" class="st8 st4">1876 </text>
 	</g>
 	<g class="st6">
-		<text transform="matrix(1 0 0 1 7.1991 262.5172)"><tspan x="0" y="0" class="st7 st12 st13 st14">T</tspan><tspan x="9.7" y="0" class="st7 st12 st13">esla: multi-phase</tspan><tspan x="156.7" y="0" class="st7 st12 st13"> </tspan><tspan x="161" y="0" class="st7 st12 st13">AC </tspan></text>
+            <text transform="matrix(1 0 0 1 7.1991 262.5172)">
+                <tspan x="0" y="0" class="st7 st12 st13 st14">T</tspan><tspan x="9.7" y="0" class="st7 st12 st13">esla: multi-phase AC</tspan>
+            </text>
 	</g>
 	<g class="st6">
 		<text transform="matrix(1 0 0 1 19.1989 308.5172)" class="st8 st4">1888 </text>
 	</g>
-	<rect x="102" y="293.3" class="st15" width="308.7" height="65.4"/>
-	<rect x="102" y="293.3" class="st5" width="308.7" height="65.4"/>
+	<rect x="102" y="293.3" class="st15" width="258.7" height="65.4"/>
+	<rect x="102" y="293.3" class="st5" width="258.7" height="65.4"/>
 	<g class="st6">
 		<text transform="matrix(1 0 0 1 109.1989 312.8953)" class="st8 st4">both started as natural monopolies </text>
 	</g>
@@ -85,12 +87,12 @@
 	<g class="st6">
 		<text transform="matrix(1 0 0 1 459.6621 425.7065)" class="st8 st4">started </text>
 	</g>
-	<rect x="109.3" y="102.2" class="st16" width="464.2" height="94.5"/>
+	<rect x="109.3" y="102.2" class="st16" width="384.2" height="94.5"/>
 	<g class="st6">
 		<text transform="matrix(1 0 0 1 116.4929 123.8208)" class="st8 st13">Energy network will undergo similar </text>
 	</g>
 	<g class="st6">
-		<text transform="matrix(1 0 0 1 404.6071 123.8208)" class="st7 st8 st13">architectural  </text>
+		<text transform="matrix(1 0 0 1 389.6071 123.8208)" class="st7 st8 st13">architectural  </text>
 	</g>
 	<g class="st6">
 		<text transform="matrix(1 0 0 1 116.4929 144.8207)" class="st7 st8 st13">transformation</text>
@@ -99,13 +101,15 @@
 		<text transform="matrix(1 0 0 1 231.5417 144.8207)" class="st2 st12 st13"> </text>
 	</g>
 	<g class="st6">
-		<text transform="matrix(1 0 0 1 236.5427 144.8207)" class="st8 st13">that phone network went through </text>
+		<text transform="matrix(1 0 0 1 228.5427 144.8207)" class="st8 st13">that phone network went through </text>
 	</g>
 	<g class="st6">
-		<text transform="matrix(1 0 0 1 116.4929 166.8207)"><tspan x="0" y="0" class="st8 st13">in the last two decades to become the world</tspan><tspan x="350.2" y="0" class="st8 st13">’</tspan><tspan x="353.9" y="0" class="st8 st13">s </tspan></text>
+            <text transform="matrix(1 0 0 1 116.4929 166.8207)"><tspan x="0" y="0" class="st8 st13">in the last two decades to become the world's</tspan>
+            </text>
 	</g>
 	<g class="st6">
-		<text transform="matrix(1 0 0 1 116.4929 187.8207)"><tspan x="0" y="0" class="st8 st13">largest and most complex Io</tspan><tspan x="225.1" y="0" class="st8 st13">T</tspan><tspan x="235.8" y="0" class="st8 st13"> </tspan></text>
+            <text transform="matrix(1 0 0 1 116.4929 187.8207)"><tspan x="0" y="0" class="st8 st13">largest and most complex IoT</tspan>
+            </text>
 	</g>
 	<line class="st17" x1="558" y1="240" x2="657.7" y2="240.1"/>
 	<polygon class="st18" points="653.2,240.1 648.8,234.5 660,240.1 648.7,245.7 	"/>
@@ -120,7 +124,7 @@
 		<text transform="matrix(1 0 0 1 614.7509 459.9852)" class="st19 st8 st4">convergence </text>
 	</g>
 	<g class="st6">
-		<text transform="matrix(1 0 0 1 634.3212 478.9852)" class="st19 st8 st4">to Internet </text>
+		<text transform="matrix(1 0 0 1 614.3212 478.9852)" class="st19 st8 st4">to Internet </text>
 	</g>
 	<line class="st17" x1="568.5" y1="410.1" x2="595.2" y2="441.6"/>
 	<polygon class="st18" points="592.3,438.2 593.7,431.1 596.7,443.3 585.1,438.4 	"/>

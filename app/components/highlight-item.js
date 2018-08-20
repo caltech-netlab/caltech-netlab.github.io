@@ -1,15 +1,15 @@
-import Ember from 'ember';
+import Component from '@ember/component';
 
-export default Ember.Component.extend({
+export default Component.extend({
   toggleIcon: 'fa-plus',
+
   actions: {
     switchToggleIcon() {
       if (this.get('toggleIcon') === 'fa-plus') {
         this.set('toggleIcon', 'fa-minus')
-      }
-      else {
+      } else {
         this.set('toggleIcon', 'fa-plus')
       }
     }
-  },
+  }
 });
