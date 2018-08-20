@@ -10,6 +10,8 @@ export default Route.extend({
           subHtmlSelectorRelative: true
         });
       });
+      this.get("controller").fetchMileage();
+      this.get("controller").fetchCO2();
     }
   }
 });
