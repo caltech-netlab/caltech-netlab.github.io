@@ -52,8 +52,14 @@ footer {
 
 .small-icon-container {
   img {
-    padding: 20%;
+    max-width: 60%;
   }
+}
+
+#evolution {
+  max-width: 800px;
+  width: 100%;
+  min-width: 200px;
 }
 
 #highlightAccordion {
