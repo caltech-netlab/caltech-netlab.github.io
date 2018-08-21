@@ -45,7 +45,7 @@ export default Controller.extend({
 
   CO2: DEFAULT_CO2,
   fetchCO2() {
-    $.get("https://caltech.powerflex.com/api/datasources/proxy/5/query?db=powerlogic&q=SELECT%20last(%22value%22)%20%20%2F%201000000%20FROM%20%22TotalEnergy%22%20WHERE%20%22host%22%20%3D%20%27cit-ca-2-pm-1%27%20AND%20time%20%3E%201534748400000ms%20and%20time%20%3C%201534834799999ms%20GROUP%20BY%20time(15m)&epoch=ms").then(bind(this, response => {
+    $.get("https://caltech.powerflexsystems.com/api/datasources/proxy/5/query?db=powerlogic&q=SELECT%20last(%22value%22)%20*3.125%2F1000000*0.334%20FROM%20%22TotalEnergy%22%20WHERE%20%22host%22%20%3D%20%27cit-ca-2-pm-1%27%20AND%20time%20%3E%201534748400000ms%20and%20time%20%3C%201534834799999ms%20GROUP%20BY%20time(15m)%20fill(null)&epoch=ms").then(bind(this, response => {
       let series = getSeries(response);
 
       // This check ensures series !== []

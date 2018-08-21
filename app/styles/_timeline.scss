@@ -1,4 +1,5 @@
 $badge-size: 100px;
+$badge-margin: 80px;
 
 .timeline {
   list-style: none;
@@ -18,7 +19,7 @@ $badge-size: 100px;
   }
 
   & > li {
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     position: relative;
 
     &:before,
@@ -32,7 +33,7 @@ $badge-size: 100px;
     }
 
     &.empty {
-      margin-bottom: $badge-size;
+      margin-bottom: $badge-margin;
 
       & > .timeline-badge {
         width: $badge-size/2;
@@ -52,7 +53,6 @@ $badge-size: 100px;
       font-size: 0.9rem;
       text-align: center;
       position: absolute;
-      // top: $badge-size/4;
       left: 50%;
       margin-left: -($badge-size/2);
       background-color: #eee;
@@ -70,9 +70,6 @@ $badge-size: 100px;
       border-radius: 2px;
       padding: 1rem;
       position: relative;
-      // -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-      // -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-      // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 
       &:before,
       &:after {
