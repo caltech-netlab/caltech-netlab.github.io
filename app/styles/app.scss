@@ -261,6 +261,20 @@ footer {
       position: relative;
       text-transform: uppercase;
 
+      &:hover {
+        &::after {
+          content: "";
+          display: block;
+          height: 20px;
+          width: 100%;
+          position: absolute;
+        }
+
+        .sub-nav {
+          visibility: visible;
+        }
+      }
+
       a { font-weight: $light-weight; }
     }
   }
@@ -448,7 +462,7 @@ footer {
   width: 100%;
   background: transparent !important;
 
-  .sub-nav-item {
+  .nav-item {
     font-size: 14px;
     list-style: none;
   }
@@ -457,20 +471,15 @@ footer {
 @include media-breakpoint-up(md) {
   .sub-nav {
     position: absolute;
-    top: 35px;
+    top: 53px;
     width: 240px;
-    padding-left: 15%;
+    text-align: center;
+    display: none;
     visibility: hidden;
 
     &.bg-dark {
       background-color: rgba(0, 0, 0, 0.8) !important;
     }
-  }
-}
-
-.nav-item:hover {
-  .sub-nav {
-    visibility: visible;
   }
 }
 

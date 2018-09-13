@@ -59,8 +59,17 @@ Power Systems</em>, 228(2):940–951, May 2013</li>
 </figure>
 
 <ul>
-  <li>G. Lee, T. Lee, Z. Low, S. H. Low and C. Ortega. <a href="https://ieeexplore.ieee.org/document/7905971/" target="_blank">Adaptive charging network for electric vehicles</a>, <em>Proc. of the IEEE Global Conference on Signal and Information Processing (GlobalSIP)</em>, Washington, DC, December 2016</li>
-  <li>Z. Lee, D. Chang, C. Jin, G. S. Lee, R. Lee, T. Lee and S. H. Low. <a href="/assets/publications/Lee-2018-Practical-Considerations-LSHD-EV-charging.pdf" target="_blank">Large-Scale Adaptive Electric Vehicle Charging</a>, 2018</li>
+  <li>
+    G. Lee, T. Lee, Z. Low, S. H. Low and C. Ortega.
+    <a href="https://ieeexplore.ieee.org/document/7905971/" target="_blank">Adaptive charging network for electric vehicles</a>,
+    <em>Proc. of the IEEE Global Conference on Signal and Information Processing (GlobalSIP)</em>,
+    Washington, DC, December 2016
+  </li>
+  <li>
+    Z. Lee, D. Chang, C. Jin, G. S. Lee, R. Lee, T. Lee and S. H. Low.
+    <a href="/assets/publications/Lee-2018-Practical-Considerations-LSHD-EV-charging.pdf" target="_blank">Large-Scale Adaptive Electric Vehicle Charging</a>,
+    2018
+  </li>
 </ul>
 
 <p>ACN has been used for 16 projects between 2016 and 2018 for 22 undergraduates, including 4 female students: 4 SURF projects (4 students) in summer 2016, 1 class project (4 students) and 1 Directed Study (1 student) in Fall 2016, 1 class project (2 students) and 2 Directed Studies (5 students) in Winter 2017, 5 class projects (5 students) and 1 Directed Studies (1 student) in Winter 2018, and 1 SURF project (1 student) in Summer 2018.</p>
@@ -68,7 +77,11 @@ Power Systems</em>, 228(2):940–951, May 2013</li>
 <p>In its simplest form, optimal charging can be formulated as a linear program (LP) or a quadratic program (QP). An offline LP assumes all future EV arrivals, departures, and energy demands are known and computes the charging profiles of all EVs as an optimal solution of a single LP. An online LP is an iterative algorithm in a model-predictive control fashion, and, in each iteration, computes the charging profiles of existing EVs assuming there will not be any future EV arrival. Offline LP is impractical but serves as a lower bound on the cost of online LP which can be implemented in ACN. Extensive simulations using datasets from Caltech ACN and Google’s charging facilities show that the performance of online LP is extremely close to that of offline LP. It is proved in:</p>
 
 <ul>
-  <li>L. Guo, K. F. Erliksson and S. H. Low. <a href="/assets/publications/Guo-2017-OLP.pdf" target="_blank">Optimal online adaptive electric vehicle charging</a>. <em>Proc. of the IEEE Power and Energy Society General Meeting</em>, Chicago, IL, July 2017</li>
+  <li>
+    L. Guo, K. F. Erliksson and S. H. Low. <a href="/assets/publications/Guo-2017-OLP.pdf" target="_blank">Optimal online adaptive electric vehicle charging</a>.
+    <em>Proc. of the IEEE Power and Energy Society General Meeting</em>,
+    Chicago, IL, July 2017
+  </li>
 </ul>
 
 <p>that, under appropriate assumptions, when online LP is feasible it indeed attains offline optimal.</p>
@@ -79,7 +92,12 @@ over available time subject to maximum charging rate. We propose an LLF algorith
 performance of online LP in:</p>
 
 <ul>
-  <li>Y. Nakahira, N. Chen, L. Chen and S. H. Low.  <a href="/assets/publications/Nakahira-2017-llf.pdf" target="_blank">Smoothed Least-laxity-first Algorithm for EV Charging</a>. <em>Proc. the Eighth International Conference on Future Energy Systems</em>, 2017</li>
+  <li>
+    Y. Nakahira, N. Chen, L. Chen and S. H. Low.
+    <a href="/assets/publications/Nakahira-2017-llf.pdf" target="_blank">Smoothed Least-laxity-first Algorithm for EV Charging</a>.
+    <em>Proc. the Eighth International Conference on Future Energy Systems</em>,
+    2017
+  </li>
 </ul>
 
 <p>This is surprising because online LP matches well offline optimal by solving for entire charging profiles, taking into account of charging rates at future times, while LLF algorithms are myopic. It turns out that, under our laxity definition, the algorithm (of valley-filling type) equivalently solves a convex optimization problem that implicitly takes into account of charging behavior in the next iteration.</p>
