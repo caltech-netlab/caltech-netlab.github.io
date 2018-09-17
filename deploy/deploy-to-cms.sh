@@ -36,4 +36,10 @@ mv ./index.html ./dist
 echo '[INFO] Uploading index.html...'
 sshpass -p ${PASSWORD} scp -r ./dist/index.html ${USERNAME}@login.cms.caltech.edu:/cs/networks/netlab/staging
 
+echo '[INFO] Updating file group and permissions...'
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chgrp -R networks /cs/networks/netlab/staging'
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chgrp -R networks /cs/networks/netlab/assets'
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chmod -R g+w /cs/networks/netlab/staging'
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chmod -R g+w /cs/networks/netlab/assets'
+
 echo '[INFO] Done'
