@@ -1,0 +1,28 @@
+<td>
+  <strong>{{model.title}}</strong>
+  <br>
+  {{#if (eq model.locations.length 1)}}
+    {{model.locations.lastObject.description}}
+    <div class="resource-links">
+      {{#each model.locations.lastObject.resources as |resource|}}
+        <span>
+          <a href="{{resource.link}}" target="_blank">{{resource.text}}</a>
+        </span>
+      {{/each}}
+    </div>
+  {{else}}
+    <ul class="resource-links mb-0">
+      {{#each model.locations as |location|}}
+        <li>
+          {{location.description}}
+          <br>
+          {{#each location.resources as |resource|}}
+            <span>
+              <a href="{{resource.link}}" target="_blank">{{resource.text}}</a>
+            </span>
+          {{/each}}
+        </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+</td>

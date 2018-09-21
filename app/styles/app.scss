@@ -455,6 +455,15 @@ footer {
   }
 }
 
+.resource-links {
+  span::after {
+    content: " |";
+  }
+  span:last-of-type::after {
+    content: "";
+  }
+}
+
 .sub-nav {
   position: relative;
   top: 0;

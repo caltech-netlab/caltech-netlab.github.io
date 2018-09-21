@@ -1,0 +1,27 @@
+<td>
+  <strong>{{model.title}}</strong>
+  <br>
+  {{#if (eq model.subjects.length 1)}}
+    {{model.subjects.lastObject.description}}
+    <span class="resource-links">
+      {{#each model.subjects.lastObject.posts as |post|}}
+        <span>
+          <a href="{{post.link}}" target="_blank">{{post.text}}</a>
+        </span>
+      {{/each}}
+    </span>
+  {{else}}
+    <ul class="resource-links mb-0">
+      {{#each model.subjects as |subject|}}
+        <li>
+          {{subject.subject}}:
+          {{#each subject.posts as |post|}}
+            <span>
+              <a href="{{post.link}}" target="_blank">{{post.text}}</a>
+            </span>
+          {{/each}}
+        </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+</td>
