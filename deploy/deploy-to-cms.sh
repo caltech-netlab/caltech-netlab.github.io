@@ -28,18 +28,40 @@ ember build -e production
 
 echo '[INFO] Preparing uploading dependencies...'
 mv ./dist/index.html .
-sshpass -p ${PASSWORD} scp -r ./dist/* ${USERNAME}@login.cms.caltech.edu:/cs/networks/netlab/staging/
-# This asset copy fixes relative path error. Remove after staging becomes live
-sshpass -p ${PASSWORD} scp -r ./dist/assets/* ${USERNAME}@login.cms.caltech.edu:/cs/networks/netlab/assets/
+sshpass -p ${PASSWORD} scp -r ./dist/* ${USERNAME}@login.cms.caltech.edu:/cs/networks/netlab/
 mv ./index.html ./dist
 
 echo '[INFO] Uploading index.html...'
-sshpass -p ${PASSWORD} scp -r ./dist/index.html ${USERNAME}@login.cms.caltech.edu:/cs/networks/netlab/staging
+# REDIRECTS contains all relative URLS (w.r.t netlab.caltech.edu) that need to redirect back to the netlab main index.html page.
+# This will ensure the URLs redirect properly under the CMS DNS service
+
+REDIRECTS=("" "research/" "research/power-systems-steady-state/" "research/power-systems-dynamics/" \
+  "research/electric-vehicles/" "research/communication-networks/" "people/" \
+  "publications/" "resources/" "acknowledgement/" "staging/")
+
+for path in "${REDIRECTS[@]}"
+do
+  sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "mkdir -p /cs/networks/netlab/${path}"
+  sshpass -p ${PASSWORD} scp -r ./dist/index.html ${USERNAME}@login.cms.caltech.edu:/cs/networks/netlab/${path}index.html
+done
 
 echo '[INFO] Updating file group and permissions...'
-sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chgrp -R networks /cs/networks/netlab/staging'
+for path in "${REDIRECTS[@]}"
+do
+  sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chgrp networks /cs/networks/netlab/${path}index.html"
+  sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chmod -R g+w /cs/networks/netlab/${path}index.html"
+
+  if [ "$path" != "" ]; then
+    sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chgrp networks /cs/networks/netlab/${path}"
+    sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chmod -R g+w /cs/networks/netlab/${path}"
+  fi
+done
+
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chgrp networks /cs/networks/netlab/crossdomain.xml'
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chmod g+w /cs/networks/netlab/crossdomain.xml'
 sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chgrp -R networks /cs/networks/netlab/assets'
-sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chmod -R g+w /cs/networks/netlab/staging'
 sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chmod -R g+w /cs/networks/netlab/assets'
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chgrp -R networks /cs/networks/netlab/fonts'
+sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chmod -R g+w /cs/networks/netlab/fonts'
 
 echo '[INFO] Done'
