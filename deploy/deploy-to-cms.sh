@@ -50,6 +50,11 @@ for path in "${REDIRECTS[@]}"
 do
   sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chgrp networks /cs/networks/netlab/${path}index.html"
   sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chmod -R g+w /cs/networks/netlab/${path}index.html"
+
+  if [ "$path" != "" ]; then
+    sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chgrp networks /cs/networks/netlab/${path}"
+    sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu "chmod -R g+w /cs/networks/netlab/${path}"
+  fi
 done
 
 sshpass -p ${PASSWORD} ssh ${USERNAME}@login.cms.caltech.edu 'chgrp networks /cs/networks/netlab/crossdomain.xml'
