@@ -24,7 +24,7 @@ Router.map(function() {
   });
   this.route('people');
   this.route('publications');
-  this.route('resources');
+  this.route('presentations');
   this.route('acknowledgement');
   this.route('not-found', { path: "*" });
 });

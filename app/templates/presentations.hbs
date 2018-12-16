@@ -10,14 +10,14 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h1 class="display-4 mt-3">Resources</h1>
+      <h1 class="display-4 mt-3">Presentations</h1>
 
       <div class="accordion" id="resourceAccordion">
 
         <div class="card">
           <div class="card-header" id="psResources">
             <h5 class="mb-0">
-              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapsePS" aria-expanded="true" aria-controls="collapsePS">Power Systems</button>
+              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapsePS" aria-expanded="true" aria-controls="collapsePS">Talks</button>
             </h5>
           </div>
 
@@ -25,11 +25,6 @@
             <div class="card-body">
 
               <section>
-                <h5 class="card-title">
-                  <i class="fa fa-comment fa-flip-horizontal"></i>
-                  Talks
-                </h5>
-
                 <table class="table">
                   <tbody>
                     {{#each powerSystems.talks as |talk|}}
@@ -39,22 +34,6 @@
                 </table>
               </section>
 
-              <section>
-                <h5 class="card-title">
-                  <i class="fa fa-pencil"></i>
-                  Blog Posts -
-                  <small class="text-muted"><a href="https://rigorandrelevance.wordpress.com/author/slowatcaltech/" target="_blank">Rigor + Relevance</a></small>
-
-                </h5>
-
-                <table class="table">
-                  <tbody>
-                    {{#each powerSystems.blogPosts as |blogPost|}}
-                      {{resource-blog-row model=blogPost}}
-                    {{/each}}
-                  </tbody>
-                </table>
-              </section>
             </div>
           </div>
         </div>
@@ -62,13 +41,19 @@
         <div class="card">
           <div class="card-header" id="evResources">
             <h5 class="mb-0">
-              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseEV" aria-expanded="true" aria-controls="collapseEV">Electric Vehicles</button>
+              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseEV" aria-expanded="true" aria-controls="collapseEV">Blogs</button>
             </h5>
           </div>
 
           <div id="collapseEV" class="collapse" aria-labelledby="evResources" data-parent="#resourceAccordion">
             <div class="card-body">
-              N/A
+              <table class="table">
+                <tbody>
+                  {{#each powerSystems.blogPosts as |blogPost|}}
+                    {{resource-blog-row model=blogPost}}
+                  {{/each}}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
