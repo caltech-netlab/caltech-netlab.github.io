@@ -1,9 +1,8 @@
 import { inject as service } from '@ember/service';
-import { htmlSafe } from '@ember/string';
 import { computed } from '@ember/object';
 import Controller from '@ember/controller';
 
-const RECENT_LIMIT = 4;
+const RECENT_LIMIT = 6;
 
 export default Controller.extend({
   publications: service(),
