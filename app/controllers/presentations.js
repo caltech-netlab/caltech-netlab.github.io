@@ -64,7 +64,7 @@ const talks = [
         resources: [
           {
             text: "Slides",
-            link: "/assets/publications/Low-201611-OptimalStorage+PFsol.pptx"
+            link: "/assets/slides/Low-201611-OptimalStorage+PFsol.pptx"
           }
         ]
       }
@@ -78,7 +78,7 @@ const talks = [
         resources: [
           {
             text: "Slides",
-            link: "/assets/publications/Low-201601-OnlineAlg.pptx"
+            link: "/assets/slides/Low-201601-OnlineAlg.pptx"
           }
         ]
       },
@@ -87,7 +87,7 @@ const talks = [
         resources: [
           {
             text: "Slides",
-            link: "/assets/publications/Low-201606-OnlineAlg-SimonsBerkeley-short.pptx"
+            link: "/assets/slides/Low-201606-OnlineAlg-SimonsBerkeley-short.pptx"
           }
         ]
       }
@@ -115,21 +115,7 @@ const talks = [
         resources: [
           {
             text: "Slides",
-            link: "Low-201503-Cornell-Ithaca.pptx"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    title: "Control architecture for networked DER",
-    locations: [
-      {
-        description: "Optimization panel at the 12th Int'l Workshop on Electric Power Control Centers (EPCC), Bedford Springs, PA, June 2013",
-        resources: [
-          {
-            text: "Slides",
-            link: "http://www.epcc-workshop.net/assets/downloads/low-presentation-control-arch-ders.pdf"
+            link: "/assets/slides/Low-201503-Cornell-Ithaca.pptx"
           }
         ]
       }
@@ -168,7 +154,7 @@ const talks = [
             link: "http://vimeo.com/39752673"
           },
           {
-            text: "Video Part III",
+            text: "Video Part II",
             link: "http://vimeo.com/39758488"
           }
         ]
@@ -182,12 +168,7 @@ const blogPosts = [
     title: "A Network of Intelligent DER",
     subjects: [
       {
-        posts: [
-          {
-            text: "Link",
-            link: "https://rigorandrelevance.wordpress.com/2014/09/18/a-network-of-intelligent-der/"
-          }
-        ]
+        link: "https://rigorandrelevance.wordpress.com/2014/09/18/a-network-of-intelligent-der/"
       }
     ]
   },
@@ -239,12 +220,7 @@ const blogPosts = [
     title: "Business Case of DER and Utility",
     subjects: [
       {
-        posts: [
-          {
-            text: "Link",
-            link: "https://rigorandrelevance.wordpress.com/2014/12/02/business-case-for-der-and-utility/"
-          }
-        ]
+        link: "https://rigorandrelevance.wordpress.com/2014/12/02/business-case-for-der-and-utility/"
       }
     ]
   }
