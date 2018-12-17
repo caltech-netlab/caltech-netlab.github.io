@@ -37,7 +37,7 @@ echo '[INFO] Uploading index.html...'
 
 REDIRECTS=("" "research/" "research/power-systems-steady-state/" "research/power-systems-dynamics/" \
   "research/electric-vehicles/" "research/communication-networks/" "people/" \
-  "publications/" "resources/" "acknowledgement/" "staging/")
+  "publications/" "presentations/" "acknowledgement/" "staging/")
 
 for path in "${REDIRECTS[@]}"
 do

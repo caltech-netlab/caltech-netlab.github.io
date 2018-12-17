@@ -13,7 +13,6 @@
       <h1 class="display-4 mt-3">Presentations</h1>
 
       <div class="accordion" id="resourceAccordion">
-
         <div class="card">
           <div class="card-header" id="psResources">
             <h5 class="mb-0">
@@ -23,33 +22,31 @@
 
           <div id="collapsePS" class="collapse show" aria-labelledby="psResources" data-parent="#resourceAccordion">
             <div class="card-body">
-
               <section>
                 <table class="table">
                   <tbody>
-                    {{#each powerSystems.talks as |talk|}}
+                    {{#each talks as |talk|}}
                       {{resource-talk-row model=talk}}
                     {{/each}}
                   </tbody>
                 </table>
               </section>
-
             </div>
           </div>
         </div>
 
         <div class="card">
-          <div class="card-header" id="evResources">
+          <div class="card-header" id="blogResources">
             <h5 class="mb-0">
-              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseEV" aria-expanded="true" aria-controls="collapseEV">Blogs</button>
+              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseBlog" aria-expanded="true" aria-controls="collapseBlog">Blogs</button>
             </h5>
           </div>
 
-          <div id="collapseEV" class="collapse" aria-labelledby="evResources" data-parent="#resourceAccordion">
+          <div id="collapseBlog" class="collapse" aria-labelledby="blogResources" data-parent="#resourceAccordion">
             <div class="card-body">
               <table class="table">
                 <tbody>
-                  {{#each powerSystems.blogPosts as |blogPost|}}
+                  {{#each blogPosts as |blogPost|}}
                     {{resource-blog-row model=blogPost}}
                   {{/each}}
                 </tbody>
@@ -57,51 +54,7 @@
             </div>
           </div>
         </div>
-
-        <div class="card">
-          <div class="card-header" id="cnResources">
-            <h5 class="mb-0">
-              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseCN" aria-expanded="true" aria-controls="collapseCN">Communication Networks</button>
-            </h5>
-          </div>
-
-          <div id="collapseCN" class="collapse" aria-labelledby="cnResources" data-parent="#resourceAccordion">
-            <div class="card-body">
-              <section>
-                <h5 class="card-title">
-                  <i class="fa fa-file-text"></i>
-                  Papers
-                </h5>
-
-                <table class="table">
-                  <tbody>
-                    {{#each communicationNetworks.papers as |paper|}}
-                      {{resource-paper-row model=paper}}
-                    {{/each}}
-                  </tbody>
-                </table>
-              </section>
-
-              <section>
-                <h5 class="card-title">
-                  <i class="fa fa-comment fa-flip-horizontal"></i>
-                  Talks
-                </h5>
-
-                <table class="table">
-                  <tbody>
-                    {{#each communicationNetworks.talks as |talk|}}
-                      {{resource-talk-row model=talk}}
-                    {{/each}}
-                  </tbody>
-                </table>
-              </section>
-            </div>
-          </div>
-        </div>
-
       </div>
-
     </div>
   </div>
 </div>

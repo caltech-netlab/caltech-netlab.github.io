@@ -109,7 +109,14 @@ const people = {
       ]
     }
   ],
-  visitingPhDStudents: [],
+  visitingPhDStudents: [{
+    name: "Yue Chen",
+    position: "Graduate Student in Electronic Engineering, Tsinghua University",
+    imageClass: "yue-chen",
+    research: [
+      "Yue is a fourth year graudate student in Electronic Engineering, Tsinghua University. Her research interests include operation and economic analysis of integrated energy systems, bi-level optimization, game theory and their applications."
+    ]
+  }],
   pastPostdocs: [
     { name: "Ki-Baek Kim", duration: "2001 - 2003" },
     { name: "Cheng Jin",
