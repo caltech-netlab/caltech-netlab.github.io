@@ -8,7 +8,7 @@ function highlightFilter(pub) {
   let publisher = pub.publication || "";
 
   return publisher.toLowerCase().match(/journal|transaction/);
-};
+}
 
 export default Controller.extend({
   publications: service(),
