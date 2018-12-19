@@ -14,16 +14,8 @@
 
       <p class="lead">Thank you to all who supported us!</p>
 
-      {{!-- <h3 my-3>Active Sponsors</h3> --}}
       <div class="d-flex flex-wrap justify-content-around">
-        {{#each sponsors.recent as |sponsor| }}
-          {{sponsor-thumbnail model=sponsor}}
-        {{/each}}
-      </div>
-
-      {{!-- <h3 class="my-3">Past Sponsors</h3> --}}
-      <div class="d-flex flex-wrap justify-content-around">
-        {{#each sponsors.past as |sponsor| }}
+        {{#each sponsors as |sponsor| }}
           {{sponsor-thumbnail model=sponsor}}
         {{/each}}
       </div>

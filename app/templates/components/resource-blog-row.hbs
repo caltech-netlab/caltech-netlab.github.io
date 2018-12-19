@@ -1,16 +1,15 @@
 <td>
-  <strong>{{model.title}}</strong>
-  <br>
   {{#if (eq model.subjects.length 1)}}
-    {{model.subjects.lastObject.description}}
-    <span class="resource-links">
-      {{#each model.subjects.lastObject.posts as |post|}}
+    {{#let model.subjects.lastObject as |post|}}
+      <span class="resource-links">
         <span>
-          <a href="{{post.link}}" target="_blank">{{post.text}}</a>
+          <a href="{{post.link}}" target="_blank">{{model.title}}</a>
         </span>
-      {{/each}}
-    </span>
+      </span>
+    {{/let}}
   {{else}}
+    <strong>{{model.title}}</strong>
+    <br>
     <ul class="resource-links mb-0">
       {{#each model.subjects as |subject|}}
         <li>

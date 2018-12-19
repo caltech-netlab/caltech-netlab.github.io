@@ -1,0 +1,60 @@
+<div class="jumbotron jumbotron-resources-banner jumbotron-fluid">
+  <div class="container">
+    <div class="jumbotron-content text-light">
+      <h1 class="display-3"></h1>
+      <p class="lead"></p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="display-4 mt-3">Presentations</h1>
+
+      <div class="accordion" id="resourceAccordion">
+        <div class="card">
+          <div class="card-header" id="psResources">
+            <h5 class="mb-0">
+              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapsePS" aria-expanded="true" aria-controls="collapsePS">Talks</button>
+            </h5>
+          </div>
+
+          <div id="collapsePS" class="collapse show" aria-labelledby="psResources" data-parent="#resourceAccordion">
+            <div class="card-body">
+              <section>
+                <table class="table">
+                  <tbody>
+                    {{#each talks as |talk|}}
+                      {{resource-talk-row model=talk}}
+                    {{/each}}
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header" id="blogResources">
+            <h5 class="mb-0">
+              <button class="btn btn-link w-100" type="button" data-toggle="collapse" data-target="#collapseBlog" aria-expanded="true" aria-controls="collapseBlog">Blogs</button>
+            </h5>
+          </div>
+
+          <div id="collapseBlog" class="collapse" aria-labelledby="blogResources" data-parent="#resourceAccordion">
+            <div class="card-body">
+              <table class="table">
+                <tbody>
+                  {{#each blogPosts as |blogPost|}}
+                    {{resource-blog-row model=blogPost}}
+                  {{/each}}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

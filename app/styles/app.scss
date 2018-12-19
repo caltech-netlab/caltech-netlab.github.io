@@ -66,17 +66,6 @@ footer {
   min-width: 200px;
 }
 
-#highlightAccordion {
-  .item {
-    border-bottom: 1px solid $gray-400;
-    padding: 1em;
-
-    &:last-child {
-      border-bottom: 0px;
-    }
-  }
-}
-
 .text-center {
   text-align: center;
 }
@@ -141,6 +130,8 @@ footer {
 .logo-link {
   height: 200px;
   width: 200px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
 
   &.small {
     height: 100px;
@@ -358,6 +349,9 @@ footer {
     &.tongxin-li {
       background-image: url(images/people/graduates/tongxin-li.png);
     }
+    &.yue-chen {
+      background-image: url(images/people/visiting-graduates/yue-chen.png);
+    }
   }
 }
 
@@ -369,7 +363,7 @@ footer {
   pointer-events: none;
 }
 
-#publications, #highlights {
+#publications, {
   font-size: 0.8em;
 }
 
@@ -546,10 +540,6 @@ ul.custom {
 }
 
 @include media-breakpoint-up(lg) {
-  #highlights {
-    border-left: 1px solid $gray-500;
-  }
-
   .profile-spacer {
     display: none !important;
   }

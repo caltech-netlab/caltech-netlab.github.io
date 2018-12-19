@@ -109,7 +109,14 @@ const people = {
       ]
     }
   ],
-  visitingPhDStudents: [],
+  visitingPhDStudents: [{
+    name: "Yue Chen",
+    position: "Graduate Student in Electrical Engineering, Tsinghua University",
+    imageClass: "yue-chen",
+    research: [
+      "Yue is a fourth year graudate student in Electrical Engineering, Tsinghua University. Her research interests include operation and economic analysis of integrated energy systems, bi-level optimization, game theory and their applications."
+    ]
+  }],
   pastPostdocs: [
     { name: "Ki-Baek Kim", duration: "2001 - 2003" },
     { name: "Cheng Jin",
@@ -149,7 +156,7 @@ const people = {
     { name: "Zhenhua Liu", shared: "Wierman", degree: "PhD 2014", current: "SUNY Stony Brook", link: "http://www.ams.stonybrook.edu/~zhliu/" },
     { name: "Lingwen Gan", degree: "PhD 2015", current: "Facebook", link: "https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx" },
     { name: "Desmond Cai", shared: "Wierman", degree: "PhD 2016", current: "Singapore A*STAR", link: "https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx" },
-    { name: "Qiuyu Peng", degree: "PhD 2016", current: "DeepMind (Google)", link: "https://www.linkedin.com/in/qiuyu-gavin-peng-2815a427" },
+    { name: "Qiuyu Peng", degree: "PhD 2016", current: "Nuro", link: "https://www.linkedin.com/in/qiuyu-gavin-peng-2815a427" },
     { name: "Changhong Zhao", degree: "PhD 2016", current: "NREL", link: "https://sites.google.com/site/changhongzhao19/" },
     { name: "Niangjun Chen", shared: "Wierman", degree: "Phd 2017", current: "Singapore A*STAR", link: "https://niangjunchen.github.io"
     },

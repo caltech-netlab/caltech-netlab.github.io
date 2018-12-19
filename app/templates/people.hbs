@@ -17,7 +17,7 @@
 
         {{#let (hash name="Steven H. Low"
                      imageClass="steven-low"
-                     position="Professor of Computer Science and Electrical Engineering"
+                     position="F. J. Gilloon Professor of Computer Science and Electrical Engineering"
                      cv="/assets/documents/LowCV.pdf")
         as |model|}}
           {{current-member-card model=model}}
@@ -45,17 +45,17 @@
         <h2 class="my-3">Current Members</h2>
 
         <section class="py-3">
-          <h4>Postdoctoral Researchers</h4>
+          <h4>Graduate Students</h4>
 
-          {{#each people.postdocs as |person|}}
+          {{#each people.graduates as |person|}}
             {{current-member-card model=person}}
           {{/each}}
         </section>
 
         <section class="py-3">
-          <h4>Graduate Students</h4>
+          <h4>Postdoctoral Researchers</h4>
 
-          {{#each people.graduates as |person|}}
+          {{#each people.postdocs as |person|}}
             {{current-member-card model=person}}
           {{/each}}
         </section>

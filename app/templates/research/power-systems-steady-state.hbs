@@ -153,7 +153,7 @@
 
 <p>Even though the algorithms above are distributed, they iterate on all variables in the cyberspace until they converge before their solutions are applied to the physical grid. In particular, the intermediate iterates typically do not satisfy the power flow equations nor operational constraints. While offline algorithms are suitable for traditional applications such as economic dispatch or state estimation, they may become inadequate for realtime optimization of DERs in the future, especially in the presence of fluctuating loads and volatile renewables.</p>
 
-<p>We have developed real-time OPF algorithms that iterate only on variables corresponding to controllable devices (e.g., intelligent loads) in feedback interaction with the grid, modeled by power flow equations, as illustrated in Fig. 2. The control objective is specified by an optimization problem and our goal is to design a real-time feedback controller so that the closed-loop system converges to an equilibrium that solves the optimization problem. The basic idea is to explicitly exploit power network as a power flow solver, update our control variables by taking a single first-order or second-order gradient direction and apply it to the network in each iteration, without waiting for the computation to converge. The network will solve the power flow equations in response of the control input and produce a new network state, which is then used to compute the next gradient iteration for the control variables, and the cycle repeats, as illustrated in Figure 3. An important advantage of this is that such algorithms naturally tracks the solution of timevarying OPF problems, when changes manifest themselves in the network state that is used to calculate the control. First-order real-time OPF algorithms are explained in:</p>
+<p>We have developed real-time OPF algorithms that iterate only on variables corresponding to controllable devices (e.g., intelligent loads) in feedback interaction with the grid, modeled by power flow equations, as illustrated in Figure 1. The control objective is specified by an optimization problem and our goal is to design a real-time feedback controller so that the closed-loop system converges to an equilibrium that solves the optimization problem. The basic idea is to explicitly exploit power network as a power flow solver, update our control variables by taking a single first-order or second-order gradient direction and apply it to the network in each iteration, without waiting for the computation to converge. The network will solve the power flow equations in response of the control input and produce a new network state, which is then used to compute the next gradient iteration for the control variables, and the cycle repeats, as illustrated in Figure 2. An important advantage of this is that such algorithms naturally tracks the solution of timevarying OPF problems, when changes manifest themselves in the network state that is used to calculate the control. First-order real-time OPF algorithms are explained in:</p>
 
 <ul>
   <li>
@@ -174,7 +174,7 @@
       <a href="/assets/images/research-areas/power-systems-steady-state/power-systems-steady-state-realtimeOPF1.svg" target="_blank">
         <img src="/assets/images/research-areas/power-systems-steady-state/power-systems-steady-state-realtimeOPF1.svg" alt="General structure of real-time, or online, algorithms for optimization problems.">
       </a>
-      <figcaption class="text-center">Figure 2: General structure of real-time, or online, algorithms for optimization problems.</figcaption>
+      <figcaption class="text-center">Figure 1: General structure of real-time (online) feedback-based algorithms.</figcaption>
     </figure>
   </div>
   <div class="col-md-6 col-sm-12">
@@ -182,7 +182,7 @@
       <a href="/assets/images/research-areas/power-systems-steady-state/power-systems-steady-state-realtimeOPF2.svg" target="_blank">
         <img src="/assets/images/research-areas/power-systems-steady-state/power-systems-steady-state-realtimeOPF2.svg" alt="General structure of real-time, or online, algorithms for optimization problems.">
       </a>
-      <figcaption class="text-center">Figure 3: Online or real-time algorithms for OPF problems where the controller updates the control variable <em>u(t)</em> in each period and applies it to the grid. The grid implicitly solves the power flow equation <em>F(x,u(t)) = 0</em> to determine the state variable <em>x(t)</em>, which is measured and used to compute the control <em>u(t +1)</em> in the next period.</figcaption>
+      <figcaption class="text-center">Figure 2: Real-time OPF: controller applies control <em>u(t)</em> to the grid, which implicitly solves power flow equations <em>F(x,u(t)) = 0</em> to determine state <em>x(t)</em>, which is measured and used to compute the control <em>u(t +1)</em>.</figcaption>
     </figure>
   </div>
 </div>
@@ -195,6 +195,13 @@
     <a href="https://ieeexplore.ieee.org/document/7929408/" target="_blank">Real-time optimal power flow</a>,
     <em>IEEE Trans. on Smart Grid</em>,
     special issue on Distributed control and efficient optimization methods for smart grid, 8(6):2963–2973, November 2017
+  </li>
+  <li>
+    Y. Tang, E. Dall’Anese, A. Bernstein, and S. H. Low.
+    <a href="/assets/publications/cdc2018_tang.pdf" target="_blank">A Feedback-Based Regularized Primal-Dual Gradient Method
+for Time-Varying Nonconvex Optimization</a>,
+    <em>Proc. IEEE Conference on Decision and Control (CDC)</em>,
+    Florida, US, December 2018
   </li>
 </ul>
 
@@ -219,10 +226,13 @@
 </ul>
 
 <div class="row">
-  <div class="col-md-6 col-12 mx-auto">
+  <div class="col-md-8 col-12 mx-auto">
     <figure>
-      <a href="/assets/images/research-areas/power-systems-steady-state/typical-charging-discharging-curve.gif" target="_blank">
-        <img src="/assets/images/research-areas/power-systems-steady-state/typical-charging-discharging-curve.gif" alt="An example of a typical charging and discharging curve" class="img-fluid">
+      <a href="/assets/images/research-areas/power-systems-steady-state/injection.png" target="_blank">
+        <img src="/assets/images/research-areas/power-systems-steady-state/injection.png" alt="An example of a typical injection curve" class="img-fluid">
+      </a>
+      <a href="/assets/images/research-areas/power-systems-steady-state/charging.png" target="_blank">
+        <img src="/assets/images/research-areas/power-systems-steady-state/charging.png" alt="An example of a typical charging curve" class="img-fluid">
       </a>
       <figcaption class="text-center">An example of a typical charging and discharging curve <em>∂b<sup>∗</sup>(x,t)/∂t</em>.</figcaption>
     </figure>
