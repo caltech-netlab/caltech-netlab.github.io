@@ -97,7 +97,7 @@ const people = {
       position: "Graduate Student in Computing and Mathematical Sciences",
       imageClass: "tongxin-li",
       research: [
-        "Tongxin’s research interest focuses on problems arising in power networks. He has been thinking about issues related to stochastic optimal power flow. He became a PhD student in Caltech since 2017. Prior to this, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received a master degree in information engineering and bachelor degrees in both engineering and mathematics from CUHK."
+        "Tongxin’s research interest focuses primarily on problems arising in electric grids. He has been working on solving problems related to graph topology identification and EV charging systems using data-driven methods. He became a PhD student at Caltech since 2017. Prior to this, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
       ]
     },
     {
