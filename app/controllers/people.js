@@ -187,7 +187,7 @@ const people = {
     { name: "Yongmin Zhang", duration: "2013 - 2014", department: "Control Department", university: "Zhejiang University, China" },
     { name: "Junhao Lin", duration: "2015 - 2016", department: "EEE", university: "Hong Kong University, Hong Kong" },
     { name: "Zhaojian Wang", duration: "2016-2017", department: "EE", university: "Tsinghua University, China" },
-    { name: "Pengcheng You", duration: "2016-2017", department: "Control Department", university: "Zhejiang University, China" }
+    { name: "Pengcheng You", duration: "2016-2017", department: "ME & ECE", current: "Johns Hopkins University, USA", link: "https://sites.google.com/view/pengcheng-you" }
   ]
 };
 
