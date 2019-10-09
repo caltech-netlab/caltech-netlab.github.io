@@ -86,7 +86,7 @@ const people = {
   visitingPhDStudents: [{
     name: "Su Wang",
     position: "Graduate Student in Electronic and Computer Engineering, Hong Kong University of Science and Technology.",
-    imageClass: "bo-sun",
+    imageClass: "su-wang",
     research: [
       "My research interests are in the general area of optimization and game theory, with applications to power systems and electricity markets. I focus on the strategic behaviour analysis and market design in networked wholesale electricity markets."
     ]
@@ -143,7 +143,7 @@ const people = {
     { name: "Changhong Zhao", degree: "PhD 2016", current: "NREL", link: "https://sites.google.com/site/changhongzhao19/" },
     { name: "Niangjun Chen", shared: "Wierman", degree: "Phd 2017", current: "Singapore A*STAR", link: "https://niangjunchen.github.io" },
     { name: "John Pang", shared: "Wierman", degree: "PhD 2019", current: "Schlumberger", link: "https://j-pang.github.io//#work" },
-    { name: "Daniel Guo", degree: "PhD 2019", current: "Stealth Mode Startup", link: "https://scholar.google.com/citations?user=QixlSO4AAAAJ&hl=en" },
+    { name: "Linqi (Daniel) Guo", degree: "PhD 2019", current: "Stealth Startup", link: "https://scholar.google.com/citations?user=QixlSO4AAAAJ&hl=en" },
     { name: "Yujie Tang", degree: "PhD 2019", current: "Harvard", link: "https://www.seas.harvard.edu/directory/ytang" },
     { name: "Youngmi Ohk", degree: "MS 1998", degree_university: "Melbourne University", current: "Dawson Consulting Pty Ltd", link: "https://www.linkedin.com/in/youngmi-ohk-08b56/" },
     { name: "Sanjeewa Athuraliya", degree: "MS 2000", current: "Ergon Energy", link: "https://www.linkedin.com/in/sanjeewa-athuraliya-71b31a5/" },
