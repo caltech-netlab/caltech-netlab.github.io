@@ -37,12 +37,21 @@ const people = {
       research: [
         "James is interested in distributed robust control, computational analysis of nonlinear dynamical systems, and scalable convex optimization methods with applications in systems biology and power systems. In particular, with regards to power systems, his research looks at the problem of disaggregating network data with the goal of creating realistic models that can be used for optimal power flow problems. This project aims to protect the data that belongs to grid operators while providing meaningful models for researchers to work with."
       ]
+    },
+    {
+      name: "Guannan Qu",
+      position: "Postdoctoral Scholar in Computing and Mathematical Sciences",
+      imageClass: "guannan-qu",
+      link: "http://guannanqu.com",
+      research: [
+        "Guannan obtained his B.S. degree from Tsinghua University in 2010, and his Ph.D. degree from Harvard University in 2019. He is broadly interested in optimization, control, and learning, particularly in networked systems like the electric power system, multi-agent systems and other cyber-physical networked systems. His research has involved developing distributed decision-making rules where each agent uses only local information but can achieve desirable global behavior. Examples include distributed optimization in multi-agent systems, distributed control in power systems, etc."
+      ]
     }
   ],
   graduates: [
     {
       name: "Zach Lee",
-      position: "Graduate Student in Electrical Engineering",
+      position: "PhD in Electrical Engineering",
       imageClass: "zach-lee",
       link: "http://www.its.caltech.edu/~zlee/",
       research: [
@@ -51,7 +60,7 @@ const people = {
     },
     {
       name: "Chen Liang",
-      position: "Graduate Student in Computing and Mathematical Sciences",
+      position: "PhD in Computing and Mathematical Sciences",
       imageClass: "chen-liang",
       research: [
         "My research interests include network science, graph theory, and power system analysis. Currently, I'm working on cascading failures in power systems."
@@ -59,7 +68,7 @@ const people = {
     },
     {
       name: "Fengyu Zhou",
-      position: "Graduate Student in Electrical Engineering",
+      position: "PhD in Electrical Engineering",
       imageClass: "fengyu-zhou",
       link: "https://scholar.google.com/citations?hl=en&user=i-oBMbYAAAAJ&view_op=list_works&gmla=AJsN-F750ajwJtiVfwwVEcPKbsi9QeYae3weVYD28AV8FCNsuryOGtodjf2dIA_nULOZCD5dMnjy_9jUqkO4CffF9yAkq6U7ts7Yd1RITjBfaggTor2Gf_8",
       research: [
@@ -68,18 +77,27 @@ const people = {
     },
     {
       name: "Tongxin Li",
-      position: "Graduate Student in Computing and Mathematical Sciences",
+      position: "PhD in Computing and Mathematical Sciences",
       imageClass: "tongxin-li",
+      link: "http://tongxin.me",
       research: [
-        "Tongxin’s research interest focuses primarily on problems arising in electric grids. He has been working on solving problems related to graph topology identification and EV charging systems using data-driven methods. He became a PhD student at Caltech since 2017. Prior to this, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
+        "Tongxin’s research interest focuses primarily on problems arising in electric grids and machine learning. He has been working on interdisciplinary research problems such as graph topology identification, causal inference and ACN (adaptive EV charging network) control using data-driven methods. He became a PhD student at Caltech since 2017. Prior to this, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
       ]
     },
     {
       name: "Lucien Werner",
-      position: "Graduate Student in Computing and Mathematical Sciences",
+      position: "PhD in Computing and Mathematical Sciences",
       imageClass: "lucien-werner",
       research: [
         "I am a first-year graduate student interested in cyber-physical systems, in particular stability analysis and control of power networks. In the past I have researched pattern formation in dynamical systems. Outside of mathematics, I have a career as a cellist and continue to perform around the world--often with my three sisters who are all also musicians and mathematicians. Prior to joining Caltech, I received degrees in mathematics, music, and politics from Northwestern University, Harvard University, and Montana State University."
+      ]
+    },
+    {
+      name: "Sunash Sharma",
+      position: "Schmidt Academy Software Engineer",
+      imageClass: "sunash-sharma",
+      research: [
+        "At a high level, I'm interested in developing robust software that enables impactful research. My work focuses on developing a simulation platform and live testbed for adaptive electric vehicle charging. I'm part of the inaugural class of the Schmidt Academy at Caltech, the aim of which is to bring well-engineered software to research groups around campus. In the past, I've worked on software and research in developmental biophysics, computational fluid dynamics. and quantum computation."
       ]
     }
   ],
