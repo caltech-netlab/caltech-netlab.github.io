@@ -60,11 +60,15 @@
           {{/each}}
         </section>
 
-        {{#if (gt people.visitingPhDStudents.length 0)}}
+        {{#if (or (gt people.visitingPhDStudents.length 0) (gt people.visitingPostdocs.length 0))}}
           <section class="py-3">
-            <h4>Visiting Ph.D. Students</h4>
+            <h4>Visiting Students</h4>
 
             {{#each people.visitingPhDStudents as |person|}}
+              {{current-member-card model=person}}
+            {{/each}}
+
+            {{#each people.visitingPostdocs as |person|}}
               {{current-member-card model=person}}
             {{/each}}
         </section>

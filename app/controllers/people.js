@@ -41,32 +41,6 @@ const people = {
   ],
   graduates: [
     {
-      name: "Yujie Tang",
-      position: "Graduate Student in Electrical Engineering",
-      imageClass: "yujie-tang",
-      link: "https://www.researchgate.net/profile/Yujie_Tang3",
-      research: [
-        "Research interest: Optimization and control of power systems, with a particular focus on the planning and control of distributed energy resources in smart grids."
-      ]
-    },
-    {
-      name: "Daniel Guo",
-      position: "Graduate Student in Computing and Mathematical Sciences",
-      imageClass: "daniel-guo",
-      research: [
-        "Daniel’s research focuses on understanding the impact of network topology to dynamical systems, platform efficiency and online algorithms. His current projects involve cyber-physical network interaction and optimization, load-side frequency control and cascading failure analysis. He is generally interested in spectral graph theory, random matrix theory, matriod theory and how they can be applied to engineering systems."
-      ]
-    },
-    {
-      name: "John Pang",
-      shared: "Wierman",
-      position: "Graduate Student in Computing and Mathematical Sciences",
-      imageClass: "john-pang",
-      research: [
-        "John works in the union of power systems and economics, and aims to learn more about electricity markets and how we can truthfully elicit participation from (controllable load, controllable generation and renewable generation) participants to promote a more efficient and robust power system. He has worked on platforms on networked markets and also implementing frequency control under a limited control coverage. Previously, John also worked on data analysis and machine learning while he was at A*STAR, Singapore."
-      ]
-    },
-    {
       name: "Zach Lee",
       position: "Graduate Student in Electrical Engineering",
       imageClass: "zach-lee",
@@ -110,11 +84,19 @@ const people = {
     }
   ],
   visitingPhDStudents: [{
-    name: "Yue Chen",
-    position: "Graduate Student in Electrical Engineering, Tsinghua University",
-    imageClass: "yue-chen",
+    name: "Su Wang",
+    position: "Graduate Student in Electronic and Computer Engineering, Hong Kong University of Science and Technology.",
+    imageClass: "su-wang",
     research: [
-      "Yue is a fourth year graudate student in Electrical Engineering, Tsinghua University. Her research interests include operation and economic analysis of integrated energy systems, bi-level optimization, game theory and their applications."
+      "My research interests are in the general area of optimization and game theory, with applications to power systems and electricity markets. I focus on the strategic behaviour analysis and market design in networked wholesale electricity markets."
+    ]
+  }],
+  visitingPostdocs: [{
+    name: "Bo Sun",
+    position: "Postdoc in Electronic and Computer Engineering, Hong Kong University of Science and Technology.",
+    imageClass: "bo-sun",
+    research: [
+      "My research focuses on stochastic modeling and optimization with applications to smart energy systems. Currently, I am working on energy and mobility management of electric vehicles with plug-in charging and battery swapping, and transactive control of distributed energy resources in smart grids."
     ]
   }],
   pastPostdocs: [
@@ -143,6 +125,7 @@ const people = {
     { name: "Krishnamurthy Dvijotham", duration: "2014 - 2016", current: "DeepMind (Google)", link: "https://dvij.github.io/" }
   ],
   pastGraduateStudents: [
+
     { name: "David Lapsley", degree: "PhD 1999", degree_university: "Melbourne University", current: "Cisco", link: "https://www.linkedin.com/in/davidlapsley" },
     { name: "Jiantao Wang", shared: "Doyle", degree: "PhD 2005", current: "Goldman Sachs", link: "https://www.linkedin.com/in/jiantao-wang-2127333" },
     { name: "Lijun Chen", shared: "Doyle", degree: "PhD 2006", current: "U Colorado, Boulder", link: "http://spot.colorado.edu/~lich1539/" },
@@ -158,8 +141,10 @@ const people = {
     { name: "Desmond Cai", shared: "Wierman", degree: "PhD 2016", current: "Singapore A*STAR", link: "https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx" },
     { name: "Qiuyu Peng", degree: "PhD 2016", current: "Nuro", link: "https://www.linkedin.com/in/qiuyu-gavin-peng-2815a427" },
     { name: "Changhong Zhao", degree: "PhD 2016", current: "NREL", link: "https://sites.google.com/site/changhongzhao19/" },
-    { name: "Niangjun Chen", shared: "Wierman", degree: "Phd 2017", current: "Singapore A*STAR", link: "https://niangjunchen.github.io"
-    },
+    { name: "Niangjun Chen", shared: "Wierman", degree: "Phd 2017", current: "Singapore A*STAR", link: "https://niangjunchen.github.io" },
+    { name: "John Pang", shared: "Wierman", degree: "PhD 2019", current: "Schlumberger", link: "https://j-pang.github.io//#work" },
+    { name: "Linqi (Daniel) Guo", degree: "PhD 2019", current: "Stealth Startup", link: "https://scholar.google.com/citations?user=QixlSO4AAAAJ&hl=en" },
+    { name: "Yujie Tang", degree: "PhD 2019", current: "Harvard", link: "https://www.seas.harvard.edu/directory/ytang" },
     { name: "Youngmi Ohk", degree: "MS 1998", degree_university: "Melbourne University", current: "Dawson Consulting Pty Ltd", link: "https://www.linkedin.com/in/youngmi-ohk-08b56/" },
     { name: "Sanjeewa Athuraliya", degree: "MS 2000", current: "Ergon Energy", link: "https://www.linkedin.com/in/sanjeewa-athuraliya-71b31a5/" },
     { name: "Craig Cameron", degree: "MS 2002", current: "Finisa", link: "https://www.linkedin.com/in/craigcameron/" },
@@ -172,7 +157,7 @@ const people = {
   pastVisitingFaculty: [
     { name: "Jin S Lee", duration: "2012", department: "EE", university: "Postech, Korea" },
     { name: "Fernando Paganini", duration: "2013", department: '', university: "Universidad ORT, Uruguay" },
-    { name: "Angela Zhang", duration: "2014", department: '', university: "Chinese University of Hong Kong, Hong Kong" },
+    { name: "Angela Zhang", duration: "2014", department: '', university: "Chinese University of Hong Kong" },
     { name: "Feng Liu", duration: "2015 - 2016", department: "Electrical Engineering", university: "Tsinghua University, Beijing, China" },
     { name: "Janusz Bialek", duration: "2017", department: "Skoltech", university: "Moscow, Russia" }
   ],
@@ -182,12 +167,14 @@ const people = {
     { name: "Krister Jacobsson", duration: "2008 - 2009", university: "KTH, Sweden" },
     { name: "Jongkyoo Kim", duration: "2010 - 2011", department: "ECE", university: "Postech, Korea" },
     { name: "Kai Wang", duration: "2010 - 2011", department: "CS", university: "Tsinghua University, China" },
-    { name: "Chengdi Lai", duration: "2012 - 2013", department: "Fulbright Scholar, EEE", university: "Hong Kong University, Hong Kong" },
+    { name: "Chengdi Lai", duration: "2012 - 2013", department: "Fulbright Scholar, EEE", university: "Hong Kong University" },
     { name: "Daniela Meola", duration: "2013 - 2014", department: "Control Department", university: "Università del Sannio, Italy" },
     { name: "Yongmin Zhang", duration: "2013 - 2014", department: "Control Department", university: "Zhejiang University, China" },
-    { name: "Junhao Lin", duration: "2015 - 2016", department: "EEE", university: "Hong Kong University, Hong Kong" },
+    { name: "Junhao Lin", duration: "2015 - 2016", department: "EEE", university: "Hong Kong University" },
     { name: "Zhaojian Wang", duration: "2016-2017", department: "EE", university: "Tsinghua University, China" },
-    { name: "Pengcheng You", duration: "2016-2017", department: "ME & ECE", current: "Johns Hopkins University, USA", link: "https://sites.google.com/view/pengcheng-you" }
+    { name: "Pengcheng You", duration: "2016-2017", department: "ME & ECE", current: "Johns Hopkins University, USA", link: "https://sites.google.com/view/pengcheng-you" },
+    { name: "Yue Chen", duration: "2018-2019", department: "CMS", current: "Tsinghua University, China" },
+    { name: "Chenxi (Stephanie) Sun", duration: "2018-2019", department: "CMS", current: "Hong Kong University" }
   ]
 };
 
