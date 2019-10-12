@@ -120,7 +120,7 @@ const people = {
   ],
   visitingPostdocs: [{
     name: "Bo Sun",
-    position: "Postdoc in Electronic and Computer Engineering, Hong Kong University of Science and Technology",
+    position: "Postdoc Scholar in Electronic and Computer Engineering, Hong Kong University of Science and Technology",
     imageClass: "bo-sun",
     research: [
       "My research focuses on stochastic modeling and optimization with applications to smart energy systems. Currently, I am working on energy and mobility management of electric vehicles with plug-in charging and battery swapping, and transactive control of distributed energy resources in smart grids."
