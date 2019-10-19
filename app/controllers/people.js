@@ -81,7 +81,7 @@ const people = {
       imageClass: "tongxin-li",
       link: "http://tongxin.me",
       research: [
-        "Tongxin’s research interest focuses primarily on problems arising in electric grids and machine learning. He has been working on interdisciplinary research problems such as graph topology identification, causal inference and ACN (adaptive EV charging network) control using data-driven methods. He became a PhD student at Caltech since 2017. Prior to this, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
+        "Tongxin’s research interest focuses primarily on problems arising in electric grids and theoretical machine learning. He has been working on interdisciplinary research problems such as graph topology identification, causal inference and ACN (adaptive EV charging network) control using data-driven methods. Prior to joining Caltech in 2017 as a PhD, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
       ]
     },
     {
