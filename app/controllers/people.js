@@ -192,8 +192,8 @@ const people = {
     { name: "Junhao Lin", duration: "2015 - 2016", department: "EEE", university: "Hong Kong University" },
     { name: "Zhaojian Wang", duration: "2016-2017", department: "EE", university: "Tsinghua University, China" },
     { name: "Pengcheng You", duration: "2016-2017", department: "ME & ECE", current: "Johns Hopkins University, USA", link: "https://sites.google.com/view/pengcheng-you" },
-    { name: "Yue Chen", duration: "2018-2019", department: "CMS", current: "Tsinghua University, China", link: "https://sites.google.com/view/academicyuechen/home"},
-    { name: "Chenxi (Stephanie) Sun", duration: "2018-2019", department: "CMS", current: "Hong Kong University" }
+    { name: "Yue Chen", duration: "2018-2019", department: "EE", current: "Tsinghua University, China", link: "https://sites.google.com/view/academicyuechen/home"},
+    { name: "Chenxi (Stephanie) Sun", duration: "2018-2019", department: "EEE", current: "Hong Kong University" }
   ]
 };
 
