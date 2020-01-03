@@ -30,15 +30,6 @@ const people = {
   ],
   postdocs: [
     {
-      name: "James Anderson",
-      position: "Senior Postdoctoral Scholar in Computing and Mathematical Sciences",
-      imageClass: "james-anderson",
-      link: "http://www.its.caltech.edu/~james/",
-      research: [
-        "James is interested in distributed robust control, computational analysis of nonlinear dynamical systems, and scalable convex optimization methods with applications in systems biology and power systems. In particular, with regards to power systems, his research looks at the problem of disaggregating network data with the goal of creating realistic models that can be used for optimal power flow problems. This project aims to protect the data that belongs to grid operators while providing meaningful models for researchers to work with."
-      ]
-    },
-    {
       name: "Guannan Qu",
       position: "Postdoctoral Scholar in Computing and Mathematical Sciences",
       imageClass: "guannan-qu",
@@ -149,7 +140,8 @@ const people = {
     { name: "Eilyan Bitar", duration: "2011 - 2012", current: "Cornell", link: "https://bitar.engineering.cornell.edu/" },
     { name: "Yunjian Xu", duration: "2012 - 2013", current: "Singapore University of Technology and Design", link: "https://esd.sutd.edu.sg/people/faculty/yunjian-xu" },
     { name: "Enrique Mallada", duration: "2013 - 2015", current: "Johns Hopkins", link: "https://mallada.ece.jhu.edu/" },
-    { name: "Krishnamurthy Dvijotham", duration: "2014 - 2016", current: "DeepMind (Google)", link: "https://dvij.github.io/" }
+    { name: "Krishnamurthy Dvijotham", duration: "2014 - 2016", current: "DeepMind (Google)", link: "https://dvij.github.io/" },
+    { name: "James Anderson", duration: "2017 - 2019", current: "Columbia University", link: "https://www.ee.columbia.edu/james-anderson" }
   ],
   pastGraduateStudents: [
 
@@ -200,7 +192,7 @@ const people = {
     { name: "Junhao Lin", duration: "2015 - 2016", department: "EEE", university: "Hong Kong University" },
     { name: "Zhaojian Wang", duration: "2016-2017", department: "EE", university: "Tsinghua University, China" },
     { name: "Pengcheng You", duration: "2016-2017", department: "ME & ECE", current: "Johns Hopkins University, USA", link: "https://sites.google.com/view/pengcheng-you" },
-    { name: "Yue Chen", duration: "2018-2019", department: "CMS", current: "Tsinghua University, China" },
+    { name: "Yue Chen", duration: "2018-2019", department: "CMS", current: "Tsinghua University, China", link: "https://sites.google.com/view/academicyuechen/home"},
     { name: "Chenxi (Stephanie) Sun", duration: "2018-2019", department: "CMS", current: "Hong Kong University" }
   ]
 };
