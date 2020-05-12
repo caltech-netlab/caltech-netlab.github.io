@@ -196,7 +196,7 @@ const people = {
     { name: "Chenxi (Stephanie) Sun", duration: "2018-2019", department: "EEE", current: "Hong Kong University" },
     { name: "Bo Sun", duration: "2019-2020", department: "ECE", current: "Hong Kong University of Science and Technology", link: "http://c2e.ece.ust.hk/sunbo" },
     { name: "Andreas Venzke", duration: "2019-2020", department: "EE", current: "Technical University of Denmark" },
-    { name: "Su Wang", duration: "2019-2020", department: "ECE", current: "Hong Kong University of Science and Technology", link: "http://c2e.ece.ust.hk/su"}
+    { name: "Su Wang", duration: "2019-2020", department: "ECE", current: "Hong Kong University of Science and Technology", link: "http://c2e.ece.ust.hk/su" }
   ]
 };
 
