@@ -92,31 +92,31 @@ const people = {
       ]
     }
   ],
-  visitingPhDStudents: [{
-    name: "Su Wang",
-    position: "PhD in Electronic and Computer Engineering, Hong Kong University of Science and Technology",
-    imageClass: "su-wang",
-    research: [
-      "My research interests are in the general area of optimization and game theory, with applications to power systems and electricity markets. I focus on the strategic behaviour analysis and market design in networked wholesale electricity markets."
-    ]
-  },
-  {
-    name: "Andreas Venzke",
-    position: "PhD in Electrical Engineering, Technical University of Denmark",
-    imageClass: "andreas-venzke",
-    research: [
-      "My research interests include the areas of optimization under uncertainty with applications to power systems, and machine learning tools for physical systems. Currently, I am working on verifiable and physics-aware machine learning tools with applications to power systems, addressing an obstacle toward their adoption in practice."
-    ]
-  }
-  ],
-  visitingPostdocs: [{
-    name: "Bo Sun",
-    position: "Postdoc Scholar in Electronic and Computer Engineering, Hong Kong University of Science and Technology",
-    imageClass: "bo-sun",
-    research: [
-      "My research focuses on stochastic modeling and optimization with applications to smart energy systems. Currently, I am working on energy and mobility management of electric vehicles with plug-in charging and battery swapping, and transactive control of distributed energy resources in smart grids."
-    ]
-  }],
+  // visitingPhDStudents: [{
+  //   name: "Su Wang",
+  //   position: "PhD in Electronic and Computer Engineering, Hong Kong University of Science and Technology",
+  //   imageClass: "su-wang",
+  //   research: [
+  //     "My research interests are in the general area of optimization and game theory, with applications to power systems and electricity markets. I focus on the strategic behaviour analysis and market design in networked wholesale electricity markets."
+  //   ]
+  // },
+  // {
+  //   name: "Andreas Venzke",
+  //   position: "PhD in Electrical Engineering, Technical University of Denmark",
+  //   imageClass: "andreas-venzke",
+  //   research: [
+  //     "My research interests include the areas of optimization under uncertainty with applications to power systems, and machine learning tools for physical systems. Currently, I am working on verifiable and physics-aware machine learning tools with applications to power systems, addressing an obstacle toward their adoption in practice."
+  //   ]
+  // }
+  // ],
+  // visitingPostdocs: [{
+  //   name: "Bo Sun",
+  //   position: "Postdoc Scholar in Electronic and Computer Engineering, Hong Kong University of Science and Technology",
+  //   imageClass: "bo-sun",
+  //   research: [
+  //     "My research focuses on stochastic modeling and optimization with applications to smart energy systems. Currently, I am working on energy and mobility management of electric vehicles with plug-in charging and battery swapping, and transactive control of distributed energy resources in smart grids."
+  //   ]
+  // }],
   pastPostdocs: [
     { name: "Ki-Baek Kim", duration: "2001 - 2003" },
     { name: "Cheng Jin",
@@ -193,7 +193,10 @@ const people = {
     { name: "Zhaojian Wang", duration: "2016-2017", department: "EE", university: "Tsinghua University, China" },
     { name: "Pengcheng You", duration: "2016-2017", department: "ME & ECE", current: "Johns Hopkins University, USA", link: "https://sites.google.com/view/pengcheng-you" },
     { name: "Yue Chen", duration: "2018-2019", department: "EE", current: "Tsinghua University, China", link: "https://sites.google.com/view/academicyuechen/home" },
-    { name: "Chenxi (Stephanie) Sun", duration: "2018-2019", department: "EEE", current: "Hong Kong University" }
+    { name: "Chenxi (Stephanie) Sun", duration: "2018-2019", department: "EEE", current: "Hong Kong University" },
+    { name: "Bo Sun", duration: "2019-2020", department: "ECE", current: "Hong Kong University of Science and Technology", link: "http://c2e.ece.ust.hk/sunbo" },
+    { name: "Andreas Venzke", duration: "2019-2020", department: "EE", current: "Technical University of Denmark" },
+    { name: "Su Wang", duration: "2019-2020", department: "ECE", current: "Hong Kong University of Science and Technology", link: "http://c2e.ece.ust.hk/su"}
   ]
 };
 
