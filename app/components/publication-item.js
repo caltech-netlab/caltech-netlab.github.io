@@ -17,16 +17,18 @@ export default Component.extend({
 
     if (isPresent(documents)) {
       for (let doc of documents) {
-        if (doc.security === "public" && isPresent(doc.uri)) {
+        if (doc.security === "public" && isPresent(doc.uri) && doc.placement === 1) {
           return doc.uri;
         }
       }
     }
-
     let related = this.get("model.related_url");
 
     if (isPresent(related)) {
       for (let uri of related) {
+        if (isPresent(uri.url) && uri.type === "doi") {
+          return uri.url;
+        }
         if (isPresent(uri.url)) {
           return uri.url;
         }
