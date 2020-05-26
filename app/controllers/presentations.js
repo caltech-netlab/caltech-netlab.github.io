@@ -5,11 +5,19 @@ const talks = [
     title: "Intro to Power Flows",
     locations: [
       {
-        description: "Simons Institute Real-time Decision Making Bookcamp (Power Systems), University of California, Berkeley, Jan 2018",
+        description: "Simons Institute Real-time Decision Making Bootcamp (Power Systems), University of California, Berkeley, Jan 2018",
         resources: [
           {
             text: "Slides",
             link: "/assets/slides/Low-201801-SimonsBootcamp.pptx"
+          },
+          {
+            text: "Videos (Part I)",
+            link: "https://simons.berkeley.edu/talks/low-flow-1"
+          },
+          {
+            text: "Videos (Part II)",
+            link: "https://simons.berkeley.edu/talks/low-flow-2"
           }
         ]
       }
