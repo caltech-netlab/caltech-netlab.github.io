@@ -12,11 +12,11 @@ const talks = [
             link: "/assets/slides/Low-201801-SimonsBootcamp.pptx"
           },
           {
-            text: "Videos (Part I)",
+            text: "Video (Part I)",
             link: "https://simons.berkeley.edu/talks/low-flow-1"
           },
           {
-            text: "Videos (Part II)",
+            text: "Video (Part II)",
             link: "https://simons.berkeley.edu/talks/low-flow-2"
           }
         ]
