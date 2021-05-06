@@ -16,3 +16,4 @@ export default Controller.extend({
     return this.get("publications.publications").filter(highlightFilter).slice(0, RECENT_LIMIT);
   })
 });
+

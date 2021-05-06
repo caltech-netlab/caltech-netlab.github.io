@@ -2,6 +2,20 @@ import Controller from '@ember/controller';
 
 const talks = [
   {
+    title: "California’s Future Power Grid: Smart, Resilient & Reliable",
+    locations: [
+      {
+        description: "Los Angeles World Affairs Council & Town Hall, April 2021",
+        resources: [
+          {
+            text: "Video",
+            link: "https://www.youtube.com/watch?v=4MlCMH-25F8"
+          }
+        ]
+      }
+    ]
+  },
+  {
     title: "Intro to Power Flows",
     locations: [
       {

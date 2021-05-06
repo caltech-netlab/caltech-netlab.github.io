@@ -76,7 +76,6 @@ export default Service.extend({
 
         pubs.push(pub);
       });
-
       self.set("publications", pubs);
       self.set("loaded", true);
       self.persistToLocalStorage();
@@ -85,3 +84,4 @@ export default Service.extend({
     }));
   }
 });
+
