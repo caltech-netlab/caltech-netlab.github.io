@@ -271,6 +271,11 @@
     imageClass: "nsf-logo",
     link: "https://www.nsf.gov/"
   }, {
+    name: "Schmidt Academy",
+    year: "2021",
+    imageClass: "sase-logo",
+    link: "https://www.sase.caltech.edu/"
+  }, {
     name: "Department of Energy",
     year: "2011",
     imageClass: "doe-logo",

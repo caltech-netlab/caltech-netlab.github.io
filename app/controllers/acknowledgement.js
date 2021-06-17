@@ -14,6 +14,12 @@ const sponsors = [
     link: "https://www.nsf.gov/"
   },
   {
+    name: "Schmidt Academy",
+    year: "2020",
+    imageClass: "sase-logo",
+    link: "https://www.sase.caltech.edu/"
+  },
+  {
     name: "Department of Energy",
     year: "2011",
     imageClass: "doe-logo",
