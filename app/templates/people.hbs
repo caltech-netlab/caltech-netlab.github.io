@@ -52,14 +52,6 @@
           {{/each}}
         </section>
 
-        <section class="py-3">
-          <h4>Postdoctoral Researchers</h4>
-
-          {{#each people.postdocs as |person|}}
-            {{current-member-card model=person}}
-          {{/each}}
-        </section>
-
         {{#if (or (gt people.visitingPhDStudents.length 0) (gt people.visitingPostdocs.length 0))}}
           <section class="py-3">
             <h4>Visiting Students</h4>

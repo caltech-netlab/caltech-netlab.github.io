@@ -28,27 +28,7 @@ const people = {
       imageClass: "christine"
     }
   ],
-  postdocs: [
-    {
-      name: "Guannan Qu",
-      position: "Postdoctoral Scholar in Computing and Mathematical Sciences",
-      imageClass: "guannan-qu",
-      link: "http://guannanqu.com",
-      research: [
-        "Guannan obtained his B.S. degree from Tsinghua University in 2010, and his Ph.D. degree from Harvard University in 2019. He is broadly interested in optimization, control, and learning, particularly in networked systems like the electric power system, multi-agent systems and other cyber-physical networked systems. His research has involved developing distributed decision-making rules where each agent uses only local information but can achieve desirable global behavior. Examples include distributed optimization in multi-agent systems, distributed control in power systems, etc."
-      ]
-    }
-  ],
   graduates: [
-    {
-      name: "Zach Lee",
-      position: "PhD in Electrical Engineering",
-      imageClass: "zach-lee",
-      link: "http://www.its.caltech.edu/~zlee/",
-      research: [
-        "I am broadly interested in cyber-physical energy systems and the intersection of power systems, computer science, and software engineering. Specifically, I am currently working on systems for adaptive electric vehicle charging which uses software to allow users to install more EV charging stations at parking facilities without expensive infrastructure upgrades. I am also interested in microgrid design and control, distributed energy resources (DER), demand response, energy storage systems, and renewable energy integration."
-      ]
-    },
     {
       name: "Chen Liang",
       position: "PhD in Computing and Mathematical Sciences",
@@ -84,11 +64,12 @@ const people = {
       ]
     },
     {
-      name: "Sunash Sharma",
-      position: "Schmidt Academy Software Engineer",
-      imageClass: "sunash-sharma",
+      name: "Nico Christianson",
+      position: "PhD in Computing and Mathematical Sciences",
+      imageClass: "nico-christianson",
+      link: "https://nicochristianson.com/",
       research: [
-        "At a high level, I'm interested in developing robust software that enables impactful research. My work focuses on developing a simulation platform and live testbed for adaptive electric vehicle charging. I'm part of the inaugural class of the Schmidt Academy at Caltech, the aim of which is to bring well-engineered software to research groups around campus. In the past, I've worked on software and research in developmental biophysics, computational fluid dynamics. and quantum computation."
+        "I am a PhD student in CMS at Caltech, where I am advised by Steven Low and Adam Wierman, and supported by an NSF Graduate Research Fellowship. In my research, I am broadly interested in designing algorithms for online optimization, control, and learning, with an emphasis toward applications in energy and sustainability."
       ]
     }
   ],
@@ -141,7 +122,8 @@ const people = {
     { name: "Yunjian Xu", duration: "2012 - 2013", current: "Singapore University of Technology and Design", link: "https://esd.sutd.edu.sg/people/faculty/yunjian-xu" },
     { name: "Enrique Mallada", duration: "2013 - 2015", current: "Johns Hopkins", link: "https://mallada.ece.jhu.edu/" },
     { name: "Krishnamurthy Dvijotham", duration: "2014 - 2016", current: "DeepMind (Google)", link: "https://dvij.github.io/" },
-    { name: "James Anderson", duration: "2017 - 2019", current: "Columbia University", link: "https://www.ee.columbia.edu/james-anderson" }
+    { name: "James Anderson", duration: "2017 - 2019", current: "Columbia University", link: "https://www.ee.columbia.edu/james-anderson" },
+    { name: "Guannan Qu", duration: "2019 - 2021", current: "Carnegie Mellon University", link: "https://www.guannanqu.com/" }
   ],
   pastGraduateStudents: [
 
@@ -164,6 +146,7 @@ const people = {
     { name: "John Pang", shared: "Wierman", degree: "PhD 2019", current: "Schlumberger", link: "https://j-pang.github.io//#work" },
     { name: "Linqi (Daniel) Guo", degree: "PhD 2019", current: "Stealth Startup", link: "https://scholar.google.com/citations?user=QixlSO4AAAAJ&hl=en" },
     { name: "Yujie Tang", degree: "PhD 2019", current: "Harvard", link: "https://www.seas.harvard.edu/directory/ytang" },
+    { name: "Zach Lee", degree: "PhD 2021", current: "PowerFlex", link: "https://www.linkedin.com/in/leeengineering/" },
     { name: "Youngmi Ohk", degree: "MS 1998", degree_university: "Melbourne University", current: "Dawson Consulting Pty Ltd", link: "https://www.linkedin.com/in/youngmi-ohk-08b56/" },
     { name: "Sanjeewa Athuraliya", degree: "MS 2000", current: "Ergon Energy", link: "https://www.linkedin.com/in/sanjeewa-athuraliya-71b31a5/" },
     { name: "Craig Cameron", degree: "MS 2002", current: "Finisa", link: "https://www.linkedin.com/in/craigcameron/" },
