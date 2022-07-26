@@ -56,20 +56,6 @@ const talks = [
     ]
   },
   {
-    title: "Optimal Power Flow: Relaxation, Online Algorithm, Fast Dynamics",
-    locations: [
-      {
-        description: "Simons Institute Real-time Decision Making Workshop, University of California, Berkeley, Jun 2016",
-        resources: [
-          {
-            text: "Video",
-            link: "https://www.youtube.com/watch?v=cs88FQtYQXg"
-          }
-        ]
-      }
-    ]
-  },
-  {
     title: "Adaptive Charging Network",
     locations: [
       {
@@ -124,6 +110,10 @@ const talks = [
           {
             text: "Slides",
             link: "/assets/slides/Low-201606-OnlineAlg-SimonsBerkeley-short.pptx"
+          },
+          {
+            text: "Video",
+            link: "https://www.youtube.com/watch?v=cs88FQtYQXg"
           }
         ]
       }
