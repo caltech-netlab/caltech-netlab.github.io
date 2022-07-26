@@ -29,32 +29,32 @@ const people = {
     }
   ],
   graduates: [
-    {
-      name: "Chen Liang",
-      position: "PhD in Computing and Mathematical Sciences",
-      imageClass: "chen-liang",
-      research: [
-        "My research interests include network science, graph theory, and power system analysis. Currently, I'm working on cascading failures in power systems."
-      ]
-    },
-    {
-      name: "Fengyu Zhou",
-      position: "PhD in Electrical Engineering",
-      imageClass: "fengyu-zhou",
-      link: "https://scholar.google.com/citations?hl=en&user=i-oBMbYAAAAJ&view_op=list_works&gmla=AJsN-F750ajwJtiVfwwVEcPKbsi9QeYae3weVYD28AV8FCNsuryOGtodjf2dIA_nULOZCD5dMnjy_9jUqkO4CffF9yAkq6U7ts7Yd1RITjBfaggTor2Gf_8",
-      research: [
-        "I am interested in the control, optimization and signal processing in smart grid and cyber physical systems, as well as the mathematical optimization theory behind those problems. Currently, I am working on the load disaggregation in networked power systems."
-      ]
-    },
-    {
-      name: "Tongxin Li",
-      position: "PhD in Computing and Mathematical Sciences",
-      imageClass: "tongxin-li",
-      link: "http://tongxin.me",
-      research: [
-        "Tongxin’s research interest focuses primarily on problems arising in electric grids and theoretical machine learning. He has been working on interdisciplinary topics in control, learning and optimization for cyber-physical systems. He devotes himself to designing and developing artificial intelligence techniques that impact the sustainability and resilience of real-world networked systems. Prior to joining Caltech in 2017 as a PhD, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
-      ]
-    },
+    // {
+    //   name: "Chen Liang",
+    //   position: "PhD in Computing and Mathematical Sciences",
+    //   imageClass: "chen-liang",
+    //   research: [
+    //     "My research interests include network science, graph theory, and power system analysis. Currently, I'm working on cascading failures in power systems."
+    //   ]
+    // },
+    // {
+    //   name: "Fengyu Zhou",
+    //   position: "PhD in Electrical Engineering",
+    //   imageClass: "fengyu-zhou",
+    //   link: "https://scholar.google.com/citations?hl=en&user=i-oBMbYAAAAJ&view_op=list_works&gmla=AJsN-F750ajwJtiVfwwVEcPKbsi9QeYae3weVYD28AV8FCNsuryOGtodjf2dIA_nULOZCD5dMnjy_9jUqkO4CffF9yAkq6U7ts7Yd1RITjBfaggTor2Gf_8",
+    //   research: [
+    //     "I am interested in the control, optimization and signal processing in smart grid and cyber physical systems, as well as the mathematical optimization theory behind those problems. Currently, I am working on the load disaggregation in networked power systems."
+    //   ]
+    // },
+    // {
+    //   name: "Tongxin Li",
+    //   position: "PhD in Computing and Mathematical Sciences",
+    //   imageClass: "tongxin-li",
+    //   link: "http://tongxin.me",
+    //   research: [
+    //     "Tongxin’s research interest focuses primarily on problems arising in electric grids and theoretical machine learning. He has been working on interdisciplinary topics in control, learning and optimization for cyber-physical systems. He devotes himself to designing and developing artificial intelligence techniques that impact the sustainability and resilience of real-world networked systems. Prior to joining Caltech in 2017 as a PhD, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
+    //   ]
+    // },
     {
       name: "Lucien Werner",
       position: "PhD in Computing and Mathematical Sciences",
@@ -147,6 +147,9 @@ const people = {
     { name: "Linqi (Daniel) Guo", degree: "PhD 2019", current: "Stealth Startup", link: "https://scholar.google.com/citations?user=QixlSO4AAAAJ&hl=en" },
     { name: "Yujie Tang", degree: "PhD 2019", current: "Harvard", link: "https://www.seas.harvard.edu/directory/ytang" },
     { name: "Zach Lee", degree: "PhD 2021", current: "PowerFlex", link: "https://www.linkedin.com/in/leeengineering/" },
+    { name: "Chen Liang", shared: "Wierman", degree: "PhD 2022", current: "Five Rings", link: "http://www.its.caltech.edu/~cliang2/" },
+    { name: "Fengyu Zhou", degree: "PhD 2022", current: "Two Sigma", link: "https://scholar.google.com/citations?user=i-oBMbYAAAAJ&hl=en" },
+    { name: "Tongxin Li", shared: "Wierman", degree: "PhD 2022", current: "CUHK-SZ SDS", link: "https://tongxin.me/" },
     { name: "Youngmi Ohk", degree: "MS 1998", degree_university: "Melbourne University", current: "Dawson Consulting Pty Ltd", link: "https://www.linkedin.com/in/youngmi-ohk-08b56/" },
     { name: "Sanjeewa Athuraliya", degree: "MS 2000", current: "Ergon Energy", link: "https://www.linkedin.com/in/sanjeewa-athuraliya-71b31a5/" },
     { name: "Craig Cameron", degree: "MS 2002", current: "Finisa", link: "https://www.linkedin.com/in/craigcameron/" },
