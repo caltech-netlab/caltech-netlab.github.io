@@ -2,6 +2,20 @@ import Controller from '@ember/controller';
 
 const talks = [
   {
+    title: "Adaptive Charging Network",
+    locations: [
+      {
+        description: "EEE Melbourne University",
+        resources: [
+          {
+            text: "Slides",
+            link: "/assets/slides/Low-202301-ACN-long.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
     title: "California’s Future Power Grid: Smart, Resilient & Reliable",
     locations: [
       {
