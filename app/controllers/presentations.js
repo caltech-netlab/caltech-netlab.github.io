@@ -5,7 +5,7 @@ const talks = [
     title: "Adaptive Charging Network",
     locations: [
       {
-        description: "EEE Melbourne University",
+        description: "EEE Melbourne University, June 2022",
         resources: [
           {
             text: "Slides",
