@@ -50,7 +50,7 @@ const people = {
       name: "Yiheng Xie,",
       position: "Incoming PhD in Computing and Mathematical Sciences",
       imageClass: "yiheng-xie",
-      link: "yxie5@caltech.edu",
+      link: "yxie5@caltech.edu"
     },
     {
       name: "Lucien Werner",
@@ -73,7 +73,7 @@ const people = {
       name: "Thuy-Linh Le",
       position: "Schmidt Scholar",
       imageClass: "thuylinh-le",
-      link: "thuylinh@caltech.edu",
+      link: "thuylinh@caltech.edu"
     }
   ],
   visitingPhDStudents: [{
@@ -83,7 +83,7 @@ const people = {
     research: [
       "Dynamic control and optimization of power systems with high penetration of renewable energy resources."
     ]
-  },
+  }
   // {
   //   name: "Andreas Venzke",
   //   position: "PhD in Electrical Engineering, Technical University of Denmark",
@@ -99,8 +99,8 @@ const people = {
   //   imageClass: "bo-sun",
   //   research: [
   //     "My research focuses on stochastic modeling and optimization with applications to smart energy systems. Currently, I am working on energy and mobility management of electric vehicles with plug-in charging and battery swapping, and transactive control of distributed energy resources in smart grids."
-  //   ]
-  // }],
+  //   ]}
+  ],
   pastPostdocs: [
     { name: "Ki-Baek Kim", duration: "2001 - 2003" },
     { name: "Cheng Jin",
