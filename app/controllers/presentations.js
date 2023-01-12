@@ -2,6 +2,20 @@ import Controller from '@ember/controller';
 
 const talks = [
   {
+    title: "Adaptive Charging Network and Three-Phase Models",
+    locations: [
+      {
+        description: "LANL Winter School lecture, Jan 2023",
+        resources: [
+          {
+            text: "Slides",
+            link: "/assets/slides/Low-202301-ACN-long+3PhaseModels.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
     title: "Adaptive Charging Network",
     locations: [
       {

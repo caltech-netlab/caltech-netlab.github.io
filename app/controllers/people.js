@@ -46,21 +46,18 @@ const people = {
     //     "I am interested in the control, optimization and signal processing in smart grid and cyber physical systems, as well as the mathematical optimization theory behind those problems. Currently, I am working on the load disaggregation in networked power systems."
     //   ]
     // },
-    // {
-    //   name: "Tongxin Li",
-    //   position: "PhD in Computing and Mathematical Sciences",
-    //   imageClass: "tongxin-li",
-    //   link: "http://tongxin.me",
-    //   research: [
-    //     "Tongxin’s research interest focuses primarily on problems arising in electric grids and theoretical machine learning. He has been working on interdisciplinary topics in control, learning and optimization for cyber-physical systems. He devotes himself to designing and developing artificial intelligence techniques that impact the sustainability and resilience of real-world networked systems. Prior to joining Caltech in 2017 as a PhD, he worked on various topics in communication and information theory such as group testing, compressed sensing, deletion channels and adversarial channels, etc. He received two bachelor degrees in both mathematics and information engineering from CUHK."
-    //   ]
-    // },
+    {
+      name: "Yiheng Xie,",
+      position: "Incoming PhD in Computing and Mathematical Sciences",
+      imageClass: "yiheng-xie",
+      link: "yxie5@caltech.edu",
+    },
     {
       name: "Lucien Werner",
       position: "PhD in Computing and Mathematical Sciences",
       imageClass: "lucien-werner",
       research: [
-        "I am a first-year graduate student interested in cyber-physical systems, in particular stability analysis and control of power networks. In the past I have researched pattern formation in dynamical systems. Outside of mathematics, I have a career as a cellist and continue to perform around the world--often with my three sisters who are all also musicians and mathematicians. Prior to joining Caltech, I received degrees in mathematics, music, and politics from Northwestern University, Harvard University, and Montana State University."
+        "I am a PhD candidate interested in cyber-physical systems, in particular stability analysis and control of power networks. In the past I have researched pattern formation in dynamical systems. Outside of mathematics, I have a career as a cellist and continue to perform around the world--often with my three sisters who are all also musicians and mathematicians. Prior to joining Caltech, I received degrees in mathematics, music, and politics from Northwestern University, Harvard University, and Montana State University."
       ]
     },
     {
@@ -71,16 +68,22 @@ const people = {
       research: [
         "I am a PhD student in CMS at Caltech, where I am advised by Steven Low and Adam Wierman, and supported by an NSF Graduate Research Fellowship. In my research, I am broadly interested in designing algorithms for online optimization, control, and learning, with an emphasis toward applications in energy and sustainability."
       ]
+    },
+    {
+      name: "Thuy-Linh Le",
+      position: "Schmidt Scholar",
+      imageClass: "thuylinh-le",
+      link: "thuylinh@caltech.edu",
     }
   ],
-  // visitingPhDStudents: [{
-  //   name: "Su Wang",
-  //   position: "PhD in Electronic and Computer Engineering, Hong Kong University of Science and Technology",
-  //   imageClass: "su-wang",
-  //   research: [
-  //     "My research interests are in the general area of optimization and game theory, with applications to power systems and electricity markets. I focus on the strategic behaviour analysis and market design in networked wholesale electricity markets."
-  //   ]
-  // },
+  visitingPhDStudents: [{
+    name: "Ognjen Stanojev",
+    position: "PhD in Power Systems Laboratory, ETH Zurich",
+    imageClass: "ognjen-stanojev",
+    research: [
+      "Dynamic control and optimization of power systems with high penetration of renewable energy resources."
+    ]
+  },
   // {
   //   name: "Andreas Venzke",
   //   position: "PhD in Electrical Engineering, Technical University of Denmark",
