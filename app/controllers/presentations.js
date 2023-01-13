@@ -15,20 +15,20 @@ const talks = [
       }
     ]
   },
-  {
-    title: "Adaptive Charging Network",
-    locations: [
-      {
-        description: "EEE Melbourne University, June 2022",
-        resources: [
-          {
-            text: "Slides",
-            link: "/assets/slides/Low-202301-ACN-long.pdf"
-          }
-        ]
-      }
-    ]
-  },
+  // {
+  //   title: "Adaptive Charging Network",
+  //   locations: [
+  //     {
+  //       description: "EEE Melbourne University, June 2022",
+  //       resources: [
+  //         {
+  //           text: "Slides",
+  //           link: "/assets/slides/Low-202301-ACN-long.pdf"
+  //         }
+  //       ]
+  //     }
+  //   ]
+  // },
   {
     title: "California’s Future Power Grid: Smart, Resilient & Reliable",
     locations: [

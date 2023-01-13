@@ -47,7 +47,7 @@ const people = {
     //   ]
     // },
     {
-      name: "Yiheng Xie,",
+      name: "Yiheng Xie",
       position: "Incoming PhD in Computing and Mathematical Sciences",
       imageClass: "yiheng-xie",
       link: "yxie5@caltech.edu"
