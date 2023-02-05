@@ -59,9 +59,9 @@ Steps to update the website:
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 * Useful ember commands: https://cli.emberjs.com/release/basic-use/cli-commands/
-* Useful js:
-- `people.js` (change people info)
-- `presentation.js` (change presentation info)
+* Useful `.js` files:
+  * `people.js` (change people info)
+  * `presentation.js` (change presentation info)
 
 ## Styling
 
