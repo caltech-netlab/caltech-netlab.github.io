@@ -14,6 +14,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd netlab`
+* `npm install -g ember-cli`
 * `npm install`
 
 ## Running / Development
@@ -36,20 +37,19 @@ To build and deploy the website, use the `deploy/deploy-to-cms.sh` script. You s
 Steps to update the website:
 - [Make changes] Go to GitHub folder /netlab, modify files (some useful and frequently used .js files are described below)
 - [Check out the changes] Test the changes using <ember serve> 
-  - Install ember package at https://guides.emberjs.com/v1.11.0/ember-cli/
-  - Open terminal on Mac/Linux, cd to the repo directory
-  - Type <ember serve> in the terminal
+  - Type `ember serve` in the terminal
   - Open <http://localhost:4200/> in a browser, and check out the changes
-- [Deploy the Web] Cd to deploy 
+- [Deploy the Web] 
+  - `cd deploy`
   - Set environment variables `export MYNAME="cms username"; export PASSWORD="cms password"`
-  - sh deploy-to-cms.sh (VPN connection is required) 
-- If succeed, you will be seeing popped up info: 
+  - `./deploy-to-cms.sh` (VPN connection is required) 
+  - If succeed, you will be seeing popped up info: 
 ```
     [INFO] Preparing uploading dependencies...
     [INFO] Uploading index.html...
     [INFO] Done
 ```
-- [Push to Github] Push the updated files to GitHub
+- [Push to Github]
 
 ## Further Reading / Useful Links
 

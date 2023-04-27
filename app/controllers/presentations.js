@@ -2,6 +2,20 @@ import Controller from '@ember/controller';
 
 const talks = [
   {
+    title: "Carbon Neutrality",
+    locations: [
+      {
+        description: "NSF Workshop, April 2023",
+        resources: [
+          {
+            text: "Slides",
+            link: "/assets/slides/Low-202304-CarbonNeutrality-NSFwkp.pptx"
+          }
+        ]
+      }
+    ]
+  },
+  {
     title: "Adaptive Charging Network and Three-Phase Models",
     locations: [
       {
