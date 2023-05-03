@@ -9,7 +9,7 @@ const talks = [
         resources: [
           {
             text: "Slides",
-            link: "/assets/slides/Low-202304-CarbonNeutrality-NSFwkp.pptx"
+            link: "/assets/slides/Low-202304-CarbonNeutrality-NSFwkp.pdf"
           }
         ]
       }

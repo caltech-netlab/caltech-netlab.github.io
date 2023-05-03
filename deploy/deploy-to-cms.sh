@@ -1,6 +1,8 @@
 #! /bin/bash
 #
 # DESCRIPTION: Deploy the sites to CMS server
+# Note: make sure you have the ssh fingerprint added before running this script.
+# You may manually ssh into login.cms.caltech.edu to accomplish this.
 
 usage() {
   echo "Please ensure you have defined MYNAME=<username> and PASSWORD=<password> in you environment variables"
