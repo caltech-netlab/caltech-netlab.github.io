@@ -41,6 +41,7 @@ Steps to update the website:
   - Open <http://localhost:4200/> in a browser, and check out the changes
 - [Deploy the Web] 
   - `cd deploy`
+  - If connecting for the first time, `ssh <name>@login.cms.caltech.edu` to add fingerprint, otherwise you'll get `Host key verification failed`
   - Set environment variables `export MYNAME="cms username"; export PASSWORD="cms password"`
   - `./deploy-to-cms.sh` (VPN connection is required) 
   - If succeed, you will be seeing popped up info: 
