@@ -233,6 +233,14 @@ const talks = [
 
 const blogPosts = [
   {
+    title: "The Theory-Practice-Entrepreneurship Gap",
+    subjects: [
+      {
+        link: "/assets/publications/Low-202112-TheoryPracticeEntrepreneurshipGap-PresidentsMessage-CSM.pdf"
+      }
+    ]
+  },
+  {
     title: "A Network of Intelligent DER",
     subjects: [
       {
