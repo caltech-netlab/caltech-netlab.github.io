@@ -241,6 +241,14 @@ const blogPosts = [
     ]
   },
   {
+    title: "Thoughts on HK Movement",
+    subjects: [
+      {
+        link: "/assets/publications/ThoughtsOnHKMovement-20190824-Low.pdf"
+      }
+    ]
+  },
+  {
     title: "A Network of Intelligent DER",
     subjects: [
       {
