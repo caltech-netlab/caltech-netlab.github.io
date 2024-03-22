@@ -2,12 +2,10 @@
 layout: page
 permalink: /acknowledgement/
 title: Acknowledgement
-description: # Materials for courses you taught. Replace this text with your description.
+description: Thank you to all who supported us!
 nav: true
 nav_order: 6
 ---
-
-Thank you to all who supported us!
 
 <div style="margin-bottom: 10px;">
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
