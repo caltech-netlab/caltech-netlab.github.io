@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /acknowledgement/
-title: Acknowledgement
+title: ACKNOWLEDGEMENT
 description: Thank you to all who supported us!
 nav: true
 nav_order: 6

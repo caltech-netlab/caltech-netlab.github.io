@@ -1,16 +1,19 @@
 ---
 layout: page
-title: submenus
+title: RESEARCH
 nav: true
 nav_order: 7
 dropdown: true
 children:
-  - title: repositories
-    permalink: /repositories/
+  - title: POWER SYSTEMS STEADY RATE
+    permalink: /POWERSYSTEMSSTEADYRATE/
   - title: divider
-  - title: cv
-    permalink: /cv/
-  #- title: divider
-  #- title: blog
-    #permalink: /blog/
+  - title: POWER SYSTEMS DYNAMICS
+    permalink: /POWERSYSTEMSDYNAMICS/
+  - title: divider
+  - title: ELECTRIC VEHICLES
+    permalink: /ELECTRICVEHICLES/
+  - title: divider
+  - title: COMMUNICATION NETWORKS
+    permalink: /COMMUNICATIONNETWORKS/
 ---
