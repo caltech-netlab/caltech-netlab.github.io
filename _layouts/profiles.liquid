@@ -132,6 +132,73 @@ layout: page
         {% endif %}
       {% endfor %}
       <br>
+      <br>
+      <h1>Previous Members</h1>
+      <br>
+      <h2>Postdoctoral Researchers</h2>
+      <hr>
+      <div class="grid-wrapper">
+        <div class="grid">
+          {% for profile in page.profiles %}
+            {% if profile.role == 'Postdoctoral' %}
+              <div class="grid-sizer"></div>
+              <div class="grid-item" style="width:30%; margin-bottom:10px;">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="header-section">
+                      <h2 class="name">{{ profile.name }}</h2>
+                      <p class="date">{{ profile.date }}</p>
+                    </div>
+                    
+                      <div class="portfolio-description-wrapper">
+                        {% if profile.portfolio_link %}
+                          <a href="{{ profile.portfolio_link }}" class="portfolio-link">Portfolio</a>
+                        {%else%}
+                          <a class="portfolio-link">...</a>
+                        {% endif %}
+                        <p class="description">{{ profile.description }}</p>
+                      </div>
+                    
+
+
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <br>
+      <h2>Graduate Students</h2>
+      <hr>
+      <div class="grid-wrapper">
+        <div class="grid">
+          {% for profile in page.profiles %}
+            {% if profile.role == 'Grad' %}
+              <div class="grid-sizer"></div>
+              <div class="grid-item" style="width:30%; margin-bottom:10px;">
+                <div class="card">
+                  <div class="card-body">
+                    
+                      <h2 class="name">{{ profile.name }}</h2>
+                      <p class="date">{{ profile.date }}</p>
+                    
+                    <div class="portfolio-description-wrapper">
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link">Portfolio</a>
+                      {% if profile.description%}
+                      <p class="description">{{ profile.description }}</p>
+                      {% else %}
+                      <br><br>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
     {% endif %}
   </article>
 

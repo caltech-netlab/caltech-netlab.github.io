@@ -73,5 +73,160 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Ognjen Stanojev</p>
+  - role: Postdoctoral
+    date: 2001 - 2003
+    name: Ki-Baek Kim
+    description: 
+    portfolio_link: 
+  - role: Postdoctoral
+    date: 2004 - 2005
+    name: Bartek Wydrowski
+    description: Google
+    portfolio_link: https://www.linkedin.com/in/bartek-wydrowski-2164a4b/
+  - role: Postdoctoral
+    date: 2010 - 2012
+    name: Libin Jiang
+    description: Qualcomm
+    portfolio_link: https://www.linkedin.com/in/libin-jiang-45176b14/
+  - role: Postdoctoral
+    date: 2013 - 2015
+    name: Enrique Mallada
+    description: Johns Hopkins
+    portfolio_link: https://mallada.ece.jhu.edu/
+  - role: Postdoctoral
+    date: 2002 - 2005
+    name: Cheng Jin
+    description: Akamai
+    portfolio_link: https://www.linkedin.com/in/cheng-jin-8532141/
+  - role: Postdoctoral
+    date: 2005 - 2008
+    name: Lachlan Andrew
+    description: Monash Uni.
+    portfolio_link: https://research.monash.edu/en/persons/lachlan-andrew
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Dennice Gayme
+    description: Johns Hopkins
+    portfolio_link: https://engineering.jhu.edu/gayme/
+
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+  - role: Grad
+    date: 
+    name: Bartek Wydrowski
+    description: Google
+
   
 ---
