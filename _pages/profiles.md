@@ -38,4 +38,40 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Mani Chandi</p>
+  - align: left
+    image: graduates/yiheng-xie.png
+    content: descriptions/about_adam-wierman.md
+    role: Current
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Yiheng Xie</p>
+  - align: left
+    image: graduates/lucien-werner.png
+    content: descriptions/about_adam-wierman.md
+    role: Current
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Lucien Werner</p>
+  - align: left
+    image: graduates/nico-christianson.png
+    content: descriptions/about_adam-wierman.md
+    role: Current
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Nico Christianson</p>
+  - align: left
+    image: graduates/thuylinh-le.png
+    content: descriptions/about_adam-wierman.md
+    role: Current
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Thuy-Linh Le</p>
+  - align: left
+    image: visiting-graduates/ognjen-stanojev.png
+    content: descriptions/about_adam-wierman.md
+    role: Current-visiting
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Ognjen Stanojev</p>
+  
 ---

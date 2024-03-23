@@ -34,7 +34,9 @@ layout: page
           </div>
         {% endif %}
       {% endfor %}
-      <h1>Caltech Collaborators</h1>
+      <br>
+    <h1>Caltech Collaborators</h1>
+    <br>
       {% for profile in page.profiles %}
         {% if profile.role == 'Collaborators' %}
           <hr>
@@ -64,6 +66,72 @@ layout: page
           </div>
         {% endif %}
       {% endfor %}
+      <br>
+      <h1>Current Members</h1>
+      <br>
+      <h2>Graduate Members</h2>
+      {% for profile in page.profiles %}
+        {% if profile.role == 'Current' %}
+          <hr>
+          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+            {% if profile.image %}
+              {% assign profile_image_path = profile.image | prepend: 'assets/img/people/' %}
+              {% if profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            {% endif %}
+            {% if profile.more_info %}
+              <div class="more-info">{{ profile.more_info }}</div>
+            {% endif %}
+          </div>
+
+          <div class="clearfix">
+            {% if profile.content %}
+              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+              {{ profile_content | markdownify }}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      <br>
+      <h2>Visiting Students</h2>
+      <br>
+      {% for profile in page.profiles %}
+        {% if profile.role == 'Current-visiting' %}
+          <hr>
+          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+            {% if profile.image %}
+              {% assign profile_image_path = profile.image | prepend: 'assets/img/people/' %}
+              {% if profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            {% endif %}
+            {% if profile.more_info %}
+              <div class="more-info">{{ profile.more_info }}</div>
+            {% endif %}
+          </div>
+
+          <div class="clearfix">
+            {% if profile.content %}
+              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+              {{ profile_content | markdownify }}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      <br>
     {% endif %}
   </article>
 
