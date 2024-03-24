@@ -7,7 +7,25 @@ nav: true
 nav_order: 2
 display_categories: # [work, fun]
 horizontal: false
+dropdown: true
+children:
+  - title: RESEARCH
+    permalink: /research
+  - title: divider
+  - title: POWER SYSTEMS STEADY RATE
+    permalink: /projects/POWERSYSTEMSSTEADYRATE/
+  - title: divider
+  - title: POWER SYSTEMS DYNAMICS
+    permalink: /projects/POWERSYSTEMSDYNAMICS/
+  - title: divider
+  - title: ELECTRIC VEHICLES
+    permalink: /projects/ELECTRICVEHICLES/
+  - title: divider
+  - title: COMMUNICATION NETWORKS
+    permalink: /projects/COMMUNICATIONNETWORKS/
 ---
+---
+
 
 Electricity generation and transportation consume about two-third of energy in the US and emit more than half of greenhouse gases.
 

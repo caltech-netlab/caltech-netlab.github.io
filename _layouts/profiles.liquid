@@ -152,7 +152,7 @@ layout: page
                     
                       <div class="portfolio-description-wrapper">
                         {% if profile.portfolio_link %}
-                          <a href="{{ profile.portfolio_link }}" class="portfolio-link">Portfolio</a>
+                          <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
                         {%else%}
                           <a class="portfolio-link">...</a>
                         {% endif %}
@@ -185,7 +185,7 @@ layout: page
                       <p class="date">{{ profile.date }}</p>
                     
                     <div class="portfolio-description-wrapper">
-                      <a href="{{ profile.portfolio_link }}" class="portfolio-link">Portfolio</a>
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
                       {% if profile.description%}
                       <p class="description">{{ profile.description }}</p>
                       {% else %}
