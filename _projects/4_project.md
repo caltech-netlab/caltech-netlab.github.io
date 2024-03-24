@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Part IV
+description: Communication Networks
+img: assets/img/research/part_4.png
+importance: 4
+category: 
 ---
 
 Every project has a beautiful feature showcase page.

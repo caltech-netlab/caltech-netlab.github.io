@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Part I
+description: Power Systems – Steady State
+img: assets/img/research/part_1.png
 importance: 1
 category: work
 related_publications: true

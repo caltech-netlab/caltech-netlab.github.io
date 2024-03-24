@@ -1,13 +1,26 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: RESEARCH
+permalink: /research/
+description: 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: # [work, fun]
 horizontal: false
 ---
+
+Electricity generation and transportation consume about two-third of energy in the US and emit more than half of greenhouse gases.
+
+To drastically reduce greenhouse gases, we must generate more electricity from clean sources and electrify transportation. To this end, the power network, from generation to transmission and distribution to consumption, will undergo an architectural transformation in the following decades that the communication network has gone through in the last two. The traditional network has a small number of large generators that are actively controlled to meet the demand of a much larger number of passive loads. The control paradigm is to schedule supply to meet forecast demand. The future smart grid will have a large number of small distributed generation resources that are not dispatchable nor accurately predictable, as well as a large number active loads. Unlike most endpoints today that are merely passive loads, the future network of distributed energy resources (DERs) may generate, sense, compute, communicate, and actuate. These intelligent DERs will create a severe risk by introducing rapid, large, and random fluctuations in power supply and demand, voltage and frequency, as well as a tremendous opportunity for a clean energy future by drastically increasing our capability to coordinate and optimize their operation in real time.
+
+<div style="text-align:center;">
+  <figure>
+    <img src="..\assets\img\research\evolution.png" style="width: 82%; height: auto;">
+    <figcaption>Figure 1: Power network evolution</figcaption>
+  </figure>
+</div>
+
+Netlab's research focuses on some of the most fundamental challenges in this historic transformation.
 
 <!-- pages/projects.md -->
 <div class="projects">
