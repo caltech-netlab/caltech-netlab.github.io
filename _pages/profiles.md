@@ -16,7 +16,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Steven H. Low</p>
-      <a href = "http://netlab.caltech.edu/assets/documents/LowCV.pdf">CV</a>
+      <a href = "http://netlab.caltech.edu/assets/documents/LowCV.pdf"><font color='#007bff'>CV</font></a>
   - align: left
     image: faculty/adam-wierman.jpg
     content: descriptions/about_adam-wierman.md

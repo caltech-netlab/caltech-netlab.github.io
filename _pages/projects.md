@@ -13,16 +13,16 @@ children:
     permalink: /research
   - title: divider
   - title: POWER SYSTEMS STEADY RATE
-    permalink: /projects/POWERSYSTEMSSTEADYRATE/
+    permalink: /research/part_1/
   - title: divider
   - title: POWER SYSTEMS DYNAMICS
-    permalink: /projects/POWERSYSTEMSDYNAMICS/
+    permalink: /research/part_2/
   - title: divider
   - title: ELECTRIC VEHICLES
-    permalink: /projects/ELECTRICVEHICLES/
+    permalink: /research/part_3/
   - title: divider
   - title: COMMUNICATION NETWORKS
-    permalink: /projects/COMMUNICATIONNETWORKS/
+    permalink: /research/part_4/
 ---
 ---
 
