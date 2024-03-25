@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Part II
+title: RESEARCH
 description: Power Systems – Dynamics
 img: assets/img/research/part_2.png
 importance: 2

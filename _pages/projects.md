@@ -9,8 +9,8 @@ display_categories: # [work, fun]
 horizontal: false
 dropdown: true
 children:
-  - title: OVERVIEW
-    permalink: /research
+  - title: Overview
+    permalink: /research/
   - title: divider
   - title: POWER SYSTEMS STEADY RATE
     permalink: /research/part_1/

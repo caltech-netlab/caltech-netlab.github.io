@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Part I
+title: RESEARCH
 description: Power Systems – Steady State
 img: assets/img/research/part_1.png
 importance: 1
