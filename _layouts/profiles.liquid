@@ -199,6 +199,69 @@ layout: page
           {% endfor %}
         </div>
       </div>
+
+      <br>
+      <h1>Visitors</h1>
+      <hr>
+      <h2>Faculty</h2>
+      <br>
+      <div class="grid-wrapper">
+        <div class="grid">
+          {% for profile in page.profiles %}
+            {% if profile.role == 'Visitors-faculty' %}
+              <div class="grid-sizer"></div>
+              <div class="grid-item" style="width:30%; margin-bottom:10px;">
+                <div class="card">
+                  <div class="card-body">
+                    
+                      <h2 class="name">{{ profile.name }}</h2>
+                      <p class="date">{{ profile.date }}</p>
+                    
+                    <div class="portfolio-description-wrapper">
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
+                      {% if profile.description%}
+                      <p class="description">{{ profile.description }}</p>
+                      {% else %}
+                      <br><br>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <br>
+      <h2>Ph.D. Students</h2>
+      <br>
+      <div class="grid-wrapper">
+        <div class="grid">
+          {% for profile in page.profiles %}
+            {% if profile.role == 'PastVisitingPhDStudents' %}
+              <div class="grid-sizer"></div>
+              <div class="grid-item" style="width:30%; margin-bottom:10px;">
+                <div class="card">
+                  <div class="card-body">
+                    
+                      <h2 class="name">{{ profile.name }}</h2>
+                      <p class="date">{{ profile.date }}</p>
+                    
+                    <div class="portfolio-description-wrapper">
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
+                      {% if profile.description%}
+                      <p class="description">{{ profile.description }}</p>
+                      {% else %}
+                      <br><br>
+                      {% endif %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
     {% endif %}
   </article>
 

@@ -76,157 +76,463 @@ profiles:
   - role: Postdoctoral
     date: 2001 - 2003
     name: Ki-Baek Kim
-    description: 
-    portfolio_link: 
+    description: ""
+    portfolio_link: ""
+
   - role: Postdoctoral
     date: 2004 - 2005
     name: Bartek Wydrowski
     description: Google
     portfolio_link: https://www.linkedin.com/in/bartek-wydrowski-2164a4b/
-  - role: Postdoctoral
-    date: 2010 - 2012
-    name: Libin Jiang
-    description: Qualcomm
-    portfolio_link: https://www.linkedin.com/in/libin-jiang-45176b14/
-  - role: Postdoctoral
-    date: 2013 - 2015
-    name: Enrique Mallada
-    description: Johns Hopkins
-    portfolio_link: https://mallada.ece.jhu.edu/
+
   - role: Postdoctoral
     date: 2002 - 2005
     name: Cheng Jin
     description: Akamai
     portfolio_link: https://www.linkedin.com/in/cheng-jin-8532141/
+
+  - role: Postdoctoral
+    date: 2002 - 2003
+    name: Werner Almsberger
+    description: ""
+    portfolio_link: ""
+
+  - role: Postdoctoral
+    date: 2004 - 2005
+    name: Joon-Young Choi
+    description: ""
+    portfolio_link: ""
+
   - role: Postdoctoral
     date: 2005 - 2008
     name: Lachlan Andrew
     description: Monash Uni.
-    portfolio_link: https://research.monash.edu/en/persons/lachlan-andrew
+    portfolio_link: http://monash.edu/research/explore/en/persons/lachlan-andrew(fe94bb6c-9fab-4b23-ada5-d47c0d39729b).html
+
   - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
+    date: 2008 - 2009
+    name: Chee-Wei Tan
+    description: City University
+    portfolio_link: http://www.cs.cityu.edu.hk/~cheewtan/
+
   - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
+    date: 2010 - 2013
+    name: Sachin Adlakha
+    description: NMLStream
+    portfolio_link: https://www.linkedin.com/in/sachin-adlakha-682aa061/
+
   - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
-  - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
-  - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
-  - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
-  - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
-  - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
-  - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
-  - role: Postdoctoral
-    date: 2011 - 2012
-    name: Dennice Gayme
-    description: Johns Hopkins
-    portfolio_link: https://engineering.jhu.edu/gayme/
+    date: 2010 - 2012
+    name: Libin Jiang
+    description: Qualcomm
+    portfolio_link: https://www.linkedin.com/in/libin-jiang-45176b14/
+
   - role: Postdoctoral
     date: 2011 - 2012
     name: Dennice Gayme
     description: Johns Hopkins
     portfolio_link: https://engineering.jhu.edu/gayme/
 
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
-  - role: Grad
-    date: 
-    name: Bartek Wydrowski
-    description: Google
+  - role: Postdoctoral
+    date: 2011 - 2012
+    name: Eilyan Bitar
+    description: Cornell
+    portfolio_link: https://bitar.engineering.cornell.edu/
 
-  
+  - role: Postdoctoral
+    date: 2012 - 2013
+    name: Yunjian Xu
+    description: Singapore Uni.
+    portfolio_link: https://esd.sutd.edu.sg/people/faculty/yunjian-xu
+
+  - role: Postdoctoral
+    date: 2013 - 2015
+    name: Enrique Mallada
+    description: Johns Hopkins
+    portfolio_link: https://mallada.ece.jhu.edu/
+
+  - role: Postdoctoral
+    date: 2014 - 2016
+    name: Krishnamurthy Dvijotham
+    description: DeepMind
+    portfolio_link: https://dvij.github.io/
+
+  - role: Postdoctoral
+    date: 2017 - 2019
+    name: James Anderson
+    description: Columbia 
+    portfolio_link: https://www.ee.columbia.edu/james-anderson
+
+  - role: Postdoctoral
+    date: 2019 - 2021
+    name: Guannan Qu
+    description: Carnegie Mellon
+    portfolio_link: https://www.guannanqu.com/
+
+
+  - role: Grad
+    date: PhD 1999
+    name: David Lapsley
+    description: Melbourne University
+    portfolio_link: https://www.linkedin.com/in/davidlapsley
+
+  - role: Grad
+    date: PhD 2005
+    name: Jiantao Wang
+    description: Doyle
+    current: Goldman Sachs
+    portfolio_link: https://www.linkedin.com/in/jiantao-wang-2127333
+
+  - role: Grad
+    date: PhD 2006
+    name: Lijun Chen
+    description: Doyle
+    current: U Colorado, Boulder
+    portfolio_link: http://spot.colorado.edu/~lich1539/
+
+  - role: Grad
+    date: PhD 2006
+    name: Lun Li
+    description: Doyle
+    current: OpenX, Pasadena
+    portfolio_link: https://www.linkedin.com/in/lunli/
+
+  - role: Grad
+    date: PhD 2006
+    name: Mortada Meyhar
+    description: ""
+    current: Tesla
+    portfolio_link: https://www.linkedin.com/in/mortada
+
+  - role: Grad
+    date: PhD 2006
+    name: Kevin Tang
+    description: ""
+    current: Cornell ECE
+    portfolio_link: https://people.ece.cornell.edu/atang/
+
+  - role: Grad
+    date: PhD 2006
+    name: David Wei
+    description: ""
+    current: Facebook
+    portfolio_link: https://www.linkedin.com/in/davidwei79
+
+  - role: Grad
+    date: PhD 2012
+    name: Jayakrishnan Nair
+    description: Wierman
+    current: Indian Institute of Sciences
+    portfolio_link: https://www.ee.iitb.ac.in/web/faculty/homepage/jayakrishnan.nair
+
+  - role: Grad
+    date: PhD 2014
+    name: Subhonmesh Bose
+    description: ""
+    current: UIUC ECE
+    portfolio_link: https://www.ece.illinois.edu/directory/profile/boses
+
+  - role: Grad
+    date: PhD 2014
+    name: Na Li
+    description: Doyle
+    current: Harvard EAS
+    portfolio_link: https://nali.seas.harvard.edu/
+
+  - role: Grad
+    date: PhD 2014
+    name: Zhenhua Liu
+    description: Wierman
+    current: SUNY Stony Brook
+    portfolio_link: http://www.ams.stonybrook.edu/~zhliu/
+
+  - role: Grad
+    date: PhD 2015
+    name: Lingwen Gan
+    description: ""
+    current: Facebook
+    portfolio_link: https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx
+
+  - role: Grad
+    date: PhD 2016
+    name: Desmond Cai
+    description: Wierman
+    current: Singapore A*STAR
+    portfolio_link: https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx
+
+  - role: Grad
+    date: PhD 2016
+    name: Qiuyu Peng
+    description: ""
+    current: Nuro
+    portfolio_link: https://www.linkedin.com/in/qiuyu-gavin-peng-2815a427
+
+  - role: Grad
+    date: PhD 2016
+    name: Changhong Zhao
+    description: ""
+    current: NREL
+    portfolio_link: https://sites.google.com/site/changhongzhao19/
+
+  - role: Grad
+    date: PhD 2017
+    name: Niangjun Chen
+    description: Wierman
+    current: Singapore A*STAR
+    portfolio_link: https://niangjunchen.github.io
+
+  - role: Grad
+    date: PhD 2019
+    name: John Pang
+    description: Wierman
+    current: Schlumberger
+    portfolio_link: https://j-pang.github.io//#work
+
+  - role: Grad
+    date: PhD 2019
+    name: Linqi (Daniel) Guo
+    description: Wierman
+    current: Stealth Startup
+    portfolio_link: https://scholar.google.com/citations?user=QixlSO4AAAAJ&hl=en
+
+  - role: Grad
+    date: PhD 2019
+    name: Yujie Tang
+    description: ""
+    current: Harvard
+    portfolio_link: https://www.seas.harvard.edu/directory/ytang
+
+  - role: Grad
+    date: PhD 2021
+    name: Zach Lee
+    description: ""
+    current: PowerFlex
+    portfolio_link: https://www.linkedin.com/in/leeengineering/
+
+  - role: Grad
+    date: PhD 2022
+    name: Chen Liang
+    description: Wierman
+    current: Five Rings
+    portfolio_link: http://www.its.caltech.edu/~cliang2/
+
+  - role: Grad
+    date: PhD 2022
+    name: Fengyu Zhou
+    description: ""
+    current: Two Sigma
+    portfolio_link: https://scholar.google.com/citations?user=i-oBMbYAAAAJ&hl=en
+
+  - role: Grad
+    date: PhD 2022
+    name: Tongxin Li
+    description: Wierman
+    current: CUHK-SZ SDS
+    portfolio_link: https://tongxin.me/
+
+  - role: Grad
+    date: MS 1998
+    name: Youngmi Ohk
+    description: ""
+    degree_university: Melbourne University
+    current: Dawson Consulting Pty Ltd
+    portfolio_link: https://www.linkedin.com/in/youngmi-ohk-08b56/
+
+  - role: Grad
+    date: MS 2000
+    name: Sanjeewa Athuraliya
+    description: ""
+    current: Ergon Energy
+    portfolio_link: https://www.linkedin.com/in/sanjeewa-athuraliya-71b31a5/
+
+  - role: Grad
+    date: MS 2002
+    name: Craig Cameron
+    description: ""
+    current: Finisa
+    portfolio_link: https://www.linkedin.com/in/craigcameron/
+
+  - role: Grad
+    date: MS 2006
+    name: John Pongsajapan
+    description: ""
+    current: Square
+    portfolio_link: https://www.linkedin.com/in/johnpongsajapan/
+
+  - role: Grad
+    date: MS 2006
+    name: Cheng Hu
+    description: ""
+    current: 
+    portfolio_link: 
+
+  - role: Grad
+    date: MS 2009
+    name: Kevin Phan
+    description: ""
+    current: 
+    portfolio_link: 
+
+  - role: Grad
+    date: MS 2010
+    name: Masoud Farivar
+    description: ""
+    current: Google
+    portfolio_link: https://www.linkedin.com/in/mfarivar/
+
+  - role: Grad
+    date: MS 2011
+    name: George Lee
+    description: ""
+    current: Akam
+
+
+  - role: Visitors-faculty
+    date: 2012
+    name: Jin S Lee
+    description: EE
+    university: Postech, Korea
+    portfolio_link: ""
+
+  - role: Visitors-faculty
+    date: 2013
+    name: Fernando Paganini
+    description: ""
+    university: Universidad ORT, Uruguay
+    portfolio_link: ""
+
+  - role: Visitors-faculty
+    date: 2014
+    name: Angela Zhang
+    description: ""
+    university: Chinese University of Hong Kong
+    portfolio_link: ""
+
+  - role: Visitors-faculty
+    date: 2015 - 2016
+    name: Feng Liu
+    description: Electrical Engineering
+    university: Tsinghua University, Beijing, China
+    portfolio_link: ""
+
+  - role: Visitors-faculty
+    date: 2017
+    name: Janusz Bialek
+    description: Skoltech
+    university: Moscow, Russia
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2001 - 2003
+    name: Hyojeong (Dawn) Choe
+    description: ECE
+    university: Postech, Korea
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2004 - 2005
+    name: Kyungmo Koo
+    description: ECE
+    university: Postech, Korea
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2008 - 2009
+    name: Krister Jacobsson
+    description: ""
+    university: KTH, Sweden
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2010 - 2011
+    name: Jongkyoo Kim
+    description: ECE
+    university: Postech, Korea
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2010 - 2011
+    name: Kai Wang
+    description: CS
+    university: Tsinghua University, China
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2012 - 2013
+    name: Chengdi Lai
+    description: Fulbright Scholar, EEE
+    university: Hong Kong University
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2013 - 2014
+    name: Daniela Meola
+    description: Control Department
+    university: Università del Sannio, Italy
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2013 - 2014
+    name: Yongmin Zhang
+    description: Control Department
+    university: Zhejiang University, China
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2015 - 2016
+    name: Junhao Lin
+    description: EEE
+    university: Hong Kong University
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2016-2017
+    name: Zhaojian Wang
+    description: EE
+    university: Tsinghua University, China
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2016-2017
+    name: Pengcheng You
+    description: ME & ECE
+    current: Johns Hopkins University, USA
+    portfolio_link: https://sites.google.com/view/pengcheng-you
+
+  - role: PastVisitingPhDStudents
+    date: 2018-2019
+    name: Yue Chen
+    description: EE
+    current: Tsinghua University, China
+    portfolio_link: https://sites.google.com/view/academicyuechen/home
+
+  - role: PastVisitingPhDStudents
+    date: 2018-2019
+    name: Chenxi (Stephanie) Sun
+    description: EEE
+    current: Hong Kong University
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2019-2020
+    name: Bo Sun
+    description: ECE
+    current: Hong Kong University of Science and Technology
+    portfolio_link: http://c2e.ece.ust.hk/sunbo
+
+  - role: PastVisitingPhDStudents
+    date: 2019-2020
+    name: Andreas Venzke
+    description: EE
+    current: Technical University of Denmark
+    portfolio_link: ""
+
+  - role: PastVisitingPhDStudents
+    date: 2019-2020
+    name: Su Wang
+    description: ECE
+    current: Hong Kong University of Science and Technology
+    portfolio_link: http://c2e.ece.ust.hk/su
+
+
 ---
