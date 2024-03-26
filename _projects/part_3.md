@@ -13,8 +13,8 @@ category:
 
 Vehicles consumed more than a quarter of energy and emitted more than a quarter of energy-related carbon dioxide in the US in 2014. Electrification of our transportation system will be an important component of future power systems because an electric vehicle (EV) is a huge load: an EV can add 50% energy consumption (4,000 kWh annually) to an average CA household and demand 2 to 20 times more power (3 – 20 kW) than an average CA household. It is however also an extremely flexible load hence invaluable for integrating renewable sources, such as wind and solar power, into our electric grid. We have worked on optimal scheduling of EV charging, and algorithms for EV battery swapping. We have also built an state-of-the-art EV charging system and transferred the technology through a startup.
 
-1. <b><a href = "#conjestionControl">Algorithm Design</a></b>
-2. <b><a href = "#layering">Entrepreneurship</a></b>
+1. <b><a href = "#algorithmDesign">Algorithm Design</a></b>
+2. <b><a href = "#entrepreneurship">Entrepreneurship</a></b>
 
 <div style="text-align:center;">
   <figure>
@@ -23,7 +23,7 @@ Vehicles consumed more than a quarter of energy and emitted more than a quarter 
   </figure>
 </div>
 
-<div style="margin-bottom: 12px;"><font size='5.5' id = "conjestionControl">Algorithm Design</font></div>
+<div style="margin-bottom: 12px;"><font size='5.5' id = "algorithmDesign">Algorithm Design</font></div>
 
 <b>Optimal EV charging. We design a distributed iterative scheduling algorithm for EV charging in:
 
@@ -39,7 +39,7 @@ where, in each iteration, EVs update their charging profiles according to the co
   </figure>
 </div>
 
-<div style="margin-bottom: 12px;"><font size='5.5' id = "conjestionControl">Entrepreneurship</font></div>
+<div style="margin-bottom: 12px;"><font size='5.5' id = "entrepreneurship">Entrepreneurship</font></div>
 
 California has committed to have 1.5 million zero- emission vehicles on the road by 2025. The Chinese city Shenzhen plans to have 100% of its taxi’s be electric by 2020. The growth of EV depends on, and will drive, the growth of charging infrastructure. Working with Netlab alumni and Caltech Facilities, we have built an Adaptive Charging Network (ACN), consisting of 63 level-2 chargers and 1 DC fast charger, served by two 150 kVA transformers, local controllers as well as communication equipment. ACN is capable of real-time measurement, communication, computing and control, and adapts EV charging rates to the driver needs as well as capacity limits of the electric system. It has been charging EVs since February 2016 and has delivered over 475 MWh, equivalent to 1.5 million miles and 500 metric tons of avoided greenhouse gases by July 2018 (<a href='https://caltech.powerflexsystems.com/d/qIkr4ibiv/caltech-home?orgId=1&refresh=1m'><b>https://caltech.powerflexsystems.com</b></a>). The Caltech ACN testbed is described in:
 

@@ -12,12 +12,12 @@ The behavior of power systems at timescales of minutes and up is described by a 
 
 Numerous power system operations and planning applications have at their core an optimization problem called an optimal power flow (OPF) problem, first formulated by Carpentier in 1962. The simplest version takes the form of minimizing a convex cost function, such as generation cost, power loss, or user disutility, subject to the set of nonlinear power flow equations and capacity, stability and security constraints. We have studied four issues on OPF: nonconvexity, scalability, real-time optimization, and applications.
 
-1. <b>Semidefinite Relaxation of OPF</b>
-2. <b>Distributed OPF</b>
-3. <b>Real-Time OPF</b>
-4. <b>Applications</b>
+1. <b><a href = "#OPF">Semidefinite Relaxation of OPF</a></b>
+2. <b><a href = "#DistributedOPF">Distributed OPF</a></b>
+3. <b><a href = "#realOPF">Real-Time OPF</a></b>
+4. <b><a href = "#applications">Applications</a></b>
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Semidefinite Relaxation of OPF</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Semidefinite Relaxation of OPF</font></div>
 
 Due to the nonlinearity of the power flow equations, OPF has a nonconvex feasible set and is NP-hard. We have developed a theory of convex relaxations of OPF that lifts the OPF feasible set to the cone of positive semidefinite matrices or the second-order cone. A relaxation is exact when an optimal solution of the original nonconvex OPF can be recovered from an optimal solution of the relaxation. We have clarified the relationship between two OPF models (the bus injection model and the branch flow model) and their relaxations, and proved sufficient conditions for exact relaxation. A good summary of the literature is the two-part tutorial:
 
@@ -56,14 +56,14 @@ Farivar and Low (2013) above also generalizes the DistFlow model to a branch flo
 
 There are three important implications. First BFM is equivalent to the bus injection model in the sense that there is a bijection mapping between the solution sets of these two models. Second any sufficient condition that guarantees exact semidefinite relaxation of OPF in one model will imply the exactness of the same relaxation in the other model. Finally SOC relaxation, though much simpler computationally, is equivalent to SDP relaxation in terms of exactness, and therefore one should always solve SOC relaxation and not SDP relaxation for radial networks.
 
-<div style="margin-bottom: 12px;"><font size='5.5'>Distributed OPF</font></div>
+<div style="margin-bottom: 12px;"><font size='5.5' id = "DistributedOPF">Distributed OPF</font></div>
 
 SDP relaxation of OPF, though convex, is still computational intensive for large networks. To scale the computation, we propose distributed algorithms to solve OPF for radial networks, both single and multiphase, using three simple ideas. First we use BFM (DistFlow model for single-phase networks and the multiphase generalization in Gan and Low (2014) for multiphase networks) because it has superior numerical stability and solve the semidefinite relaxations of OPF in BFM. Second we decompose the computation to each individual bus (or group of buses) by introducing decoupling variables and consensus constraints. Third we apply ADMM (alternating direction method of multipliers) to obtain a distributed solution. Each iteration of a standard ADMM algorithm requires solving optimization subproblems, typically iteratively. For our problem, every subproblem can be solved in closed form or reduced to a 6 × 6 eigenvalue problem regardless of the size of the network. This greatly speeds up the ADMM computation. This is explained in:
 
 - Q. Peng and S. H. Low. <a href='https://ieeexplore.ieee.org/document/7440858'><b><font color='#007bff'>Distributed optimal power flow algorithm for radial networks, I: balanced single phase case</font></b></a>, <em>IEEE Trans. on Smart Grid</em>, 9(1): 111–121, Jan 2018
 - Q. Peng and S. H. Low. <a href='https://ieeexplore.ieee.org/document/7403309'><b><font color='#007bff'>Distributed algorithm for optimal power flow on an unbalanced radial network</font></b></a>, <em>Proc. of IEEE Conference on Decision and Control</em>, Osaka, Japan, Dec 2015
 
-<div style="margin-bottom: 12px;"><font size='5.5'>Real-Time OPF</font></div>
+<div style="margin-bottom: 12px;"><font size='5.5' id = "realOPF">Real-Time OPF</font></div>
 
 Even though the algorithms above are distributed, they iterate on all variables in the cyberspace until they converge before their solutions are applied to the physical grid. In particular, the intermediate iterates typically do not satisfy the power flow equations nor operational constraints. While offline algorithms are suitable for traditional applications such as economic dispatch or state estimation, they may become inadequate for realtime optimization of DERs in the future, especially in the presence of fluctuating loads and volatile renewables.
 
@@ -77,7 +77,7 @@ and second-order algorithms in:
 - Y. Tang, K. Dvijotham, and S. H. Low. <a href='https://ieeexplore.ieee.org/document/7929408'><b><font color='#007bff'>Real-time optimal power flow</font></b></a>, <em>IEEE Trans. on Smart Grid</em>, Special Issue on Distributed control and efficient optimization methods for smart grid, 8(6): 2963–2973, Nov 2017
 - Y. Tang, E. Dall’Anese, A. Bernstein, and S. H. Low. <a href='https://ieeexplore.ieee.org/document/8619225'><b><font color='#007bff'>A Feedback-Based Regularized Primal-Dual Gradient Method for Time-Varying Nonconvex Optimization</font></b></a>, <em>Proc. IEEE Conference on Decision and Control</em>, Florida, US, Dec 2018
 
-<div style="margin-bottom: 12px;"><font size='5.5'>Applications</font></div>
+<div style="margin-bottom: 12px;"><font size='5.5' id = "applications">Applications</font></div>
 
 <b>Storage sizing and placement</b>. We have studied the problem of optimal placement and capacity of energy storage devices in a distribution network to minimize total energy loss, focusing on the structural properties of optimal strategies. A continuous tree with linearized Dist-Flow model is developed to model the distribution network. When all loads have the same shape, we prove that it is optimal to place storage devices near the leaves of the network away from the substation, and that the scaled storage capacity monotonically increases towards the leaves. Moreover, under optimal storage placement, the locational marginal value of storage is equalized wherever nonzero storage is deployed and increases from the substation towards any leaf node over places where there is zero storage deployment. We illustrate through simulations that these structural properties are robust in that they hold approximately when some of our modeling assumptions are relaxed. This is explained in:
 

@@ -10,10 +10,10 @@ giscus_comments: false
 
 The dynamics of a transmission network is mainly driven by that of the bulk generators. This can be modeled by a system of nonlinear differential algebraic equations. We often study linearized power flows for simplicity.
 
-1. <b>Frequency Regulation</b>
-2. <b>Impact of Network Topology</b>
+1. <b><a href = "#frequencyRegulation">Frequency Regulation</a></b>
+2. <b><a href = "#networkTopology">Impact of Network Topology</a></b>
 
-<div style="margin-bottom: 12px;"><font size='5.5'>Frequency Regulation</font></div>
+<div style="margin-bottom: 12px;"><font size='5.5' id = "frequencyRegulation">Frequency Regulation</font></div>
 
 Frequency control maintains the frequency of a power system tightly around its nominal value when demand or supply fluctuates. It is traditionally implemented on the generation side and consists of three mechanisms that work at different timescales in concert. The primary control restores power balance in about 30 seconds and is completely decentralized. The secondary control, called automatic generation control, operates at a timescale of several minutes and coordinates the setpoints of governors in a control area in a centralized fashion to drive the frequency back to its nominal value and the inter-area power flows to their scheduled values. The tertiary control, called economic dispatch, operates at a timescale of several minutes to an hour and schedules the output levels of generators that are online and the inter-area power flows, usually by solving centrally (N — 1) security-constrained OPF.
 
@@ -44,6 +44,6 @@ Another design and stability proof using linear power flows are developed in:
 - Z. Wang, F. Liu, S. H. Low, C. Zhao and S. Mei. <a href='https://ieeexplore.ieee.org/document/7990543'><b><font color='#007bff'>Distributed frequency control with operational constraints, part I: per-node power balance</font></b></a>, <em>IEEE Trans. on Smart Grid</em>, 2017
 - Z. Wang, F. Liu, S. H. Low, C. Zhao and S. Mei. <a href='https://ieeexplore.ieee.org/document/7990367'><b><font color='#007bff'>Distributed frequency control with operational constraints, part II: network power balance</font></b></a>, <em>IEEE Trans. on Smart Grid</em>, 2017
 
-<div style="margin-bottom: 12px;"><font size='5.5'>Impact of Network Topology</font></div>
+<div style="margin-bottom: 12px;"><font size='5.5' id = "networkTopology">Impact of Network Topology</font></div>
 
 Add later.
