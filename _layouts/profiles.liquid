@@ -182,14 +182,16 @@ layout: page
                       <p class="date">{{ profile.date }}</p>
                     </div>
                     
-                      <div class="portfolio-description-wrapper">
+                      
                         {% if profile.portfolio_link %}
-                          <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
+                          <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Portfolio</a>
                         {%else%}
                           <a class="portfolio-link">...</a>
                         {% endif %}
+                        
                         <p class="description">{{ profile.description }}</p>
-                      </div>
+                        <p class="description">{{ profile.lineBreak }}</p>
+                      
                     
 
 
@@ -214,16 +216,14 @@ layout: page
                   <div class="card-body">
                     
                       <h2 class="name">{{ profile.name }}</h2>
-                      <p class="date">{{ profile.date }}</p>
                     
-                    <div class="portfolio-description-wrapper">
-                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
-                      {% if profile.description%}
-                      <p class="description">{{ profile.description }}</p>
-                      {% else %}
-                      <br><br>
-                      {% endif %}
-                    </div>
+                    
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Portfolio</a>
+                      
+                      <p class="description">{{ profile.date }}</p>
+                      <p class="description">{{ profile.current }}</p>
+                      <p class="description">{{ profile.lineBreak }}</p>
+                    
                   </div>
                 </div>
               </div>
@@ -249,14 +249,12 @@ layout: page
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
                     
-                    <div class="portfolio-description-wrapper">
-                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
-                      {% if profile.description%}
+                    
+                      
+                      
+                      <p class="description">{{ profile.university }}</p>
                       <p class="description">{{ profile.description }}</p>
-                      {% else %}
-                      <br><br>
-                      {% endif %}
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -278,15 +276,11 @@ layout: page
                     
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
-                    
-                    <div class="portfolio-description-wrapper">
-                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#D3D3D3">Portfolio</a>
-                      {% if profile.description%}
+        
                       <p class="description">{{ profile.description }}</p>
-                      {% else %}
-                      <br><br>
-                      {% endif %}
-                    </div>
+                      <p class="description">{{ profile.university }}</p>
+                      <p class="description">{{ profile.lineBreak }}</p>
+                   
                   </div>
                 </div>
               </div>

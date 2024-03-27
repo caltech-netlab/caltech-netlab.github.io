@@ -99,7 +99,7 @@ profiles:
   - role: Postdoctoral
     date: 2001 - 2003
     name: Ki-Baek Kim
-    description: ""
+    description: "<br>"
     portfolio_link: ""
 
   - role: Postdoctoral
@@ -117,13 +117,13 @@ profiles:
   - role: Postdoctoral
     date: 2002 - 2003
     name: Werner Almsberger
-    description: ""
+    description: "<br>"
     portfolio_link: ""
 
   - role: Postdoctoral
     date: 2004 - 2005
     name: Joon-Young Choi
-    description: ""
+    description: "<br>"
     portfolio_link: ""
 
   - role: Postdoctoral
@@ -171,6 +171,7 @@ profiles:
   - role: Postdoctoral
     date: 2013 - 2015
     name: Enrique Mallada
+    lineBreak: "<br>"
     description: Johns Hopkins
     portfolio_link: https://mallada.ece.jhu.edu/
 
@@ -184,6 +185,7 @@ profiles:
     date: 2017 - 2019
     name: James Anderson
     description: Columbia 
+    lineBreak: "<br>"
     portfolio_link: https://www.ee.columbia.edu/james-anderson
 
   - role: Postdoctoral
@@ -196,13 +198,14 @@ profiles:
   - role: Grad
     date: PhD 1999
     name: David Lapsley
-    description: Melbourne University
+    current: Cisco
+    description: PhD 1999 (Melbourne University)
     portfolio_link: https://www.linkedin.com/in/davidlapsley
 
   - role: Grad
     date: PhD 2005
     name: Jiantao Wang
-    description: Doyle
+    description: PhD 2005
     current: Goldman Sachs
     portfolio_link: https://www.linkedin.com/in/jiantao-wang-2127333
 
@@ -223,22 +226,23 @@ profiles:
   - role: Grad
     date: PhD 2006
     name: Mortada Meyhar
-    description: ""
+    description: "<br>"
     current: Tesla
     portfolio_link: https://www.linkedin.com/in/mortada
 
   - role: Grad
     date: PhD 2006
     name: Kevin Tang
-    description: ""
+    description: "<br>"
     current: Cornell ECE
     portfolio_link: https://people.ece.cornell.edu/atang/
 
   - role: Grad
     date: PhD 2006
     name: David Wei
-    description: ""
+    description: "<br>"
     current: Facebook
+    lineBreak: "<br>"
     portfolio_link: https://www.linkedin.com/in/davidwei79
 
   - role: Grad
@@ -253,6 +257,7 @@ profiles:
     name: Subhonmesh Bose
     description: ""
     current: UIUC ECE
+    lineBreak: "<br>"
     portfolio_link: https://www.ece.illinois.edu/directory/profile/boses
 
   - role: Grad
@@ -342,6 +347,7 @@ profiles:
   - role: Grad
     date: PhD 2022
     name: Fengyu Zhou
+    lineBreak: "<br>"
     description: ""
     current: Two Sigma
     portfolio_link: https://scholar.google.com/citations?user=i-oBMbYAAAAJ&hl=en
@@ -349,6 +355,7 @@ profiles:
   - role: Grad
     date: PhD 2022
     name: Tongxin Li
+    lineBreak: "<br>"
     description: Wierman
     current: CUHK-SZ SDS
     portfolio_link: https://tongxin.me/
@@ -386,14 +393,14 @@ profiles:
     date: MS 2006
     name: Cheng Hu
     description: ""
-    current: 
+    current: "<br>"
     portfolio_link: 
 
   - role: Grad
     date: MS 2009
     name: Kevin Phan
     description: ""
-    current: 
+    current: "<br>"
     portfolio_link: 
 
   - role: Grad
@@ -420,22 +427,22 @@ profiles:
   - role: Visitors-faculty
     date: 2013
     name: Fernando Paganini
-    description: ""
+    description: "<br>"
     university: Universidad ORT, Uruguay
     portfolio_link: ""
 
   - role: Visitors-faculty
     date: 2014
     name: Angela Zhang
-    description: ""
-    university: Chinese University of Hong Kong
+    description: of Hong Kong
+    university: Chinese University 
     portfolio_link: ""
 
   - role: Visitors-faculty
     date: 2015 - 2016
     name: Feng Liu
     description: Electrical Engineering
-    university: Tsinghua University, Beijing, China
+    university: Tsinghua University
     portfolio_link: ""
 
   - role: Visitors-faculty
@@ -447,7 +454,7 @@ profiles:
 
   - role: PastVisitingPhDStudents
     date: 2001 - 2003
-    name: Hyojeong (Dawn) Choe
+    name: Hyojeong Choe
     description: ECE
     university: Postech, Korea
     portfolio_link: ""
@@ -462,7 +469,7 @@ profiles:
   - role: PastVisitingPhDStudents
     date: 2008 - 2009
     name: Krister Jacobsson
-    description: ""
+    description: "<br>"
     university: KTH, Sweden
     portfolio_link: ""
 
@@ -511,6 +518,7 @@ profiles:
   - role: PastVisitingPhDStudents
     date: 2016-2017
     name: Zhaojian Wang
+    lineBreak: "<br>"
     description: EE
     university: Tsinghua University, China
     portfolio_link: ""
@@ -519,42 +527,43 @@ profiles:
     date: 2016-2017
     name: Pengcheng You
     description: ME & ECE
-    current: Johns Hopkins University, USA
+    university: Johns Hopkins University, USA
     portfolio_link: https://sites.google.com/view/pengcheng-you
 
   - role: PastVisitingPhDStudents
     date: 2018-2019
     name: Yue Chen
+    lineBreak: "<br>"
     description: EE
-    current: Tsinghua University, China
+    university: Tsinghua University, China
     portfolio_link: https://sites.google.com/view/academicyuechen/home
 
   - role: PastVisitingPhDStudents
     date: 2018-2019
     name: Chenxi (Stephanie) Sun
     description: EEE
-    current: Hong Kong University
+    university: Hong Kong University
     portfolio_link: ""
 
   - role: PastVisitingPhDStudents
     date: 2019-2020
     name: Bo Sun
     description: ECE
-    current: Hong Kong University of Science and Technology
+    university: Hong Kong University of Science and Technology
     portfolio_link: http://c2e.ece.ust.hk/sunbo
 
   - role: PastVisitingPhDStudents
     date: 2019-2020
     name: Andreas Venzke
     description: EE
-    current: Technical University of Denmark
+    university: Technical University of Denmark
     portfolio_link: ""
 
   - role: PastVisitingPhDStudents
     date: 2019-2020
     name: Su Wang
     description: ECE
-    current: Hong Kong University of Science and Technology
+    university: Hong Kong University of Science and Technology
     portfolio_link: http://c2e.ece.ust.hk/su
 
 
