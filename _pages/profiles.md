@@ -16,7 +16,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Steven H. Low</p>
-      <a href = "http://netlab.caltech.edu/assets/documents/LowCV.pdf"><font color='#007bff'>CV</font></a>
+      <a href = "http://netlab.caltech.edu/assets/documents/LowCV.pdf"><b>CV</font></b></a>
   - align: left
     image: faculty/adam-wierman.jpg
     content: descriptions/about_adam-wierman.md
@@ -24,13 +24,15 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Adam Wierman</p>
+      <a href = "https://adamwierman.com/"><b>Website</font></b></a>
   - align: left
     image: faculty/john-doyle.jpg
-    content: descriptions/about_adam-wierman.md
+    content: descriptions/about_john_doyle.md
     role: Collaborators
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>John Doyle</p>
+      <a href = "https://doyle.caltech.edu/index.php?title=Main_Page"><b>Website</font></b></a>
   - align: left
     image: faculty/mani-chandy.jpg
     content: descriptions/about_adam-wierman.md
@@ -38,34 +40,47 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Mani Chandi</p>
+      <a href = "https://www.cms.caltech.edu/people/mani"><b>Website</font></b></a>
+
+  - align: left
+    image: admin/christine.jpg
+    content: descriptions/about_christine.md
+    role: Admin
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Christine Ortega</p>
+
   - align: left
     image: graduates/yiheng-xie.png
-    content: descriptions/about_adam-wierman.md
+    content: descriptions/about_yiheng_xie.md
     role: Current
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Yiheng Xie</p>
+      <a href = "http://netlab.caltech.edu/people/yxie5@caltech.edu"><b>Website</font></b></a>
   - align: left
     image: graduates/lucien-werner.png
-    content: descriptions/about_adam-wierman.md
+    content: descriptions/about_lucien_werner.md
     role: Current
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Lucien Werner</p>
   - align: left
     image: graduates/nico-christianson.png
-    content: descriptions/about_adam-wierman.md
+    content: descriptions/about_nico_christianson.md
     role: Current
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Nico Christianson</p>
+      <a href = "https://nicochristianson.com/"><b>Website</font></b></a>
   - align: left
     image: graduates/thuylinh-le.png
-    content: descriptions/about_adam-wierman.md
+    content: descriptions/about_thuy-linh_le.md
     role: Current
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Thuy-Linh Le</p>
+      <a href = "http://netlab.caltech.edu/people/thuylinh@caltech.edu"><b>Website</font></b></a>
   - align: left
     image: visiting-graduates/ognjen-stanojev.png
     content: descriptions/about_adam-wierman.md
@@ -73,6 +88,14 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Ognjen Stanojev</p>
+  - align: left
+    image: visiting-graduates/Ethan_Varghese.jpg
+    content: descriptions/about_ethan_varghese.md
+    role: Current-visiting
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Ethan Varghese</p>
+      <a href = "https://ethanvarghese-portfolio.vercel.app/"><b>Website</font></b></a>
   - role: Postdoctoral
     date: 2001 - 2003
     name: Ki-Baek Kim
