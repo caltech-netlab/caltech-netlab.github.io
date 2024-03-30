@@ -1,7 +1,15 @@
 # Frequently Asked Questions
 
-#### Conflict: The following destination is shared by multiple files
-Delete the `_site` folder.
+#### Visualize website locally without rebuilding from scratch every time
+todo: more explanation
+```
+sudo apt update
+sudo apt install bundler
+sudo apt-get install ruby-full
+sudo apt-get install imagemagick libmagickcore-dev libmagickwand-dev
+bundle install
+bundle exec jekyll serve
+```
 
 #### After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?
 

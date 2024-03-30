@@ -4,7 +4,7 @@ layout: page
 <div class="post">
   <article>
     {% if page.profiles %}
-      <h1>Faculty</h1>
+      <h2>Faculty</h2>
       {% for profile in page.profiles %}
         {% if profile.role == 'Faculty' %}
           <hr>
@@ -35,75 +35,9 @@ layout: page
         {% endif %}
       {% endfor %}
       <br>
-    <h1>Caltech Collaborators</h1>
-    <br>
+      <h2>Graduate Students</h2>
       {% for profile in page.profiles %}
-        {% if profile.role == 'Collaborators' %}
-          <hr>
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/people/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-          </div>
-
-          <div class="clearfix">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
-            {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <br>
-    <h1>Admin</h1>
-    <br>
-      {% for profile in page.profiles %}
-        {% if profile.role == 'Admin' %}
-          <hr>
-          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-            {% if profile.image %}
-              {% assign profile_image_path = profile.image | prepend: 'assets/img/people/' %}
-              {% if profile.image_circular %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-              {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-              {% endif %}
-              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-            {% endif %}
-            {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-          </div>
-
-          <div class="clearfix">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
-            {% endif %}
-          </div>
-        {% endif %}
-      {% endfor %}
-      <br>
-      <h1>Current Members</h1>
-      <br>
-      <h2>Graduate Members</h2>
-      {% for profile in page.profiles %}
-        {% if profile.role == 'Current' %}
+        {% if profile.role == 'CurrentGradStudent' %}
           <hr>
           <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
             {% if profile.image %}
@@ -135,7 +69,7 @@ layout: page
       <h2>Visiting Students</h2>
       <br>
       {% for profile in page.profiles %}
-        {% if profile.role == 'Current-visiting' %}
+        {% if profile.role == 'CurrentVisitingStudent' %}
           <hr>
           <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
             {% if profile.image %}
@@ -165,51 +99,78 @@ layout: page
       {% endfor %}
       <br>
       <br>
-      <h1>Previous Members</h1>
-      <br>
-      <h2>Postdoctoral Researchers</h2>
-      <hr>
-      <div class="grid-wrapper">
-        <div class="grid">
-          {% for profile in page.profiles %}
-            {% if profile.role == 'Postdoctoral' %}
-              <div class="grid-sizer"></div>
-              <div class="grid-item" style="width:30%; margin-bottom:10px;">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="header-section">
-                      <h2 class="name">{{ profile.name }}</h2>
-                      <p class="date">{{ profile.date }}</p>
-                    </div>
-                    
-                      
-                        {% if profile.portfolio_link %}
-                          <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Portfolio</a>
-                        {%else%}
-                          <a class="portfolio-link">...</a>
-                        {% endif %}
-                        
-                        <p class="description">{{ profile.description }}</p>
-                        <p class="description">{{ profile.lineBreak }}</p>
-                      
-                    
-
-
-                  </div>
-                </div>
-              </div>
+    <h2>Caltech Faculty Collaborators</h2>
+    <br>
+      {% for profile in page.profiles %}
+        {% if profile.role == 'CaltechFacultyCollaborator' %}
+          <hr>
+          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+            {% if profile.image %}
+              {% assign profile_image_path = profile.image | prepend: 'assets/img/people/' %}
+              {% if profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
             {% endif %}
-          {% endfor %}
-        </div>
-      </div>
+            {% if profile.more_info %}
+              <div class="more-info">{{ profile.more_info }}</div>
+            {% endif %}
+          </div>
+
+          <div class="clearfix">
+            {% if profile.content %}
+              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+              {{ profile_content | markdownify }}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      <br>
+    <h2>Administrative Assistant</h2>
+    <br>
+      {% for profile in page.profiles %}
+        {% if profile.role == 'Admin' %}
+          <hr>
+          <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+            {% if profile.image %}
+              {% assign profile_image_path = profile.image | prepend: 'assets/img/people/' %}
+              {% if profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
+              {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+            {% endif %}
+            {% if profile.more_info %}
+              <div class="more-info">{{ profile.more_info }}</div>
+            {% endif %}
+          </div>
+
+          <div class="clearfix">
+            {% if profile.content %}
+              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+              {{ profile_content | markdownify }}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </div>
+        {% endif %}
+      {% endfor %}
+      <br>
 
       <br>
-      <h2>Graduate Students</h2>
+      <h2>Previous Graduate Students</h2>
       <hr>
       <div class="grid-wrapper">
         <div class="grid">
           {% for profile in page.profiles %}
-            {% if profile.role == 'Grad' %}
+            {% if profile.role == 'PreviousGrad' %}
               <div class="grid-sizer"></div>
               <div class="grid-item" style="width:30%; margin-bottom:10px;">
                 <div class="card">
@@ -218,7 +179,7 @@ layout: page
                       <h2 class="name">{{ profile.name }}</h2>
                     
                     
-                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Portfolio</a>
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
                       
                       <p class="description">{{ profile.date }}</p>
                       <p class="description">{{ profile.current }}</p>
@@ -232,29 +193,30 @@ layout: page
         </div>
       </div>
 
-      <br>
-      <h1>Visitors</h1>
+      <h2>Previous Postdoctoral Researchers</h2>
       <hr>
-      <h2>Faculty</h2>
-      <br>
       <div class="grid-wrapper">
         <div class="grid">
           {% for profile in page.profiles %}
-            {% if profile.role == 'Visitors-faculty' %}
+            {% if profile.role == 'PreviousPostdoc' %}
               <div class="grid-sizer"></div>
               <div class="grid-item" style="width:30%; margin-bottom:10px;">
                 <div class="card">
                   <div class="card-body">
-                    
+                    <div class="header-section">
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
-                    
+                    </div>
                     
                       
-                      
-                      <p class="description">{{ profile.university }}</p>
-                      <p class="description">{{ profile.description }}</p>
-                    
+                        {% if profile.portfolio_link %}
+                          <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
+                        {%else%}
+                          <a class="portfolio-link"></a>
+                        {% endif %}
+                        
+                        <p class="description">{{ profile.description }}</p>
+                        <p class="description">{{ profile.lineBreak }}</p>
                   </div>
                 </div>
               </div>
@@ -262,13 +224,13 @@ layout: page
           {% endfor %}
         </div>
       </div>
-      <br>
-      <h2>Ph.D. Students</h2>
+
+      <h2>Previous Student Visitors</h2>
       <br>
       <div class="grid-wrapper">
         <div class="grid">
           {% for profile in page.profiles %}
-            {% if profile.role == 'PastVisitingPhDStudents' %}
+            {% if profile.role == 'PreviousVisitingStudent' %}
               <div class="grid-sizer"></div>
               <div class="grid-item" style="width:30%; margin-bottom:10px;">
                 <div class="card">
@@ -288,6 +250,37 @@ layout: page
           {% endfor %}
         </div>
       </div>
+
+      <br>
+      <h2>Previous Faculty Visitors</h2>
+      <br>
+      <div class="grid-wrapper">
+        <div class="grid">
+          {% for profile in page.profiles %}
+            {% if profile.role == 'PreviousVisitingFaculty' %}
+              <div class="grid-sizer"></div>
+              <div class="grid-item" style="width:30%; margin-bottom:10px;">
+                <div class="card">
+                  <div class="card-body">
+                    
+                      <h2 class="name">{{ profile.name }}</h2>
+                      <p class="date">{{ profile.date }}</p>
+                    
+                    
+                      
+                      
+                      <p class="description">{{ profile.university }}</p>
+                      <p class="description">{{ profile.description }}</p>
+                    
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <br>
+
     {% endif %}
   </article>
 
