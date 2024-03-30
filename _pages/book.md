@@ -6,11 +6,51 @@ description: # Materials for courses you taught. Replace this text with your des
 nav: true
 nav_order: 7
 ---
+<style>
+    .styled-button {
+        display: block;
+        width: 150px; /* Fixed width */
+        padding: 10px 20px;
+        background-color: #333; /* Dark gray background */
+        color: white; /* White text */
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 2px solid white; /* White border */
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+        margin-bottom: 20px; /* Margin between buttons */
+    }
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Lecture Notes for EE/CS/EST 135</font></div>
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Power System Analysis</font></div>
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">A Mathematical Approach</font></div>
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Steven H. Low, Caltech</font></div>
+    /* Button hover effect */
+    .styled-button:hover {
+        background-color: white; /* White background on hover */
+        color: black; /* Black text on hover */
+    }
+</style>
+<div id="container" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
+    <div id="content" style="flex: 1;">
+        <div id="jump1" style="margin-bottom: 12px;">
+            <font size='5.5' id="OPF">Lecture Notes for EE/CS/EST 135-Power System Analysis</font>
+        </div>
+        <br>
+        <div id="jump2" style="margin-bottom: 12px;">
+            <font size='5.5' id="OPF">A Mathematical Approach-Steven H. Low, Caltech</font>
+        </div>
+    </div>
+    <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
+        <a href="https://form.jotform.com/220081838982159" target="_blank">
+        <button class="styled-button">Register</button>
+        </a>
+        <a href="https://form.jotform.com/221144847455155" target="_blank">
+        <button class="styled-button">Feedback</button>
+        </a>
+    </div>
+</div>
+<hr>
+
+
 
 
 This rough draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. It contains incomplete or empty sections, errors and inconsistencies, missing bibliographical notes, etc. Any corrections, questions, comments, or pointers will be greatly appreciated!
