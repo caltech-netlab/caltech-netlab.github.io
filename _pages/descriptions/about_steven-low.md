@@ -1,1 +1,1 @@
-F. J. Gilloon Professor of Computing and Mathematical Sciences and Electrical Engineering
+F. J. Gilloon Professor of Computing and Mathematical Sciences and Electrical Engineering. 

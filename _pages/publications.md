@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: PUBLICATIONS
-description: Here are the SELECTED publications in the last 5 years, and the full publication list can be found on <a href='https://scholar.google.com/citations?user=4BrebIYAAAAJ&hl=en&oi=ao'><b><font color='#007bff'>Google Scholar</font></b></a>.
+description: Here are the SELECTED publications in the last 5 years, and the full publication list can be found on <a href='https://scholar.google.com/citations?user=4BrebIYAAAAJ&hl=en&oi=ao'><b><font color='#17a2b8'>Google Scholar</font></b></a>.
 nav: true
 nav_order: 4
 ---
