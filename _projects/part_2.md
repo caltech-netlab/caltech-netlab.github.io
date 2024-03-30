@@ -44,6 +44,6 @@ Another design and stability proof using linear power flows are developed in:
 - Z. Wang, F. Liu, S. H. Low, C. Zhao and S. Mei. <a href='https://ieeexplore.ieee.org/document/7990543'><b>Distributed frequency control with operational constraints, part I: per-node power balance</b></a>, <em>IEEE Trans. on Smart Grid</em>, 2017
 - Z. Wang, F. Liu, S. H. Low, C. Zhao and S. Mei. <a href='https://ieeexplore.ieee.org/document/7990367'><b>Distributed frequency control with operational constraints, part II: network power balance</b></a>, <em>IEEE Trans. on Smart Grid</em>, 2017
 
-<div style="margin-bottom: 12px;"><font size='5.5' id = "networkTopology">Impact of Network Topology</font></div>
+<!-- <div style="margin-bottom: 12px;"><font size='5.5' id = "networkTopology">Impact of Network Topology</font></div> -->
 
-Add later.
+<!-- Add later. -->

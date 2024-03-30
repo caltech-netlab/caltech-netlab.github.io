@@ -175,12 +175,8 @@ layout: page
               <div class="grid-item" style="width:30%; margin-bottom:10px;">
                 <div class="card">
                   <div class="card-body">
-                    
                       <h2 class="name">{{ profile.name }}</h2>
-                    
-                    
                       <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
-                      
                       <p class="description">{{ profile.date }}</p>
                       <p class="description">{{ profile.current }}</p>
                       <p class="description">{{ profile.lineBreak }}</p>
@@ -207,14 +203,11 @@ layout: page
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
                     </div>
-                    
-                      
                         {% if profile.portfolio_link %}
                           <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
                         {%else%}
                           <a class="portfolio-link"></a>
                         {% endif %}
-                        
                         <p class="description">{{ profile.description }}</p>
                         <p class="description">{{ profile.lineBreak }}</p>
                   </div>
@@ -235,10 +228,8 @@ layout: page
               <div class="grid-item" style="width:30%; margin-bottom:10px;">
                 <div class="card">
                   <div class="card-body">
-                    
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
-        
                       <p class="description">{{ profile.description }}</p>
                       <p class="description">{{ profile.university }}</p>
                       <p class="description">{{ profile.lineBreak }}</p>
@@ -262,16 +253,10 @@ layout: page
               <div class="grid-item" style="width:30%; margin-bottom:10px;">
                 <div class="card">
                   <div class="card-body">
-                    
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
-                    
-                    
-                      
-                      
                       <p class="description">{{ profile.university }}</p>
                       <p class="description">{{ profile.description }}</p>
-                    
                   </div>
                 </div>
               </div>
