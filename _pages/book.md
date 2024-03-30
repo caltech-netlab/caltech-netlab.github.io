@@ -55,9 +55,9 @@ nav_order: 7
 
 This rough draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. It contains incomplete or empty sections, errors and inconsistencies, missing bibliographical notes, etc. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-We will periodically add new chapters and update existing ones here. We will also inform registered users of (only) major updates (very occasionally, and you can always opt out of notification). Please do register (if you have not already).
+We will periodically add new chapters and update existing ones here. We will also inform registered users of (only) major updates (very occasionally, and you can always opt out of notification). Please do <a target = "_blank" href='https://form.jotform.com/221144847455155'><b>register</b></a> (if you have not already).
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Current draft (September 20, 2023)</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='http://netlab.caltech.edu/book/copies/Low-201909-ee135Notes-Ch1toCh15AppNoSol-20230920.pdf'><b>Current draft</b></a> (September 20, 2023)</font></div>
 
 - Part I: Single-phase networks (Ch 1 - Ch 5; ignore Ch 6)
 - Part II: Unbalanced multiphase networks (Ch 7 - 10)
@@ -66,24 +66,24 @@ We will periodically add new chapters and update existing ones here. We will als
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
-Solutions to most of the exercises are available to instructors for teaching or researchers for self study.  Request solution.
+Solutions to most of the exercises are available to instructors for teaching or researchers for self study.  <a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a>
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
 The slides below are mostly for the Feb 16, 2023 version of the draft textbook (except for a few updated chapters).  The chapter numbers may not match with the re-organized current version above (will be updated in the future).
 
 - Part I: Single-phase networks
-    - Ch 1 Basic concepts
-    - Ch 2 Transmission line models
-    - Ch 3 Transformer models
-    - Ch 5 Bus injection models
-    - Ch 6 Branch flow models
+    - Ch 1 Basic concepts: <a target = "_blank" href='../assets/keynotes/Low-Ch1-BasicConcepts-202109.key' download="keynote1.key"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 2 Transmission line models: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 3 Transformer models: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
+    - Ch 5 Bus injection models: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 6 Branch flow models: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
 - Part II: Unbalanced multiphase networks
-    - Ch 8 Component models
-    - Ch 9 Bus injection models
-    - Ch 10 Branch flow models
+    - Ch 8 Component models: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
+    - Ch 9 Bus injection models: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 10 Branch flow models: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
 - Part III: Power flow optimization
-    - Ch 11 Power system operation
-    - Ch 12 Optimal power flow
-    - Ch 13 Semidefinite relaxations: BIM
-    - Ch 14 Semidefinite relaxations: BFM
+    - Ch 11 Power system operation: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 12 Optimal power flow: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 13 Semidefinite relaxations: BIM: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 14 Semidefinite relaxations: BFM: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
