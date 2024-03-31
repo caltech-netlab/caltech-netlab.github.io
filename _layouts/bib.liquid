@@ -86,8 +86,8 @@
               {{ author.last -}}
             </a>
           {%- else -%}
-            {{ author.first }}
-            {{ author.last }}
+            {{- author.first }}
+            {{ author.last -}} 
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -133,9 +133,9 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+      {% capture entrytype %}<em>In {{entry.booktitle}}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
+      {% capture entrytype %}<em>{{entry.school}}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
