@@ -57,7 +57,7 @@ This rough draft is based on lecture notes for the Power System Analysis course 
 
 We will periodically add new chapters and update existing ones here. We will also inform registered users of (only) major updates (very occasionally, and you can always opt out of notification). Please do <a target = "_blank" href='https://form.jotform.com/221144847455155'><b>register</b></a> (if you have not already).
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='http://netlab.caltech.edu/book/copies/Low-201909-ee135Notes-Ch1toCh15AppNoSol-20230920.pdf'><b>Current draft</b></a> (September 20, 2023)</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/Low-201909-ee135Notes-Ch1toCh15AppNoSol-20230920.pdf'><b>Current draft</b></a> (September 20, 2023)</font></div>
 
 - Part I: Single-phase networks (Ch 1 - Ch 5; ignore Ch 6)
 - Part II: Unbalanced multiphase networks (Ch 7 - 10)
