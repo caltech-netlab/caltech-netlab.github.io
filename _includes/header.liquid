@@ -2,9 +2,15 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
+      {% if page.permalink != '/' or page.permalink == '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          
+          {% if page.url contains "research/part" %}
+            {% assign image_path = "..\..\assets\img\netlab-logo.png" %}
+          {% else %}
+            {% assign image_path = "..\assets\img\netlab-logo.png" %}
+          {% endif %}
+          <img src="{{ image_path }}" height="30">
+
           <!--{% if site.title == 'blank' %}
             {% if site.first_name %}
               <span class="font-weight-bold">
