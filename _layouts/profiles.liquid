@@ -230,10 +230,13 @@ layout: page
                   <div class="card-body">
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
+                      {% if profile.portfolio_link %}
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
+                      {% endif %}
                       <p class="description">{{ profile.description }}</p>
                       <p class="description">{{ profile.university }}</p>
                       <p class="description">{{ profile.lineBreak }}</p>
-                   
+                      
                   </div>
                 </div>
               </div>
@@ -256,7 +259,9 @@ layout: page
                       <h2 class="name">{{ profile.name }}</h2>
                       <p class="date">{{ profile.date }}</p>
                       <p class="description">{{ profile.university }}</p>
+                      <p class="description">{{ profile.lineBreak }}</p>
                       <p class="description">{{ profile.description }}</p>
+                      
                   </div>
                 </div>
               </div>
