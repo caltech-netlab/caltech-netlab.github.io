@@ -100,6 +100,7 @@ profiles:
     date: 2001 - 2003
     name: Ki-Baek Kim
     description: 
+    lineBreak: "<br><br><br>"
   - role: PreviousPostdoc
     date: 2004 - 2005
     name: Bartek Wydrowski
@@ -114,10 +115,12 @@ profiles:
     date: 2002 - 2003
     name: Werner Almsberger
     description: 
+    lineBreak: "<br><br><br>"
   - role: PreviousPostdoc
     date: 2004 - 2005
     name: Joon-Young Choi
     description: 
+    lineBreak: "<br><br><br>"
   - role: PreviousPostdoc
     date: 2005 - 2008
     name: Lachlan Andrew
@@ -180,6 +183,7 @@ profiles:
     name: Lucien Werner
     description: Citadel
     portfolio_link: https://www.linkedin.com/in/lucienwerner
+    lineBreak: "<br>"
     # content: descriptions/about_lucien_werner.md
 
   # Previous graduate students
@@ -314,20 +318,21 @@ profiles:
   - role: PreviousGrad
     date: PhD 2022
     name: Fengyu Zhou
-    lineBreak: "<br>"
+    lineBreak: 
     description: 
     current: Two Sigma
     portfolio_link: https://scholar.google.com/citations?user=i-oBMbYAAAAJ&hl=en
   - role: PreviousGrad
     date: PhD 2022
     name: Tongxin Li
-    lineBreak: "<br>"
+    lineBreak: 
     description: Wierman
     current: CUHK-SZ SDS
     portfolio_link: https://tongxin.me/
   - role: PreviousGrad
     date: PhD 2023
     name: Lucien Werner
+    lineBreak: <br>
     description: Citadel
     portfolio_link: https://www.linkedin.com/in/lucienwerner
     # content: descriptions/about_lucien_werner.md
@@ -401,6 +406,7 @@ profiles:
     name: Fernando Paganini
     description: 
     university: Universidad ORT, Uruguay
+    lineBreak: "<br>"
   - role: PreviousVisitingFaculty
     date: 2012
     name: Jin S Lee
@@ -422,6 +428,7 @@ profiles:
     date: 2008 - 2009
     name: Krister Jacobsson
     description: 
+    lineBreak: <br>
     university: KTH, Sweden
   - role: PreviousVisitingStudent
     date: 2010 - 2011
@@ -463,7 +470,7 @@ profiles:
     date: 2016-2017
     name: Pengcheng You
     description: ME & ECE
-    university: Johns Hopkins University, USA
+    university: Johns Hopkins University
     portfolio_link: https://sites.google.com/view/pengcheng-you
   - role: PreviousVisitingStudent
     date: 2018-2019
@@ -499,6 +506,7 @@ profiles:
     name: Ognjen Stanojev
     university: ETH Zurich
     portfolio_link: https://psl.ee.ethz.ch/people/person-detail.MjQxOTQ5.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html
+    lineBreak: <br><br>
     # image: visiting-graduates/ognjen-stanojev.png
 
 ---
