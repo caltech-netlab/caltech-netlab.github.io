@@ -10,8 +10,8 @@ giscus_comments: false
 
 The dynamics of a transmission network is mainly driven by that of the bulk generators. This can be modeled by a system of nonlinear differential algebraic equations. We often study linearized power flows for simplicity.
 
-1. <b><a href = "#frequencyRegulation">Frequency Regulation</a></b>
-2. <b><a href = "#networkTopology">Impact of Network Topology</a></b>
+<!-- 1. <b><a href = "#frequencyRegulation">Frequency Regulation</a></b>
+2. <b><a href = "#networkTopology">Impact of Network Topology</a></b> -->
 
 <div style="margin-bottom: 12px;"><font size='5.5' id = "frequencyRegulation">Frequency Regulation</font></div>
 
