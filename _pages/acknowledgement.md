@@ -87,16 +87,16 @@ nav_order: 6
 <div style="margin-bottom: 10px; display: flex; justify-content: center;">
   <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
     <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\22_juniper-networks-logo.svg" style="width: 90%; max-width: 90%; height: auto;">
+      <img src="..\assets\img\sponsor\22_juniper-networks-logo.svg" style="width: 90%; max-width: 90%; height: auto; margin-top:30px;">
     </div>
     <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\23_Sun-logo.svg" style="width: 90%; max-width: 90%; height: auto;">
+      <img src="..\assets\img\sponsor\23_Sun-logo.svg" style="width: 90%; max-width: 90%; height: auto; margin-top:20px;">
     </div>
     <div style="text-align: center;">
       <img src="..\assets\img\sponsor\24_Intel-logo.svg" style="width: 90%; max-width: 90%; height: auto;">
     </div>
     <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\25_Microsoft-logo.svg" style="width: 90%; max-width: 90%; height: auto;">
+      <img src="..\assets\img\sponsor\25_Microsoft-logo.svg" style="margin-top:30px;width: 90%; max-width: 90%; height: auto;">
     </div>
   </div>
 </div>
