@@ -33,7 +33,7 @@ nav_order: 7
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     /* Box styling */
@@ -41,7 +41,7 @@ nav_order: 7
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     /* Box styling */
@@ -49,9 +49,9 @@ nav_order: 7
         border: 1px solid lightgray; /* Light gray border */
         border-radius: 5px; /* Rounded corners */
         padding: 12px; /* Padding */
-        width: 45%; /* 45% width for each box */
+        width: 49%; /* 45% width for each box */
         transition: border-color 0.3s; /* Smooth transition for border color */
-        margin-bottom: 12px; /* Margin between boxes */
+        margin-bottom: 0px; /* Margin between boxes */
     }
 
     /* Box hover effect */
