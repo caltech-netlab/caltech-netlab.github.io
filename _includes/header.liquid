@@ -51,7 +51,9 @@
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav" style = "margin-left:40px;">
+      
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
             {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
@@ -131,7 +133,6 @@
           {% endif %}-->
         </ul>
       </div>
-    </div>
   </nav>
   {% if site.enable_progressbar %}
     <!-- Scrolling Progress Bar -->
