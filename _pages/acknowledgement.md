@@ -8,14 +8,14 @@ nav_order: 6
 ---
 <div style="margin-bottom: 10px; display: flex; justify-content: center;">
   <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px;">
+  <div style="text-align: center;">
+      <img src="..\assets\img\sponsor\3_sase-logo.png" style="width: 90%; max-width: 90%; height: auto; margin-top:20px;">
+    </div>
     <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\1_arpae-logo.jpg" style="width: 90%; max-width: 90%; height: auto;">
+      <img src="..\assets\img\sponsor\8_AFOSR-logo.jpg" style="width: 90%; max-width: 90%; height: auto;">
     </div>
     <div style="text-align: center;">
       <img src="..\assets\img\sponsor\2_NSF-logo.png" style="width: 90%; max-width: 90%; height: auto;">
-    </div>
-    <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\3_sase-logo.png" style="width: 90%; max-width: 90%; height: auto;">
     </div>
     <div style="text-align: center;">
       <img src="..\assets\img\sponsor\4_DOE-logo.png" style="width: 90%; max-width: 90%; height: auto;">
@@ -24,10 +24,10 @@ nav_order: 6
       <img src="..\assets\img\sponsor\5_DTRA-logo.png" style="width: 90%; max-width: 90%; height: auto;">
     </div>
     <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\6_SCE-logo.jpg" style="width: 90%; max-width: 90%; height: auto;">
+      <img src="..\assets\img\sponsor\7_ARO-logo.png" style="width: 90%; max-width: 90%; height: auto;">
     </div>
     <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\7_ARO-logo.png" style="width: 90%; max-width: 90%; height: auto;">
+      <img src="..\assets\img\sponsor\6_SCE-logo.jpg" style="margin-top:30px; width: 90%; max-width: 90%; height: auto;">
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@ nav_order: 6
 <div style="margin-bottom: 10px; display: flex; justify-content: center;">
   <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 10px;">
     <div style="text-align: center;">
-      <img src="..\assets\img\sponsor\8_AFOSR-logo.jpg" style="width: 90%; max-width: 90%; height: auto;">
+      <img src="..\assets\img\sponsor\1_arpae-logo.jpg" style="width: 90%; max-width: 90%; height: auto;">
     </div>
     <div style="text-align: center;">
       <img src="..\assets\img\sponsor\9_Los-Alamos-logo.png" style="width: 90%; max-width: 90%; height: auto;">
