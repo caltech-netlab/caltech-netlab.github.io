@@ -1,15 +1,9 @@
 <div class="grid-sizer"></div>
-<div class="grid-item" style = "width:48%">
+<div class="grid-item" style="width: 48%">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card hoverable">
       {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-        %}
+        <img src="{{ project.img }}" alt="project thumbnail" loading="lazy" sizes="250px">
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ project.title }}</h2>
@@ -33,3 +27,4 @@
     </div>
   </a>
 </div>
+
