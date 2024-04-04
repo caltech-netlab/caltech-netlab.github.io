@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /book/
-title: BOOK 
+title: BOOK
 description: # Materials for courses you taught. Replace this text with your description.
-nav: true
+nav: False
 nav_order: 7
 ---
 <style>
@@ -32,30 +32,27 @@ nav_order: 7
 <div id="container" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
     <div id="content" style="flex: 1;">
         <div id="jump1" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF">Lecture Notes for EE/CS/EST 135-Power System Analysis</font>
+            <font size='5.5' id="OPF"><b>Power System Analysis - A Mathematical Approach</b></font>
         </div>
-        <br>
         <div id="jump2" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF">A Mathematical Approach-Steven H. Low, Caltech</font>
+            <font size='5.5' id="OPF">Lecture Notes for EE/CS/EST 135</font>
+        </div>
+        <div id="jump3" style="margin-bottom: 12px;">
+            <font size='5.5' id="OPF">Steven H. Low, Caltech</font>
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
-        <a href="https://form.jotform.com/220081838982159" target="_blank">
+        <a href="https://form.jotform.com/221144847455155" target="_blank">
         <button class="styled-button">Register</button>
         </a>
-        <a href="https://form.jotform.com/221144847455155" target="_blank">
+        <a href="https://form.jotform.com/220081838982159" target="_blank">
         <button class="styled-button">Feedback</button>
         </a>
     </div>
 </div>
 <hr>
 
-
-
-
-This rough draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. It contains incomplete or empty sections, errors and inconsistencies, missing bibliographical notes, etc. Any corrections, questions, comments, or pointers will be greatly appreciated!
-
-We will periodically add new chapters and update existing ones here. We will also inform registered users of (only) major updates (very occasionally, and you can always opt out of notification). Please do <a target = "_blank" href='https://form.jotform.com/221144847455155'><b>register</b></a> (if you have not already).
+This rough draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/pdf/Low-201909-ee135Notes-Ch1toCh15AppNoSol-20230920.pdf'><b>Current draft</b></a> (September 20, 2023)</font></div>
 
@@ -87,3 +84,4 @@ The slides below are mostly for the Feb 16, 2023 version of the draft textbook (
     - Ch 12 Optimal power flow: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
     - Ch 13 Semidefinite relaxations: BIM: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
     - Ch 14 Semidefinite relaxations: BFM: <a target = "_blank" href='../assets/img/people/admin/christine.jpg' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='http://netlab.caltech.edu/book/copies/slides-202210/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+

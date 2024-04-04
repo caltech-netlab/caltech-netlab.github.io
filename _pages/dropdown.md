@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RESEARCH
+title: Research
 nav: false
 nav_order: 7
 dropdown: true
