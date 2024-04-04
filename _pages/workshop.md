@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /Reunion/
-title: Reunion
+title: Reunion Workshop
 description:
-nav: true
+nav: false
 nav_order: 7
 ---
 <style>
@@ -89,7 +89,7 @@ nav_order: 7
             <font size='5.5' id="OPF">Network Optimization Control Learning</font>
         </div>
         <div id="jump2" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF">Workshop & Reunion (May 24-25, 2024)</font>
+            <font size='5.5' id="OPF">Reunion Workshop (May 24-25, 2024)</font>
         </div>
         <div id="jump3" style="margin-bottom: 12px;">
             <font size='5.5' id="OPF"></font>
