@@ -99,7 +99,7 @@ nav_order: 7
         <a href="" target="_blank">
         <button class="styled-button">Program</button>
         </a>
-        <a href="" target="_blank">
+        <a href="https://form.jotform.com/240938101419150" target="_blank">
         <button class="styled-button">Registration</button>
         </a>
     </div>
