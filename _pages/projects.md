@@ -12,16 +12,16 @@ children:
   - title: Overview
     permalink: /research/
   - title: divider
-  - title: POWER SYSTEMS STEADY RATE
+  - title: Power Systems – Steady State
     permalink: /research/part_1/
   - title: divider
-  - title: POWER SYSTEMS DYNAMICS
+  - title: Power Systems – Dynamics
     permalink: /research/part_2/
   - title: divider
-  - title: ELECTRIC VEHICLES
+  - title: Electric Vehicles
     permalink: /research/part_3/
   - title: divider
-  - title: COMMUNICATION NETWORKS
+  - title: Communication Networks
     permalink: /research/part_4/
 ---
 ---
