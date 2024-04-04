@@ -29,19 +29,19 @@ nav_order: 7
         background-color: white; /* White background on hover */
         color: black; /* Black text on hover */
     }
-    .container {
+    .container1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     /* Box styling */
-    .container {
+    .container1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     /* Box styling */
@@ -49,9 +49,9 @@ nav_order: 7
         border: 1px solid lightgray; /* Light gray border */
         border-radius: 5px; /* Rounded corners */
         padding: 12px; /* Padding */
-        width: 45%; /* 45% width for each box */
+        width: 49%; /* 45% width for each box */
         transition: border-color 0.3s; /* Smooth transition for border color */
-        margin-bottom: 12px; /* Margin between boxes */
+        margin-bottom: 0px; /* Margin between boxes */
     }
 
     /* Box hover effect */
@@ -83,7 +83,7 @@ nav_order: 7
     }
     
 </style>
-<div id="container" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
+<div id="container1" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
     <div id="content" style="flex: 1;">
         <div id="jump1" style="margin-bottom: 12px;">
             <font size='5.5' id="OPF">Network Optimization Control Learning</font>
@@ -115,7 +115,7 @@ Beckman Behavioral Biology Labs, Room B108
 
 <font size='5.5'>Lodging</font>
 <br>
-<div class="container">
+<div class="container1">
     <!-- Box 1 - Pasadena Hotel -->
     <a href="https://be.synxis.com/?adult=1&arrive=2024-03-18&chain=26561&child=0&currency=USD&depart=2024-03-19&hotel=39736&level=hotel&locale=en-US&promo=NEGCIT&rooms=1" target="_blank" class="box">
         <h2>Pasadena Hotel</h2>
@@ -139,7 +139,7 @@ Beckman Behavioral Biology Labs, Room B108
     </a>
 </div>
 
-<div class="container">
+<div class="container1">
     <!-- Box 3 - Hotel Dena -->
     <a href="https://www.marriott.com/en-us/hotels/burpt-hotel-dena-pasadena-los-angeles-a-tribute-portfolio-hotel/overview/" target="_blank" class="box">
         <h2>Hotel Dena</h2>

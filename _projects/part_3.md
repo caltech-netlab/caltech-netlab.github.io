@@ -45,7 +45,7 @@ California has committed to have 1.5 million zero- emission vehicles on the road
 
 - G. Lee, T. Lee, Z. Low, S. H. Low and C. Ortega. <a href='https://ieeexplore.ieee.org/document/7905971'><b>Adaptive charging network for electric vehicles</b></a>, <em>Proc. of the IEEE Global Conference on Signal and Information Processing (GlobalSIP)</em>, Washington, DC, December 2016
 - Z. Lee, D. Chang, C. Jin, G. S. Lee, R. Lee, T. Lee and S. H. Low. <a href='http://netlab.caltech.edu/assets/publications/Lee-2018-Practical-Considerations-LSHD-EV-charging.pdf'><b>Large-Scale Adaptive Electric Vehicle Charging</b></a>, <em>Proc. of the IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)</em>, Aalborg, Denmark, October 2018
-- LACI, December 2018: <a href='..\..\assets\pdf\Low-201707-CCbook.pdf'><b>Slides</b></a>
+- LACI, December 2018: <a href='..\..\assets\pdf\Low-201707-CCbook.pdf' target="_blank"><b>Slides</b></a>
 
 <div style="text-align:center;">
   <figure>
@@ -95,7 +95,3 @@ Until Aug 2018:
     style="width: 96%; height: auto;">
   </figure>
 </div>
-
-
-
-
