@@ -176,10 +176,12 @@ layout: page
                 <div class="card">
                   <div class="card-body">
                       <h2 class="name">{{ profile.name }}</h2>
+                      <hr>
                       <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
-                      <p class="description">{{ profile.date }}</p>
-                      <p class="description">{{ profile.current }}</p>
-                      <p class="description">{{ profile.lineBreak }}</p>
+                      <p class = "description" style = "margin-top:0px;">{{ profile.date }}</p>
+                      <p class = "description" style = "margin-top:0px;">{{ profile.current }}</p>
+                      
+                      <p class = "description" style = "margin-top:0px;">{{ profile.lineBreak }}</p>
                     
                   </div>
                 </div>
@@ -201,15 +203,16 @@ layout: page
                   <div class="card-body">
                     <div class="header-section">
                       <h2 class="name">{{ profile.name }}</h2>
-                      <p class="date">{{ profile.date }}</p>
+                      <p class="date" style = "margin-top:0px">{{ profile.date }}</p>
                     </div>
+                    <hr>
                         {% if profile.portfolio_link %}
-                          <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
+                          <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8;margin-top:0px">Website</a>
                         {%else%}
                           <a class="portfolio-link"></a>
                         {% endif %}
-                        <p class="description">{{ profile.description }}</p>
-                        <p class="description">{{ profile.lineBreak }}</p>
+                        <p class="description" style = "margin-top:0px">{{ profile.description }}</p>
+                        <p class="description" style = "margin-top:0px">{{ profile.lineBreak }}</p>
                   </div>
                 </div>
               </div>
@@ -229,13 +232,14 @@ layout: page
                 <div class="card">
                   <div class="card-body">
                       <h2 class="name">{{ profile.name }}</h2>
-                      <p class="date">{{ profile.date }}</p>
+                      <p class="date" style = "margin-top:0px">{{ profile.date }}</p>
+                      <hr>
                       {% if profile.portfolio_link %}
-                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8">Website</a>
+                      <a href="{{ profile.portfolio_link }}" class="portfolio-link" style = "color:#17a2b8; margin-top:0px;">Website</a>
                       {% endif %}
-                      <p class="description">{{ profile.description }}</p>
-                      <p class="description">{{ profile.university }}</p>
-                      <p class="description">{{ profile.lineBreak }}</p>
+                      <p class="description" style = "margin-top:0px">{{ profile.description }}</p>
+                      <p class="description" style = "margin-top:0px">{{ profile.university }}</p>
+                      <p class="description" style = "margin-top:0px">{{ profile.lineBreak }}</p>
                       
                   </div>
                 </div>
@@ -257,10 +261,11 @@ layout: page
                 <div class="card">
                   <div class="card-body">
                       <h2 class="name">{{ profile.name }}</h2>
-                      <p class="date">{{ profile.date }}</p>
-                      <p class="description">{{ profile.university }}</p>
-                      <p class="description">{{ profile.lineBreak }}</p>
-                      <p class="description">{{ profile.description }}</p>
+                      <p class="date" style = "margin-top:0px">{{ profile.date }}</p>
+                      <hr>
+                      <p class="description" style = "margin-top:0px">{{ profile.university }}</p>
+                      <p class="description" style = "margin-top:0px">{{ profile.lineBreak }}</p>
+                      <p class="description" style = "margin-top:0px">{{ profile.description }}</p>
                       
                   </div>
                 </div>
