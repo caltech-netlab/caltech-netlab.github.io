@@ -100,7 +100,7 @@ profiles:
     date: 2001 - 2003
     name: Ki-Baek Kim
     description: 
-    lineBreak: "<br><br><br>"
+    lineBreak: "<br><br>"
   - role: PreviousPostdoc
     date: 2004 - 2005
     name: Bartek Wydrowski
@@ -115,12 +115,12 @@ profiles:
     date: 2002 - 2003
     name: Werner Almsberger
     description: 
-    lineBreak: "<br><br><br>"
+    lineBreak: "<br><br>"
   - role: PreviousPostdoc
     date: 2004 - 2005
     name: Joon-Young Choi
     description: 
-    lineBreak: "<br><br><br>"
+    lineBreak: "<br><br>"
   - role: PreviousPostdoc
     date: 2005 - 2008
     name: Lachlan Andrew
@@ -183,7 +183,6 @@ profiles:
     name: Lucien Werner
     description: Citadel
     portfolio_link: https://www.linkedin.com/in/lucienwerner
-    lineBreak: "<br>"
     # content: descriptions/about_lucien_werner.md
 
   # Previous graduate students
@@ -349,12 +348,14 @@ profiles:
     description: 
     current: Ergon Energy
     portfolio_link: https://www.linkedin.com/in/sanjeewa-athuraliya-71b31a5/
+    lineBreak: <br>
   - role: PreviousGrad
     date: MS 2002
     name: Craig Cameron
     description: 
     current: Finisa
     portfolio_link: https://www.linkedin.com/in/craigcameron/
+    lineBreak: <br>
   - role: PreviousGrad
     date: MS 2006
     name: John Pongsajapan
@@ -475,7 +476,6 @@ profiles:
   - role: PreviousVisitingStudent
     date: 2018-2019
     name: Yue Chen
-    lineBreak: "<br>"
     description: EE
     university: Tsinghua University, China
     portfolio_link: https://sites.google.com/view/academicyuechen/home
@@ -484,6 +484,7 @@ profiles:
     name: Chenxi (Stephanie) Sun
     description: EEE
     university: Hong Kong University
+    lineBreak: <br>
   - role: PreviousVisitingStudent
     date: 2019-2020
     name: Bo Sun
@@ -495,6 +496,7 @@ profiles:
     name: Andreas Venzke
     description: EE
     university: Technical University of Denmark
+    lineBreak: <br>
   - role: PreviousVisitingStudent
     date: 2019-2020
     name: Su Wang
