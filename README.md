@@ -1,9 +1,10 @@
 ## Table Of Contents
 
 - [Table Of Contents](#table-of-contents)
-- [Getting started](#getting-started)
+- [Making simple edits](#making-simple-edits)
+- [Some references](#some-references)
 - [Installing](#installing)
-- [Customizing](#customizing)
+  - [Local setup on Windows 10/11](#local-setup-on-windows-10/11)
 - [Features](#features)
   - [Light/Dark Mode](#lightdark-mode)
   - [CV](#cv)
@@ -29,19 +30,18 @@
 - [License](#license)
 
 ## Making simple edits
+
 If you are making simple edits and do not need to visualize the changes (locally on your own machine) before making the changes public, go ahead and directly edit the relevant files either directly in [https://github.com/caltech-netlab] or in your local repository and push the changes to github.
 
-## Getting started
+## Some references
 
-Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/) to learn more about Jekyll. Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/). Some other original references: [INSTALL.md](INSTALL.md), [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ## Installing
 
-For installation details please refer to [INSTALL.md](INSTALL.md).
+### Local setup on Windows 10/11
 
-## Customizing
-
-For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
+Fisrt, install [Git](https://git-scm.com/), [Visual Studio Code](https://code.visualstudio.com/download), and [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). For WSL, choose the distribution of Ubuntu is fine.
 
 ## Features
 
