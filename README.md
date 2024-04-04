@@ -4,7 +4,7 @@
 - [Making simple edits](#making-simple-edits)
 - [Some references](#some-references)
 - [Installing](#installing)
-  - [Local setup on Windows 10/11](#local-setup-on-windows-10/11)
+  - [Local setup on Windows 10/11](#local-setup-on-windows-1011)
 - [Features](#features)
   - [Light/Dark Mode](#lightdark-mode)
   - [CV](#cv)
@@ -41,7 +41,7 @@ Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with
 
 ### Local setup on Windows 10/11
 
-Fisrt, install [Git](https://git-scm.com/), [Visual Studio Code](https://code.visualstudio.com/download), and [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). For WSL, choose the distribution of Ubuntu is fine.
+First, install [Git](https://git-scm.com/), [Visual Studio Code](https://code.visualstudio.com/download), and [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). For WSL, choosing the distribution of Ubuntu is fine.
 
 ## Features
 
