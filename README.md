@@ -66,7 +66,7 @@ You can show each member's short bio and profile picture on the people page. The
 
 ### Publications
 
-The publications page is generated automatically from your BibTex bibliography. Simply edit the [\_bibliography/papers.bib](_bibliography/papers.bib). By default, the publications will be sorted by year, with the most recent displayed first. You can change this behavior and more in the `Jekyll Scholar` section in the [\_config.yml](_config.yml). Additionally, if you want customize the look of the publications page, you can edit the [\_pages/publications.md](_pages/publications.md).
+The publications page is generated automatically from your BibTex bibliography. Simply edit the [\_bibliography/papers.bib](_bibliography/papers.bib). By default, the publications will be sorted by year, with the most recent displayed first. You can change this behavior and more in the `Jekyll Scholar` section in the [\_config.yml](_config.yml). Additionally, if you want to customize the look of the publications page, you can edit the [\_pages/publications.md](_pages/publications.md).
 
 You just need to add some specific fields, as shown in the [\_bibliography/papers.bib](_bibliography/papers.bib). More supported fields can be found [here](https://github.com/alshedivat/al-folio).
 
@@ -74,7 +74,7 @@ You just need to add some specific fields, as shown in the [\_bibliography/paper
 
 ### Presentations
 
-The presentations page includes two parts, talks and misc writings, written using only HTML. If you have a new item to add, copy any existed item in [\_pages/presentations.md](_pages/presentations.md) and replace the key information in it.
+The presentations page includes two parts, talks and misc writings, written using only HTML. If you have a new item to add, copy any existing item in [\_pages/presentations.md](_pages/presentations.md) and replace the key information in it.
 
 ---
 
