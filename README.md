@@ -41,7 +41,13 @@ Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with
 
 ### Local setup on Windows 10/11
 
-First, install [Git](https://git-scm.com/), [Visual Studio Code](https://code.visualstudio.com/download), and [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). For WSL, choosing the distribution of Ubuntu is fine.
+First, install [Git](https://git-scm.com/), [Visual Studio Code](https://code.visualstudio.com/download), and [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install). For WSL, choosing the distribution of Ubuntu is fine. You can use any terminal and run the following command:
+
+```shell
+bash
+```
+
+to start WSL. Then, install [Node.js](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl), [ImageMagick](https://learnubuntu.com/install-imagemagick/) and [Ruby & Jekyll](https://jekyllrb.com/docs/installation/windows/). After finishing the above installations, you can create a new Jekyll site and make it available on a local server, to determine if it works. Some commands you need can be seen [here](https://jekyllrb.com/docs/). Notedly, if you encounter any errors during the process, don’t worry, you could find some solutions from Google.
 
 ## Features
 
