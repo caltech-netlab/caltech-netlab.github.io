@@ -38,6 +38,54 @@ to start WSL. Then, install [Node.js](https://learn.microsoft.com/en-us/windows/
 ---
 
 ### Local setup on Mac
+## Local setup using Docker (Recommended)
+
+Using Docker to install Jekyll and Ruby dependencies is the easiest way.
+
+You need to take the following steps to get `al-folio` up and running on your local machine:
+
+- First, install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/).
+- Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
+
+```bash
+$ docker compose pull
+$ docker compose up
+```
+
+Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
+
+Now, feel free to customize the theme however you like (don't forget to change the name!). Also, your changes should be automatically rendered in real-time (or maybe after a few seconds).
+
+> Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose up -f docker-compose-slim.yml`
+
+### Build your own docker image
+
+> Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
+
+Build and run a new docker image using:
+
+```bash
+$ docker compose up --build
+```
+
+> If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
+
+If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
+
+## Local Setup (Legacy)
+
+For a hands-on walkthrough of running al-folio locally without using Docker, check out [this cool blog post](https://george-gca.github.io/blog/2022/running-local-al-folio/) by one of the community members!
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (_hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)_), and also [Python](https://www.python.org/) and [pip](https://pypi.org/project/pip/) (_hint: for ease of managing python packages, consider using a virtual environment, like [venv](https://docs.python.org/pt-br/3/library/venv.html) or [conda](https://docs.conda.io/en/latest/)_).
+
+```bash
+$ bundle install
+# assuming pip is your Python package manager
+$ pip install jupyter
+$ bundle exec jekyll serve --lsi
+```
+
+To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
 
 ---
 
@@ -65,7 +113,7 @@ git pull
 ```
 git add .
 git commit -m "[Descriptions of your changes]"
-git push
+git push -u origin master
 ```
 
 ## Instructions
