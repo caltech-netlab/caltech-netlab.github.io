@@ -155,7 +155,30 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 For frequently asked questions, please refer to [FAQ.md](FAQ.md).
 
 ## Deployment 
-
+1. Run this once it is working locally the way you would like
 ```bash
 $ bundle exec jekyll build --lsi
 ```
+This will (re-)generate the static webpage in the `_site/` folder.
+Then simply copy the contents of the `_site/` directory to your hosting server.
+
+2. Drag and drop `_site/` folder out of root directory into downloads folder
+
+3. Create new github repository for hosting 
+
+4. Run these in terminal to connect to repository and push all code
+
+```bash
+$ git remote add origin <remote_repository_url>
+$ git init
+$ git add . 
+$ git commit -m "Initial commit"
+$ git push -u origin main
+```
+
+5. Create [Netlify account](https://www.netlify.com/)
+
+6. Log in with GitHub
+
+7. Push github repo to Netlify following instructions on page
+
