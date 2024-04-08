@@ -153,3 +153,9 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 ## FAQ
 
 For frequently asked questions, please refer to [FAQ.md](FAQ.md).
+
+## Deployment 
+
+```bash
+$ bundle exec jekyll build --lsi
+```
