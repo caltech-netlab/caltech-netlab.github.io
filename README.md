@@ -43,7 +43,7 @@ to start WSL. Then, install [Node.js](https://learn.microsoft.com/en-us/windows/
 
 ### Git commands
 
-When you make some major changes to the webiste, you can follow these steps:
+When you make some major changes to the website, you can follow these steps:
 
 1. Clone the repository to local.
 ```
@@ -61,10 +61,10 @@ git remote show origin
 git pull
 ```
 
-4. After making changes, send them to the remote repository.
+4. After making changes, push them to the remote repository.
 ```
 git add .
-git commit -m "[Descriptions about your changes]"
+git commit -m "[Descriptions of your changes]"
 git push
 ```
 
