@@ -7,7 +7,7 @@
   - [Local setup on Windows 10/11](#local-setup-on-windows-1011)
   - [Local setup on Mac](#local-setup-on-mac)
   - [Git commands](#git-commands)
-- [Features](#features)
+- [Instructions](#instructions)
   - [Research](#research)
   - [People](#people)
   - [Publications](#publications)
@@ -68,7 +68,7 @@ git commit -m "[Descriptions of your changes]"
 git push
 ```
 
-## Features
+## Instructions
 
 ### Research
 
