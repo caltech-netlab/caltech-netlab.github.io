@@ -152,6 +152,21 @@ This Jekyll theme implements `collections` to let you break up your work into ca
 
 Additionally, if you want to create new collections, edit the collections in the [\_config.yml](_config.yml) and create a corresponding folder and a landing page in the [\_pages](_pages) folder.
 
+```bash
+$ #adding Links:
+<a href='Link Goes Here'><b>Optimal placement of energy storage in distribution networks</b></a>
+$ #adding Titles:
+<div style="margin-bottom: 12px;"><font size='5.5' id = "applications">Applications</font></div>
+$ #adding Figure:
+<div style="text-align:center;">
+  <figure>
+    <img src="..\..\assets\img\research\power-systems-steady-state\injection_charging.png" style="width: 60%; height: auto;">
+    <figcaption>Figure 3: An example of a typical charging and discharging curve</figcaption>
+  </figure>
+</div>
+$ #adding Bullet Points:
+- content
+```
 ---
 
 ### People
