@@ -38,7 +38,7 @@ to start WSL. Then, install [Node.js](https://learn.microsoft.com/en-us/windows/
 ---
 
 ### Local setup on Mac
-## Local setup using Docker (Recommended)
+#### Local setup using Docker (Recommended)
 
 Using Docker to install Jekyll and Ruby dependencies is the easiest way.
 
@@ -58,7 +58,7 @@ Now, feel free to customize the theme however you like (don't forget to change t
 
 > Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose up -f docker-compose-slim.yml`
 
-### Build your own docker image
+#### Build your own docker image
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
@@ -72,7 +72,7 @@ $ docker compose up --build
 
 If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
 
-## Local Setup (Legacy)
+#### Local Setup (Legacy)
 
 For a hands-on walkthrough of running al-folio locally without using Docker, check out [this cool blog post](https://george-gca.github.io/blog/2022/running-local-al-folio/) by one of the community members!
 
