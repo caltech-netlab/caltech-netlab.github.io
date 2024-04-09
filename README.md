@@ -172,7 +172,17 @@ $ #adding Bullet Points:
 ### People
 
 You can show each member's short bio and profile picture on the people page. There are three steps. First, add the profile picture in the [assets/img/people/](assets/img/people/) directory. Then, store the short bio in a `.md` file in the [\_pages/descriptions/](_pages/descriptions/) directory. Finally, you can add the member information under the appropriate category in the [\_pages/profiles.md](_pages/profiles.md).
-
+```bash
+- align: left
+    image: faculty/steven-low-canonical.jpg
+    content: descriptions/about_steven-low.md (add to descriptions file an md file and route it)
+    role: CurrentGradStudent/Faculty/CurrentVisitingStudent/CaltechFacultyCollaborator/Admin/PreviousPostdoc/PreviousGrad/PreviousVisitingFaculty/PreviousVisitingStudent
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Steven H. Low</p>
+      <a href = "http://netlab.caltech.edu/assets/documents/LowCV.pdf"><b>CV</font></b></a>
+    lineBreak: (This is optional and used for styling to make sure everything is aligned) add '<br>' to add one line vertically
+```
 ---
 
 ### Publications
