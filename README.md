@@ -172,7 +172,7 @@ $ git push -u origin main
 
 6. Log in with GitHub
 
-7. Push github repo to Netlify following instructions on page
+7. Link github repo in Netlify following instructions on page
 
 
 ## References
