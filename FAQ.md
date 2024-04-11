@@ -1,16 +1,5 @@
 # Frequently Asked Questions
 
-#### Visualize website locally without rebuilding from scratch every time
-todo: more explanation
-```
-sudo apt update
-sudo apt install bundler
-sudo apt-get install ruby-full
-sudo apt-get install imagemagick libmagickcore-dev libmagickwand-dev
-bundle install
-bundle exec jekyll serve
-```
-
 #### After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?
 
 Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit. Please make some changes (e.g., change your website info in `_config.yml`), commit, and push. Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment). (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)

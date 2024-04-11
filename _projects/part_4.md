@@ -1,7 +1,7 @@
 ---
 layout: page
-title: RESEARCH
-description: Communication Networks
+title: Communication Networks
+description: 
 img: assets/img/research/part_4.png
 importance: 4
 category: 

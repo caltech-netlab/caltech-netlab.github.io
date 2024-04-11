@@ -1,7 +1,7 @@
 ---
 layout: page
-title: RESEARCH
-description: Power Systems – Steady State
+title: Power Systems – Steady State
+description: 
 img: assets/img/research/part_1.png
 importance: 1
 category: work

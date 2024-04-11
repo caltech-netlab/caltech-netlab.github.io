@@ -1,7 +1,7 @@
 ---
 layout: page
-title: RESEARCH
-description: Electric Vehicles
+title: Electric Vehicles
+description: 
 img: assets/img/research/part_3.png
 importance: 3
 category: 
