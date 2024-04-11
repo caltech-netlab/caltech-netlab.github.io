@@ -85,18 +85,18 @@ nav_order: 7
 </style>
 <div id="container1" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
     <div id="content" style="flex: 1;">
+        <div id="jump1" style="margin-bottom: 2px;">
+            <font size='5.5' id="OPF">Optimization and Control of Networks: </font>
+        </div>
         <div id="jump1" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF">Network Optimization Control Learning</font>
+            <font size='5.5' id="OPF">From Theory to Practice</font>
         </div>
-        <div id="jump2" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF">Reunion Workshop (May 24-25, 2024)</font>
-        </div>
-        <div id="jump3" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF"></font>
+        <div id="jump2" style="margin-bottom: 4px;">
+            <font size='4' id="OPF">May 24-25, 2024</font>
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
-        <a href="" target="_blank">
+        <a href="https://docs.google.com/document/d/1EsXLXzmzUYnGriQylCQt_fY2__UG49BhnaNuQoiZA5E/edit?usp=sharing_eip_m&ts=66145ec2" target="_blank">
         <button class="styled-button">Program</button>
         </a>
         <a href="https://form.jotform.com/240938101419150" target="_blank">
@@ -106,15 +106,14 @@ nav_order: 7
 </div>
 <hr>
 
-<font size='5.5'>Venue</font>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Venue</font></div>
 California Institute of Technology  
 1200 E California Blvd, Pasadena, CA 91125, USA  
 Beckman Behavioral Biology Labs, Room B108  
 <a target = "_blank" href='https://www.caltech.edu/map/campus/the-mabel-and-arnold-beckman-laboratories-of-behavioral-biology'>Campus map</a>  <a target = "_blank" href='https://www.google.com/maps/place/Mabel+and+Arnold+Beckman+Laboratories+of+Behavioral+Biology,+Pasadena,+CA+91125/@34.1383979,-118.1258571,16z/data=!3m1!4b1!4m6!3m5!1s0x80c2c3587658d5c1:0x6a13901338034d51!8m2!3d34.1383979!4d-118.1258571!16s%2Fg%2F1hhht1z8d?entry=ttu'>Google Maps</a>
-
-
-<font size='5.5'>Lodging</font>
 <br>
+
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Lodging</font></div>
 <div class="container1">
     <!-- Box 1 - Pasadena Hotel -->
     <a href="https://be.synxis.com/?adult=1&arrive=2024-03-18&chain=26561&child=0&currency=USD&depart=2024-03-19&hotel=39736&level=hotel&locale=en-US&promo=NEGCIT&rooms=1" target="_blank" class="box">
