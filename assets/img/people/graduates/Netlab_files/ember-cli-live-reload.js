@@ -1,0 +1,1 @@
+!function(){var t=null,e=location.hostname||"localhost",o=undefined,l="https:"===location.protocol?443:80,a=o||location.port||l,n=t||""+"/_lr/livereload.js?port="+a+"&host="+e+"&path=_lr/livereload",c=document.createElement("script");c.type="text/javascript",c.src=n,document.getElementsByTagName("head")[0].appendChild(c)}();

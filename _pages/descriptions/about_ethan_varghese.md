@@ -1,0 +1,1 @@
+I'm a driven high school student from Pleasanton, California, attending Foothill High School. Specializing in web development and machine learning, I'm thrilled to join Dr. Low's Netlab team, where I'll be working on exciting projects. Eager to learn and contribute, I'm excited for the opportunity to immerse myself in cutting-edge research and development.
