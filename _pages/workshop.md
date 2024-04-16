@@ -96,7 +96,7 @@ nav_order: 7
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
-        <a href="https://docs.google.com/document/d/1EsXLXzmzUYnGriQylCQt_fY2__UG49BhnaNuQoiZA5E/edit?usp=sharing_eip_m&ts=66145ec2" target="_blank">
+        <a href="" target="_blank">
         <button class="styled-button">Program</button>
         </a>
         <a href="https://form.jotform.com/240938101419150" target="_blank">
