@@ -23,7 +23,7 @@ Due to the nonlinearity of the power flow equations, OPF has a nonconvex feasibl
 
 - S. H. Low. <a href='https://ieeexplore.ieee.org/document/6756976'><b>Convex relaxation of optimal power flow, I: formulations and equivalence</b></a>, <em>IEEE Trans. on Control of Network Systems</em>, 1(1): 15–27, Mar 2014
 - S. H. Low. <a href='https://ieeexplore.ieee.org/document/6815671'><b>Convex relaxation of optimal power flow, II: exactness</b></a>, <em>IEEE Trans. on Control of Network Systems</em>, 1(2): 177–189, June 2014
-- Additional slides: <a href='..\..\assets\pdf\Low-201501-OPFTutorial-2hr.pdf' target="_blank"><b>Slides</b></a> (CNLS Grid Science Winter School, Santa Fe, NM, Jan 2015)
+- Additional slides: <a href='../../assets/pdf/Low-201501-OPFTutorial-2hr.pdf' target="_blank"><b>Slides</b></a> (CNLS Grid Science Winter School, Santa Fe, NM, Jan 2015)
 
 Our own contributions are highlighted below.
 
@@ -41,7 +41,7 @@ We have proposed second-order cone (SOC) relaxation of OPF defined on the DistFl
 
 - M. Farivar and S. H. Low. <a href='https://ieeexplore.ieee.org/document/6507355'><b>Branch flow model: relaxations and convexification—Part I</b></a>, <em>IEEE Trans. on Power Systems</em>, 28(3): 2554–2564, Aug 2013
 - M. Farivar and S. H. Low. <a href='https://ieeexplore.ieee.org/document/6507352'><b>Branch flow model: relaxations and convexification—Part II</b></a>, <em>IEEE Trans. on Power Systems</em>, 28(3): 2565–2572, Aug 2013
-- Additional resources: <a href='..\..\assets\pdf\Low-201205-BFM.pdf' target="_blank"><b>Slides</b></a>, <a href='https://www.youtube.com/watch?v=WMDeIAXHAAw'><b>Video</b></a> (Berkeley i4Energy Seminar, Apr 2012)
+- Additional resources: <a href='../../assets/pdf/Low-201205-BFM.pdf' target="_blank"><b>Slides</b></a>, <a href='https://www.youtube.com/watch?v=WMDeIAXHAAw'><b>Video</b></a> (Berkeley i4Energy Seminar, Apr 2012)
 - L. Gan, N. Li, U. Topcu and S. H. Low. <a href='https://ieeexplore.ieee.org/document/6843918'><b>Exact convex relaxation of optimal power flow in radial networks</b></a>, <em>IEEE Trans. Automatic Control</em>, 60(1): 72–87, Jan 2015
 
 This SOC relaxation is used to develop distributed solution of OPF for radial networks; see below.
@@ -67,10 +67,10 @@ SDP relaxation of OPF, though convex, is still computational intensive for large
 
 Even though the algorithms above are distributed, they iterate on all variables in the cyberspace until they converge before their solutions are applied to the physical grid. In particular, the intermediate iterates typically do not satisfy the power flow equations nor operational constraints. While offline algorithms are suitable for traditional applications such as economic dispatch or state estimation, they may become inadequate for realtime optimization of DERs in the future, especially in the presence of fluctuating loads and volatile renewables.
 
-We have developed real-time OPF algorithms that iterate only on variables corresponding to controllable devices (e.g., intelligent loads) in feedback interaction with the grid, modeled by power flow equations, as illustrated in <a href='..\..\assets\img\research\power-systems-steady-state\power-systems-steady-state-realtimeOPF1.svg' target="_blank"><b>Figure 1</b></a>. The control objective is specified by an optimization problem and our goal is to design a real-time feedback controller so that the closed-loop system converges to an equilibrium that solves the optimization problem. The basic idea is to explicitly exploit power network as a power flow solver, update our control variables by taking a single first-order or second-order gradient direction and apply it to the network in each iteration, without waiting for the computation to converge. The network will solve the power flow equations in response of the control input and produce a new network state, which is then used to compute the next gradient iteration for the control variables, and the cycle repeats, as illustrated in <a href='..\..\assets\img\research\power-systems-steady-state\power-systems-steady-state-realtimeOPF2.svg' target="_blank"><b>Figure 2</b></a>. An important advantage of this is that such algorithms naturally tracks the solution of timevarying OPF problems, when changes manifest themselves in the network state that is used to calculate the control. First-order real-time OPF algorithms are explained in:
+We have developed real-time OPF algorithms that iterate only on variables corresponding to controllable devices (e.g., intelligent loads) in feedback interaction with the grid, modeled by power flow equations, as illustrated in <a href='../../assets/img/research/power-systems-steady-state/power-systems-steady-state-realtimeOPF1.svg' target="_blank"><b>Figure 1</b></a>. The control objective is specified by an optimization problem and our goal is to design a real-time feedback controller so that the closed-loop system converges to an equilibrium that solves the optimization problem. The basic idea is to explicitly exploit power network as a power flow solver, update our control variables by taking a single first-order or second-order gradient direction and apply it to the network in each iteration, without waiting for the computation to converge. The network will solve the power flow equations in response of the control input and produce a new network state, which is then used to compute the next gradient iteration for the control variables, and the cycle repeats, as illustrated in <a href='../../assets/img/research/power-systems-steady-state/power-systems-steady-state-realtimeOPF2.svg' target="_blank"><b>Figure 2</b></a>. An important advantage of this is that such algorithms naturally tracks the solution of timevarying OPF problems, when changes manifest themselves in the network state that is used to calculate the control. First-order real-time OPF algorithms are explained in:
 
 - L. Gan and S. H. Low. <a href='https://ieeexplore.ieee.org/document/7397846'><b>An online gradient algorithm for optimal power flow on radial networks</b></a>, <em>IEEE Journal on Selected Areas in Communications</em>, Special issue on Emerging technologies in communications, 34(3): 625–638, Mar 2016
-- Additional slides: <a href='..\..\assets\pdf\Low-201603-OnlineAlg-CISS.pdf' target="_blank"><b>Slides</b></a> (CISS Plenary, Princeton, Mar 2016)
+- Additional slides: <a href='../../assets/pdf/Low-201603-OnlineAlg-CISS.pdf' target="_blank"><b>Slides</b></a> (CISS Plenary, Princeton, Mar 2016)
 
 and second-order algorithms in:
 
@@ -85,7 +85,7 @@ and second-order algorithms in:
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets\img\research\power-systems-steady-state\injection_charging.png" style="width: 60%; height: auto;">
+    <img src="../../assets/img/research/power-systems-steady-state/injection_charging.png" style="width: 60%; height: auto;">
     <figcaption>Figure 3: An example of a typical charging and discharging curve</figcaption>
   </figure>
 </div>

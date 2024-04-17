@@ -15,7 +15,7 @@ We have been focusing on Internet research roughly from 2000 to 2010 or so, work
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets\img\research\communication-networks/FAST-timeline.png" 
+    <img src="../../assets/img/research/communication-networks/FAST-timeline.png" 
     style="width: 100%; height: auto;">
     <figcaption>Caltech FAST Project: FAST TCP accelerating > 1TB of Internet traffic every second (2014).</figcaption>
   </figure>
@@ -27,7 +27,7 @@ Congestion control has been responsible for maintaining stability as the Interne
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets\img\research\communication-networks/ESnet-backbone-bandwidth.png" 
+    <img src="../../assets/img/research/communication-networks/ESnet-backbone-bandwidth.png" 
     style="width: 100%; height: auto;">
     <figcaption>Figure 1: Highest link speed of US Department of Energy’s Energy Sciences Network (ESnet) from 1987 (56 kbps) to 2012 (100Gbps).</figcaption>
   </figure>
@@ -64,7 +64,7 @@ that shows that Reno can lose stability when feedback delay increases, or, more 
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/communication-networks/nyquist-plots.png" 
+    <img src="../../assets/img/research/communication-networks/nyquist-plots.png" 
     style="width: 100%; height: auto;">
     <figcaption>Figure 1: Highest link speed of US Department of Energy’s Energy Sciences Network (ESnet) from 1987 (56 kbps) to 2012 (100Gbps).</figcaption>
   </figure>
@@ -84,7 +84,7 @@ We started to work with high-energy physics professor Harvey Newman of Caltech i
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/communication-networks/FAST-TCP-network-setup.png" 
+    <img src="../../assets/img/research/communication-networks/FAST-TCP-network-setup.png" 
     style="width: 100%; height: auto;">
     <figcaption>Network setup in SC 2002, Baltimore, Maryland, November 16–22, 2002.</figcaption>
   </figure>
@@ -92,7 +92,7 @@ We started to work with high-energy physics professor Harvey Newman of Caltech i
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/communication-networks/FAST-TCP-aggregate-throughput-traces.png" 
+    <img src="../../assets/img/research/communication-networks/FAST-TCP-aggregate-throughput-traces.png" 
     style="width: 100%; height: auto;">
     <figcaption>Aggregate throughputs of two flows: Linux (default), Linux (optimized), FAST.</figcaption>
   </figure>
@@ -106,7 +106,7 @@ Some of us took the effort to deploy our research in the real world through a st
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/communication-networks/wan-in-lab.png" 
+    <img src="../../assets/img/research/communication-networks/wan-in-lab.png" 
     style="width: 100%; height: auto;">
     <figcaption>WAN-in-LAB</figcaption>
   </figure>

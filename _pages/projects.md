@@ -33,7 +33,7 @@ To drastically reduce greenhouse gases, we must generate more electricity from c
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\assets\img\research\evolution.png" style="width: 82%; height: auto;">
+    <img src="../assets/img/research/evolution.png" style="width: 82%; height: auto;">
     <figcaption>Figure 1: Power network evolution</figcaption>
   </figure>
 </div>

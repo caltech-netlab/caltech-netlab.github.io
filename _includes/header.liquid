@@ -6,9 +6,9 @@
       {% if page.permalink != '/' or page.permalink == '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if page.url contains "research/part" %}
-            {% assign image_path = "..\..\assets\img\netlab-logo.png" %}
+            {% assign image_path = "../../assets/img/netlab-logo.png" %}
           {% else %}
-            {% assign image_path = "..\assets\img\netlab-logo.png" %}
+            {% assign image_path = "../assets/img/netlab-logo.png" %}
           {% endif %}
           <img src="{{ image_path }}" height="30">
 

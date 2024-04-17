@@ -18,7 +18,7 @@ Vehicles consumed more than a quarter of energy and emitted more than a quarter 
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/ev/timeline.png" 
+    <img src="../../assets/img/research/ev/timeline.png" 
     style="width: 100%; height: auto;">
   </figure>
 </div>
@@ -33,7 +33,7 @@ where, in each iteration, EVs update their charging profiles according to the co
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/ev/ev-cumulative-station-current.jpg" 
+    <img src="../../assets/img/research/ev/ev-cumulative-station-current.jpg" 
     style="width: 100%; height: auto;">
     <figcaption>Cumulative charging current (Jan 2018): each color represents the charging curve for an EV.</figcaption>
   </figure>
@@ -45,11 +45,11 @@ California has committed to have 1.5 million zero- emission vehicles on the road
 
 - G. Lee, T. Lee, Z. Low, S. H. Low and C. Ortega. <a href='https://ieeexplore.ieee.org/document/7905971'><b>Adaptive charging network for electric vehicles</b></a>, <em>Proc. of the IEEE Global Conference on Signal and Information Processing (GlobalSIP)</em>, Washington, DC, December 2016
 - Z. Lee, D. Chang, C. Jin, G. S. Lee, R. Lee, T. Lee and S. H. Low. <a href='http://netlab.caltech.edu/assets/publications/Lee-2018-Practical-Considerations-LSHD-EV-charging.pdf'><b>Large-Scale Adaptive Electric Vehicle Charging</b></a>, <em>Proc. of the IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)</em>, Aalborg, Denmark, October 2018
-- LACI, December 2018: <a href='..\..\assets\pdf\Low-201707-CCbook.pdf' target="_blank"><b>Slides</b></a>
+- LACI, December 2018: <a href='../../assets/pdf/Low-201707-CCbook.pdf' target="_blank"><b>Slides</b></a>
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/ev/Caltech-ACN-testbed-system-typology.png" 
+    <img src="../../assets/img/research/ev/Caltech-ACN-testbed-system-typology.png" 
     style="width: 100%; height: auto;">
   </figure>
 </div>
@@ -77,21 +77,21 @@ Until Aug 2018:
 - 540 metric tons of CO2 equivalent avoided
 
 <div style = "text-align:center">
-  <img src="..\..\assets/img/research/ev/powerflex/powerflex-transformer-and-subpanels-300x200.jpg" width="32%" style="display:inline;">
-  <img src="..\..\assets/img/research/ev/powerflex/powerflex-main-panel-300x200.jpg" width="32%" style="display:inline;">
-  <img src="..\..\assets/img/research/ev/powerflex/powerflex-hardware.jpg" width="32%" style="display:inline;">
+  <img src="../../assets/img/research/ev/powerflex/powerflex-transformer-and-subpanels-300x200.jpg" width="32%" style="display:inline;">
+  <img src="../../assets/img/research/ev/powerflex/powerflex-main-panel-300x200.jpg" width="32%" style="display:inline;">
+  <img src="../../assets/img/research/ev/powerflex/powerflex-hardware.jpg" width="32%" style="display:inline;">
 </div>
 <br>
 
 <div align="center">
-  <img src="..\..\assets/img/research/ev/powerflex/powerflex-hardware-2-300x200.jpg" width="32%" style="display:inline;">
-  <img src="..\..\assets/img/research/ev/powerflex/powerflex-phone-app-300x200.jpg" width="32%" style="display:inline;">
-  <img src="..\..\assets/img/research/ev/powerflex/powerflex-california-garage-debugging-300x200.jpg" width="32%" style="display:inline;">
+  <img src="../../assets/img/research/ev/powerflex/powerflex-hardware-2-300x200.jpg" width="32%" style="display:inline;">
+  <img src="../../assets/img/research/ev/powerflex/powerflex-phone-app-300x200.jpg" width="32%" style="display:inline;">
+  <img src="../../assets/img/research/ev/powerflex/powerflex-california-garage-debugging-300x200.jpg" width="32%" style="display:inline;">
 </div>
 <br>
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets/img/research/ev/powerflex/CaltechACN.png" 
+    <img src="../../assets/img/research/ev/powerflex/CaltechACN.png" 
     style="width: 96%; height: auto;">
   </figure>
 </div>
