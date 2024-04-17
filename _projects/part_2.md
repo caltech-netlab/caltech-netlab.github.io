@@ -20,7 +20,7 @@ Frequency control maintains the frequency of a power system tightly around its n
 Ubiquitous continuous fast-acting distributed load-side participation in frequency control can greatly improve the dynamic and steady-state behavior. The idea of load-side participation dates back to Schweppe and his co-workers in the late 1970s. In:
 
 - C. Zhao, U. Topcu, L. Li and S. H. Low. <a href='https://ieeexplore.ieee.org/document/6702462'><b>Design and stability of load-side primary frequency control in power systems</b></a>, <em>IEEE Trans. on Automatic Control</em>, 59(5): 1177–1189, 2014
-- Additional slides: <a href='..\..\assets\pdf\Low-201506-OLC3-Skoltech.pdf' target="_blank"><b>Slides</b></a> (Skoltech Conf on Advanced Mathematical Methods For Energy Systems, June 2015)
+- Additional slides: <a href='{{ site.baseurl }}/assets/pdf/Low-201506-OLC3-Skoltech.pdf' target="_blank"><b>Slides</b></a> (Skoltech Conf on Advanced Mathematical Methods For Energy Systems, June 2015)
 
 we develop a new approach to the design of load-side primary frequency control. The key idea is to formalize the control goal as a constrained optimization problem (called OLC, optimal load control) and design completely decentralized controllers such that the dynamics of the closed-loop system carries out a primal-dual algorithm to solve OLC. We prove that the equilibrium of the closed-loop dynamics is an optimal solution of OLC and is globally asymptotically stable. In:
 
@@ -28,7 +28,7 @@ we develop a new approach to the design of load-side primary frequency control. 
 
 <div style="text-align:center;">
   <figure>
-    <img src="..\..\assets\img\research\power-systems-dynamics\ieee-68-bus-test-system.gif" style="width: 60%; height: auto;">
+    <img src="../../assets/img/research/power-systems-dynamics/ieee-68-bus-test-system.gif" style="width: 60%; height: auto;">
     <figcaption>Figure 1: Single line diagram of the IEEE 68-bus test system</figcaption>
   </figure>
 </div>
