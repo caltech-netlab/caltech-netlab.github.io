@@ -1,1 +1,1 @@
-Sitemap: https://caltech-netlab.github.io/sitemap.xml
+Sitemap: https://ethanjoby.github.io/netlab-website/sitemap.xml
