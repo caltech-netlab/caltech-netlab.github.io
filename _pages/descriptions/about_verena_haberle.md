@@ -1,0 +1,1 @@
+Verena Häberle is a PhD student at the Automatic Control Laboratory (IfA) at ETH Zurich since June 2020. Her research explores the intersection of power system dynamics and control, highlighting her expertise across various disciplines, including automatic control, power systems, power electronics, and renewable energy sources. Verena is joining us in Fall 2024. Welcome, Verena!
