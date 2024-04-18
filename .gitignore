@@ -14,3 +14,4 @@ vendor
 .sudo_as_admin_successful
 .git-credentials
 *.code-workspace
+*Zone.Identifier
