@@ -42,10 +42,10 @@ nav_order: 7
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
-        <a href="https://form.jotform.com/220081838982159" target="_blank">
+        <a href="https://form.jotform.com/221144847455155" target="_blank">
         <button class="styled-button">Register</button>
         </a>
-        <a href="https://form.jotform.com/221144847455155" target="_blank">
+        <a href="https://form.jotform.com/220081838982159" target="_blank">
         <button class="styled-button">Feedback</button>
         </a>
     </div>
