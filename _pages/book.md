@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /book/
-title: BOOK
+title: Book
 description: # Materials for courses you taught. Replace this text with your description.
 nav: False
 nav_order: 7

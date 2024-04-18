@@ -15,7 +15,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Steven H. Low</p>
-      <a href = "http://netlab.caltech.edu/assets/documents/LowCV.pdf"><b>CV</font></b></a>
+      <a href = "../assets/pdf/LowCV.pdf"><b>CV</font></b></a>
 
   # Current graduate students
   - align: left
@@ -502,7 +502,7 @@ profiles:
     name: Su Wang
     description: ECE
     university: Hong Kong University of Science and Technology
-    portfolio_link: 
+    portfolio_link: http://c2e.ece.ust.hk/su/
   - role: PreviousVisitingStudent
     date: 2023
     name: Ognjen Stanojev
