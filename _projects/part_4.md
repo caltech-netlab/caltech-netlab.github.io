@@ -37,7 +37,7 @@ This motivated a flurry of research activities on TCP congestion control in the 
 
 A personal account of that effort, focusing on the theory development at Netlab, is summarized in:
 
-- S. H. Low. <a href='http://netlab.caltech.edu/assets/publications/Low-201707-CCbook.pdf'><b>Analytical methods for network congestion control</b></a>, <em>ISynthesis Lectures on Communication Networks</em>, Morgan and Claypool Publishers, July 2017
+- S. H. Low. <a href='../../assets/publications/Low-201707-CCbook.pdf'><b>Analytical methods for network congestion control</b></a>, <em>ISynthesis Lectures on Communication Networks</em>, Morgan and Claypool Publishers, July 2017
 
 It develops a coherent theory of Internet congestion control from the ground up to help understand and design the equilibrium and stability properties of large-scale networks under end-to-end control. It also demonstrates in depth the entire process of understanding a physical system, building mathematical models of the system, analyzing the models, exploring the practical implications of the analysis, and using the insights to improve a design.
 
@@ -48,7 +48,7 @@ It develops a coherent theory of Internet congestion control from the ground up 
 
 where we interpret Internet congestion control simply as a gradient projection algorithm carried out by TCP sources and queue management mechanisms over the Internet in real time to solve the dual of a utility maximization problem. It also proves that, provided that the stepsize of the algorithm is small enough, the system will converge even in an asynchronous setting with heterogeneous feedback delays where TCP sources and queue management mechanisms take actions at different times, with different frequencies and using possibly outdated information. This model is applied to understand the delay-based protocol TCP Vegas in:
 
-- S. H. Low, Larry Peterson and Limin Wang. <a href='http://netlab.caltech.edu/assets/publications/Low-200203-vegas.pdf'><b>Understanding Vegas: A Duality Model</b></a>, <em> Journal of ACM</em>, 49(2):207-235, Mar 2002
+- S. H. Low, Larry Peterson and Limin Wang. <a href='../../assets/publications/Low-200203-vegas.pdf'><b>Understanding Vegas: A Duality Model</b></a>, <em> Journal of ACM</em>, 49(2):207-235, Mar 2002
 
 and has motivated a new active queue management (AQM) algorithm:
 
@@ -56,7 +56,7 @@ and has motivated a new active queue management (AQM) algorithm:
 
 <b>Control theoretic analysis.</b> I then moved to Caltech in 2000 to work with John Doyle and Fernando Paganini to develop a more refined understanding of the impact of feedback delay on the stability properties of TCP algorithms using control theory. An application of this theory to TCP Reno is reported in:
 
-- S. H. Low, F. Paganini, J.Wang and J. C. Doyle. <a href='http://netlab.caltech.edu/assets/publications/Low-200312-TCPstability-CompNet.pdf'><b>Linear stability of TCP/RED and a Scalable Control</b></a>, <em> Computer Networks Journal</em>, 43(5):633-647, Dec 2003
+- S. H. Low, F. Paganini, J.Wang and J. C. Doyle. <a href='../../assets/publications/Low-200312-TCPstability-CompNet.pdf'><b>Linear stability of TCP/RED and a Scalable Control</b></a>, <em> Computer Networks Journal</em>, 43(5):633-647, Dec 2003
 
 that shows that Reno can lose stability when feedback delay increases, or, more strikingly, when link capacity increases. In stark contrast, a scalable TCP/AQM algorithm that maintains linear stability for arbitrary feedback delay and arbitrary link capacity is proposed in:
 

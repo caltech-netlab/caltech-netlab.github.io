@@ -62,7 +62,7 @@ You can show each member's short bio and profile picture on the people page. The
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Steven H. Low</p>
-      <a href = "http://netlab.caltech.edu/assets/documents/LowCV.pdf"><b>CV</font></b></a>
+      <a href = "../assets/pdf/LowCV.pdf"><b>CV</font></b></a>
     lineBreak: (This is optional and used for styling to make sure everything is aligned) add '<br>' to add one line vertically
 ```
 
