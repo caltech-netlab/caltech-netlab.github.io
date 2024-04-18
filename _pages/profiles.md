@@ -76,7 +76,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>John Doyle</p>
-      <a href = "https://doyle.caltech.edu/index.php?title=Main_Page"><b>Website</font></b></a>
+      <a href = "https://doyle.caltech.edu/Main_Page"><b>Website</font></b></a>
   - align: left
     image: faculty/mani-chandy.jpg
     content: descriptions/about_adam-wierman.md
@@ -490,7 +490,7 @@ profiles:
     name: Bo Sun
     description: ECE
     university: Hong Kong University of Science and Technology
-    portfolio_link: http://c2e.ece.ust.hk/sunbo
+    portfolio_link: https://sunbo-online.github.io/
   - role: PreviousVisitingStudent
     date: 2019-2020
     name: Andreas Venzke
@@ -502,7 +502,7 @@ profiles:
     name: Su Wang
     description: ECE
     university: Hong Kong University of Science and Technology
-    portfolio_link: http://c2e.ece.ust.hk/su
+    portfolio_link: 
   - role: PreviousVisitingStudent
     date: 2023
     name: Ognjen Stanojev
