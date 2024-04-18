@@ -42,8 +42,23 @@ profiles:
     more_info: >
       <p>Thuy-Linh Le</p>
       <a href = "https://resnick.caltech.edu/people/thuy-linh-le"><b>Website</font></b></a>
-
+  # - align: left
+  #   image: graduates/han_xu.png
+  #   content: descriptions/about_han_xu.md
+  #   role: CurrentGradStudent
+  #   image_circular: false # crops the image to make it circular
+  #   more_info: >
+  #     <p>Han Xu</p>
+  
   # Current visiting students
+  - align: left
+    image: visiting-graduates/verena_haberle.jpg
+    content: descriptions/about_verena_haberle.md
+    role: CurrentVisitingStudent
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Verena Häberle</p>
+      <a href = "https://control.ee.ethz.ch/people/profile.verena-haeberle.html"><b>Website</font></b></a>
   - align: left
     image: visiting-graduates/Ethan_Varghese.jpg
     content: descriptions/about_ethan_varghese.md
