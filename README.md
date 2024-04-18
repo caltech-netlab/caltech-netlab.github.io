@@ -10,6 +10,7 @@
   - [Local setup on Windows 10/11](#local-setup-on-windows-1011)
   - [Local setup on Mac](#local-setup-on-mac)
   - [Git commands](#git-commands)
+- [Deployment](DEPLOY.md)
 - [References](#references)
 - [FAQ](FAQ.md)
 
@@ -146,36 +147,9 @@ git push -u origin master
 ```
 
 ## Deployment
-
-1. Run this once it is working locally the way you would like
-```bash
-$ bundle exec jekyll build --lsi
-```
-This will (re-)generate the static webpage in the `_site/` folder.
-Then simply copy the contents of the `_site/` directory to your hosting server.
-
-2. Drag and drop `_site/` folder out of root directory into downloads folder
-
-3. Create new github repository for hosting 
-
-4. Run these in terminal to connect to repository and push all code
-
-```bash
-$ git remote add origin <remote_repository_url>
-$ git init
-$ git add . 
-$ git commit -m "Initial commit"
-$ git push -u origin main
-```
-
-5. Create [Netlify account](https://www.netlify.com/)
-
-6. Log in with GitHub
-
-7. Link github repo in Netlify following instructions on page
-
+See [DEPLOY.md](DEPLOY.md).
 
 ## References
 
-Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/) to learn more about Jekyll. Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/). Some other original references: [INSTALL.md](INSTALL.md), [CUSTOMIZE.md](CUSTOMIZE.md).
+Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/) to learn more about Jekyll. Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/). Some other original references: [DEPLOY.md](DEPLOY.md), [CUSTOMIZE.md](CUSTOMIZE.md).
 
