@@ -51,7 +51,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Ethan Varghese</p>
-      <a href = "https://ethanvarghese-portfolio.vercel.app/"><b>Website</font></b></a>
+      <a href = "https://www.vargheseethan.com/"><b>Website</font></b></a>
   - align: left
     image: visiting-graduates/kaibo-chen.png
     content: descriptions/about_kaibo_chen.md
