@@ -15,7 +15,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Steven H. Low</p>
-      <a href = "../assets/pdf/LowCV.pdf"><b>CV</font></b></a>
+      <a href = "../assets/pdf/LowCV.pdf" target="_blank"><b>CV</font></b></a>
 
   # Current graduate students
   - align: left
