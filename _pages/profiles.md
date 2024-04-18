@@ -33,7 +33,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Yiheng Xie</p>
-      <a href = "http://https://yxie20.github.io/"><b>Website</font></b></a>
+      <a href = "https://yxie20.github.io/"><b>Website</font></b></a>
   - align: left
     image: graduates/thuylinh-le.png
     content: descriptions/about_thuy-linh_le.md
@@ -41,7 +41,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Thuy-Linh Le</p>
-      <a href = "http://netlab.caltech.edu/people/thuylinh@caltech.edu"><b>Website</font></b></a>
+      <a href = "https://resnick.caltech.edu/people/thuy-linh-le"><b>Website</font></b></a>
 
   # Current visiting students
   - align: left
@@ -130,7 +130,7 @@ profiles:
     date: 2008 - 2009
     name: Chee-Wei Tan
     description: City University
-    portfolio_link: http://www.cs.cityu.edu.hk/~cheewtan/
+    portfolio_link: https://www.linkedin.com/in/chee-wei-tan-8990433?originalSubdomain=sg
   - role: PreviousPostdoc
     date: 2010 - 2013
     name: Sachin Adlakha
@@ -155,7 +155,7 @@ profiles:
     date: 2012 - 2013
     name: Yunjian Xu
     description: Singapore Uni.
-    portfolio_link: https://esd.sutd.edu.sg/people/faculty/yunjian-xu
+    portfolio_link: https://www4.mae.cuhk.edu.hk/peoples/xu-yunjian/
   - role: PreviousPostdoc
     date: 2013 - 2015
     name: Enrique Mallada
@@ -172,7 +172,7 @@ profiles:
     name: James Anderson
     description: Columbia 
     lineBreak: "<br>"
-    portfolio_link: https://www.ee.columbia.edu/james-anderson
+    portfolio_link: https://www.columbia.edu/~ja3451/
   - role: PreviousPostdoc
     date: 2019 - 2021
     name: Guannan Qu
@@ -234,7 +234,7 @@ profiles:
     name: Jayakrishnan Nair
     description: Wierman
     current: Indian Institute of Sciences
-    portfolio_link: https://www.ee.iitb.ac.in/web/faculty/homepage/jayakrishnan.nair
+    portfolio_link: https://www.ee.iitb.ac.in/~jayakrishnan.nair/
   - role: PreviousGrad
     date: PhD 2014
     name: Subhonmesh Bose
@@ -253,25 +253,25 @@ profiles:
     name: Zhenhua Liu
     description: Wierman
     current: SUNY Stony Brook
-    portfolio_link: http://www.ams.stonybrook.edu/~zhliu/
+    portfolio_link: https://www.cs.stonybrook.edu/people/faculty/zhenhualiu
   - role: PreviousGrad
     date: PhD 2015
     name: Lingwen Gan
     description: 
     current: Facebook
-    portfolio_link: https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx
+    portfolio_link: https://www.linkedin.com/in/lingwen-gan-45127730/
   - role: PreviousGrad
     date: PhD 2016
     name: Desmond Cai
     description: Wierman
     current: Singapore A*STAR
-    portfolio_link: https://www.a-star.edu.sg/ihpc/People/tid/355/Desmond-Cai-Wuhan.aspx
+    portfolio_link: https://www.a-star.edu.sg/ihpc/about-us/our-people/dr-desmond-cai
   - role: PreviousGrad
     date: PhD 2016
     name: Qiuyu Peng
     description: 
     current: Nuro
-    portfolio_link: https://www.linkedin.com/in/qiuyu-gavin-peng-2815a427
+    portfolio_link: 
   - role: PreviousGrad
     date: PhD 2016
     name: Changhong Zhao
@@ -313,7 +313,7 @@ profiles:
     name: Chen Liang
     description: Wierman
     current: Five Rings
-    portfolio_link: http://www.its.caltech.edu/~cliang2/
+    portfolio_link: https://www.linkedin.com/in/chen-liang-7200139a/
   - role: PreviousGrad
     date: PhD 2022
     name: Fengyu Zhou

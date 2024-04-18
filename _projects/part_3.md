@@ -27,7 +27,7 @@ Vehicles consumed more than a quarter of energy and emitted more than a quarter 
 
 <b>Optimal EV charging. We design a distributed iterative scheduling algorithm for EV charging in:
 
-- L. Gan, U. Topcu and S. H. Low. <a href='http://netlab.caltech.edu/assets/publications/Gan-2012-EV.pdfhttps://caltech.powerflexsystems.com'><b>Optimal decentralized protocol for electric vehicle charging</b></a>, <em>IEEE Trans. on Power Systems</em>, 228(2):940–951, May 2013
+- L. Gan, U. Topcu and S. H. Low. <a href='https://ieeexplore.ieee.org/document/6313962'><b>Optimal decentralized protocol for electric vehicle charging</b></a>, <em>IEEE Trans. on Power Systems</em>, 228(2):940–951, May 2013
 
 where, in each iteration, EVs update their charging profiles according to the control signal broadcast by an aggregator, and the aggregator adjusts the control signal to guide their updates. The algorithm converges to optimal charging profiles even when EVs can plug in at different times, update their charging profiles at different times with different frequencies, and may use outdated control signals when they update.
 
