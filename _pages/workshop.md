@@ -111,8 +111,37 @@ Beckman Behavioral Biology Labs, Room B108
 <br>
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Lodging</font></div>
+<!-- <div id="jump1" style="margin-bottom: 12px;"><font size='3'>in alphabetical order</font></div> -->
 <div class="container1">
-    <!-- Box 1 - Pasadena Hotel -->
+    <a href="https://www.marriott.com/en-us/hotels/laxot-courtyard-los-angeles-pasadena-old-town/overview/" target="_blank" class="box">
+        <h2>Courtyard Marriott Pasadena</h2>
+        <ul>
+            <li>180 North Fair Oaks Ave</li>
+            <li>Pasadena, CA 91103</li>
+            <li>(626) 403-7600</li>
+        </ul>
+    </a>
+
+    <a href="https://www.hilton.com/en/hotels/pasphhf-hilton-pasadena/" target="_blank" class="box">
+        <h2>Hilton - Pasadena</h2>
+        <ul>
+            <li>168 South Los Robles Ave</li>
+            <li>Pasadena, CA 91101</li>
+            <li>(626) 577-1000</li>
+        </ul>
+    </a>
+</div>
+
+<div class="container1">
+    <a href="https://www.marriott.com/en-us/hotels/burpt-hotel-dena-pasadena-los-angeles-a-tribute-portfolio-hotel/overview/" target="_blank" class="box">
+        <h2>Hotel Dena</h2>
+        <ul>
+            <li>303 East Cordova St</li>
+            <li>Pasadena, CA 91101</li>
+            <li>(626) 469-8100</li>
+        </ul>
+    </a>
+
     <a href="https://be.synxis.com/?adult=1&arrive=2024-03-18&chain=26561&child=0&currency=USD&depart=2024-03-19&hotel=39736&level=hotel&locale=en-US&promo=NEGCIT&rooms=1" target="_blank" class="box">
         <h2>Pasadena Hotel</h2>
         <ul>
@@ -122,39 +151,24 @@ Beckman Behavioral Biology Labs, Room B108
             <li>Group Code: NEGCIT</li>
         </ul>
     </a>
+</div>
 
-    <!-- Box 2 - The Langham -->
+<div class="container1">
     <a href="https://www.langhamhotels.com/en/the-langham/los-angeles/" target="_blank" class="box">
         <h2>The Langham</h2>
         <ul>
             <li>1401 South Oak Knoll Ave</li>
             <li>Pasadena, CA 91106</li>
             <li>(626) 568-3900</li>
-            <li>Group Code: [none yet]</li>
-        </ul>
-    </a>
-</div>
-
-<div class="container1">
-    <!-- Box 3 - Hotel Dena -->
-    <a href="https://www.marriott.com/en-us/hotels/burpt-hotel-dena-pasadena-los-angeles-a-tribute-portfolio-hotel/overview/" target="_blank" class="box">
-        <h2>Hotel Dena</h2>
-        <ul>
-            <li>303 East Cordova St</li>
-            <li>Pasadena, CA 91101</li>
-            <li>(626) 469-8100</li>
-            <li>Group Code: [none yet]</li>
         </ul>
     </a>
 
-    <!-- Box 4 - Hilton - Pasadena -->
-    <a href="https://www.hilton.com/en/hotels/pasphhf-hilton-pasadena/" target="_blank" class="box">
-        <h2>Hilton - Pasadena</h2>
+    <a href="https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/" target="_blank" class="box">
+        <h2>The Westin Pasadena</h2>
         <ul>
-            <li>168 South Los Robles Ave</li>
+            <li>191 N. Los Robles Ave</li>
             <li>Pasadena, CA 91101</li>
-            <li>(626) 577-1000</li>
-            <li>Group Code: [none yet]</li>
+            <li>(626) 792-2727</li>
         </ul>
     </a>
 </div>
