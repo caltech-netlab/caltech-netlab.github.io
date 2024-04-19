@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reunion/
+permalink: /workshop/
 title: Reunion Workshop
 description:
 nav: True
