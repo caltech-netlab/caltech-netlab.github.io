@@ -9,8 +9,8 @@ nav_order: 7
 <style>
     .styled-button {
         display: block;
-        width: 150px; /* Fixed width */
-        padding: 10px 20px;
+        width: 120px; /* Fixed width */
+        padding: 5px 15px;
         background-color: #333; /* Dark gray background */
         color: white; /* White text */
         text-align: center;
@@ -85,14 +85,11 @@ nav_order: 7
 </style>
 <div id="container1" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
     <div id="content" style="flex: 1;">
-        <div id="jump1" style="margin-bottom: 2px;">
-            <font size='5.5' id="OPF">Optimization and Control of Networks: </font>
-        </div>
-        <div id="jump1" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF">From Theory to Practice</font>
+        <div id="jump1" style="margin-bottom: 16px;">
+            <font size='5'><b>Optimization & Control of Networks: from Theory to Practice</b></font>
         </div>
         <div id="jump2" style="margin-bottom: 4px;">
-            <font size='4' id="OPF">May 24-25, 2024</font>
+            <font size='4'>May 24-25, 2024 <i>on Prof. Steven Low’s 60th Birthday</i></font>
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
