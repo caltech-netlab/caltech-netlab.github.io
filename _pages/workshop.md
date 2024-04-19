@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /Reunion/
+permalink: /reunion/
 title: Reunion Workshop
 description:
-nav: false
+nav: True
 nav_order: 7
 ---
 <style>
@@ -96,7 +96,7 @@ nav_order: 7
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
-        <a href="" target="_blank">
+        <a href="../assets/pdf/2024_reunion_workshop_program.pdf" target="_blank">
         <button class="styled-button">Program</button>
         </a>
         <a href="https://form.jotform.com/240938101419150" target="_blank">
