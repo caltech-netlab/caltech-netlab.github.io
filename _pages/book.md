@@ -70,7 +70,7 @@ Solutions to most of the exercises are available to instructors for teaching or 
 The slides below are mostly for the Feb 16, 2023 version of the draft textbook (except for a few updated chapters).  The chapter numbers may not match with the re-organized current version above (will be updated in the future).
 
 - Part I: Single-phase networks
-    - Ch 1 Basic concepts: <a target = "_blank" href='../assets/keynotes/Low-Ch1-BasicConcepts-202109.key' download="keynote1.key"><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
+    - Ch 1 Basic concepts: <a target = "_blank" href='../assets/keynotes/Low-Ch1-BasicConcepts-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
     - Ch 2 Transmission line models: <a target = "_blank" href='../assets/keynotes/Low-Ch2-LineModels-202109.key' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch2-LineModels-202109.pdf'><b>PDF</b></a> 
     - Ch 3 Transformer models: <a target = "_blank" href='../assets/keynotes/Low-Ch3-Transformers-202109.key' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch3-Transformers-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
     - Ch 5 Bus injection models: <a target = "_blank" href='../assets/keynotes/Low-Ch5-BIM-202109.key' download="christine.jpg"><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch5-BIM-202210.pdf'><b>PDF</b></a> 
