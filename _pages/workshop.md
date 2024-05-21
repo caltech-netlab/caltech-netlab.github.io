@@ -86,13 +86,10 @@ nav_order: 7
 <div id="container1" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
     <div id="content" style="flex: 1;">
         <div id="jump1" style="margin-bottom: 12px;">
-            <font size='4'>...on Prof. Steven Low’s 60th Birthday</font>
-        </div>
-        <div id="jump1" style="margin-bottom: 12px;">
             <font size='5'><b>Optimization & Control of Networks: from Theory to Practice</b></font>
         </div>
         <div id="jump2" style="margin-bottom: 0px;">
-            <font size='4'>May 24-25, 2024</font>
+            <font size='4'>May 24-25, 2024 - <i>celebrating Professor Steven Low’s 60th Birthday</i></font>
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
@@ -106,14 +103,40 @@ nav_order: 7
 </div>
 <hr>
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Venue</font></div>
+<!-- <div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Venue</font></div> -->
+#### **Venue**
 California Institute of Technology  
 1200 E California Blvd, Pasadena, CA 91125, USA  
-Beckman Behavioral Biology Labs, Room B108  
+Beckman Behavioral Biology Labs, Room B180  
 <a target = "_blank" href='https://www.caltech.edu/map/campus/the-mabel-and-arnold-beckman-laboratories-of-behavioral-biology'>Campus map</a> | <a target = "_blank" href='https://www.google.com/maps/place/Mabel+and+Arnold+Beckman+Laboratories+of+Behavioral+Biology,+Pasadena,+CA+91125/@34.1383979,-118.1258571,16z/data=!3m1!4b1!4m6!3m5!1s0x80c2c3587658d5c1:0x6a13901338034d51!8m2!3d34.1383979!4d-118.1258571!16s%2Fg%2F1hhht1z8d?entry=ttu'>Google Maps</a>
 <br>
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Lodging</font></div>
+*Breakfast and breaks are right outside Room B180  
+*Lunch is in the Schlinger Patio next to Beckman Behavioral Biology Labs
+
+#### **Speaker Highlight**
+- [Steven Low](https://www.ee.caltech.edu/people/slow), California Institute of Technology
+- [John Doyle](https://doyle.caltech.edu/Main_Page), California Institute of Technology
+- [Rayadurgam Srikant](https://sites.google.com/a/illinois.edu/srikant/), University of Illinois at Urbana Champaign
+- [Fernando Paganini](https://fi.ort.edu.uy/la-facultad/fernando-paganini), Universidad ORT Uruguay
+- [Harvey Newman](https://pma.caltech.edu/people/harvey-b-newman), California Institute of Technology
+- [Adam Wierman](https://adamwierman.com/), California Institute of Technology
+
+##### **Keynote I**
+**Title**: Learning and Control in Countable State Spaces  
+**Speaker**: R. Srikant, UIUC  
+**Abstract**: We will consider policy optimization methods in reinforcement learning where the state space is countably infinite. The motivation arises from control problems in communication networks and matching markets. We consider an  algorithm called Natural Policy Gradient (NPG), which is perhaps the most popular algorithm for finite state spaces, and show three results in the context of countable state spaces: (i) in the case where perfect policy evaluation is possible, we show that standard NPG converges with a small modification; (ii) if the error is policy evaluation is within a factor of the true value function, we show that one can obtain bounds on the performance of the NPG algorithms; and (iii) we will discuss the ability of neural network-based function approximations to satisfy the condition in (ii) above.  
+
+ 
+##### **Keynote II**
+**Title**: Analyzing spatially distributed EV charging dynamics with optimization and duality (Steven’s way)  
+**Speaker**: F. Paganini, Universidad ORT Uruguay  
+**Abstract**: Optimization and control have an old and fruitful interaction, across multiple application domains. For large distributed networks, convex optimization has provided the most powerful tools for designing local controllers with global guarantees; also, to reverse engineer existing control laws.  Steven Low has taught us how to do this, in the broad domains of the Internet and the power grid.  
+
+In this talk we consider a spatially distributed infrastructure for electrical vehicle recharging, under continuous demand and selfish station assignment. The global dynamics are reverse engineered in terms of a suitable convex optimization problem, characterizing the equilibrium and its global convergence. Results differ from the classical literature on selfish routing, in the model for station sojourn times. The appropriate model uses (Steven´s way) a fluid queue, and proofs require extensive application of convex duality.
+
+
+#### **Lodging**
 <!-- <div id="jump1" style="margin-bottom: 12px;"><font size='3'>in alphabetical order</font></div> -->
 <div class="container1">
     <a href="https://www.marriott.com/en-us/hotels/laxot-courtyard-los-angeles-pasadena-old-town/overview/" target="_blank" class="box">
