@@ -89,7 +89,8 @@ nav_order: 7
             <font size='5'><b>Optimization & Control of Networks: from Theory to Practice</b></font>
         </div>
         <div id="jump2" style="margin-bottom: 0px;">
-            <font size='4'>May 24-25, 2024 - <i>celebrating Professor Steven Low’s 60th Birthday</i></font>
+            <font size='4'>May 24-25, 2024 - <i>celebrating Professor <a target = "_blank" href='https://www.ee.caltech.edu/people/slow'>Steven Low</a>
+’s 60th Birthday</i></font>
         </div>
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
@@ -115,11 +116,10 @@ Beckman Behavioral Biology Labs, Room B180
 *Lunch is in the Schlinger Patio next to Beckman Behavioral Biology Labs
 
 #### **Speaker Highlight**
-- [Steven Low](https://www.ee.caltech.edu/people/slow), California Institute of Technology
 - [John Doyle](https://doyle.caltech.edu/Main_Page), California Institute of Technology
-- [Rayadurgam Srikant](https://sites.google.com/a/illinois.edu/srikant/), University of Illinois at Urbana Champaign
-- [Fernando Paganini](https://fi.ort.edu.uy/la-facultad/fernando-paganini), Universidad ORT Uruguay
 - [Harvey Newman](https://pma.caltech.edu/people/harvey-b-newman), California Institute of Technology
+- [Fernando Paganini](https://fi.ort.edu.uy/la-facultad/fernando-paganini), Universidad ORT Uruguay
+- [Rayadurgam Srikant](https://sites.google.com/a/illinois.edu/srikant/), University of Illinois at Urbana Champaign
 - [Adam Wierman](https://adamwierman.com/), California Institute of Technology
 
 ##### **Keynote I**
@@ -134,6 +134,14 @@ Beckman Behavioral Biology Labs, Room B180
 **Abstract**: Optimization and control have an old and fruitful interaction, across multiple application domains. For large distributed networks, convex optimization has provided the most powerful tools for designing local controllers with global guarantees; also, to reverse engineer existing control laws.  Steven Low has taught us how to do this, in the broad domains of the Internet and the power grid.  
 
 In this talk we consider a spatially distributed infrastructure for electrical vehicle recharging, under continuous demand and selfish station assignment. The global dynamics are reverse engineered in terms of a suitable convex optimization problem, characterizing the equilibrium and its global convergence. Results differ from the classical literature on selfish routing, in the model for station sojourn times. The appropriate model uses (Steven´s way) a fluid queue, and proofs require extensive application of convex duality.
+
+
+##### **Talk: Session 1**
+**Title**: Global Networks for Data Intensive Sciences The Innovations and Key Roles of Steven Low  
+**Speaker**: Harvey Newman  
+**Abstract**: It has been a pleasure to collaborate with Steven starting in 2002, with the shared goal of addressing the challenges facing the largest data intensive science programs who rely on global networks, as well as benefiting society at-large through advances in network performance and reliability. Steven’s key understanding and innovations in network protocols and stability, the resulting ability to transfer data at unprecedented rates across national and transoceanic boundaries, and his optical network experience and advances in Netlab on campus, have since helped trigger two decades of further progress across several technology generations, up to the present.
+
+The Global Network Advancement Group (GNA-G), a worldwide collaboration bringing together major science programs, research and education networks, and advanced network R&D projects spanning the U.S, Europe, Asia, Latin America and Oceania, was founded in 2019 to carry forward the work. I founded the GNA-G Data Intensive Sciences Working Group as its chair in 2020, working with many partners in academia and industry to develop a next generation network-integrated system to meet the challenges of exabyte data volumes and terabit/sec workflows supporting thousands of scientists located throughout the world, and to clear the path to the next round of discoveries in high energy and astrophysics, bioinformatics and many other fields of data intensive science. To reach these goals, the teams are developing a dynamic and adaptive programmable system which coordinates worldwide networks as a first class resource along with computing and storage, across multiple domains. We are following a systems design approach to create a global fabric that flexibly allocates, balances and conserves the available network resources, while negotiating and working with the site-resident systems that aim to accelerate science workflow. Reinforcement and other machine learning techniques are also being developed to optimize system operations, while taking priority, policy, network- and site-state changes, workflow objectives and other constraints into account.
 
 
 #### **Lodging**
