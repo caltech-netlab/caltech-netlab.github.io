@@ -149,11 +149,7 @@ The Global Network Advancement Group (GNA-G), a worldwide collaboration bringing
 <div class="container1">
     <a href="https://www.marriott.com/en-us/hotels/laxot-courtyard-los-angeles-pasadena-old-town/overview/" target="_blank" class="box">
         <h2>Courtyard Marriott Pasadena</h2>
-        <ul>
-            <li>180 North Fair Oaks Ave</li>
-            <li>Pasadena, CA 91103</li>
-            <li>(626) 403-7600</li>
-        </ul>
+       
     </a>
 
     <a href="https://www.hilton.com/en/hotels/pasphhf-hilton-pasadena/" target="_blank" class="box">
