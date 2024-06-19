@@ -23,7 +23,7 @@ Motifications commited to the master branch will automatically be live. For more
 If you would like to visualize the changes locally, then you need to install the required software packages. See section [Configure development environment](#configure-development-environment).
 
 ##  Modifying site content
-In general, the page content is in [\_pages](_pages) and [\_projects](_projects) folders. The page styles are in [\_layours](_includes).
+In general, the page content is in [\_pages](_pages) and [\_projects](_projects) folders. Images, PDFs, slides and other files are under [assets](assets). The page styles are in [\_layouts](_includes).
 
 ### Research
 This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections, `news` and `projects`. We only use the `projects` collection to create our research page. The overview of research is edited in the [\_pages/projects.md](_pages/projects.md), and the other four subsections are located in the [\_projects](_projects) folder. The contents of research are written using only HTML.
