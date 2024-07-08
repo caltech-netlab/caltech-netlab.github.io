@@ -186,11 +186,7 @@ The Global Network Advancement Group (GNA-G), a worldwide collaboration bringing
 <div class="container1">
     <a href="https://www.langhamhotels.com/en/the-langham/los-angeles/" target="_blank" class="box">
         <h2>The Langham</h2>
-        <ul>
-            <li>1401 South Oak Knoll Ave</li>
-            <li>Pasadena, CA 91106</li>
-            <li>(626) 568-3900</li>
-        </ul>
+      
     </a>
 
     <a href="https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/" target="_blank" class="box">
