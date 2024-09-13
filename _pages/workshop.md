@@ -97,14 +97,18 @@ nav_order: 7
         <a href="../assets/pdf/2024_reunion_workshop_program.pdf" target="_blank">
         <button class="styled-button">Program</button>
         </a>
-        <a href="https://form.jotform.com/240938101419150" target="_blank">
+        <!-- <a href="https://form.jotform.com/240938101419150" target="_blank">
         <button class="styled-button">Registration</button>
-        </a>
+        </a> -->
     </div>
 </div>
 <hr>
 
 <!-- <div id="jump1" style="margin-bottom: 12px;"><font size='5.5'>Venue</font></div> -->
+#### **Photo Gallery**
+[Photos by Elizabeth Asher](https://elizabethasherphotography.pixieset.com/netlabreunion2024/)  
+Access code: netlab2024
+
 #### **Venue**
 California Institute of Technology  
 1200 E California Blvd, Pasadena, CA 91125, USA  
@@ -143,58 +147,3 @@ The Global Network Advancement Group (GNA-G), a worldwide collaboration bringing
 **Speaker**: Adam Wierman, Caltech  
 **Abstract**: When I arrived at Caltech, Steven's mentorship played a huge role in shaping my research directions and style.  One consequence was an increasing desire to understand the societal impact of computation, which led to a focus on developing sustainable algorithms for data centers and distributed systems.   It was a long hard road in the early days, when industry was not open to the idea that energy and carbon were important measures, but a decade on, both integration renewable energy into data centers and integration of data centers into the grid to ease the challenges associated with renewable energy are beginning to happen.  It is essential that these techniques become mainstream given the massive growth of data centers projected in the coming years as a result of the AI training and deployment.  In this talk, I'll give a brief historical recollection of how our work at Caltech has helped to enable this transition, moving all the way from theory to production deployment.  
 
-
-#### **Lodging**
-<!-- <div id="jump1" style="margin-bottom: 12px;"><font size='3'>in alphabetical order</font></div> -->
-<div class="container1">
-    <a href="https://www.marriott.com/en-us/hotels/laxot-courtyard-los-angeles-pasadena-old-town/overview/" target="_blank" class="box">
-        <h2>Courtyard Marriott Pasadena</h2>
-       
-    </a>
-
-    <a href="https://www.hilton.com/en/hotels/pasphhf-hilton-pasadena/" target="_blank" class="box">
-        <h2>Hilton - Pasadena</h2>
-        <ul>
-            <li>168 South Los Robles Ave</li>
-            <li>Pasadena, CA 91101</li>
-            <li>(626) 577-1000</li>
-        </ul>
-    </a>
-</div>
-
-<div class="container1">
-    <a href="https://www.marriott.com/en-us/hotels/burpt-hotel-dena-pasadena-los-angeles-a-tribute-portfolio-hotel/overview/" target="_blank" class="box">
-        <h2>Hotel Dena</h2>
-        <ul>
-            <li>303 East Cordova St</li>
-            <li>Pasadena, CA 91101</li>
-            <li>(626) 469-8100</li>
-        </ul>
-    </a>
-
-    <a href="https://be.synxis.com/?adult=1&arrive=2024-03-18&chain=26561&child=0&currency=USD&depart=2024-03-19&hotel=39736&level=hotel&locale=en-US&promo=NEGCIT&rooms=1" target="_blank" class="box">
-        <h2>Pasadena Hotel</h2>
-        <ul>
-            <li>928 E. Colorado Blvd</li>
-            <li>Pasadena, CA 91106</li>
-            <li>(626) 884-4150</li>
-            <li>Group Code: NEGCIT</li>
-        </ul>
-    </a>
-</div>
-
-<div class="container1">
-    <a href="https://www.langhamhotels.com/en/the-langham/los-angeles/" target="_blank" class="box">
-        <h2>The Langham</h2>
-      
-    </a>
-
-    <a href="https://www.marriott.com/en-us/hotels/laxpw-the-westin-pasadena/overview/" target="_blank" class="box">
-        <h2>The Westin Pasadena</h2>
-        <ul>
-            <li>191 N. Los Robles Ave</li>
-            <li>Pasadena, CA 91101</li>
-            <li>(626) 792-2727</li>
-        </ul>
-    </a>
-</div>
