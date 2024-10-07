@@ -57,9 +57,9 @@ This rough draft is based on lecture notes for the Power System Analysis course 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/pdf/Low-201909-ee135Notes.pdf'><b>Current draft</b></a> (October, 2024)</font></div>
 
 - Part I: Single-phase networks (Ch 1 - 5)
-- Part II: Unbalanced multiphase networks (Ch 7 - 10)
-- Part III: Power flow optimization (Ch 11 - 17)
-- Part IV: Appendix: Mathematical preliminaries (Ch 25)
+- Part II: Unbalanced multiphase networks (Ch 6 - 9)
+- Part III: Power flow optimization (Ch 10 - 16)
+- Part IV: Appendix (Ch 17)
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
@@ -73,12 +73,12 @@ The slides below are mostly for the Feb 16, 2023 version of the draft textbook (
     - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/keynotes/Low-Ch1-BasicConcepts-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
     - Ch 2 Transmission line models: <a target = "_blank" download href='../assets/keynotes/Low-Ch2-LineModels-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch2-LineModels-202109.pdf'><b>PDF</b></a> 
     - Ch 3 Transformer models: <a target = "_blank" download href='../assets/keynotes/Low-Ch3-Transformers-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch3-Transformers-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
-    - Ch 5 Bus injection models: <a target = "_blank" download href='../assets/keynotes/Low-Ch5-BIM-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch5-BIM-202210.pdf'><b>PDF</b></a> 
-    - Ch 6 Branch flow models: <a target = "_blank" download href='../assets/keynotes/Low-Ch6-BFM-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch6-BFM-202211.pdf'><b>PDF</b></a> 
+    - Ch 4 Bus injection models: <a target = "_blank" download href='../assets/keynotes/Low-Ch5-BIM-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch5-BIM-202210.pdf'><b>PDF</b></a> 
+    - Ch 5 Branch flow models: <a target = "_blank" download href='../assets/keynotes/Low-Ch6-BFM-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch6-BFM-202211.pdf'><b>PDF</b></a> 
 - Part II: Unbalanced multiphase networks
-    - Ch 8 Component models: <a target = "_blank" download href='../assets/keynotes/Low-Ch8-Unbalanced-Components-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch8-Unbalanced-Components-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
-    - Ch 9 Bus injection models: <a target = "_blank" download href='../assets/keynotes/Low-Ch9-Unbalanced-BIM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch9-Unbalanced-BIM-202211.pdf'><b>PDF</b></a> 
-    - Ch 10 Branch flow models: <a target = "_blank" download href='../assets/keynotes/Low-Ch10-Unbalanced-BFM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch10-Unbalanced-BFM-202212.pdf'><b>PDF</b></a> 
+    - Ch 6 & 7 Component models: <a target = "_blank" download href='../assets/keynotes/Low-Ch8-Unbalanced-Components-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch8-Unbalanced-Components-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
+    - Ch 8 Bus injection models: <a target = "_blank" download href='../assets/keynotes/Low-Ch9-Unbalanced-BIM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch9-Unbalanced-BIM-202211.pdf'><b>PDF</b></a> 
+    - Ch 9 Branch flow models: <a target = "_blank" download href='../assets/keynotes/Low-Ch10-Unbalanced-BFM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch10-Unbalanced-BFM-202212.pdf'><b>PDF</b></a> 
 - Part III: Power flow optimization
     - Ch 11 Power system operation: <a target = "_blank" download href='../assets/keynotes/Low-Ch11-PSOperation-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch11-PSOperation-202212.pdf'><b>PDF</b></a> 
     - Ch 12 Optimal power flow: <a target = "_blank" download href='../assets/keynotes/Low-Ch12-OPF-202301.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch12-OPF-202301.pdf'><b>PDF</b></a> 
