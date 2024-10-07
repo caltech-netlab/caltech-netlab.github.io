@@ -292,7 +292,7 @@ profiles:
     name: Changhong Zhao
     description: 
     current: NREL
-    portfolio_link: https://sites.google.com/site/changhongzhao19/
+    portfolio_link: 
   - role: PreviousGrad
     date: PhD 2017
     name: Niangjun Chen
