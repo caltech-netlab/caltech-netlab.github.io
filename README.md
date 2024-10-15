@@ -14,7 +14,7 @@
 - [References](#references)
 - [FAQ](FAQ.md)
 
-## Making simple edits
+## Making simple edits 
 
 If you are making simple edits and do not need to visualize the changes (locally on your own machine) before making the changes public, you may directly edit the relevant files either directly in [https://github.com/caltech-netlab] or in your local cloned repository and then push the changes to github. What files should I edit? See [Modifying site content](#modifying-site-content).
 
