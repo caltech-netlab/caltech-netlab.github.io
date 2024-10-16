@@ -54,7 +54,7 @@ nav_order: 7
 
 This rough draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/pdf/Low-201909-ee135Notes.pdf'><b>Current draft</b></a> (October 6, 2024)</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA-202410/Low-PSA-v20241016.pdf'><b>Current draft</b></a> (October 16, 2024)</font></div>
 
 - Part I: Single-phase networks (Ch 1 - 5)
 - Part II: Unbalanced multiphase networks (Ch 6 - 9)
