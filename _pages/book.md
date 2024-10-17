@@ -59,7 +59,7 @@ This rough draft is based on lecture notes for the Power System Analysis course 
 - Part I: Single-phase networks (Ch 1 - 5)
 - Part II: Unbalanced multiphase networks (Ch 6 - 9)
 - Part III: Power flow optimization (Ch 10 - 16)
-- Part IV: Appendix (Ch 17)
+- Appendix: Mathematical preliminaries (Ch 17)
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
@@ -73,7 +73,7 @@ The slides below are mostly for the Feb 16, 2023 version of the draft textbook (
     - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/keynotes/Low-Ch1-BasicConcepts-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
     - Ch 2 Transmission line models: <a target = "_blank" download href='../assets/keynotes/Low-Ch2-LineModels-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch2-LineModels-202109.pdf'><b>PDF</b></a> 
     - Ch 3 Transformer models: <a target = "_blank" download href='../assets/keynotes/Low-Ch3-Transformers-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch3-Transformers-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
-    - Ch 4 Bus injection models: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-202410.key'><b>Keynote (to be updated)</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-202410.pdf'><b>PDF</b></a> (last update: Oct 16, 2024)
+    - Ch 4 Bus injection models: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-202410.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-202410.pdf'><b>PDF</b></a> (last update: Oct 16, 2024)
     - Ch 5 Branch flow models: <a target = "_blank" download href='../assets/keynotes/Low-Ch6-BFM-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch6-BFM-202211.pdf'><b>PDF</b></a> 
 - Part II: Unbalanced multiphase networks
     - Ch 6 & 7 Component models: <a target = "_blank" download href='../assets/keynotes/Low-Ch8-Unbalanced-Components-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch8-Unbalanced-Components-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
