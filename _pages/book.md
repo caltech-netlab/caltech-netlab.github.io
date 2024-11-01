@@ -32,7 +32,7 @@ nav_order: 7
 <div id="container" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
     <div id="content" style="flex: 1;">
         <div id="jump1" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF"><b>Power System Analysis - A Mathematical Approach</b></font>
+            <font size='5.5' id="OPF"><b>Power System Analysis - Analytical Tools and Structural Properties </b></font>
         </div>
         <div id="jump2" style="margin-bottom: 12px;">
             <font size='5.5' id="OPF">Lecture Notes for EE/CS/EST 135</font>
