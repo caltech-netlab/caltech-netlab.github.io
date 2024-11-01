@@ -78,7 +78,7 @@ The slides below are mostly for the Feb 16, 2023 version of the draft textbook, 
 - Part II: Unbalanced multiphase networks
     - Ch 7 & 8 Component models: <a target = "_blank" download href='../assets/keynotes/Low-Ch8-Unbalanced-Components-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch8-Unbalanced-Components-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
     - Ch 9 Bus injection models: <a target = "_blank" download href='../assets/keynotes/Low-Ch9-Unbalanced-BIM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch9-Unbalanced-BIM-202211.pdf'><b>PDF</b></a> 
-    - Ch 10 Branch flow models: <a target = "_blank" download href='../assets/keynotes/Low-Ch10-Unbalanced-BFM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch10-Unbalanced-BFM-202212.pdf'><b>PDF</b></a> 
+    - Ch 10 Branch flow models: radial networks <a target = "_blank" download href='../assets/keynotes/Low-Ch10-Unbalanced-BFM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch10-Unbalanced-BFM-202212.pdf'><b>PDF</b></a> 
 - Part III: Power flow optimization
     - Ch 11 Smooth convex optimization: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
     - Ch 12 Power system operation: <a target = "_blank" download href='../assets/keynotes/Low-Ch11-PSOperation-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch11-PSOperation-202212.pdf'><b>PDF</b></a> 
@@ -87,6 +87,6 @@ The slides below are mostly for the Feb 16, 2023 version of the draft textbook, 
     - Ch 15 Semidefinite relaxations: BFM: <a target = "_blank" download href='../assets/keynotes/Low-Ch14-BFMrelaxation-202302.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch14-BFMrelaxation-202302.pdf'><b>PDF</b></a> 
     - Ch 16 Nonsmooth convex optimization: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
     - Ch 17 Stochastic OPF: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
-    - Ch 17 Example applications: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
+    - Ch 18 Example applications: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
 
 
