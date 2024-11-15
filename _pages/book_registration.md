@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /book_reg/
-title: Book draft
+title: Book 
 description: # Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 7
@@ -55,7 +55,7 @@ nav_order: 7
 
 This draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book (19 chapters)</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book draft (19 chapters)</font></div>
 - Part I: Single-phase networks
 - Part II: Unbalanced multiphase networks
 - Part III: Power flow optimization 
