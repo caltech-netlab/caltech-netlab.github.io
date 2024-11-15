@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /book_reg/
-title: Book 
+title: Book draft
 description: # Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 7
