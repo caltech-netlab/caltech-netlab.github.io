@@ -32,11 +32,9 @@ nav_order: 7
 <div id="container" style="display: flex; justify-content: space-between; align-items: flex-start; text-align: left;">
     <div id="content" style="flex: 1;">
         <div id="jump1" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF"><b>Power System Analysis - A Mathematical Approach</b></font>
+            <font size='5.5' id="OPF"><b>Power System Analysis - Analytical Tools and Structural Properties</b></font>
         </div>
-        <div id="jump2" style="margin-bottom: 12px;">
-            <font size='5.5' id="OPF">Lecture Notes for EE/CS/EST 135</font>
-        </div>
+   
         <div id="jump3" style="margin-bottom: 12px;">
             <font size='5.5' id="OPF">Steven H. Low, Caltech</font>
         </div>
@@ -52,34 +50,16 @@ nav_order: 7
 </div>
 <hr>
 
-This rough draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to view the content</b>. We will periodically add new chapters and update existing ones here. We will also inform registered users of major updates (you can always opt out).
+<b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book</font></div>
-- Part I: Single-phase networks (Ch 1 - Ch 5; ignore Ch 6)
-- Part II: Unbalanced multiphase networks (Ch 7 - 10)
-- Part III: Power flow optimization (Ch 11 - 15)
-- Part IV: Appendix: Mathematical preliminaries (Ch 25)
+This draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
-
-The slides below are mostly for the Feb 16, 2023 version of the draft textbook (except for a few updated chapters).  The chapter numbers may not match with the re-organized current version above (will be updated in the future).
-
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book (19 chapters)</font></div>
 - Part I: Single-phase networks
-    - Ch 1 Basic concepts
-    - Ch 2 Transmission line models
-    - Ch 3 Transformer models
-    - Ch 5 Bus injection models
-    - Ch 6 Branch flow models
 - Part II: Unbalanced multiphase networks
-    - Ch 8 Component models
-    - Ch 9 Bus injection models
-    - Ch 10 Branch flow models
-- Part III: Power flow optimization
-    - Ch 11 Power system operation
-    - Ch 12 Optimal power flow
-    - Ch 13 Semidefinite relaxations: BIM
-    - Ch 14 Semidefinite relaxations: BFM
+- Part III: Power flow optimization 
+- Part IV: Appendix: Mathematical preliminaries
+
 
 If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content.
