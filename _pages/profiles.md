@@ -35,7 +35,7 @@ profiles:
       <p>Yiheng Xie</p>
       <a href = "https://yxie20.github.io/"><b>Website</font></b></a>
   - align: left
-    image: graduates/han_xu.png
+    image: graduates/han-xu.jpg
     content: descriptions/about_han_xu.md
     role: CurrentGradStudent
     image_circular: false # crops the image to make it circular
