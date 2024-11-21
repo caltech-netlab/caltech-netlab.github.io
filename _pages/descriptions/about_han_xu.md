@@ -1,0 +1,1 @@
+I am a PhD student at Caltech, where I am advised by Prof. Steven Low. In my research, I am interested in simulation, control and optimization of power systems or other networked systems.
