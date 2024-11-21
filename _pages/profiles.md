@@ -196,6 +196,7 @@ profiles:
   - role: PreviousGrad
     date: Schmidt Scholar 2024
     name: Thuy-Linh Le
+    lineBreak: "<br>"
   - role: PreviousGrad
     date: PhD 2023
     name: Lucien Werner
