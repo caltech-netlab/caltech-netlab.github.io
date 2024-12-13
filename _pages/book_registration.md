@@ -53,12 +53,12 @@ nav_order: 7
 
 <b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.
 
-This draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
+This draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book draft (19 chapters)</font></div>
 - Part I: Single-phase networks
-- Part II: Unbalanced multiphase networks
-- Part III: Power flow optimization 
+- Part II: Power flow optimization 
+- Part III: Unbalanced multiphase networks
 - Part IV: Appendix: Mathematical preliminaries
 
 
