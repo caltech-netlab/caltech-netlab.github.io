@@ -58,7 +58,7 @@ This draft is based on lecture notes for the Power System Analysis courses that 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book draft (19 chapters)</font></div>
 - Part I: Single-phase networks
 - Part II: Power flow optimization 
-- Part III: Unbalanced multiphase networks
+- Part III: Unbalanced three-phase networks
 - Part IV: Appendix: Mathematical preliminaries
 
 
