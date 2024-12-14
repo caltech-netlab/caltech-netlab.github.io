@@ -50,14 +50,14 @@ nav_order: 7
 </div>
 <hr>
 
-This rough draft is based on lecture notes for the Power System Analysis course that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
+This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA-202410/Low-PSA-v20241031.pdf'><b>Current draft</b></a> (October 31, 2024)</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA-202410/Low-PSA-v20241213.pdf'><b>Current draft</b></a> (December 13, 2024)</font></div>
 
 - Part I: Single-phase networks (Ch 1 - 6)
-- Part II: Unbalanced multiphase networks (Ch 7 - 10)
-- Part III: Power flow optimization (Ch 11 - 18)
-- Appendix: Mathematical preliminaries (Ch 19)
+- Part II: Power flow optimization (Ch 7 - 14)
+- Part III: Unbalanced three-phase networks (Ch 15 - 19)
+- Appendix: Mathematical preliminaries (Ch 20)
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
@@ -65,28 +65,32 @@ Solutions to most of the exercises are available to instructors for teaching or 
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
-The slides below are mostly for the Feb 16, 2023 version of the draft textbook, and I'm in the process of revising them to match the current version of the text above.  The chapter numbers on the slides and the text match for versions updated after Oct 31, 2024.
+The slides below that are dated on or after Dec 13, 2024 match the chapters in the textbook.
+(Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.)
 
 - Part I: Single-phase networks
     - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/keynotes/Low-Ch1-BasicConcepts-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
     - Ch 2 Transmission line models: <a target = "_blank" download href='../assets/keynotes/Low-Ch2-LineModels-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch2-LineModels-202109.pdf'><b>PDF</b></a> 
     - Ch 3 Transformer models: <a target = "_blank" download href='../assets/keynotes/Low-Ch3-Transformers-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch3-Transformers-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
-    - Ch 4 Bus injection models: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-v20241031.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-v20241031.pdf'><b>PDF</b></a> (last update: Oct 31, 2024)
-    - Ch 5 Branch flow models: radial networks: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch5-BFM-v20241031.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch5-BFM-v20241031.pdf'><b>PDF</b></a> (last update: Oct 31, 2024)
-    - Ch 6 Example applications: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch6-apps-v20241031.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch6-apps-v20241031.pdf'><b>PDF</b></a> (last update: Oct 31, 2024)
+    - Ch 4 Bus injection models: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024)
+    - Ch 5 Branch flow models: radial networks: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch5-BFM-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch5-BFM-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024)
+    - Ch 6 Example applications: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch6-apps-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch6-apps-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024)
 
-- Part II: Unbalanced multiphase networks
-    - Ch 7 & 8 Component models: <a target = "_blank" download href='../assets/keynotes/Low-Ch8-Unbalanced-Components-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch8-Unbalanced-Components-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
-    - Ch 9 Bus injection models: <a target = "_blank" download href='../assets/keynotes/Low-Ch9-Unbalanced-BIM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch9-Unbalanced-BIM-202211.pdf'><b>PDF</b></a> 
-    - Ch 10 Branch flow models: radial networks <a target = "_blank" download href='../assets/keynotes/Low-Ch10-Unbalanced-BFM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch10-Unbalanced-BFM-202212.pdf'><b>PDF</b></a> 
-- Part III: Power flow optimization
-    - Ch 11 Smooth convex optimization: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
-    - Ch 12 Power system operation: <a target = "_blank" download href='../assets/keynotes/Low-Ch11-PSOperation-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch11-PSOperation-202212.pdf'><b>PDF</b></a> 
-    - Ch 13 Optimal power flow: <a target = "_blank" download href='../assets/keynotes/Low-Ch12-OPF-202301.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch12-OPF-202301.pdf'><b>PDF</b></a> 
-    - Ch 14 Semidefinite relaxations: BIM: <a target = "_blank" download href='../assets/keynotes/Low-Ch13-BIMrelaxation-202301.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch13-BIMrelaxation-202302.pdf'><b>PDF</b></a> 
-    - Ch 15 Semidefinite relaxations: BFM: <a target = "_blank" download href='../assets/keynotes/Low-Ch14-BFMrelaxation-202302.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch14-BFMrelaxation-202302.pdf'><b>PDF</b></a> 
-    - Ch 16 Nonsmooth convex optimization: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
-    - Ch 17 Stochastic OPF: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
-    - Ch 18 Example applications: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
+- Part II: Power flow optimization
+    - Ch 7 Smooth convex optimization: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
+    - Ch 8 Power system operations: <a target = "_blank" download href='../assets/keynotes/Low-Ch11-PSOperation-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch11-PSOperation-202212.pdf'><b>PDF</b></a> 
+    - Ch 9 Optimal power flow: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch9-OPF-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch9-OPF-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024) 
+    - Ch 10 Semidefinite relaxations: BIM: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch10-BIMrelaxation-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch10-BIMrelaxation-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024) 
+    - Ch 11 Semidefinite relaxations: BFM: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch11-BFMrelaxation-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch11-BFMrelaxation-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024) 
+    - Ch 12 Nonsmooth convex optimization: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
+    - Ch 13 Stochastic OPF: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
+    - Ch 14 Example applications: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
+
+    - Part III: Unbalanced three-phase networks
+    - Ch 15 & 16 Component models: <a target = "_blank" download href='../assets/keynotes/Low-Ch8-Unbalanced-Components-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch8-Unbalanced-Components-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
+    - Ch 17 Bus injection models: <a target = "_blank" download href='../assets/keynotes/Low-Ch9-Unbalanced-BIM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch9-Unbalanced-BIM-202211.pdf'><b>PDF</b></a> 
+    - Ch 18 Branch flow models: radial networks <a target = "_blank" download href='../assets/keynotes/Low-Ch10-Unbalanced-BFM-202208.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/Low-Ch10-Unbalanced-BFM-202212.pdf'><b>PDF</b></a> 
+     - Ch 19 Power flow optimization: 
+
 
 
