@@ -52,7 +52,7 @@ nav_order: 7
 
 This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA-202410/Low-PSA-v20241213.pdf'><b>Current draft</b></a> (December 13, 2024)</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20250207.pdf'><b>Current draft</b></a> (December 13, 2024)</font></div>
 
 - Part I: Single-phase networks (Ch 1 - 6)
 - Part II: Power flow optimization (Ch 7 - 14)
@@ -82,7 +82,7 @@ The slides below that are dated on or after Dec 13, 2024 match the chapters in t
     - Ch 9 Optimal power flow: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch9-OPF-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch9-OPF-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024) 
     - Ch 10 Semidefinite relaxations: BIM: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch10-BIMrelaxation-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch10-BIMrelaxation-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024) 
     - Ch 11 Semidefinite relaxations: BFM: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch11-BFMrelaxation-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch11-BFMrelaxation-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024) 
-    - Ch 12 Nonsmooth convex optimization: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> (last update: Feb 7, 2025)
+    - Ch 12 Nonsmooth convex optimization: <a target = "_blank" download href='../assets/book/slides/Low-PSAslides-Ch12-NonsmoothConvexOpt-v20250207.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides/Low-PSAslides-Ch12-NonsmoothConvexOpt-v20250207.pdf'><b>PDF</b></a> (last update: Feb 7, 2025)
     - Ch 13 Stochastic OPF: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
     - Ch 14 Example applications: <a target = "_blank" download href='../assets/book/slides-202410/'><b> </b></a>  <a target = "_blank" href='../assets/book/slides-202410/'><b> </b></a> 
 
