@@ -44,29 +44,14 @@ profiles:
       <a href = "https://thu-xuhan.github.io/"><b>Website</font></b></a>
   
   # Current visiting students
-  - align: left
-    image: visiting-graduates/verena_haberle.jpg
-    content: descriptions/about_verena_haberle.md
-    role: CurrentVisitingStudent
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Verena Häberle</p>
-      <a href = "https://control.ee.ethz.ch/people/profile.verena-haeberle.html"><b>Website</font></b></a>
-  - align: left
-    image: visiting-graduates/kaibo-chen.png
-    content: descriptions/about_kaibo_chen.md
-    role: CurrentVisitingStudent
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Kaibo Chen</p>
-  - align: left
-    image: visiting-graduates/Ethan_Varghese.jpg
-    content: descriptions/about_ethan_varghese.md
-    role: CurrentVisitingStudent
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Ethan Varghese</p>
-      <a href = "https://www.vargheseethan.com/"><b>Website</font></b></a>
+#   - align: left
+#     image: visiting-graduates/verena_haberle.jpg
+#     content: descriptions/about_verena_haberle.md
+#     role: CurrentVisitingStudent
+#     image_circular: false # crops the image to make it circular
+#     more_info: >
+#       <p>Verena Häberle</p>
+#       <a href = "https://control.ee.ethz.ch/people/profile.verena-haeberle.html"><b>Website</font></b></a>
 
   # Caltech faculty collaborators
   - align: left
@@ -118,7 +103,6 @@ profiles:
     date: 2017 - 2019
     name: James Anderson
     description: Columbia
-    lineBreak: "<br>"
     portfolio_link: https://www.columbia.edu/~ja3451/
   - role: PreviousPostdoc
     date: 2014 - 2016
@@ -135,6 +119,7 @@ profiles:
     date: 2010 - 2013
     name: Sachin Adlakha
     description: NMLStream
+    lineBreak: "<br>"
     portfolio_link: https://www.linkedin.com/in/sachin-adlakha-682aa061/
   - role: PreviousPostdoc
     date: 2012 - 2013
@@ -282,7 +267,6 @@ profiles:
     name: Subhonmesh Bose
     description:
     current: UIUC ECE
-    lineBreak: "<br>"
     portfolio_link: https://www.ece.illinois.edu/directory/profile/boses
   - role: PreviousGrad
     date: PhD 2014
@@ -425,12 +409,24 @@ profiles:
     university: Postech, Korea
 
   # Previous Visiting Students (mostly PhD)
+    # lineBreak: <br><br>
+  - role: PreviousVisitingStudent
+    date: 2024-2025
+    name: Kaibo Chen
+  - role: PreviousVisitingStudent
+    date: 2024
+    name: Verena Häberle
+    university: ETH Zurich
+    portfolio_link: https://control.ee.ethz.ch/people/profile.verena-haeberle.html
+  - role: PreviousVisitingStudent
+    date: 2024
+    name: Ethan Varghese
+    portfolio_link: https://ethanvarghese-portfolio.vercel.app
   - role: PreviousVisitingStudent
     date: 2023
     name: Ognjen Stanojev
     university: ETH Zurich
     portfolio_link: https://psl.ee.ethz.ch/people/person-detail.MjQxOTQ5.TGlzdC8yNTEyLC0xNTM3NjU3MDcy.html
-    lineBreak: <br><br>
   - role: PreviousVisitingStudent
     date: 2019-2020
     name: Bo Sun
@@ -442,7 +438,6 @@ profiles:
     name: Andreas Venzke
     description: EE
     university: Technical University of Denmark
-    lineBreak: <br>
   - role: PreviousVisitingStudent
     date: 2019-2020
     name: Su Wang
@@ -460,11 +455,9 @@ profiles:
     name: Chenxi (Stephanie) Sun
     description: EEE
     university: Hong Kong University
-    lineBreak: <br>
   - role: PreviousVisitingStudent
     date: 2016-2017
     name: Zhaojian Wang
-    lineBreak: "<br>"
     description: EE
     university: Tsinghua University, China
   - role: PreviousVisitingStudent
@@ -507,7 +500,6 @@ profiles:
     date: 2008 - 2009
     name: Krister Jacobsson
     description:
-    lineBreak: <br>
     university: KTH, Sweden
   - role: PreviousVisitingStudent
     date: 2004 - 2005
