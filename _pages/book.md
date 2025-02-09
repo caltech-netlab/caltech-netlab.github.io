@@ -52,7 +52,7 @@ nav_order: 7
 
 This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20250207.pdf'><b>Current draft</b></a> (February 7, 2025)</font></div>
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20250208.pdf'><b>Current draft</b></a> (February 8, 2025)</font></div>
 
 - Part I: Single-phase networks (Ch 1 - 6)
 - Part II: Power flow optimization (Ch 7 - 14)
