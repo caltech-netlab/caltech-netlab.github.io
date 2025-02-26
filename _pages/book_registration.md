@@ -59,7 +59,7 @@ This draft is based on lecture notes for the Power System Analysis courses that 
 - Part I: Single-phase networks
 - Part II: Power flow optimization 
 - Part III: Unbalanced three-phase networks
-- Part IV: Appendix: Mathematical preliminaries
+- Appendix: Mathematical preliminaries
 
 
 If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content.
