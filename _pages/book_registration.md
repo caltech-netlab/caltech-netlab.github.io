@@ -55,11 +55,11 @@ nav_order: 7
 
 This draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book draft (20 chapters)</font></div>
-- Part I: Single-phase networks
+<div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book draft (19 chapters)</font></div>
+- Part I: Power network: models, operations, analysis
 - Part II: Power flow optimization 
 - Part III: Unbalanced three-phase networks
-- Appendix: Mathematical preliminaries
+- Appendix: Linear algebra preliminaries
 
 
 If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content.
