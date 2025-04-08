@@ -65,8 +65,10 @@ Solutions to most of the exercises are available to instructors for teaching or 
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
-The slides below that are dated on or after Dec 13, 2024 match the chapters in the textbook.
-(Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.)
+Slides below need update!
+
+(The slides below that are dated on or after Dec 13, 2024 match the chapters in the textbook.
+(Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.))
 
 - Part I: Power network: models, operations, analysis
     - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/keynotes/Low-Ch1-BasicConcepts-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/PSA-pre202410/Low-Ch1-BasicConcepts-202209.pdf'><b>PDF</b></a> 
