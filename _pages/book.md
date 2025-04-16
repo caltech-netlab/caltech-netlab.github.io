@@ -65,7 +65,7 @@ Solutions to most of the exercises are available to instructors for teaching or 
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
-Slides below need update!
+Slides below need update!  Just updated Ch 6, 7.
 
 (The slides below that are dated on or after Dec 13, 2024 match the chapters in the textbook.
 (Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.))
