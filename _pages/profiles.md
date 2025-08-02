@@ -69,7 +69,7 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>John Doyle</p>
-      <a href = "https://doyle.caltech.edu"><b>Website</font></b></a>
+      <a href="https://doyle.caltech.edu/Main_Page"><b>Website</font></b></a>
   - align: left
     image: faculty/mani-chandy.jpg
     content: descriptions/about_adam-wierman.md
