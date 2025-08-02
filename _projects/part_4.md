@@ -100,7 +100,7 @@ We started to work with high-energy physics professor Harvey Newman of Caltech i
 
 FAST TCP motivated the building of a unique university testbed WAN-in-Lab that used real carrier-class networking hardware to avoid the artifacts introduced by network simulation and emulation, while being localized to allow detailed measurement of network performance:
 
-- George S. Lee, Lachlan L. H. Andrew, Ao Tang and S. H. Low. <a href='https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.71.1834'><b>WAN-in-lab: Motivation, Deployment and Experiments</b></a>, <em> Proc. Int’l Workshop on Protocols for Fast, Long Distance Networks (PFLDnet)</em>, pp. 85-90. Marina Del Rey, CA, 7-9 Feb 2007
+- George S. Lee, Lachlan L. H. Andrew, Ao Tang and S. H. Low. <a href='https://authors.library.caltech.edu/records/1d5mx-wca85'><b>WAN-in-lab: Motivation, Deployment and Experiments</b></a>, <em> Proc. Int’l Workshop on Protocols for Fast, Long Distance Networks (PFLDnet)</em>, pp. 85-90. Marina Del Rey, CA, 7-9 Feb 2007
 
 Some of us took the effort to deploy our research in the real world through a startup FastSoft. Since 2014, FAST TCP has been accelerating more than 1TB of Internet traffic every second.
 
