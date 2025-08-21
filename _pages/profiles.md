@@ -19,21 +19,12 @@ profiles:
 
   # Current graduate students
   - align: left
-    image: graduates/nico-christianson.png
-    content: descriptions/about_nico_christianson.md
-    role: CurrentGradStudent
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Nico Christianson</p>
-      <a href = "https://nicochristianson.com/"><b>Website</font></b></a>
-  - align: left
     image: graduates/yiheng-xie.png
     content: descriptions/about_yiheng_xie.md
     role: CurrentGradStudent
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Yiheng Xie</p>
-      <a href = "https://yxie20.github.io/"><b>Website</font></b></a>
   - align: left
     image: graduates/han-xu.jpg
     content: descriptions/about_han_xu.md
@@ -44,14 +35,7 @@ profiles:
       <a href = "https://thu-xuhan.github.io/"><b>Website</font></b></a>
   
   # Current visiting students
-#   - align: left
-#     image: visiting-graduates/verena_haberle.jpg
-#     content: descriptions/about_verena_haberle.md
-#     role: CurrentVisitingStudent
-#     image_circular: false # crops the image to make it circular
-#     more_info: >
-#       <p>Verena Häberle</p>
-#       <a href = "https://control.ee.ethz.ch/people/profile.verena-haeberle.html"><b>Website</font></b></a>
+
 
   # Caltech faculty collaborators
   - align: left
@@ -179,14 +163,19 @@ profiles:
 
   # Previous graduate students
   - role: PreviousGrad
+    date: PhD 2025
+    current: Stanford --> JHU
+    portfolio_link: https://nicochristianson.com/
+    name: Nico Christianson
+  - role: PreviousGrad
     date: Schmidt Scholar 2024
     name: Thuy-Linh Le
     lineBreak: "<br>"
   - role: PreviousGrad
     date: PhD 2023
     name: Lucien Werner
-    lineBreak: <br>
-    description: Citadel
+    # lineBreak: <br>
+    current: Citadel
     portfolio_link: https://www.linkedin.com/in/lucienwerner
   - role: PreviousGrad
     date: PhD 2022
@@ -409,15 +398,14 @@ profiles:
     university: Postech, Korea
 
   # Previous Visiting Students (mostly PhD)
-    # lineBreak: <br><br>
-  - role: PreviousVisitingStudent
-    date: 2024-2025
-    name: Kaibo Chen
   - role: PreviousVisitingStudent
     date: 2024
     name: Verena Häberle
     university: ETH Zurich
     portfolio_link: https://control.ee.ethz.ch/people/profile.verena-haeberle.html
+  - role: PreviousVisitingStudent
+    date: 2024-2025
+    name: Kaibo Chen
   - role: PreviousVisitingStudent
     date: 2024
     name: Ethan Varghese
