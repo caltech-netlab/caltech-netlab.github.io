@@ -69,7 +69,7 @@ The slides below that are dated on or after Dec 13, 2024 match the chapters in t
 (Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.)
 
 - Part I: Power network: models, operation, analysis
-    - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-v20251003.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-20251003.pdf'><b>PDF</b></a> (last update: Oct 4, 2025)
+    - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-v20251003.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-v20251003.pdf'><b>PDF</b></a> (last update: Oct 4, 2025)
     - Ch 2 Transmission line models: <a target = "_blank" download href='../assets/keynotes/Low-Ch2-LineModels-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/PSA-pre202410/Low-Ch2-LineModels-202109.pdf'><b>PDF</b></a> 
     - Ch 3 Transformer models: <a target = "_blank" download href='../assets/keynotes/Low-Ch3-Transformers-202109.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/PSA-pre202410/Low-Ch3-Transformers-202307.pdf'><b>PDF</b></a>  (last update: July 5, 2023)
     - Ch 4 Bus injection models: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-v20241213.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch4-BIM-v20241213.pdf'><b>PDF</b></a> (last update: Dec 13, 2024)
