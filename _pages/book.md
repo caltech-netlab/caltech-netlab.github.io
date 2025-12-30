@@ -52,12 +52,12 @@ nav_order: 7
 
 This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20251104.pdf'><b>Current draft</b></a> (Nov 4, 2025)</font></div>
+<div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20251230.pdf'><b>Current draft</b></a> (Dec 30, 2025)</font></div>
 
 - Part I: Power network: models, operations, analysis (Ch 1 - 7)
 - Part II: Power flow optimization (Ch 8 - 13)
 - Part III: Unbalanced three-phase networks (Ch 14 - 18)
-- Appendix: Linear algebra preliminaries (Ch 19)
+- Appendix: Linear algebra preliminaries (Ch 19; not revised 2nd pass)
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
