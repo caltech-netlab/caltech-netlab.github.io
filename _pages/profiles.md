@@ -19,12 +19,12 @@ profiles:
 
   # Current graduate students
   - align: left
-    image: graduates/yiheng-xie.png
-    content: descriptions/about_yiheng_xie.md
+    image: graduates/richard-chen.jpg
+    content: descriptions/about_richard_chen.md
     role: CurrentGradStudent
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Yiheng Xie</p>
+      <p>Richard Chen</p>
   - align: left
     image: graduates/han-xu.jpg
     content: descriptions/about_han_xu.md
@@ -33,6 +33,13 @@ profiles:
     more_info: >
       <p>Han Xu</p>
       <a href = "https://thu-xuhan.github.io/"><b>Website</font></b></a>
+  - align: left
+    image: graduates/yiheng-xie.png
+    content: descriptions/about_yiheng_xie.md
+    role: CurrentGradStudent
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Yiheng Xie</p>
   
   # Current visiting students
 
