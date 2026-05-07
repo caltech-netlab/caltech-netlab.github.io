@@ -52,7 +52,7 @@ nav_order: 7
 
 This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
 
-<div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20260507.pdf'><b>Current draft</b></a> (May 7, 2026)</font></div>
+<div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20260507.pdf'><b>Current draft</b></a> (May 7, 2026; almost final version)</font></div>
 
 - Part I: Power network: models, operations, analysis (Ch 1 - 7)
 - Part II: Power flow optimization (Ch 8 - 13)
@@ -61,12 +61,12 @@ This rough draft is based on lecture notes for the Power System Analysis courses
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
-Solutions to most of the exercises are available to instructors for teaching or researchers for self study.  <a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a>
+Solutions to almost all of the exercises are available to instructors for teaching or researchers for self study.  <a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a>
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
 The slides below that are dated on or after Dec 13, 2024 match the chapters in the textbook.
-(Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.)
+(Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.)  I will continue to update and complete the slides to match the final version of PSA.
 
 - Part I: Power network: models, operation, analysis
     - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-v20251003.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-v20251003.pdf'><b>PDF</b></a> (last update: Oct 3, 2025)
