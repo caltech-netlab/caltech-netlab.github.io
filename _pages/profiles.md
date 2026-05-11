@@ -19,6 +19,13 @@ profiles:
 
   # Current graduate students
   - align: left
+    image: graduates/yuexin_liao.jpg
+    content: descriptions/about_yuexin_liao.md
+    role: CurrentGradStudent
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Yuexin Liao</p>
+  - align: left
     image: graduates/richard-chen.jpg
     content: descriptions/about_richard_chen.md
     role: CurrentGradStudent

@@ -1,0 +1,3 @@
+<b>Incoming PhD Student in Computing and Mathematical Sciences</b>
+<br>
+I am an incoming PhD student at Caltech CMS. Grounded in pure mathematics, particularly in analysis, probability and combinatorics, my expertise lies in the design of provably efficient optimization algorithms. I am driven by the ambition to construct theoretically principled frameworks that power impactful solutions across complex real-world domains, including energy systems and economics.
