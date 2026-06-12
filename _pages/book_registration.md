@@ -53,13 +53,16 @@ nav_order: 7
 
 <b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.
 
-This draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!
+
+If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content.
+
+This book is tailored for students and researchers who are interested in both power systems and analytical tools for understanding their structural properties. It prepares students for research by equipping them with, not only power system knowledge, but also analytical techniques and a way of thinking. Structural understanding and research taste are more important for conceiving possibilities, formulating questions, steering explorations and verifying results in an age when the means for executing them is being rapidly automated.
+
+Any corrections, questions, comments, or pointers will be greatly appreciated! 
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Book draft (19 chapters)</font></div>
 - Part I: Power network: models, operation, analysis
 - Part II: Power flow optimization 
-- Part III: Unbalanced three-phase networks
+- Part III: Unbalanced three-phase network
 - Appendix: Linear algebra preliminaries
 
-
-If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content.
