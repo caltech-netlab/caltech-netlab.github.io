@@ -44,22 +44,25 @@ nav_order: 7
         </div>
 
     </div>
-    <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
+    <!-- <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
         <a href="https://form.jotform.com/221144847455155" target="_blank">
         <button class="styled-button">Register</button>
         </a>
         <a href="https://form.jotform.com/220081838982159" target="_blank">
         <button class="styled-button">Feedback</button>
         </a>
-    </div>
+    </div> -->
 </div>
 <hr>
 
 
-<b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.
+<!-- <b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.
 
+If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content. -->
 
-If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content.
+Registration form is currently un-available. Check back in a few weeks!
+
+Click <a target = "_blank" href='../book'><b>here</b></a> to access the content.
 
 This book is tailored for students and researchers who are interested in both power systems and analytical tools for understanding their structural properties. It prepares students for research by equipping them with, not only power system knowledge, but also analytical techniques and a way of thinking. Structural understanding and research taste are more important for conceiving possibilities, formulating questions, steering explorations and verifying results in an age when the means for executing them is being rapidly automated.
 

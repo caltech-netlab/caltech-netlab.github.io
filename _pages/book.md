@@ -44,14 +44,14 @@ nav_order: 7
         </div>
 
     </div>
-    <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
+    <!-- <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
         <a href="https://form.jotform.com/221144847455155" target="_blank">
         <button class="styled-button">Register</button>
         </a>
         <a href="https://form.jotform.com/220081838982159" target="_blank">
         <button class="styled-button">Feedback</button>
         </a>
-    </div>
+    </div> -->
 </div>
 <hr>
 
@@ -71,7 +71,8 @@ Any corrections, questions, comments, or pointers will be greatly appreciated!
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
-Solutions to almost all of the exercises are available to instructors for teaching or researchers for self study.  <a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a>
+Solutions to almost all of the exercises are available to instructors for teaching or researchers for self study.
+<!-- <a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a> -->
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
