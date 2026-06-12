@@ -40,7 +40,7 @@ nav_order: 7
         </div>
 
             <div id="jump3" style="margin-bottom: 12px;">
-            <font size='3.5' id="OPF">To be published by Cambridge University Press</font>
+            <font size='4' id="OPF">To be published by Cambridge University Press</font>
         </div>
 
     </div>
