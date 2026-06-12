@@ -39,7 +39,7 @@ nav_order: 7
             <font size='5.5' id="OPF">Steven H. Low, Caltech</font>
         </div>
 
-            <div id="jump3" style="margin-bottom: 12px;">
+        <div id="jump3" style="margin-bottom: 12px;">
             <font size='5' id="OPF">To be published by Cambridge University Press</font>
         </div>
 

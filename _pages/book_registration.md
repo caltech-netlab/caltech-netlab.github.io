@@ -38,6 +38,11 @@ nav_order: 7
         <div id="jump3" style="margin-bottom: 12px;">
             <font size='5.5' id="OPF">Steven H. Low, Caltech</font>
         </div>
+
+        <div id="jump3" style="margin-bottom: 12px;">
+            <font size='5' id="OPF">To be published by Cambridge University Press</font>
+        </div>
+
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
         <a href="https://form.jotform.com/221144847455155" target="_blank">
