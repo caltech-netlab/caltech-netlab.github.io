@@ -56,7 +56,7 @@ This rough draft is based on lecture notes for the Power System Analysis courses
 
 - Part I: Power network: models, operations, analysis (Ch 1 - 7)
 - Part II: Power flow optimization (Ch 8 - 13)
-- Part III: Unbalanced three-phase networks (Ch 14 - 18)
+- Part III: Unbalanced three-phase network (Ch 14 - 18)
 - Appendix: Linear algebra preliminaries (Ch 19; not revised 2nd pass)
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
