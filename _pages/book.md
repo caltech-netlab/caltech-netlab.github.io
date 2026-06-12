@@ -38,6 +38,11 @@ nav_order: 7
         <div id="jump3" style="margin-bottom: 12px;">
             <font size='5.5' id="OPF">Steven H. Low, Caltech</font>
         </div>
+
+            <div id="jump3" style="margin-bottom: 12px;">
+            <font size='3.5' id="OPF">To be published by Cambridge University Press</font>
+        </div>
+
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
         <a href="https://form.jotform.com/221144847455155" target="_blank">
@@ -50,7 +55,7 @@ nav_order: 7
 </div>
 <hr>
 
-This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!  It will be published by the Cambridge University Press.
+
 
 <div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20260612.pdf'><b>Current draft</b></a> (June 12, 2026; almost final version!)</font></div>
 
@@ -58,6 +63,11 @@ This rough draft is based on lecture notes for the Power System Analysis courses
 - Part II: Power flow optimization (Ch 8 - 13)
 - Part III: Unbalanced three-phase network (Ch 14 - 18)
 - Appendix: Linear algebra preliminaries (Ch 19; not revised 2nd pass)
+
+
+This book is tailored for students and researchers who are interested in both power systems and analytical tools for understanding their structural properties. It prepares students for research by equipping them with, not only power system knowledge, but also analytical techniques and a way of thinking. Structural understanding and research taste are more important for conceiving possibilities, formulating questions, steering explorations and verifying results in an age when the means for executing them is being rapidly automated.
+
+Any corrections, questions, comments, or pointers will be greatly appreciated! 
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
