@@ -50,7 +50,7 @@ nav_order: 7
 </div>
 <hr>
 
-This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!  It will be published by Cambridge University Press.
+This rough draft is based on lecture notes for the Power System Analysis courses that I have been teaching at Caltech for the last decade or so. Any corrections, questions, comments, or pointers will be greatly appreciated!  It will be published by the Cambridge University Press.
 
 <div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20260612.pdf'><b>Current draft</b></a> (June 12, 2026; almost final version!)</font></div>
 
