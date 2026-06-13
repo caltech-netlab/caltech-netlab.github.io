@@ -56,7 +56,7 @@ nav_order: 7
 <hr>
 
 
- <b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.
+ <b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.  (If the Registration form is unavailable, please check back in a couple days.)
 
 If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content. 
 
