@@ -72,7 +72,7 @@ Any corrections, questions, comments, or pointers will be greatly appreciated!
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
 Solutions to almost all of the exercises are available to instructors for teaching or researchers for self study.
-<!-- <a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a> -->
+<a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a>
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
