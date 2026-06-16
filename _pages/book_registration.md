@@ -45,10 +45,10 @@ nav_order: 7
 
     </div>
     <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
-        <a href="https://form.jotform.com/221144847455155" target="_blank">
+        <a href="https://forms.gle/1nra1xFfvN85ZKdQ7" target="_blank">
         <button class="styled-button">Register</button>
         </a>
-        <a href="https://form.jotform.com/220081838982159" target="_blank">
+        <a href="https://forms.gle/nRY9sVG6bSGwrBjJ6" target="_blank">
         <button class="styled-button">Feedback</button>
         </a>
     </div> 
@@ -56,7 +56,7 @@ nav_order: 7
 <hr>
 
 
- <b><a target = "_blank" href='https://form.jotform.com/221144847455155'>Register</a> to download the draft and slides</b>.  (If the Registration form is unavailable, please check back in a couple days.)
+ <b><a target = "_blank" href='https://forms.gle/1nra1xFfvN85ZKdQ7'>Register</a> to download the draft and slides</b>.  (If the Registration form is unavailable, please check back in a couple days.)
 
 If you have registered, click <a target = "_blank" href='../book'><b>here</b></a> to access the content. 
 

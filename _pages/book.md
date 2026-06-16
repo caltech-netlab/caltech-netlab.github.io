@@ -45,10 +45,10 @@ nav_order: 7
 
     </div>
      <div id="buttons" style="flex: 0; display: flex; flex-direction: column; align-items: center;">
-        <a href="https://form.jotform.com/221144847455155" target="_blank">
+        <a href="https://forms.gle/1nra1xFfvN85ZKdQ7" target="_blank">
         <button class="styled-button">Register</button>
         </a>
-        <a href="https://form.jotform.com/220081838982159" target="_blank">
+        <a href="https://forms.gle/nRY9sVG6bSGwrBjJ6" target="_blank">
         <button class="styled-button">Feedback</button>
         </a>
     </div> 
@@ -72,12 +72,12 @@ Any corrections, questions, comments, or pointers will be greatly appreciated!
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Solution manual</font></div>
 
 Solutions to almost all of the exercises are available to instructors for teaching or researchers for self study.
-<a target = "_blank" href='https://form.jotform.com/230617373015146'><b>Request solution.</b></a>
+<a target = "_blank" href='https://forms.gle/UcPztgjqurSv9gp68'><b>Request solution.</b></a>
 
 <div id="jump1" style="margin-bottom: 12px;"><font size='5.5' id = "OPF">Slides</font></div>
 
 The slides below that are dated on or after Dec 13, 2024 match the chapters in the textbook.
-(Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.)  I will continue to update and complete the slides to match the final version of PSA.
+(Slides dated before Dec 13, 2024 are for the dated versions of the draft and undated slides are for the Feb 16, 2023 version of the draft.)  I will conti              nue to update and complete the slides to match the final version of PSA.
 
 - Part I: Power network: models, operation, analysis
     - Ch 1 Basic concepts: <a target = "_blank" download href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-v20251003.key'><b>Keynote</b></a>  <a target = "_blank" href='../assets/book/slides-202410/Low-PSAslides-Ch1-BasicConcepts-v20251003.pdf'><b>PDF</b></a> (last update: Oct 3, 2025)

@@ -49,7 +49,12 @@ profiles:
       <p>Yiheng Xie</p>
   
   # Current visiting students
-
+  - align: left
+    image: visiting-graduates/sourav-chakraborty.jpg
+    role: CurrentVisitingStudent
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Sourav Chakraborty</p>
 
   # Caltech faculty collaborators
   - align: left
