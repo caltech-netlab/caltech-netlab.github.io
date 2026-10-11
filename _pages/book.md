@@ -57,7 +57,7 @@ nav_order: 7
 
 
 
-<div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20260612.pdf'><b>Current draft</b></a> (June 12, 2026; almost final version!)</font></div>
+<div id="jump1" s_sitetyle="margin-bottom: 12px;"><font size='5.5' id = "OPF"><a target = "_blank" href='../assets/book/PSA/Low-PSA-v20261009.pdf'><b>Current draft</b></a> (October 9, 2026)</font></div>
 
 - Part I: Power network: models, operations, analysis (Ch 1 - 7)
 - Part II: Power flow optimization (Ch 8 - 13)
